@@ -100,6 +100,7 @@ namespace WindowsFormApplication1 {
 			// 
 			// dodajAtuty
 			// 
+			this->dodajAtuty->Enabled = false;
 			this->dodajAtuty->Location = System::Drawing::Point(37, 156);
 			this->dodajAtuty->Name = L"dodajAtuty";
 			this->dodajAtuty->Size = System::Drawing::Size(127, 23);
@@ -109,6 +110,7 @@ namespace WindowsFormApplication1 {
 			// 
 			// dodajRasy
 			// 
+			this->dodajRasy->Enabled = false;
 			this->dodajRasy->Location = System::Drawing::Point(37, 185);
 			this->dodajRasy->Name = L"dodajRasy";
 			this->dodajRasy->Size = System::Drawing::Size(127, 23);
@@ -118,6 +120,7 @@ namespace WindowsFormApplication1 {
 			// 
 			// dodajCzary
 			// 
+			this->dodajCzary->Enabled = false;
 			this->dodajCzary->Location = System::Drawing::Point(37, 126);
 			this->dodajCzary->Name = L"dodajCzary";
 			this->dodajCzary->Size = System::Drawing::Size(127, 23);
@@ -127,6 +130,7 @@ namespace WindowsFormApplication1 {
 			// 
 			// dodajBron
 			// 
+			this->dodajBron->Enabled = false;
 			this->dodajBron->Location = System::Drawing::Point(37, 96);
 			this->dodajBron->Name = L"dodajBron";
 			this->dodajBron->Size = System::Drawing::Size(127, 23);

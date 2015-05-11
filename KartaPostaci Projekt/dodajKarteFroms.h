@@ -90,6 +90,9 @@ namespace KartaPostaci_Projekt  {
 	private: System::Windows::Forms::Button^  losujAtrybuty;
 	private: System::Windows::Forms::Label^  labelSila;
 	private: System::Windows::Forms::GroupBox^  hpNPancerz;
+	private: System::Windows::Forms::ComboBox^  comboBoxRasy;
+	private: System::Windows::Forms::TextBox^  textBoxGracza;
+	private: System::Windows::Forms::TextBox^  textBoxImie;
 	protected:
 
 	protected:
@@ -150,11 +153,18 @@ namespace KartaPostaci_Projekt  {
 			this->losujAtrybuty = (gcnew System::Windows::Forms::Button());
 			this->labelSila = (gcnew System::Windows::Forms::Label());
 			this->hpNPancerz = (gcnew System::Windows::Forms::GroupBox());
+			this->textBoxImie = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxGracza = (gcnew System::Windows::Forms::TextBox());
+			this->comboBoxRasy = (gcnew System::Windows::Forms::ComboBox());
+			this->Nazewnictwo->SuspendLayout();
 			this->Atrybuty->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// Nazewnictwo
 			// 
+			this->Nazewnictwo->Controls->Add(this->comboBoxRasy);
+			this->Nazewnictwo->Controls->Add(this->textBoxGracza);
+			this->Nazewnictwo->Controls->Add(this->textBoxImie);
 			this->Nazewnictwo->Location = System::Drawing::Point(13, 13);
 			this->Nazewnictwo->Name = L"Nazewnictwo";
 			this->Nazewnictwo->Size = System::Drawing::Size(515, 135);
@@ -634,6 +644,34 @@ namespace KartaPostaci_Projekt  {
 			this->hpNPancerz->TabStop = false;
 			this->hpNPancerz->Text = L"HP i pancerz";
 			// 
+			// textBoxImie
+			// 
+			this->textBoxImie->Location = System::Drawing::Point(6, 20);
+			this->textBoxImie->Name = L"textBoxImie";
+			this->textBoxImie->Size = System::Drawing::Size(100, 20);
+			this->textBoxImie->TabIndex = 0;
+			this->textBoxImie->Text = L"Imie Postaci";
+			// 
+			// textBoxGracza
+			// 
+			this->textBoxGracza->Location = System::Drawing::Point(409, 20);
+			this->textBoxGracza->Name = L"textBoxGracza";
+			this->textBoxGracza->Size = System::Drawing::Size(100, 20);
+			this->textBoxGracza->TabIndex = 1;
+			this->textBoxGracza->Text = L"Imie Gracza";
+			// 
+			// comboBoxRasy
+			// 
+			this->comboBoxRasy->FormattingEnabled = true;
+			this->comboBoxRasy->Items->AddRange(gcnew cli::array< System::Object^  >(7) {
+				L"Cz³owiek", L"Pó³elf", L"Pó³ork", L"Elf", L"Nizio³ek",
+					L"Krasnolud", L"Gnom"
+			});
+			this->comboBoxRasy->Location = System::Drawing::Point(112, 20);
+			this->comboBoxRasy->Name = L"comboBoxRasy";
+			this->comboBoxRasy->Size = System::Drawing::Size(121, 21);
+			this->comboBoxRasy->TabIndex = 3;
+			// 
 			// dodajKarteFroms
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -644,6 +682,8 @@ namespace KartaPostaci_Projekt  {
 			this->Controls->Add(this->Nazewnictwo);
 			this->Name = L"dodajKarteFroms";
 			this->Text = L"dodajKarteFroms";
+			this->Nazewnictwo->ResumeLayout(false);
+			this->Nazewnictwo->PerformLayout();
 			this->Atrybuty->ResumeLayout(false);
 			this->Atrybuty->PerformLayout();
 			this->ResumeLayout(false);

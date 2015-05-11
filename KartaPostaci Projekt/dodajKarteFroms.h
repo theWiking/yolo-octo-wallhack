@@ -93,6 +93,9 @@ namespace KartaPostaci_Projekt  {
 	private: System::Windows::Forms::ComboBox^  comboBoxRasy;
 	private: System::Windows::Forms::TextBox^  textBoxGracza;
 	private: System::Windows::Forms::TextBox^  textBoxImie;
+	private: System::Windows::Forms::ComboBox^  comboBox1;
+	private: System::Windows::Forms::ComboBox^  comboBoxKlasy;
+	private: System::Windows::Forms::HelpProvider^  helpProvider1;
 	protected:
 
 	protected:
@@ -156,12 +159,17 @@ namespace KartaPostaci_Projekt  {
 			this->textBoxImie = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxGracza = (gcnew System::Windows::Forms::TextBox());
 			this->comboBoxRasy = (gcnew System::Windows::Forms::ComboBox());
+			this->comboBoxKlasy = (gcnew System::Windows::Forms::ComboBox());
+			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
+			this->helpProvider1 = (gcnew System::Windows::Forms::HelpProvider());
 			this->Nazewnictwo->SuspendLayout();
 			this->Atrybuty->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// Nazewnictwo
 			// 
+			this->Nazewnictwo->Controls->Add(this->comboBox1);
+			this->Nazewnictwo->Controls->Add(this->comboBoxKlasy);
 			this->Nazewnictwo->Controls->Add(this->comboBoxRasy);
 			this->Nazewnictwo->Controls->Add(this->textBoxGracza);
 			this->Nazewnictwo->Controls->Add(this->textBoxImie);
@@ -654,9 +662,9 @@ namespace KartaPostaci_Projekt  {
 			// 
 			// textBoxGracza
 			// 
-			this->textBoxGracza->Location = System::Drawing::Point(409, 20);
+			this->textBoxGracza->Location = System::Drawing::Point(420, 21);
 			this->textBoxGracza->Name = L"textBoxGracza";
-			this->textBoxGracza->Size = System::Drawing::Size(100, 20);
+			this->textBoxGracza->Size = System::Drawing::Size(89, 20);
 			this->textBoxGracza->TabIndex = 1;
 			this->textBoxGracza->Text = L"Imie Gracza";
 			// 
@@ -667,10 +675,37 @@ namespace KartaPostaci_Projekt  {
 				L"Cz³owiek", L"Pó³elf", L"Pó³ork", L"Elf", L"Nizio³ek",
 					L"Krasnolud", L"Gnom"
 			});
-			this->comboBoxRasy->Location = System::Drawing::Point(112, 20);
+			this->comboBoxRasy->Location = System::Drawing::Point(205, 20);
 			this->comboBoxRasy->Name = L"comboBoxRasy";
-			this->comboBoxRasy->Size = System::Drawing::Size(121, 21);
+			this->comboBoxRasy->Size = System::Drawing::Size(84, 21);
 			this->comboBoxRasy->TabIndex = 3;
+			this->comboBoxRasy->Text = L"Rasy";
+			// 
+			// comboBoxKlasy
+			// 
+			this->comboBoxKlasy->FormattingEnabled = true;
+			this->comboBoxKlasy->Items->AddRange(gcnew cli::array< System::Object^  >(8) {
+				L"Mag", L"£otrzyk", L"Zaklinacz", L"Mnich",
+					L"Wojownik", L"Barba¿yñca", L"Kap³an", L"Palladyn"
+			});
+			this->comboBoxKlasy->Location = System::Drawing::Point(112, 20);
+			this->comboBoxKlasy->Name = L"comboBoxKlasy";
+			this->comboBoxKlasy->Size = System::Drawing::Size(87, 21);
+			this->comboBoxKlasy->TabIndex = 4;
+			this->comboBoxKlasy->Text = L"Klasy";
+			// 
+			// comboBox1
+			// 
+			this->comboBox1->FormattingEnabled = true;
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(9) {
+				L"Chaotycznie Dobry", L"Dobry", L"Praworz¹dnie Dobry",
+					L"Chaotycznie Neutralny", L"Neturalny", L"Praworz¹dnie Neutralny", L"Chaotycznie Z³y", L"Z³y", L"Praworz¹dnie Z³y"
+			});
+			this->comboBox1->Location = System::Drawing::Point(295, 20);
+			this->comboBox1->Name = L"comboBox1";
+			this->comboBox1->Size = System::Drawing::Size(119, 21);
+			this->comboBox1->TabIndex = 5;
+			this->comboBox1->Text = L"Charakter";
 			// 
 			// dodajKarteFroms
 			// 

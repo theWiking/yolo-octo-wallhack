@@ -182,8 +182,8 @@ namespace WindowsFormApplication1 {
 	}
 private: System::Void nowaKarta_Click(System::Object^  sender, System::EventArgs^  e) {
 	
-	Form^ dodajKarte = gcnew Form;
-	dodajKarte->ShowDialog();
+	KartaPostaci_Projekt::dodajKarteFroms^  dodaj = gcnew KartaPostaci_Projekt::dodajKarteFroms;
+	dodaj->ShowDialog();
 }
 };
 }

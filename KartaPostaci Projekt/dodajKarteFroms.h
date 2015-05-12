@@ -1,5 +1,7 @@
 #pragma once
-
+#include <stdio.h>      
+#include <stdlib.h>     
+#include <time.h> 
 namespace KartaPostaci_Projekt  {
 
 	using namespace System;
@@ -136,12 +138,19 @@ private: System::Windows::Forms::Label^  labelKPTarczy;
 private: System::Windows::Forms::Label^  labelKP1;
 private: System::Windows::Forms::Label^  labelKPZbroi;
 private: System::Windows::Forms::Label^  labelKP;
-private: System::Windows::Forms::Button^  buttonLosujPodaj;
+private: System::Windows::Forms::Button^  buttonHPUaktualnij;
+
+
 private: System::Windows::Forms::Label^  labelSumaHP;
 private: System::Windows::Forms::TextBox^  textBoxTypKW;
 private: System::Windows::Forms::Label^  labelK;
-private: System::Windows::Forms::TextBox^  textBoxIloscKW;
+
 private: System::Windows::Forms::Label^  label1;
+private: System::Windows::Forms::Button^  buttonHPLosuj;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxIloscKw;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxDomyœlnaWartoœæ;
+private: System::Windows::Forms::Button^  buttonPodajWartosc;
+
 
 
 	protected:
@@ -220,6 +229,10 @@ private: System::Windows::Forms::Label^  label1;
 			this->losujAtrybuty = (gcnew System::Windows::Forms::Button());
 			this->labelSila = (gcnew System::Windows::Forms::Label());
 			this->hpNPancerz = (gcnew System::Windows::Forms::GroupBox());
+			this->buttonPodajWartosc = (gcnew System::Windows::Forms::Button());
+			this->maskedTextBoxDomyœlnaWartoœæ = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxIloscKw = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->buttonHPLosuj = (gcnew System::Windows::Forms::Button());
 			this->textBoxKPNaturalna = (gcnew System::Windows::Forms::TextBox());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->label7 = (gcnew System::Windows::Forms::Label());
@@ -240,11 +253,10 @@ private: System::Windows::Forms::Label^  label1;
 			this->labelKP1 = (gcnew System::Windows::Forms::Label());
 			this->labelKPZbroi = (gcnew System::Windows::Forms::Label());
 			this->labelKP = (gcnew System::Windows::Forms::Label());
-			this->buttonLosujPodaj = (gcnew System::Windows::Forms::Button());
+			this->buttonHPUaktualnij = (gcnew System::Windows::Forms::Button());
 			this->labelSumaHP = (gcnew System::Windows::Forms::Label());
 			this->textBoxTypKW = (gcnew System::Windows::Forms::TextBox());
 			this->labelK = (gcnew System::Windows::Forms::Label());
-			this->textBoxIloscKW = (gcnew System::Windows::Forms::TextBox());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->helpProvider1 = (gcnew System::Windows::Forms::HelpProvider());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
@@ -882,6 +894,7 @@ private: System::Windows::Forms::Label^  label1;
 			this->losujAtrybuty->TabIndex = 1;
 			this->losujAtrybuty->Text = L"Losuj Atrybuty";
 			this->losujAtrybuty->UseVisualStyleBackColor = true;
+			this->losujAtrybuty->Click += gcnew System::EventHandler(this, &dodajKarteFroms::losujAtrybuty_Click);
 			// 
 			// labelSila
 			// 
@@ -897,6 +910,10 @@ private: System::Windows::Forms::Label^  label1;
 			// 
 			// hpNPancerz
 			// 
+			this->hpNPancerz->Controls->Add(this->buttonPodajWartosc);
+			this->hpNPancerz->Controls->Add(this->maskedTextBoxDomyœlnaWartoœæ);
+			this->hpNPancerz->Controls->Add(this->maskedTextBoxIloscKw);
+			this->hpNPancerz->Controls->Add(this->buttonHPLosuj);
 			this->hpNPancerz->Controls->Add(this->textBoxKPNaturalna);
 			this->hpNPancerz->Controls->Add(this->label8);
 			this->hpNPancerz->Controls->Add(this->label7);
@@ -917,11 +934,10 @@ private: System::Windows::Forms::Label^  label1;
 			this->hpNPancerz->Controls->Add(this->labelKP1);
 			this->hpNPancerz->Controls->Add(this->labelKPZbroi);
 			this->hpNPancerz->Controls->Add(this->labelKP);
-			this->hpNPancerz->Controls->Add(this->buttonLosujPodaj);
+			this->hpNPancerz->Controls->Add(this->buttonHPUaktualnij);
 			this->hpNPancerz->Controls->Add(this->labelSumaHP);
 			this->hpNPancerz->Controls->Add(this->textBoxTypKW);
 			this->hpNPancerz->Controls->Add(this->labelK);
-			this->hpNPancerz->Controls->Add(this->textBoxIloscKW);
 			this->hpNPancerz->Controls->Add(this->label1);
 			this->hpNPancerz->Location = System::Drawing::Point(231, 129);
 			this->hpNPancerz->Name = L"hpNPancerz";
@@ -929,6 +945,45 @@ private: System::Windows::Forms::Label^  label1;
 			this->hpNPancerz->TabIndex = 2;
 			this->hpNPancerz->TabStop = false;
 			this->hpNPancerz->Text = L"HP i pancerz";
+			// 
+			// buttonPodajWartosc
+			// 
+			this->buttonPodajWartosc->Location = System::Drawing::Point(305, 15);
+			this->buttonPodajWartosc->Name = L"buttonPodajWartosc";
+			this->buttonPodajWartosc->Size = System::Drawing::Size(78, 23);
+			this->buttonPodajWartosc->TabIndex = 32;
+			this->buttonPodajWartosc->Text = L"Podaj War";
+			this->buttonPodajWartosc->UseVisualStyleBackColor = true;
+			this->buttonPodajWartosc->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonPodajWartosc_Click);
+			// 
+			// maskedTextBoxDomyœlnaWartoœæ
+			// 
+			this->maskedTextBoxDomyœlnaWartoœæ->Location = System::Drawing::Point(265, 17);
+			this->maskedTextBoxDomyœlnaWartoœæ->Mask = L"000000";
+			this->maskedTextBoxDomyœlnaWartoœæ->Name = L"maskedTextBoxDomyœlnaWartoœæ";
+			this->maskedTextBoxDomyœlnaWartoœæ->Size = System::Drawing::Size(34, 20);
+			this->maskedTextBoxDomyœlnaWartoœæ->TabIndex = 31;
+			this->maskedTextBoxDomyœlnaWartoœæ->Text = L"0";
+			this->maskedTextBoxDomyœlnaWartoœæ->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxIloscKw
+			// 
+			this->maskedTextBoxIloscKw->Location = System::Drawing::Point(34, 17);
+			this->maskedTextBoxIloscKw->Mask = L"000";
+			this->maskedTextBoxIloscKw->Name = L"maskedTextBoxIloscKw";
+			this->maskedTextBoxIloscKw->Size = System::Drawing::Size(33, 20);
+			this->maskedTextBoxIloscKw->TabIndex = 4;
+			this->maskedTextBoxIloscKw->Text = L"0";
+			// 
+			// buttonHPLosuj
+			// 
+			this->buttonHPLosuj->Location = System::Drawing::Point(207, 15);
+			this->buttonHPLosuj->Name = L"buttonHPLosuj";
+			this->buttonHPLosuj->Size = System::Drawing::Size(52, 23);
+			this->buttonHPLosuj->TabIndex = 29;
+			this->buttonHPLosuj->Text = L"Losuj";
+			this->buttonHPLosuj->UseVisualStyleBackColor = true;
+			this->buttonHPLosuj->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonHPLosuj_Click);
 			// 
 			// textBoxKPNaturalna
 			// 
@@ -1109,48 +1164,41 @@ private: System::Windows::Forms::Label^  label1;
 			this->labelKP->TabIndex = 7;
 			this->labelKP->Text = L"KP = 10  +";
 			// 
-			// buttonLosujPodaj
+			// buttonHPUaktualnij
 			// 
-			this->buttonLosujPodaj->Location = System::Drawing::Point(263, 15);
-			this->buttonLosujPodaj->Name = L"buttonLosujPodaj";
-			this->buttonLosujPodaj->Size = System::Drawing::Size(75, 23);
-			this->buttonLosujPodaj->TabIndex = 6;
-			this->buttonLosujPodaj->Text = L"Losuj/PodajHP";
-			this->buttonLosujPodaj->UseVisualStyleBackColor = true;
+			this->buttonHPUaktualnij->Location = System::Drawing::Point(139, 15);
+			this->buttonHPUaktualnij->Name = L"buttonHPUaktualnij";
+			this->buttonHPUaktualnij->Size = System::Drawing::Size(62, 23);
+			this->buttonHPUaktualnij->TabIndex = 6;
+			this->buttonHPUaktualnij->Text = L"Uaktualnij";
+			this->buttonHPUaktualnij->UseVisualStyleBackColor = true;
+			this->buttonHPUaktualnij->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonLosujPodaj_Click);
 			// 
 			// labelSumaHP
 			// 
 			this->labelSumaHP->AutoSize = true;
-			this->labelSumaHP->Location = System::Drawing::Point(216, 22);
+			this->labelSumaHP->Location = System::Drawing::Point(103, 20);
 			this->labelSumaHP->Name = L"labelSumaHP";
-			this->labelSumaHP->Size = System::Drawing::Size(36, 13);
+			this->labelSumaHP->Size = System::Drawing::Size(22, 13);
 			this->labelSumaHP->TabIndex = 5;
-			this->labelSumaHP->Text = L"= Max";
+			this->labelSumaHP->Text = L"= 0";
 			// 
 			// textBoxTypKW
 			// 
-			this->textBoxTypKW->Location = System::Drawing::Point(136, 20);
+			this->textBoxTypKW->Location = System::Drawing::Point(77, 17);
 			this->textBoxTypKW->Name = L"textBoxTypKW";
-			this->textBoxTypKW->Size = System::Drawing::Size(74, 20);
+			this->textBoxTypKW->Size = System::Drawing::Size(28, 20);
 			this->textBoxTypKW->TabIndex = 3;
-			this->textBoxTypKW->Text = L"Typ KW";
+			this->textBoxTypKW->Text = L"4";
 			// 
 			// labelK
 			// 
 			this->labelK->AutoSize = true;
-			this->labelK->Location = System::Drawing::Point(117, 22);
+			this->labelK->Location = System::Drawing::Point(67, 20);
 			this->labelK->Name = L"labelK";
 			this->labelK->Size = System::Drawing::Size(13, 13);
 			this->labelK->TabIndex = 2;
 			this->labelK->Text = L"k";
-			// 
-			// textBoxIloscKW
-			// 
-			this->textBoxIloscKW->Location = System::Drawing::Point(47, 19);
-			this->textBoxIloscKW->Name = L"textBoxIloscKW";
-			this->textBoxIloscKW->Size = System::Drawing::Size(64, 20);
-			this->textBoxIloscKW->TabIndex = 1;
-			this->textBoxIloscKW->Text = L"Iloœæ KW";
 			// 
 			// label1
 			// 
@@ -1305,11 +1353,11 @@ private: System::Void buttonSprawdzRealneAtrybuty_Click(System::Object^  sender,
 	RozlosowaneAtrybuty->Controls->Add(nMSi);
 	Label^ nMBd = gcnew Label;
 	nMBd->Text = ((int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text) - 10) / 2).ToString();
-	nMBd->Location = Point(90, 40);
+	nMBd->Location = Point(90, 70);
 	RozlosowaneAtrybuty->Controls->Add(nMBd);
 	Label^ nMZr = gcnew Label;
 	nMZr->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
-	nMZr->Location = Point(90, 70);
+	nMZr->Location = Point(90, 40);
 	RozlosowaneAtrybuty->Controls->Add(nMZr);
 	Label^ nMInt = gcnew Label;
 	nMInt->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
@@ -1331,11 +1379,11 @@ private: System::Void buttonSprawdzRealneAtrybuty_Click(System::Object^  sender,
 	RozlosowaneAtrybuty->Controls->Add(nWSi);
 	Label^ nWBd = gcnew Label;
 	nWBd->Text = (int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text)).ToString();
-	nWBd->Location = Point(50, 40);
+	nWBd->Location = Point(50, 70);
 	RozlosowaneAtrybuty->Controls->Add(nWBd);
 	Label^ nWZr = gcnew Label;
 	nWZr->Text = (int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text)).ToString();
-	nWZr->Location = Point(50, 70);
+	nWZr->Location = Point(50, 40);
 	RozlosowaneAtrybuty->Controls->Add(nWZr);
 	Label^ nWInt = gcnew Label;
 	nWInt->Text = (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text)).ToString();
@@ -1359,11 +1407,11 @@ private: System::Void buttonSprawdzRealneAtrybuty_Click(System::Object^  sender,
 	RozlosowaneAtrybuty->Controls->Add(nSi);
 	Label^ nBd = gcnew Label;
 	nBd->Text = "Bd";
-	nBd->Location = Point(10, 40);
+	nBd->Location = Point(10, 70);
 	RozlosowaneAtrybuty->Controls->Add(nBd);
 	Label^ nZr = gcnew Label;
 	nZr->Text = "Zr";
-	nZr->Location = Point(10, 70);
+	nZr->Location = Point(10, 40);
 	RozlosowaneAtrybuty->Controls->Add(nZr);
 	Label^ nInt = gcnew Label;
 	nInt->Text = "Int";
@@ -1388,6 +1436,55 @@ private: System::Void button1_Click(System::Object^  sender, System::EventArgs^ 
 		labelKPZr->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
 		//labelKPRozmiar->=
 		labelSumaKp->Text = " = "+(int::Parse(labelKPZbroi->Text) + int::Parse(labelKPTarczy->Text) + int::Parse(labelKPZr->Text)+int::Parse(labelKPRozmiar->Text)+10+int::Parse(textBoxKPInne->Text)+int::Parse(textBoxKPNaturalna->Text)).ToString();
+}
+private: System::Void losujAtrybuty_Click(System::Object^  sender, System::EventArgs^  e) {
+	srand(time(NULL));
+
+	labelWartoscSila->Text = (rand() % 6 + 1 + rand() % 6 + 1 + rand() % 6 + 1).ToString();
+	labelWartoscAtrybutuSi->Text = ((int::Parse(labelWartoscSila->Text) - 10) / 2).ToString();
+
+	labelWartoscZr->Text = (rand() % 6 + 1 + rand() % 6 + 1 + rand() % 6 + 1).ToString();
+	labelWartoscAtrybutuZr->Text = ((int::Parse(labelWartoscZr->Text) - 10) / 2).ToString();
+
+	labelWartoscBd->Text = (rand() % 6 + 1 + rand() % 6 + 1 + rand() % 6 + 1).ToString();
+	labelWartoscAtrybutuBd->Text = ((int::Parse(labelWartoscBd->Text) - 10) / 2).ToString();
+
+	labelWartoscInt->Text = (rand() % 6 + 1 + rand() % 6 + 1 + rand() % 6 + 1).ToString();
+	labelWartoscAtrybutuInt->Text = ((int::Parse(labelWartoscInt->Text) - 10) / 2).ToString();
+
+	labelWartoscMd->Text = (rand() % 6 + 1 + rand() % 6 + 1 + rand() % 6 + 1).ToString();
+	labelWartoscAtrybutuMd->Text = ((int::Parse(labelWartoscMd->Text) - 10) / 2).ToString();
+
+	labelWartoscCha->Text = (rand() % 6 + 1 + rand() % 6 + 1 + rand() % 6 + 1).ToString();
+	labelWartoscAtrybutuCha->Text = ((int::Parse(labelWartoscCha->Text) - 10) / 2).ToString();
+}
+private: System::Void buttonLosujPodaj_Click(System::Object^  sender, System::EventArgs^  e) {
+
+	if (int::Parse(textBoxTypKW->Text) == 4 || textBoxTypKW->Text == "6" || textBoxTypKW->Text == "8" || textBoxTypKW->Text == "12" || textBoxTypKW->Text == "20" || textBoxTypKW->Text == "10"){
+		
+		labelSumaHP->Text = "= "+(int::Parse(textBoxTypKW->Text)*int::Parse(maskedTextBoxIloscKw->Text)).ToString();
+	}
+	else {
+		MessageBox::Show("Popraw koœæ wytrzyma³oœci");
+	}
+	
+}
+private: System::Void buttonHPLosuj_Click(System::Object^  sender, System::EventArgs^  e) {
+	srand(time(NULL));
+	if (textBoxTypKW->Text == "4" || textBoxTypKW->Text == "6" || textBoxTypKW->Text == "8" || textBoxTypKW->Text == "12" || textBoxTypKW->Text == "20" || textBoxTypKW->Text == "10"){
+		int wartosc = 0;
+		for (int i = int::Parse(maskedTextBoxIloscKw->Text); i>0; i--)
+			wartosc += rand() % int::Parse(textBoxTypKW->Text) + 1;
+		labelSumaHP->Text = wartosc.ToString();
+	}
+	else {
+		MessageBox::Show("Popraw koœæ wytrzyma³oœci");
+		
+	}
+		
+}
+private: System::Void buttonPodajWartosc_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelSumaHP->Text = "= "+maskedTextBoxDomyœlnaWartoœæ->Text;
 }
 };
 }

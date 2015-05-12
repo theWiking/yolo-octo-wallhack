@@ -116,6 +116,33 @@ namespace KartaPostaci_Projekt  {
 	private: System::Windows::Forms::GroupBox^  groupBox1;
 private: System::Windows::Forms::Button^  buttonSprawdzRealneAtrybuty;
 private: System::Windows::Forms::Label^  labelRMod;
+private: System::Windows::Forms::TextBox^  textBoxKPNaturalna;
+private: System::Windows::Forms::Label^  label8;
+private: System::Windows::Forms::Label^  label7;
+private: System::Windows::Forms::Label^  label6;
+private: System::Windows::Forms::Label^  label5;
+private: System::Windows::Forms::Label^  label4;
+private: System::Windows::Forms::Label^  label3;
+private: System::Windows::Forms::Button^  button1;
+private: System::Windows::Forms::Label^  labelSumaKp;
+private: System::Windows::Forms::TextBox^  textBoxKPInne;
+private: System::Windows::Forms::Label^  labelKP4;
+private: System::Windows::Forms::Label^  label2;
+private: System::Windows::Forms::Label^  labelKPRozmiar;
+private: System::Windows::Forms::Label^  labelKP3;
+private: System::Windows::Forms::Label^  labelKPZr;
+private: System::Windows::Forms::Label^  labelKP2;
+private: System::Windows::Forms::Label^  labelKPTarczy;
+private: System::Windows::Forms::Label^  labelKP1;
+private: System::Windows::Forms::Label^  labelKPZbroi;
+private: System::Windows::Forms::Label^  labelKP;
+private: System::Windows::Forms::Button^  buttonLosujPodaj;
+private: System::Windows::Forms::Label^  labelSumaHP;
+private: System::Windows::Forms::TextBox^  textBoxTypKW;
+private: System::Windows::Forms::Label^  labelK;
+private: System::Windows::Forms::TextBox^  textBoxIloscKW;
+private: System::Windows::Forms::Label^  label1;
+
 
 	protected:
 
@@ -193,10 +220,37 @@ private: System::Windows::Forms::Label^  labelRMod;
 			this->losujAtrybuty = (gcnew System::Windows::Forms::Button());
 			this->labelSila = (gcnew System::Windows::Forms::Label());
 			this->hpNPancerz = (gcnew System::Windows::Forms::GroupBox());
+			this->textBoxKPNaturalna = (gcnew System::Windows::Forms::TextBox());
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->labelSumaKp = (gcnew System::Windows::Forms::Label());
+			this->textBoxKPInne = (gcnew System::Windows::Forms::TextBox());
+			this->labelKP4 = (gcnew System::Windows::Forms::Label());
+			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->labelKPRozmiar = (gcnew System::Windows::Forms::Label());
+			this->labelKP3 = (gcnew System::Windows::Forms::Label());
+			this->labelKPZr = (gcnew System::Windows::Forms::Label());
+			this->labelKP2 = (gcnew System::Windows::Forms::Label());
+			this->labelKPTarczy = (gcnew System::Windows::Forms::Label());
+			this->labelKP1 = (gcnew System::Windows::Forms::Label());
+			this->labelKPZbroi = (gcnew System::Windows::Forms::Label());
+			this->labelKP = (gcnew System::Windows::Forms::Label());
+			this->buttonLosujPodaj = (gcnew System::Windows::Forms::Button());
+			this->labelSumaHP = (gcnew System::Windows::Forms::Label());
+			this->textBoxTypKW = (gcnew System::Windows::Forms::TextBox());
+			this->labelK = (gcnew System::Windows::Forms::Label());
+			this->textBoxIloscKW = (gcnew System::Windows::Forms::TextBox());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->helpProvider1 = (gcnew System::Windows::Forms::HelpProvider());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
 			this->Nazewnictwo->SuspendLayout();
 			this->Atrybuty->SuspendLayout();
+			this->hpNPancerz->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// Nazewnictwo
@@ -215,9 +269,9 @@ private: System::Windows::Forms::Label^  labelRMod;
 			this->Nazewnictwo->Controls->Add(this->comboBoxRasy);
 			this->Nazewnictwo->Controls->Add(this->textBoxGracza);
 			this->Nazewnictwo->Controls->Add(this->textBoxImie);
-			this->Nazewnictwo->Location = System::Drawing::Point(13, 13);
+			this->Nazewnictwo->Location = System::Drawing::Point(13, 14);
 			this->Nazewnictwo->Name = L"Nazewnictwo";
-			this->Nazewnictwo->Size = System::Drawing::Size(515, 101);
+			this->Nazewnictwo->Size = System::Drawing::Size(448, 101);
 			this->Nazewnictwo->TabIndex = 0;
 			this->Nazewnictwo->TabStop = false;
 			this->Nazewnictwo->Text = L"Nazewnictwo";
@@ -274,9 +328,9 @@ private: System::Windows::Forms::Label^  labelRMod;
 			// 
 			this->comboBox1->FormattingEnabled = true;
 			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"On", L"Ona", L"Ono", L"Inne..." });
-			this->comboBox1->Location = System::Drawing::Point(447, 20);
+			this->comboBox1->Location = System::Drawing::Point(370, 46);
 			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(62, 21);
+			this->comboBox1->Size = System::Drawing::Size(71, 21);
 			this->comboBox1->TabIndex = 8;
 			this->comboBox1->Text = L"P³eæ";
 			// 
@@ -343,9 +397,9 @@ private: System::Windows::Forms::Label^  labelRMod;
 			// 
 			// textBoxGracza
 			// 
-			this->textBoxGracza->Location = System::Drawing::Point(420, 73);
+			this->textBoxGracza->Location = System::Drawing::Point(324, 75);
 			this->textBoxGracza->Name = L"textBoxGracza";
-			this->textBoxGracza->Size = System::Drawing::Size(89, 20);
+			this->textBoxGracza->Size = System::Drawing::Size(117, 20);
 			this->textBoxGracza->TabIndex = 1;
 			this->textBoxGracza->Text = L"Imie Gracza";
 			// 
@@ -843,16 +897,273 @@ private: System::Windows::Forms::Label^  labelRMod;
 			// 
 			// hpNPancerz
 			// 
-			this->hpNPancerz->Location = System::Drawing::Point(534, 14);
+			this->hpNPancerz->Controls->Add(this->textBoxKPNaturalna);
+			this->hpNPancerz->Controls->Add(this->label8);
+			this->hpNPancerz->Controls->Add(this->label7);
+			this->hpNPancerz->Controls->Add(this->label6);
+			this->hpNPancerz->Controls->Add(this->label5);
+			this->hpNPancerz->Controls->Add(this->label4);
+			this->hpNPancerz->Controls->Add(this->label3);
+			this->hpNPancerz->Controls->Add(this->button1);
+			this->hpNPancerz->Controls->Add(this->labelSumaKp);
+			this->hpNPancerz->Controls->Add(this->textBoxKPInne);
+			this->hpNPancerz->Controls->Add(this->labelKP4);
+			this->hpNPancerz->Controls->Add(this->label2);
+			this->hpNPancerz->Controls->Add(this->labelKPRozmiar);
+			this->hpNPancerz->Controls->Add(this->labelKP3);
+			this->hpNPancerz->Controls->Add(this->labelKPZr);
+			this->hpNPancerz->Controls->Add(this->labelKP2);
+			this->hpNPancerz->Controls->Add(this->labelKPTarczy);
+			this->hpNPancerz->Controls->Add(this->labelKP1);
+			this->hpNPancerz->Controls->Add(this->labelKPZbroi);
+			this->hpNPancerz->Controls->Add(this->labelKP);
+			this->hpNPancerz->Controls->Add(this->buttonLosujPodaj);
+			this->hpNPancerz->Controls->Add(this->labelSumaHP);
+			this->hpNPancerz->Controls->Add(this->textBoxTypKW);
+			this->hpNPancerz->Controls->Add(this->labelK);
+			this->hpNPancerz->Controls->Add(this->textBoxIloscKW);
+			this->hpNPancerz->Controls->Add(this->label1);
+			this->hpNPancerz->Location = System::Drawing::Point(231, 129);
 			this->hpNPancerz->Name = L"hpNPancerz";
-			this->hpNPancerz->Size = System::Drawing::Size(347, 100);
+			this->hpNPancerz->Size = System::Drawing::Size(389, 100);
 			this->hpNPancerz->TabIndex = 2;
 			this->hpNPancerz->TabStop = false;
 			this->hpNPancerz->Text = L"HP i pancerz";
 			// 
+			// textBoxKPNaturalna
+			// 
+			this->textBoxKPNaturalna->Location = System::Drawing::Point(219, 50);
+			this->textBoxKPNaturalna->Name = L"textBoxKPNaturalna";
+			this->textBoxKPNaturalna->Size = System::Drawing::Size(33, 20);
+			this->textBoxKPNaturalna->TabIndex = 28;
+			this->textBoxKPNaturalna->Text = L"0";
+			// 
+			// label8
+			// 
+			this->label8->AutoSize = true;
+			this->label8->Location = System::Drawing::Point(67, 73);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(35, 13);
+			this->label8->TabIndex = 27;
+			this->label8->Text = L"zbroja";
+			// 
+			// label7
+			// 
+			this->label7->AutoSize = true;
+			this->label7->Location = System::Drawing::Point(108, 73);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(36, 13);
+			this->label7->TabIndex = 26;
+			this->label7->Text = L"tarcza";
+			// 
+			// label6
+			// 
+			this->label6->AutoSize = true;
+			this->label6->Location = System::Drawing::Point(149, 73);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(17, 13);
+			this->label6->TabIndex = 25;
+			this->label6->Text = L"Zr";
+			// 
+			// label5
+			// 
+			this->label5->AutoSize = true;
+			this->label5->Location = System::Drawing::Point(175, 73);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(40, 13);
+			this->label5->TabIndex = 24;
+			this->label5->Text = L"rozmiar";
+			// 
+			// label4
+			// 
+			this->label4->AutoSize = true;
+			this->label4->Location = System::Drawing::Point(219, 73);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(51, 13);
+			this->label4->TabIndex = 23;
+			this->label4->Text = L"naturalna";
+			// 
+			// label3
+			// 
+			this->label3->AutoSize = true;
+			this->label3->Location = System::Drawing::Point(272, 73);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(27, 13);
+			this->label3->TabIndex = 22;
+			this->label3->Text = L"inne";
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(303, 71);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(80, 23);
+			this->button1->TabIndex = 21;
+			this->button1->Text = L"Uaktualnij KP";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &dodajKarteFroms::button1_Click);
+			// 
+			// labelSumaKp
+			// 
+			this->labelSumaKp->AutoSize = true;
+			this->labelSumaKp->Location = System::Drawing::Point(317, 55);
+			this->labelSumaKp->Name = L"labelSumaKp";
+			this->labelSumaKp->Size = System::Drawing::Size(28, 13);
+			this->labelSumaKp->TabIndex = 20;
+			this->labelSumaKp->Text = L"= 10";
+			// 
+			// textBoxKPInne
+			// 
+			this->textBoxKPInne->Location = System::Drawing::Point(275, 50);
+			this->textBoxKPInne->Name = L"textBoxKPInne";
+			this->textBoxKPInne->Size = System::Drawing::Size(36, 20);
+			this->textBoxKPInne->TabIndex = 19;
+			this->textBoxKPInne->Text = L"0";
+			// 
+			// labelKP4
+			// 
+			this->labelKP4->AutoSize = true;
+			this->labelKP4->Location = System::Drawing::Point(256, 53);
+			this->labelKP4->Name = L"labelKP4";
+			this->labelKP4->Size = System::Drawing::Size(13, 13);
+			this->labelKP4->TabIndex = 18;
+			this->labelKP4->Text = L"+";
+			// 
+			// label2
+			// 
+			this->label2->AutoSize = true;
+			this->label2->Location = System::Drawing::Point(202, 53);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(13, 13);
+			this->label2->TabIndex = 16;
+			this->label2->Text = L"+";
+			// 
+			// labelKPRozmiar
+			// 
+			this->labelKPRozmiar->AutoSize = true;
+			this->labelKPRozmiar->Location = System::Drawing::Point(184, 53);
+			this->labelKPRozmiar->Name = L"labelKPRozmiar";
+			this->labelKPRozmiar->Size = System::Drawing::Size(13, 13);
+			this->labelKPRozmiar->TabIndex = 15;
+			this->labelKPRozmiar->Text = L"0";
+			// 
+			// labelKP3
+			// 
+			this->labelKP3->AutoSize = true;
+			this->labelKP3->Location = System::Drawing::Point(168, 53);
+			this->labelKP3->Name = L"labelKP3";
+			this->labelKP3->Size = System::Drawing::Size(13, 13);
+			this->labelKP3->TabIndex = 14;
+			this->labelKP3->Text = L"+";
+			// 
+			// labelKPZr
+			// 
+			this->labelKPZr->AutoSize = true;
+			this->labelKPZr->Location = System::Drawing::Point(149, 53);
+			this->labelKPZr->Name = L"labelKPZr";
+			this->labelKPZr->Size = System::Drawing::Size(13, 13);
+			this->labelKPZr->TabIndex = 13;
+			this->labelKPZr->Text = L"0";
+			// 
+			// labelKP2
+			// 
+			this->labelKP2->AutoSize = true;
+			this->labelKP2->Location = System::Drawing::Point(130, 53);
+			this->labelKP2->Name = L"labelKP2";
+			this->labelKP2->Size = System::Drawing::Size(13, 13);
+			this->labelKP2->TabIndex = 12;
+			this->labelKP2->Text = L"+";
+			// 
+			// labelKPTarczy
+			// 
+			this->labelKPTarczy->AutoSize = true;
+			this->labelKPTarczy->Location = System::Drawing::Point(111, 53);
+			this->labelKPTarczy->Name = L"labelKPTarczy";
+			this->labelKPTarczy->Size = System::Drawing::Size(13, 13);
+			this->labelKPTarczy->TabIndex = 11;
+			this->labelKPTarczy->Text = L"0";
+			// 
+			// labelKP1
+			// 
+			this->labelKP1->AutoSize = true;
+			this->labelKP1->Location = System::Drawing::Point(92, 53);
+			this->labelKP1->Name = L"labelKP1";
+			this->labelKP1->Size = System::Drawing::Size(13, 13);
+			this->labelKP1->TabIndex = 10;
+			this->labelKP1->Text = L"+";
+			// 
+			// labelKPZbroi
+			// 
+			this->labelKPZbroi->AutoSize = true;
+			this->labelKPZbroi->Location = System::Drawing::Point(73, 53);
+			this->labelKPZbroi->Name = L"labelKPZbroi";
+			this->labelKPZbroi->Size = System::Drawing::Size(13, 13);
+			this->labelKPZbroi->TabIndex = 9;
+			this->labelKPZbroi->Text = L"0";
+			// 
+			// labelKP
+			// 
+			this->labelKP->AutoSize = true;
+			this->labelKP->Location = System::Drawing::Point(10, 53);
+			this->labelKP->Name = L"labelKP";
+			this->labelKP->Size = System::Drawing::Size(57, 13);
+			this->labelKP->TabIndex = 7;
+			this->labelKP->Text = L"KP = 10  +";
+			// 
+			// buttonLosujPodaj
+			// 
+			this->buttonLosujPodaj->Location = System::Drawing::Point(263, 15);
+			this->buttonLosujPodaj->Name = L"buttonLosujPodaj";
+			this->buttonLosujPodaj->Size = System::Drawing::Size(75, 23);
+			this->buttonLosujPodaj->TabIndex = 6;
+			this->buttonLosujPodaj->Text = L"Losuj/PodajHP";
+			this->buttonLosujPodaj->UseVisualStyleBackColor = true;
+			// 
+			// labelSumaHP
+			// 
+			this->labelSumaHP->AutoSize = true;
+			this->labelSumaHP->Location = System::Drawing::Point(216, 22);
+			this->labelSumaHP->Name = L"labelSumaHP";
+			this->labelSumaHP->Size = System::Drawing::Size(36, 13);
+			this->labelSumaHP->TabIndex = 5;
+			this->labelSumaHP->Text = L"= Max";
+			// 
+			// textBoxTypKW
+			// 
+			this->textBoxTypKW->Location = System::Drawing::Point(136, 20);
+			this->textBoxTypKW->Name = L"textBoxTypKW";
+			this->textBoxTypKW->Size = System::Drawing::Size(74, 20);
+			this->textBoxTypKW->TabIndex = 3;
+			this->textBoxTypKW->Text = L"Typ KW";
+			// 
+			// labelK
+			// 
+			this->labelK->AutoSize = true;
+			this->labelK->Location = System::Drawing::Point(117, 22);
+			this->labelK->Name = L"labelK";
+			this->labelK->Size = System::Drawing::Size(13, 13);
+			this->labelK->TabIndex = 2;
+			this->labelK->Text = L"k";
+			// 
+			// textBoxIloscKW
+			// 
+			this->textBoxIloscKW->Location = System::Drawing::Point(47, 19);
+			this->textBoxIloscKW->Name = L"textBoxIloscKW";
+			this->textBoxIloscKW->Size = System::Drawing::Size(64, 20);
+			this->textBoxIloscKW->TabIndex = 1;
+			this->textBoxIloscKW->Text = L"Iloœæ KW";
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Location = System::Drawing::Point(7, 20);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(22, 13);
+			this->label1->TabIndex = 0;
+			this->label1->Text = L"HP";
+			// 
 			// groupBox1
 			// 
-			this->groupBox1->Location = System::Drawing::Point(888, 14);
+			this->groupBox1->Location = System::Drawing::Point(626, 34);
 			this->groupBox1->Name = L"groupBox1";
 			this->groupBox1->Size = System::Drawing::Size(342, 573);
 			this->groupBox1->TabIndex = 3;
@@ -863,7 +1174,7 @@ private: System::Windows::Forms::Label^  labelRMod;
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1242, 599);
+			this->ClientSize = System::Drawing::Size(980, 773);
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->hpNPancerz);
 			this->Controls->Add(this->Atrybuty);
@@ -874,6 +1185,8 @@ private: System::Windows::Forms::Label^  labelRMod;
 			this->Nazewnictwo->PerformLayout();
 			this->Atrybuty->ResumeLayout(false);
 			this->Atrybuty->PerformLayout();
+			this->hpNPancerz->ResumeLayout(false);
+			this->hpNPancerz->PerformLayout();
 			this->ResumeLayout(false);
 
 		}
@@ -1068,6 +1381,13 @@ private: System::Void buttonSprawdzRealneAtrybuty_Click(System::Object^  sender,
 	
 
 	RozlosowaneAtrybuty->ShowDialog();
+}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+		//labelKPZbroi->Text=
+		//labelKPTarczy->Text=
+		labelKPZr->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
+		//labelKPRozmiar->=
+		labelSumaKp->Text = " = "+(int::Parse(labelKPZbroi->Text) + int::Parse(labelKPTarczy->Text) + int::Parse(labelKPZr->Text)+int::Parse(labelKPRozmiar->Text)+10+int::Parse(textBoxKPInne->Text)+int::Parse(textBoxKPNaturalna->Text)).ToString();
 }
 };
 }

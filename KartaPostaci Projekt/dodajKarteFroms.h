@@ -458,6 +458,29 @@ private: System::Windows::Forms::Label^  label155;
 private: System::Windows::Forms::Label^  label150;
 private: System::Windows::Forms::Label^  label151;
 private: System::Windows::Forms::Label^  label134;
+private: System::Windows::Forms::Label^  label260;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox36;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox37;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox38;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox33;
+private: System::Windows::Forms::Label^  label259;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox34;
+private: System::Windows::Forms::Label^  label256;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox35;
+private: System::Windows::Forms::Label^  label257;
+private: System::Windows::Forms::Label^  label258;
+private: System::Windows::Forms::Label^  label255;
+private: System::Windows::Forms::Label^  label252;
+private: System::Windows::Forms::Label^  label253;
+private: System::Windows::Forms::Label^  label254;
+private: System::Windows::Forms::Label^  label251;
+private: System::Windows::Forms::Label^  label250;
+private: System::Windows::Forms::Label^  label249;
+private: System::Windows::Forms::Label^  label248;
+private: System::Windows::Forms::Label^  label247;
+private: System::Windows::Forms::Label^  label246;
+private: System::Windows::Forms::Label^  label245;
+private: System::Windows::Forms::Label^  label244;
 
 
 
@@ -870,10 +893,34 @@ private: System::Windows::Forms::Label^  label134;
 			this->maskedTextBox30 = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->maskedTextBox31 = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->maskedTextBox32 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label244 = (gcnew System::Windows::Forms::Label());
+			this->label245 = (gcnew System::Windows::Forms::Label());
+			this->label246 = (gcnew System::Windows::Forms::Label());
+			this->label247 = (gcnew System::Windows::Forms::Label());
+			this->label248 = (gcnew System::Windows::Forms::Label());
+			this->label249 = (gcnew System::Windows::Forms::Label());
+			this->label250 = (gcnew System::Windows::Forms::Label());
+			this->label251 = (gcnew System::Windows::Forms::Label());
+			this->label252 = (gcnew System::Windows::Forms::Label());
+			this->label253 = (gcnew System::Windows::Forms::Label());
+			this->label254 = (gcnew System::Windows::Forms::Label());
+			this->label255 = (gcnew System::Windows::Forms::Label());
+			this->label256 = (gcnew System::Windows::Forms::Label());
+			this->label257 = (gcnew System::Windows::Forms::Label());
+			this->label258 = (gcnew System::Windows::Forms::Label());
+			this->label259 = (gcnew System::Windows::Forms::Label());
+			this->maskedTextBox33 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox34 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox35 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox36 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox37 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox38 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label260 = (gcnew System::Windows::Forms::Label());
 			this->Nazewnictwo->SuspendLayout();
 			this->Atrybuty->SuspendLayout();
 			this->hpNPancerz->SuspendLayout();
 			this->groupBoxUmiejetnosc->SuspendLayout();
+			this->groupBox3->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// Nazewnictwo
@@ -3733,6 +3780,29 @@ private: System::Windows::Forms::Label^  label134;
 			// 
 			// groupBox3
 			// 
+			this->groupBox3->Controls->Add(this->label260);
+			this->groupBox3->Controls->Add(this->maskedTextBox36);
+			this->groupBox3->Controls->Add(this->maskedTextBox37);
+			this->groupBox3->Controls->Add(this->maskedTextBox38);
+			this->groupBox3->Controls->Add(this->maskedTextBox33);
+			this->groupBox3->Controls->Add(this->label259);
+			this->groupBox3->Controls->Add(this->maskedTextBox34);
+			this->groupBox3->Controls->Add(this->label256);
+			this->groupBox3->Controls->Add(this->maskedTextBox35);
+			this->groupBox3->Controls->Add(this->label257);
+			this->groupBox3->Controls->Add(this->label258);
+			this->groupBox3->Controls->Add(this->label255);
+			this->groupBox3->Controls->Add(this->label252);
+			this->groupBox3->Controls->Add(this->label253);
+			this->groupBox3->Controls->Add(this->label254);
+			this->groupBox3->Controls->Add(this->label251);
+			this->groupBox3->Controls->Add(this->label250);
+			this->groupBox3->Controls->Add(this->label249);
+			this->groupBox3->Controls->Add(this->label248);
+			this->groupBox3->Controls->Add(this->label247);
+			this->groupBox3->Controls->Add(this->label246);
+			this->groupBox3->Controls->Add(this->label245);
+			this->groupBox3->Controls->Add(this->label244);
 			this->groupBox3->Location = System::Drawing::Point(231, 235);
 			this->groupBox3->Name = L"groupBox3";
 			this->groupBox3->Size = System::Drawing::Size(389, 138);
@@ -4915,6 +4985,219 @@ private: System::Windows::Forms::Label^  label134;
 			this->maskedTextBox32->Text = L"0";
 			this->maskedTextBox32->ValidatingType = System::Int32::typeid;
 			// 
+			// label244
+			// 
+			this->label244->AutoSize = true;
+			this->label244->Location = System::Drawing::Point(10, 30);
+			this->label244->Name = L"label244";
+			this->label244->Size = System::Drawing::Size(64, 13);
+			this->label244->TabIndex = 0;
+			this->label244->Text = L"Wytrwa³oœæ";
+			// 
+			// label245
+			// 
+			this->label245->AutoSize = true;
+			this->label245->Location = System::Drawing::Point(10, 60);
+			this->label245->Name = L"label245";
+			this->label245->Size = System::Drawing::Size(43, 13);
+			this->label245->TabIndex = 1;
+			this->label245->Text = L"Refleks";
+			// 
+			// label246
+			// 
+			this->label246->AutoSize = true;
+			this->label246->Location = System::Drawing::Point(10, 90);
+			this->label246->Name = L"label246";
+			this->label246->Size = System::Drawing::Size(32, 13);
+			this->label246->TabIndex = 2;
+			this->label246->Text = L"Wola";
+			// 
+			// label247
+			// 
+			this->label247->AutoSize = true;
+			this->label247->Location = System::Drawing::Point(90, 9);
+			this->label247->Name = L"label247";
+			this->label247->Size = System::Drawing::Size(34, 13);
+			this->label247->TabIndex = 3;
+			this->label247->Text = L"Suma";
+			// 
+			// label248
+			// 
+			this->label248->AutoSize = true;
+			this->label248->Location = System::Drawing::Point(94, 30);
+			this->label248->Name = L"label248";
+			this->label248->Size = System::Drawing::Size(13, 13);
+			this->label248->TabIndex = 4;
+			this->label248->Text = L"0";
+			// 
+			// label249
+			// 
+			this->label249->AutoSize = true;
+			this->label249->Location = System::Drawing::Point(94, 60);
+			this->label249->Name = L"label249";
+			this->label249->Size = System::Drawing::Size(13, 13);
+			this->label249->TabIndex = 5;
+			this->label249->Text = L"0";
+			// 
+			// label250
+			// 
+			this->label250->AutoSize = true;
+			this->label250->Location = System::Drawing::Point(94, 90);
+			this->label250->Name = L"label250";
+			this->label250->Size = System::Drawing::Size(13, 13);
+			this->label250->TabIndex = 6;
+			this->label250->Text = L"0";
+			// 
+			// label251
+			// 
+			this->label251->AutoSize = true;
+			this->label251->Location = System::Drawing::Point(130, 9);
+			this->label251->Name = L"label251";
+			this->label251->Size = System::Drawing::Size(45, 13);
+			this->label251->TabIndex = 7;
+			this->label251->Text = L"Bazowa";
+			// 
+			// label252
+			// 
+			this->label252->AutoSize = true;
+			this->label252->Location = System::Drawing::Point(136, 90);
+			this->label252->Name = L"label252";
+			this->label252->Size = System::Drawing::Size(13, 13);
+			this->label252->TabIndex = 10;
+			this->label252->Text = L"0";
+			// 
+			// label253
+			// 
+			this->label253->AutoSize = true;
+			this->label253->Location = System::Drawing::Point(136, 60);
+			this->label253->Name = L"label253";
+			this->label253->Size = System::Drawing::Size(13, 13);
+			this->label253->TabIndex = 9;
+			this->label253->Text = L"0";
+			// 
+			// label254
+			// 
+			this->label254->AutoSize = true;
+			this->label254->Location = System::Drawing::Point(136, 30);
+			this->label254->Name = L"label254";
+			this->label254->Size = System::Drawing::Size(13, 13);
+			this->label254->TabIndex = 8;
+			this->label254->Text = L"0";
+			// 
+			// label255
+			// 
+			this->label255->AutoSize = true;
+			this->label255->Location = System::Drawing::Point(185, 9);
+			this->label255->Name = L"label255";
+			this->label255->Size = System::Drawing::Size(28, 13);
+			this->label255->TabIndex = 11;
+			this->label255->Text = L"Mod";
+			// 
+			// label256
+			// 
+			this->label256->AutoSize = true;
+			this->label256->Location = System::Drawing::Point(184, 90);
+			this->label256->Name = L"label256";
+			this->label256->Size = System::Drawing::Size(13, 13);
+			this->label256->TabIndex = 14;
+			this->label256->Text = L"0";
+			// 
+			// label257
+			// 
+			this->label257->AutoSize = true;
+			this->label257->Location = System::Drawing::Point(184, 60);
+			this->label257->Name = L"label257";
+			this->label257->Size = System::Drawing::Size(13, 13);
+			this->label257->TabIndex = 13;
+			this->label257->Text = L"0";
+			// 
+			// label258
+			// 
+			this->label258->AutoSize = true;
+			this->label258->Location = System::Drawing::Point(184, 30);
+			this->label258->Name = L"label258";
+			this->label258->Size = System::Drawing::Size(13, 13);
+			this->label258->TabIndex = 12;
+			this->label258->Text = L"0";
+			// 
+			// label259
+			// 
+			this->label259->AutoSize = true;
+			this->label259->Location = System::Drawing::Point(219, 10);
+			this->label259->Name = L"label259";
+			this->label259->Size = System::Drawing::Size(55, 13);
+			this->label259->TabIndex = 15;
+			this->label259->Text = L"Mod Mag.";
+			// 
+			// maskedTextBox33
+			// 
+			this->maskedTextBox33->Location = System::Drawing::Point(232, 90);
+			this->maskedTextBox33->Mask = L"00";
+			this->maskedTextBox33->Name = L"maskedTextBox33";
+			this->maskedTextBox33->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox33->TabIndex = 304;
+			this->maskedTextBox33->Text = L"0";
+			this->maskedTextBox33->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox34
+			// 
+			this->maskedTextBox34->Location = System::Drawing::Point(232, 60);
+			this->maskedTextBox34->Mask = L"00";
+			this->maskedTextBox34->Name = L"maskedTextBox34";
+			this->maskedTextBox34->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox34->TabIndex = 303;
+			this->maskedTextBox34->Text = L"0";
+			this->maskedTextBox34->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox35
+			// 
+			this->maskedTextBox35->Location = System::Drawing::Point(232, 30);
+			this->maskedTextBox35->Mask = L"00";
+			this->maskedTextBox35->Name = L"maskedTextBox35";
+			this->maskedTextBox35->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox35->TabIndex = 302;
+			this->maskedTextBox35->Text = L"0";
+			this->maskedTextBox35->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox36
+			// 
+			this->maskedTextBox36->Location = System::Drawing::Point(291, 90);
+			this->maskedTextBox36->Mask = L"00";
+			this->maskedTextBox36->Name = L"maskedTextBox36";
+			this->maskedTextBox36->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox36->TabIndex = 307;
+			this->maskedTextBox36->Text = L"0";
+			this->maskedTextBox36->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox37
+			// 
+			this->maskedTextBox37->Location = System::Drawing::Point(291, 60);
+			this->maskedTextBox37->Mask = L"00";
+			this->maskedTextBox37->Name = L"maskedTextBox37";
+			this->maskedTextBox37->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox37->TabIndex = 306;
+			this->maskedTextBox37->Text = L"0";
+			this->maskedTextBox37->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox38
+			// 
+			this->maskedTextBox38->Location = System::Drawing::Point(291, 30);
+			this->maskedTextBox38->Mask = L"00";
+			this->maskedTextBox38->Name = L"maskedTextBox38";
+			this->maskedTextBox38->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox38->TabIndex = 305;
+			this->maskedTextBox38->Text = L"0";
+			this->maskedTextBox38->ValidatingType = System::Int32::typeid;
+			// 
+			// label260
+			// 
+			this->label260->AutoSize = true;
+			this->label260->Location = System::Drawing::Point(280, 10);
+			this->label260->Name = L"label260";
+			this->label260->Size = System::Drawing::Size(28, 13);
+			this->label260->TabIndex = 308;
+			this->label260->Text = L"Inne";
+			// 
 			// dodajKarteFroms
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -4928,6 +5211,7 @@ private: System::Windows::Forms::Label^  label134;
 			this->Controls->Add(this->Nazewnictwo);
 			this->Name = L"dodajKarteFroms";
 			this->Text = L"Dodaj Now¹ Kartê";
+			this->Load += gcnew System::EventHandler(this, &dodajKarteFroms::dodajKarteFroms_Load);
 			this->Nazewnictwo->ResumeLayout(false);
 			this->Nazewnictwo->PerformLayout();
 			this->Atrybuty->ResumeLayout(false);
@@ -4936,6 +5220,8 @@ private: System::Windows::Forms::Label^  label134;
 			this->hpNPancerz->PerformLayout();
 			this->groupBoxUmiejetnosc->ResumeLayout(false);
 			this->groupBoxUmiejetnosc->PerformLayout();
+			this->groupBox3->ResumeLayout(false);
+			this->groupBox3->PerformLayout();
 			this->ResumeLayout(false);
 
 		}
@@ -5196,5 +5482,6 @@ private: System::Void checkBox3_CheckedChanged(System::Object^  sender, System::
 private: System::Void labelAlechemiaPlus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscAlchemia->Text = (int::Parse(labelWartoscAlchemia->Text) + 1).ToString();
 }
+
 };
 }

@@ -198,9 +198,12 @@ private: System::Windows::Forms::Label^  label17;
 private: System::Windows::Forms::Label^  label16;
 private: System::Windows::Forms::Label^  label14;
 private: System::Windows::Forms::Label^  label13;
-private: System::Windows::Forms::CheckBox^  checkBox3;
-private: System::Windows::Forms::CheckBox^  checkBox4;
-private: System::Windows::Forms::CheckBox^  checkBox2;
+private: System::Windows::Forms::CheckBox^  checkBoxCzarostwo;
+
+private: System::Windows::Forms::CheckBox^  checkBoxCichePoruszanie;
+
+private: System::Windows::Forms::CheckBox^  checkBoxBlefowanie;
+
 private: System::Windows::Forms::CheckBox^  checkBoxAlchemia;
 
 
@@ -302,34 +305,62 @@ private: System::Windows::Forms::Label^  label56;
 private: System::Windows::Forms::Label^  label57;
 private: System::Windows::Forms::Label^  label55;
 private: System::Windows::Forms::Label^  label54;
-private: System::Windows::Forms::CheckBox^  checkBox17;
-private: System::Windows::Forms::CheckBox^  checkBox18;
-private: System::Windows::Forms::CheckBox^  checkBox19;
-private: System::Windows::Forms::CheckBox^  checkBox20;
-private: System::Windows::Forms::CheckBox^  checkBox21;
-private: System::Windows::Forms::CheckBox^  checkBox22;
-private: System::Windows::Forms::CheckBox^  checkBox23;
-private: System::Windows::Forms::CheckBox^  checkBox24;
-private: System::Windows::Forms::CheckBox^  checkBox25;
-private: System::Windows::Forms::CheckBox^  checkBox26;
-private: System::Windows::Forms::CheckBox^  checkBox27;
-private: System::Windows::Forms::CheckBox^  checkBox28;
-private: System::Windows::Forms::CheckBox^  checkBox29;
-private: System::Windows::Forms::CheckBox^  checkBox30;
-private: System::Windows::Forms::CheckBox^  checkBox31;
-private: System::Windows::Forms::CheckBox^  checkBox32;
-private: System::Windows::Forms::CheckBox^  checkBox9;
-private: System::Windows::Forms::CheckBox^  checkBox10;
-private: System::Windows::Forms::CheckBox^  checkBox11;
-private: System::Windows::Forms::CheckBox^  checkBox12;
-private: System::Windows::Forms::CheckBox^  checkBox13;
-private: System::Windows::Forms::CheckBox^  checkBox14;
-private: System::Windows::Forms::CheckBox^  checkBox15;
-private: System::Windows::Forms::CheckBox^  checkBox16;
-private: System::Windows::Forms::CheckBox^  checkBox5;
-private: System::Windows::Forms::CheckBox^  checkBox6;
-private: System::Windows::Forms::CheckBox^  checkBox7;
-private: System::Windows::Forms::CheckBox^  checkBox8;
+private: System::Windows::Forms::CheckBox^  checkBoxWyczucieKierunku;
+private: System::Windows::Forms::CheckBox^  checkBoxWyczuciePobudek;
+private: System::Windows::Forms::CheckBox^  checkBoxWspinaczka;
+private: System::Windows::Forms::CheckBox^  checkBoxWrozenie;
+private: System::Windows::Forms::CheckBox^  checkBoxUpadki;
+private: System::Windows::Forms::CheckBox^  checkBoxUnieszkodliwianie;
+private: System::Windows::Forms::CheckBox^  checkBoxUkrywanie;
+private: System::Windows::Forms::CheckBox^  checkBoxTajnikiDziczy;
+private: System::Windows::Forms::CheckBox^  checkBoxSzacowanie;
+private: System::Windows::Forms::CheckBox^  checkBoxStosowanieMagRzeczy;
+private: System::Windows::Forms::CheckBox^  checkBoxStosowanieLiny;
+private: System::Windows::Forms::CheckBox^  checkBoxPostepowanieZeZwier;
+
+
+
+
+
+
+
+
+
+
+
+
+private: System::Windows::Forms::CheckBox^  checkBoxKoncetracja;
+
+private: System::Windows::Forms::CheckBox^  checkBoxZastraszanie;
+
+private: System::Windows::Forms::CheckBox^  checkBoxJezdziectwo;
+
+private: System::Windows::Forms::CheckBox^  checkBoxSkakanie;
+
+private: System::Windows::Forms::CheckBox^  checkBoxRównowaga;
+
+private: System::Windows::Forms::CheckBox^  checkBoxPrzeszukiwanie;
+
+private: System::Windows::Forms::CheckBox^  checkBoxPrzebieranie;
+
+private: System::Windows::Forms::CheckBox^  checkBoxPo³slowka;
+
+private: System::Windows::Forms::CheckBox^  checkBoxOtwieranieZamkow;
+
+private: System::Windows::Forms::CheckBox^  checkBoxOdcyforwywanieZapisow;
+
+private: System::Windows::Forms::CheckBox^  checkBoxNasluchiwanie;
+
+private: System::Windows::Forms::CheckBox^  checkBoxLeczenie;
+
+private: System::Windows::Forms::CheckBox^  checkBoxKradzieszKieszonkowa;
+
+private: System::Windows::Forms::CheckBox^  checkBoxFalszerstwo;
+
+private: System::Windows::Forms::CheckBox^  checkBoxDyplomacja;
+
+private: System::Windows::Forms::CheckBox^  checkBoxCzytanieZWarg;
+
 private: System::Windows::Forms::Label^  labelAlechemiaPlus;
 private: System::Windows::Forms::MaskedTextBox^  maskedTextBox17;
 private: System::Windows::Forms::MaskedTextBox^  maskedTextBox18;
@@ -481,6 +512,46 @@ private: System::Windows::Forms::Label^  label247;
 private: System::Windows::Forms::Label^  label246;
 private: System::Windows::Forms::Label^  label245;
 private: System::Windows::Forms::Label^  label244;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox39;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox40;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox41;
+private: System::Windows::Forms::Label^  label261;
+private: System::Windows::Forms::Label^  label262;
+private: System::Windows::Forms::Label^  label263;
+private: System::Windows::Forms::Label^  label264;
+private: System::Windows::Forms::Label^  label265;
+private: System::Windows::Forms::Label^  label266;
+private: System::Windows::Forms::Label^  label267;
+private: System::Windows::Forms::Label^  label268;
+private: System::Windows::Forms::Label^  label269;
+private: System::Windows::Forms::Label^  label270;
+private: System::Windows::Forms::Label^  label271;
+private: System::Windows::Forms::Label^  label272;
+private: System::Windows::Forms::Label^  label273;
+private: System::Windows::Forms::Label^  label274;
+private: System::Windows::Forms::Label^  label275;
+private: System::Windows::Forms::Label^  label276;
+private: System::Windows::Forms::Label^  label277;
+private: System::Windows::Forms::Label^  label278;
+private: System::Windows::Forms::CheckBox^  checkBoxZbieranieInformacji;
+private: System::Windows::Forms::CheckBox^  checkBoxZauwazanie;
+private: System::Windows::Forms::CheckBox^  checkBoxWyzwalanie;
+
+
+
+private: System::Windows::Forms::Label^  label279;
+private: System::Windows::Forms::Label^  label280;
+private: System::Windows::Forms::Label^  label281;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBox42;
+private: System::Windows::Forms::Label^  label282;
+private: System::Windows::Forms::Label^  label283;
+private: System::Windows::Forms::Label^  label284;
+private: System::Windows::Forms::Label^  label285;
+private: System::Windows::Forms::Label^  label286;
+private: System::Windows::Forms::Label^  label287;
+private: System::Windows::Forms::CheckBox^  checkBoxZwierzecaEmpatia;
+
+private: System::Windows::Forms::Label^  label288;
 
 
 
@@ -591,6 +662,133 @@ private: System::Windows::Forms::Label^  label244;
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->helpProvider1 = (gcnew System::Windows::Forms::HelpProvider());
 			this->groupBoxUmiejetnosc = (gcnew System::Windows::Forms::GroupBox());
+			this->maskedTextBox17 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox18 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox19 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox20 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox21 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox22 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox23 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox24 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox25 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox26 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox27 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox28 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox29 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox30 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox31 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox32 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox9 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox10 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox11 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox12 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox13 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox14 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox15 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox16 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox5 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox6 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox7 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox8 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox3 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox4 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox2 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox1 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label236 = (gcnew System::Windows::Forms::Label());
+			this->label237 = (gcnew System::Windows::Forms::Label());
+			this->label238 = (gcnew System::Windows::Forms::Label());
+			this->label239 = (gcnew System::Windows::Forms::Label());
+			this->label240 = (gcnew System::Windows::Forms::Label());
+			this->label241 = (gcnew System::Windows::Forms::Label());
+			this->label242 = (gcnew System::Windows::Forms::Label());
+			this->label243 = (gcnew System::Windows::Forms::Label());
+			this->label224 = (gcnew System::Windows::Forms::Label());
+			this->label225 = (gcnew System::Windows::Forms::Label());
+			this->label226 = (gcnew System::Windows::Forms::Label());
+			this->label227 = (gcnew System::Windows::Forms::Label());
+			this->label228 = (gcnew System::Windows::Forms::Label());
+			this->label229 = (gcnew System::Windows::Forms::Label());
+			this->label230 = (gcnew System::Windows::Forms::Label());
+			this->label231 = (gcnew System::Windows::Forms::Label());
+			this->label232 = (gcnew System::Windows::Forms::Label());
+			this->label233 = (gcnew System::Windows::Forms::Label());
+			this->label234 = (gcnew System::Windows::Forms::Label());
+			this->label235 = (gcnew System::Windows::Forms::Label());
+			this->label212 = (gcnew System::Windows::Forms::Label());
+			this->label213 = (gcnew System::Windows::Forms::Label());
+			this->label214 = (gcnew System::Windows::Forms::Label());
+			this->label215 = (gcnew System::Windows::Forms::Label());
+			this->label216 = (gcnew System::Windows::Forms::Label());
+			this->label217 = (gcnew System::Windows::Forms::Label());
+			this->label218 = (gcnew System::Windows::Forms::Label());
+			this->label219 = (gcnew System::Windows::Forms::Label());
+			this->label220 = (gcnew System::Windows::Forms::Label());
+			this->label221 = (gcnew System::Windows::Forms::Label());
+			this->label222 = (gcnew System::Windows::Forms::Label());
+			this->label223 = (gcnew System::Windows::Forms::Label());
+			this->label196 = (gcnew System::Windows::Forms::Label());
+			this->label197 = (gcnew System::Windows::Forms::Label());
+			this->label198 = (gcnew System::Windows::Forms::Label());
+			this->label199 = (gcnew System::Windows::Forms::Label());
+			this->label200 = (gcnew System::Windows::Forms::Label());
+			this->label201 = (gcnew System::Windows::Forms::Label());
+			this->label202 = (gcnew System::Windows::Forms::Label());
+			this->label203 = (gcnew System::Windows::Forms::Label());
+			this->label204 = (gcnew System::Windows::Forms::Label());
+			this->label205 = (gcnew System::Windows::Forms::Label());
+			this->label206 = (gcnew System::Windows::Forms::Label());
+			this->label207 = (gcnew System::Windows::Forms::Label());
+			this->label208 = (gcnew System::Windows::Forms::Label());
+			this->label209 = (gcnew System::Windows::Forms::Label());
+			this->label210 = (gcnew System::Windows::Forms::Label());
+			this->label211 = (gcnew System::Windows::Forms::Label());
+			this->label188 = (gcnew System::Windows::Forms::Label());
+			this->label189 = (gcnew System::Windows::Forms::Label());
+			this->label190 = (gcnew System::Windows::Forms::Label());
+			this->label191 = (gcnew System::Windows::Forms::Label());
+			this->label192 = (gcnew System::Windows::Forms::Label());
+			this->label193 = (gcnew System::Windows::Forms::Label());
+			this->label194 = (gcnew System::Windows::Forms::Label());
+			this->label195 = (gcnew System::Windows::Forms::Label());
+			this->label184 = (gcnew System::Windows::Forms::Label());
+			this->label185 = (gcnew System::Windows::Forms::Label());
+			this->label186 = (gcnew System::Windows::Forms::Label());
+			this->label187 = (gcnew System::Windows::Forms::Label());
+			this->label182 = (gcnew System::Windows::Forms::Label());
+			this->label183 = (gcnew System::Windows::Forms::Label());
+			this->label181 = (gcnew System::Windows::Forms::Label());
+			this->label180 = (gcnew System::Windows::Forms::Label());
+			this->label164 = (gcnew System::Windows::Forms::Label());
+			this->label165 = (gcnew System::Windows::Forms::Label());
+			this->label166 = (gcnew System::Windows::Forms::Label());
+			this->label167 = (gcnew System::Windows::Forms::Label());
+			this->label168 = (gcnew System::Windows::Forms::Label());
+			this->label169 = (gcnew System::Windows::Forms::Label());
+			this->label170 = (gcnew System::Windows::Forms::Label());
+			this->label171 = (gcnew System::Windows::Forms::Label());
+			this->label172 = (gcnew System::Windows::Forms::Label());
+			this->label173 = (gcnew System::Windows::Forms::Label());
+			this->label174 = (gcnew System::Windows::Forms::Label());
+			this->label175 = (gcnew System::Windows::Forms::Label());
+			this->label176 = (gcnew System::Windows::Forms::Label());
+			this->label177 = (gcnew System::Windows::Forms::Label());
+			this->label178 = (gcnew System::Windows::Forms::Label());
+			this->label179 = (gcnew System::Windows::Forms::Label());
+			this->label156 = (gcnew System::Windows::Forms::Label());
+			this->label157 = (gcnew System::Windows::Forms::Label());
+			this->label158 = (gcnew System::Windows::Forms::Label());
+			this->label159 = (gcnew System::Windows::Forms::Label());
+			this->label160 = (gcnew System::Windows::Forms::Label());
+			this->label161 = (gcnew System::Windows::Forms::Label());
+			this->label162 = (gcnew System::Windows::Forms::Label());
+			this->label163 = (gcnew System::Windows::Forms::Label());
+			this->label152 = (gcnew System::Windows::Forms::Label());
+			this->label153 = (gcnew System::Windows::Forms::Label());
+			this->label154 = (gcnew System::Windows::Forms::Label());
+			this->label155 = (gcnew System::Windows::Forms::Label());
+			this->label150 = (gcnew System::Windows::Forms::Label());
+			this->label151 = (gcnew System::Windows::Forms::Label());
+			this->label134 = (gcnew System::Windows::Forms::Label());
 			this->labelAlechemiaPlus = (gcnew System::Windows::Forms::Label());
 			this->label135 = (gcnew System::Windows::Forms::Label());
 			this->label136 = (gcnew System::Windows::Forms::Label());
@@ -688,37 +886,37 @@ private: System::Windows::Forms::Label^  label244;
 			this->label57 = (gcnew System::Windows::Forms::Label());
 			this->label55 = (gcnew System::Windows::Forms::Label());
 			this->label54 = (gcnew System::Windows::Forms::Label());
-			this->checkBox17 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox18 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox19 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox20 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox21 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox22 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox23 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox24 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox25 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox26 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox27 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox28 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox29 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox30 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox31 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox32 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox9 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox10 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox11 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox12 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox13 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox14 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox15 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox16 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox5 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox6 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox7 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox8 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox3 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox4 = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBox2 = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxWyczucieKierunku = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxWyczuciePobudek = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxWspinaczka = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxWrozenie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxUpadki = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxUnieszkodliwianie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxUkrywanie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxTajnikiDziczy = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxSzacowanie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxStosowanieMagRzeczy = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxStosowanieLiny = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxPostepowanieZeZwier = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxKoncetracja = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxZastraszanie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxJezdziectwo = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxSkakanie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxRównowaga = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxPrzeszukiwanie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxPrzebieranie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxPo³slowka = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxOtwieranieZamkow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxOdcyforwywanieZapisow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxNasluchiwanie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxLeczenie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxKradzieszKieszonkowa = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxFalszerstwo = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxDyplomacja = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCzytanieZWarg = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCzarostwo = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCichePoruszanie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxBlefowanie = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBoxAlchemia = (gcnew System::Windows::Forms::CheckBox());
 			this->label38 = (gcnew System::Windows::Forms::Label());
 			this->label39 = (gcnew System::Windows::Forms::Label());
@@ -766,156 +964,65 @@ private: System::Windows::Forms::Label^  label244;
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
-			this->label134 = (gcnew System::Windows::Forms::Label());
-			this->label150 = (gcnew System::Windows::Forms::Label());
-			this->label151 = (gcnew System::Windows::Forms::Label());
-			this->label152 = (gcnew System::Windows::Forms::Label());
-			this->label153 = (gcnew System::Windows::Forms::Label());
-			this->label154 = (gcnew System::Windows::Forms::Label());
-			this->label155 = (gcnew System::Windows::Forms::Label());
-			this->label156 = (gcnew System::Windows::Forms::Label());
-			this->label157 = (gcnew System::Windows::Forms::Label());
-			this->label158 = (gcnew System::Windows::Forms::Label());
-			this->label159 = (gcnew System::Windows::Forms::Label());
-			this->label160 = (gcnew System::Windows::Forms::Label());
-			this->label161 = (gcnew System::Windows::Forms::Label());
-			this->label162 = (gcnew System::Windows::Forms::Label());
-			this->label163 = (gcnew System::Windows::Forms::Label());
-			this->label164 = (gcnew System::Windows::Forms::Label());
-			this->label165 = (gcnew System::Windows::Forms::Label());
-			this->label166 = (gcnew System::Windows::Forms::Label());
-			this->label167 = (gcnew System::Windows::Forms::Label());
-			this->label168 = (gcnew System::Windows::Forms::Label());
-			this->label169 = (gcnew System::Windows::Forms::Label());
-			this->label170 = (gcnew System::Windows::Forms::Label());
-			this->label171 = (gcnew System::Windows::Forms::Label());
-			this->label172 = (gcnew System::Windows::Forms::Label());
-			this->label173 = (gcnew System::Windows::Forms::Label());
-			this->label174 = (gcnew System::Windows::Forms::Label());
-			this->label175 = (gcnew System::Windows::Forms::Label());
-			this->label176 = (gcnew System::Windows::Forms::Label());
-			this->label177 = (gcnew System::Windows::Forms::Label());
-			this->label178 = (gcnew System::Windows::Forms::Label());
-			this->label179 = (gcnew System::Windows::Forms::Label());
-			this->label180 = (gcnew System::Windows::Forms::Label());
-			this->label181 = (gcnew System::Windows::Forms::Label());
-			this->label182 = (gcnew System::Windows::Forms::Label());
-			this->label183 = (gcnew System::Windows::Forms::Label());
-			this->label184 = (gcnew System::Windows::Forms::Label());
-			this->label185 = (gcnew System::Windows::Forms::Label());
-			this->label186 = (gcnew System::Windows::Forms::Label());
-			this->label187 = (gcnew System::Windows::Forms::Label());
-			this->label188 = (gcnew System::Windows::Forms::Label());
-			this->label189 = (gcnew System::Windows::Forms::Label());
-			this->label190 = (gcnew System::Windows::Forms::Label());
-			this->label191 = (gcnew System::Windows::Forms::Label());
-			this->label192 = (gcnew System::Windows::Forms::Label());
-			this->label193 = (gcnew System::Windows::Forms::Label());
-			this->label194 = (gcnew System::Windows::Forms::Label());
-			this->label195 = (gcnew System::Windows::Forms::Label());
-			this->label196 = (gcnew System::Windows::Forms::Label());
-			this->label197 = (gcnew System::Windows::Forms::Label());
-			this->label198 = (gcnew System::Windows::Forms::Label());
-			this->label199 = (gcnew System::Windows::Forms::Label());
-			this->label200 = (gcnew System::Windows::Forms::Label());
-			this->label201 = (gcnew System::Windows::Forms::Label());
-			this->label202 = (gcnew System::Windows::Forms::Label());
-			this->label203 = (gcnew System::Windows::Forms::Label());
-			this->label204 = (gcnew System::Windows::Forms::Label());
-			this->label205 = (gcnew System::Windows::Forms::Label());
-			this->label206 = (gcnew System::Windows::Forms::Label());
-			this->label207 = (gcnew System::Windows::Forms::Label());
-			this->label208 = (gcnew System::Windows::Forms::Label());
-			this->label209 = (gcnew System::Windows::Forms::Label());
-			this->label210 = (gcnew System::Windows::Forms::Label());
-			this->label211 = (gcnew System::Windows::Forms::Label());
-			this->label212 = (gcnew System::Windows::Forms::Label());
-			this->label213 = (gcnew System::Windows::Forms::Label());
-			this->label214 = (gcnew System::Windows::Forms::Label());
-			this->label215 = (gcnew System::Windows::Forms::Label());
-			this->label216 = (gcnew System::Windows::Forms::Label());
-			this->label217 = (gcnew System::Windows::Forms::Label());
-			this->label218 = (gcnew System::Windows::Forms::Label());
-			this->label219 = (gcnew System::Windows::Forms::Label());
-			this->label220 = (gcnew System::Windows::Forms::Label());
-			this->label221 = (gcnew System::Windows::Forms::Label());
-			this->label222 = (gcnew System::Windows::Forms::Label());
-			this->label223 = (gcnew System::Windows::Forms::Label());
-			this->label224 = (gcnew System::Windows::Forms::Label());
-			this->label225 = (gcnew System::Windows::Forms::Label());
-			this->label226 = (gcnew System::Windows::Forms::Label());
-			this->label227 = (gcnew System::Windows::Forms::Label());
-			this->label228 = (gcnew System::Windows::Forms::Label());
-			this->label229 = (gcnew System::Windows::Forms::Label());
-			this->label230 = (gcnew System::Windows::Forms::Label());
-			this->label231 = (gcnew System::Windows::Forms::Label());
-			this->label232 = (gcnew System::Windows::Forms::Label());
-			this->label233 = (gcnew System::Windows::Forms::Label());
-			this->label234 = (gcnew System::Windows::Forms::Label());
-			this->label235 = (gcnew System::Windows::Forms::Label());
-			this->label236 = (gcnew System::Windows::Forms::Label());
-			this->label237 = (gcnew System::Windows::Forms::Label());
-			this->label238 = (gcnew System::Windows::Forms::Label());
-			this->label239 = (gcnew System::Windows::Forms::Label());
-			this->label240 = (gcnew System::Windows::Forms::Label());
-			this->label241 = (gcnew System::Windows::Forms::Label());
-			this->label242 = (gcnew System::Windows::Forms::Label());
-			this->label243 = (gcnew System::Windows::Forms::Label());
-			this->maskedTextBox1 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox2 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox3 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox4 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox5 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox6 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox7 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox8 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox9 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox10 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox11 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox12 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox13 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox14 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox15 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox16 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox17 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox18 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox19 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox20 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox21 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox22 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox23 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox24 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox25 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox26 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox27 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox28 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox29 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox30 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox31 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox32 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->label244 = (gcnew System::Windows::Forms::Label());
-			this->label245 = (gcnew System::Windows::Forms::Label());
-			this->label246 = (gcnew System::Windows::Forms::Label());
-			this->label247 = (gcnew System::Windows::Forms::Label());
-			this->label248 = (gcnew System::Windows::Forms::Label());
-			this->label249 = (gcnew System::Windows::Forms::Label());
-			this->label250 = (gcnew System::Windows::Forms::Label());
-			this->label251 = (gcnew System::Windows::Forms::Label());
-			this->label252 = (gcnew System::Windows::Forms::Label());
-			this->label253 = (gcnew System::Windows::Forms::Label());
-			this->label254 = (gcnew System::Windows::Forms::Label());
-			this->label255 = (gcnew System::Windows::Forms::Label());
-			this->label256 = (gcnew System::Windows::Forms::Label());
-			this->label257 = (gcnew System::Windows::Forms::Label());
-			this->label258 = (gcnew System::Windows::Forms::Label());
-			this->label259 = (gcnew System::Windows::Forms::Label());
-			this->maskedTextBox33 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox34 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox35 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label260 = (gcnew System::Windows::Forms::Label());
 			this->maskedTextBox36 = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->maskedTextBox37 = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->maskedTextBox38 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->label260 = (gcnew System::Windows::Forms::Label());
+			this->maskedTextBox33 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label259 = (gcnew System::Windows::Forms::Label());
+			this->maskedTextBox34 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label256 = (gcnew System::Windows::Forms::Label());
+			this->maskedTextBox35 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label257 = (gcnew System::Windows::Forms::Label());
+			this->label258 = (gcnew System::Windows::Forms::Label());
+			this->label255 = (gcnew System::Windows::Forms::Label());
+			this->label252 = (gcnew System::Windows::Forms::Label());
+			this->label253 = (gcnew System::Windows::Forms::Label());
+			this->label254 = (gcnew System::Windows::Forms::Label());
+			this->label251 = (gcnew System::Windows::Forms::Label());
+			this->label250 = (gcnew System::Windows::Forms::Label());
+			this->label249 = (gcnew System::Windows::Forms::Label());
+			this->label248 = (gcnew System::Windows::Forms::Label());
+			this->label247 = (gcnew System::Windows::Forms::Label());
+			this->label246 = (gcnew System::Windows::Forms::Label());
+			this->label245 = (gcnew System::Windows::Forms::Label());
+			this->label244 = (gcnew System::Windows::Forms::Label());
+			this->maskedTextBox39 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox40 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBox41 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label261 = (gcnew System::Windows::Forms::Label());
+			this->label262 = (gcnew System::Windows::Forms::Label());
+			this->label263 = (gcnew System::Windows::Forms::Label());
+			this->label264 = (gcnew System::Windows::Forms::Label());
+			this->label265 = (gcnew System::Windows::Forms::Label());
+			this->label266 = (gcnew System::Windows::Forms::Label());
+			this->label267 = (gcnew System::Windows::Forms::Label());
+			this->label268 = (gcnew System::Windows::Forms::Label());
+			this->label269 = (gcnew System::Windows::Forms::Label());
+			this->label270 = (gcnew System::Windows::Forms::Label());
+			this->label271 = (gcnew System::Windows::Forms::Label());
+			this->label272 = (gcnew System::Windows::Forms::Label());
+			this->label273 = (gcnew System::Windows::Forms::Label());
+			this->label274 = (gcnew System::Windows::Forms::Label());
+			this->label275 = (gcnew System::Windows::Forms::Label());
+			this->label276 = (gcnew System::Windows::Forms::Label());
+			this->label277 = (gcnew System::Windows::Forms::Label());
+			this->label278 = (gcnew System::Windows::Forms::Label());
+			this->checkBoxZbieranieInformacji = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxZauwazanie = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxWyzwalanie = (gcnew System::Windows::Forms::CheckBox());
+			this->label279 = (gcnew System::Windows::Forms::Label());
+			this->label280 = (gcnew System::Windows::Forms::Label());
+			this->label281 = (gcnew System::Windows::Forms::Label());
+			this->maskedTextBox42 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->label282 = (gcnew System::Windows::Forms::Label());
+			this->label283 = (gcnew System::Windows::Forms::Label());
+			this->label284 = (gcnew System::Windows::Forms::Label());
+			this->label285 = (gcnew System::Windows::Forms::Label());
+			this->label286 = (gcnew System::Windows::Forms::Label());
+			this->label287 = (gcnew System::Windows::Forms::Label());
+			this->checkBoxZwierzecaEmpatia = (gcnew System::Windows::Forms::CheckBox());
+			this->label288 = (gcnew System::Windows::Forms::Label());
 			this->Nazewnictwo->SuspendLayout();
 			this->Atrybuty->SuspendLayout();
 			this->hpNPancerz->SuspendLayout();
@@ -1869,6 +1976,42 @@ private: System::Windows::Forms::Label^  label244;
 			// 
 			// groupBoxUmiejetnosc
 			// 
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox42);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label282);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label283);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label284);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label285);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label286);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label287);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxZwierzecaEmpatia);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label288);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox39);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox40);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox41);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label261);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label262);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label263);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label264);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label265);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label266);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label267);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label268);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label269);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label270);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label271);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label272);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label273);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label274);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label275);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label276);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label277);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label278);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxZbieranieInformacji);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxZauwazanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxWyzwalanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label279);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label280);
+			this->groupBoxUmiejetnosc->Controls->Add(this->label281);
 			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox17);
 			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox18);
 			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox19);
@@ -2093,37 +2236,37 @@ private: System::Windows::Forms::Label^  label244;
 			this->groupBoxUmiejetnosc->Controls->Add(this->label57);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label55);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label54);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox17);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox18);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox19);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox20);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox21);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox22);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox23);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox24);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox25);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox26);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox27);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox28);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox29);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox30);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox31);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox32);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox9);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox10);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox11);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox12);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox13);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox14);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox15);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox16);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox5);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox6);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox7);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox8);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox3);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox4);
-			this->groupBoxUmiejetnosc->Controls->Add(this->checkBox2);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxWyczucieKierunku);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxWyczuciePobudek);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxWspinaczka);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxWrozenie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxUpadki);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxUnieszkodliwianie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxUkrywanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxTajnikiDziczy);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxSzacowanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxStosowanieMagRzeczy);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxStosowanieLiny);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxPostepowanieZeZwier);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxKoncetracja);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxZastraszanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxJezdziectwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxSkakanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxRównowaga);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxPrzeszukiwanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxPrzebieranie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxPo³slowka);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxOtwieranieZamkow);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxOdcyforwywanieZapisow);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxNasluchiwanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxLeczenie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxKradzieszKieszonkowa);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxFalszerstwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxDyplomacja);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxCzytanieZWarg);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxCzarostwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxCichePoruszanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxBlefowanie);
 			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxAlchemia);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label38);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label39);
@@ -2171,11 +2314,1186 @@ private: System::Windows::Forms::Label^  label244;
 			this->groupBoxUmiejetnosc->Controls->Add(this->label9);
 			this->groupBoxUmiejetnosc->Location = System::Drawing::Point(626, 14);
 			this->groupBoxUmiejetnosc->Name = L"groupBoxUmiejetnosc";
-			this->groupBoxUmiejetnosc->Size = System::Drawing::Size(462, 726);
+			this->groupBoxUmiejetnosc->Size = System::Drawing::Size(462, 798);
 			this->groupBoxUmiejetnosc->TabIndex = 3;
 			this->groupBoxUmiejetnosc->TabStop = false;
 			this->groupBoxUmiejetnosc->Text = L"Umiejêtnoœci";
 			this->groupBoxUmiejetnosc->Enter += gcnew System::EventHandler(this, &dodajKarteFroms::groupBoxUmiejetnosc_Enter);
+			// 
+			// maskedTextBox17
+			// 
+			this->maskedTextBox17->Location = System::Drawing::Point(340, 689);
+			this->maskedTextBox17->Mask = L"00";
+			this->maskedTextBox17->Name = L"maskedTextBox17";
+			this->maskedTextBox17->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox17->TabIndex = 301;
+			this->maskedTextBox17->Text = L"0";
+			this->maskedTextBox17->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox18
+			// 
+			this->maskedTextBox18->Location = System::Drawing::Point(340, 670);
+			this->maskedTextBox18->Mask = L"00";
+			this->maskedTextBox18->Name = L"maskedTextBox18";
+			this->maskedTextBox18->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox18->TabIndex = 300;
+			this->maskedTextBox18->Text = L"0";
+			this->maskedTextBox18->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox19
+			// 
+			this->maskedTextBox19->Location = System::Drawing::Point(340, 650);
+			this->maskedTextBox19->Mask = L"00";
+			this->maskedTextBox19->Name = L"maskedTextBox19";
+			this->maskedTextBox19->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox19->TabIndex = 299;
+			this->maskedTextBox19->Text = L"0";
+			this->maskedTextBox19->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox20
+			// 
+			this->maskedTextBox20->Location = System::Drawing::Point(340, 630);
+			this->maskedTextBox20->Mask = L"00";
+			this->maskedTextBox20->Name = L"maskedTextBox20";
+			this->maskedTextBox20->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox20->TabIndex = 298;
+			this->maskedTextBox20->Text = L"0";
+			this->maskedTextBox20->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox21
+			// 
+			this->maskedTextBox21->Location = System::Drawing::Point(340, 609);
+			this->maskedTextBox21->Mask = L"00";
+			this->maskedTextBox21->Name = L"maskedTextBox21";
+			this->maskedTextBox21->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox21->TabIndex = 297;
+			this->maskedTextBox21->Text = L"0";
+			this->maskedTextBox21->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox22
+			// 
+			this->maskedTextBox22->Location = System::Drawing::Point(340, 590);
+			this->maskedTextBox22->Mask = L"00";
+			this->maskedTextBox22->Name = L"maskedTextBox22";
+			this->maskedTextBox22->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox22->TabIndex = 296;
+			this->maskedTextBox22->Text = L"0";
+			this->maskedTextBox22->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox23
+			// 
+			this->maskedTextBox23->Location = System::Drawing::Point(340, 570);
+			this->maskedTextBox23->Mask = L"00";
+			this->maskedTextBox23->Name = L"maskedTextBox23";
+			this->maskedTextBox23->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox23->TabIndex = 295;
+			this->maskedTextBox23->Text = L"0";
+			this->maskedTextBox23->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox24
+			// 
+			this->maskedTextBox24->Location = System::Drawing::Point(340, 550);
+			this->maskedTextBox24->Mask = L"00";
+			this->maskedTextBox24->Name = L"maskedTextBox24";
+			this->maskedTextBox24->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox24->TabIndex = 294;
+			this->maskedTextBox24->Text = L"0";
+			this->maskedTextBox24->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox25
+			// 
+			this->maskedTextBox25->Location = System::Drawing::Point(340, 529);
+			this->maskedTextBox25->Mask = L"00";
+			this->maskedTextBox25->Name = L"maskedTextBox25";
+			this->maskedTextBox25->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox25->TabIndex = 293;
+			this->maskedTextBox25->Text = L"0";
+			this->maskedTextBox25->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox26
+			// 
+			this->maskedTextBox26->Location = System::Drawing::Point(340, 510);
+			this->maskedTextBox26->Mask = L"00";
+			this->maskedTextBox26->Name = L"maskedTextBox26";
+			this->maskedTextBox26->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox26->TabIndex = 292;
+			this->maskedTextBox26->Text = L"0";
+			this->maskedTextBox26->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox27
+			// 
+			this->maskedTextBox27->Location = System::Drawing::Point(340, 490);
+			this->maskedTextBox27->Mask = L"00";
+			this->maskedTextBox27->Name = L"maskedTextBox27";
+			this->maskedTextBox27->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox27->TabIndex = 291;
+			this->maskedTextBox27->Text = L"0";
+			this->maskedTextBox27->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox28
+			// 
+			this->maskedTextBox28->Location = System::Drawing::Point(340, 470);
+			this->maskedTextBox28->Mask = L"00";
+			this->maskedTextBox28->Name = L"maskedTextBox28";
+			this->maskedTextBox28->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox28->TabIndex = 290;
+			this->maskedTextBox28->Text = L"0";
+			this->maskedTextBox28->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox29
+			// 
+			this->maskedTextBox29->Location = System::Drawing::Point(340, 449);
+			this->maskedTextBox29->Mask = L"00";
+			this->maskedTextBox29->Name = L"maskedTextBox29";
+			this->maskedTextBox29->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox29->TabIndex = 289;
+			this->maskedTextBox29->Text = L"0";
+			this->maskedTextBox29->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox30
+			// 
+			this->maskedTextBox30->Location = System::Drawing::Point(340, 430);
+			this->maskedTextBox30->Mask = L"00";
+			this->maskedTextBox30->Name = L"maskedTextBox30";
+			this->maskedTextBox30->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox30->TabIndex = 288;
+			this->maskedTextBox30->Text = L"0";
+			this->maskedTextBox30->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox31
+			// 
+			this->maskedTextBox31->Location = System::Drawing::Point(340, 410);
+			this->maskedTextBox31->Mask = L"00";
+			this->maskedTextBox31->Name = L"maskedTextBox31";
+			this->maskedTextBox31->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox31->TabIndex = 287;
+			this->maskedTextBox31->Text = L"0";
+			this->maskedTextBox31->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox32
+			// 
+			this->maskedTextBox32->Location = System::Drawing::Point(340, 390);
+			this->maskedTextBox32->Mask = L"00";
+			this->maskedTextBox32->Name = L"maskedTextBox32";
+			this->maskedTextBox32->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox32->TabIndex = 286;
+			this->maskedTextBox32->Text = L"0";
+			this->maskedTextBox32->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox9
+			// 
+			this->maskedTextBox9->Location = System::Drawing::Point(340, 369);
+			this->maskedTextBox9->Mask = L"00";
+			this->maskedTextBox9->Name = L"maskedTextBox9";
+			this->maskedTextBox9->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox9->TabIndex = 285;
+			this->maskedTextBox9->Text = L"0";
+			this->maskedTextBox9->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox10
+			// 
+			this->maskedTextBox10->Location = System::Drawing::Point(340, 350);
+			this->maskedTextBox10->Mask = L"00";
+			this->maskedTextBox10->Name = L"maskedTextBox10";
+			this->maskedTextBox10->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox10->TabIndex = 284;
+			this->maskedTextBox10->Text = L"0";
+			this->maskedTextBox10->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox11
+			// 
+			this->maskedTextBox11->Location = System::Drawing::Point(340, 330);
+			this->maskedTextBox11->Mask = L"00";
+			this->maskedTextBox11->Name = L"maskedTextBox11";
+			this->maskedTextBox11->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox11->TabIndex = 283;
+			this->maskedTextBox11->Text = L"0";
+			this->maskedTextBox11->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox12
+			// 
+			this->maskedTextBox12->Location = System::Drawing::Point(340, 310);
+			this->maskedTextBox12->Mask = L"00";
+			this->maskedTextBox12->Name = L"maskedTextBox12";
+			this->maskedTextBox12->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox12->TabIndex = 282;
+			this->maskedTextBox12->Text = L"0";
+			this->maskedTextBox12->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox13
+			// 
+			this->maskedTextBox13->Location = System::Drawing::Point(340, 289);
+			this->maskedTextBox13->Mask = L"00";
+			this->maskedTextBox13->Name = L"maskedTextBox13";
+			this->maskedTextBox13->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox13->TabIndex = 281;
+			this->maskedTextBox13->Text = L"0";
+			this->maskedTextBox13->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox14
+			// 
+			this->maskedTextBox14->Location = System::Drawing::Point(340, 270);
+			this->maskedTextBox14->Mask = L"00";
+			this->maskedTextBox14->Name = L"maskedTextBox14";
+			this->maskedTextBox14->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox14->TabIndex = 280;
+			this->maskedTextBox14->Text = L"0";
+			this->maskedTextBox14->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox15
+			// 
+			this->maskedTextBox15->Location = System::Drawing::Point(340, 250);
+			this->maskedTextBox15->Mask = L"00";
+			this->maskedTextBox15->Name = L"maskedTextBox15";
+			this->maskedTextBox15->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox15->TabIndex = 279;
+			this->maskedTextBox15->Text = L"0";
+			this->maskedTextBox15->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox16
+			// 
+			this->maskedTextBox16->Location = System::Drawing::Point(340, 230);
+			this->maskedTextBox16->Mask = L"00";
+			this->maskedTextBox16->Name = L"maskedTextBox16";
+			this->maskedTextBox16->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox16->TabIndex = 278;
+			this->maskedTextBox16->Text = L"0";
+			this->maskedTextBox16->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox5
+			// 
+			this->maskedTextBox5->Location = System::Drawing::Point(340, 209);
+			this->maskedTextBox5->Mask = L"00";
+			this->maskedTextBox5->Name = L"maskedTextBox5";
+			this->maskedTextBox5->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox5->TabIndex = 277;
+			this->maskedTextBox5->Text = L"0";
+			this->maskedTextBox5->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox6
+			// 
+			this->maskedTextBox6->Location = System::Drawing::Point(340, 190);
+			this->maskedTextBox6->Mask = L"00";
+			this->maskedTextBox6->Name = L"maskedTextBox6";
+			this->maskedTextBox6->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox6->TabIndex = 276;
+			this->maskedTextBox6->Text = L"0";
+			this->maskedTextBox6->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox7
+			// 
+			this->maskedTextBox7->Location = System::Drawing::Point(340, 170);
+			this->maskedTextBox7->Mask = L"00";
+			this->maskedTextBox7->Name = L"maskedTextBox7";
+			this->maskedTextBox7->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox7->TabIndex = 275;
+			this->maskedTextBox7->Text = L"0";
+			this->maskedTextBox7->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox8
+			// 
+			this->maskedTextBox8->Location = System::Drawing::Point(340, 150);
+			this->maskedTextBox8->Mask = L"00";
+			this->maskedTextBox8->Name = L"maskedTextBox8";
+			this->maskedTextBox8->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox8->TabIndex = 274;
+			this->maskedTextBox8->Text = L"0";
+			this->maskedTextBox8->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox3
+			// 
+			this->maskedTextBox3->Location = System::Drawing::Point(340, 129);
+			this->maskedTextBox3->Mask = L"00";
+			this->maskedTextBox3->Name = L"maskedTextBox3";
+			this->maskedTextBox3->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox3->TabIndex = 273;
+			this->maskedTextBox3->Text = L"0";
+			this->maskedTextBox3->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox4
+			// 
+			this->maskedTextBox4->Location = System::Drawing::Point(340, 110);
+			this->maskedTextBox4->Mask = L"00";
+			this->maskedTextBox4->Name = L"maskedTextBox4";
+			this->maskedTextBox4->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox4->TabIndex = 272;
+			this->maskedTextBox4->Text = L"0";
+			this->maskedTextBox4->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox2
+			// 
+			this->maskedTextBox2->Location = System::Drawing::Point(340, 90);
+			this->maskedTextBox2->Mask = L"00";
+			this->maskedTextBox2->Name = L"maskedTextBox2";
+			this->maskedTextBox2->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox2->TabIndex = 271;
+			this->maskedTextBox2->Text = L"0";
+			this->maskedTextBox2->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox1
+			// 
+			this->maskedTextBox1->Location = System::Drawing::Point(340, 70);
+			this->maskedTextBox1->Mask = L"00";
+			this->maskedTextBox1->Name = L"maskedTextBox1";
+			this->maskedTextBox1->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox1->TabIndex = 270;
+			this->maskedTextBox1->Text = L"0";
+			this->maskedTextBox1->ValidatingType = System::Int32::typeid;
+			// 
+			// label236
+			// 
+			this->label236->AutoSize = true;
+			this->label236->Location = System::Drawing::Point(405, 690);
+			this->label236->Name = L"label236";
+			this->label236->Size = System::Drawing::Size(13, 13);
+			this->label236->TabIndex = 269;
+			this->label236->Text = L"0";
+			// 
+			// label237
+			// 
+			this->label237->AutoSize = true;
+			this->label237->Location = System::Drawing::Point(405, 670);
+			this->label237->Name = L"label237";
+			this->label237->Size = System::Drawing::Size(13, 13);
+			this->label237->TabIndex = 268;
+			this->label237->Text = L"0";
+			// 
+			// label238
+			// 
+			this->label238->AutoSize = true;
+			this->label238->Location = System::Drawing::Point(405, 650);
+			this->label238->Name = L"label238";
+			this->label238->Size = System::Drawing::Size(13, 13);
+			this->label238->TabIndex = 267;
+			this->label238->Text = L"0";
+			// 
+			// label239
+			// 
+			this->label239->AutoSize = true;
+			this->label239->Location = System::Drawing::Point(405, 630);
+			this->label239->Name = L"label239";
+			this->label239->Size = System::Drawing::Size(13, 13);
+			this->label239->TabIndex = 266;
+			this->label239->Text = L"0";
+			// 
+			// label240
+			// 
+			this->label240->AutoSize = true;
+			this->label240->Location = System::Drawing::Point(405, 610);
+			this->label240->Name = L"label240";
+			this->label240->Size = System::Drawing::Size(13, 13);
+			this->label240->TabIndex = 265;
+			this->label240->Text = L"0";
+			// 
+			// label241
+			// 
+			this->label241->AutoSize = true;
+			this->label241->Location = System::Drawing::Point(405, 590);
+			this->label241->Name = L"label241";
+			this->label241->Size = System::Drawing::Size(13, 13);
+			this->label241->TabIndex = 264;
+			this->label241->Text = L"0";
+			// 
+			// label242
+			// 
+			this->label242->AutoSize = true;
+			this->label242->Location = System::Drawing::Point(405, 570);
+			this->label242->Name = L"label242";
+			this->label242->Size = System::Drawing::Size(13, 13);
+			this->label242->TabIndex = 263;
+			this->label242->Text = L"0";
+			// 
+			// label243
+			// 
+			this->label243->AutoSize = true;
+			this->label243->Location = System::Drawing::Point(405, 550);
+			this->label243->Name = L"label243";
+			this->label243->Size = System::Drawing::Size(13, 13);
+			this->label243->TabIndex = 262;
+			this->label243->Text = L"0";
+			// 
+			// label224
+			// 
+			this->label224->AutoSize = true;
+			this->label224->Location = System::Drawing::Point(405, 530);
+			this->label224->Name = L"label224";
+			this->label224->Size = System::Drawing::Size(13, 13);
+			this->label224->TabIndex = 261;
+			this->label224->Text = L"0";
+			// 
+			// label225
+			// 
+			this->label225->AutoSize = true;
+			this->label225->Location = System::Drawing::Point(405, 510);
+			this->label225->Name = L"label225";
+			this->label225->Size = System::Drawing::Size(13, 13);
+			this->label225->TabIndex = 260;
+			this->label225->Text = L"0";
+			// 
+			// label226
+			// 
+			this->label226->AutoSize = true;
+			this->label226->Location = System::Drawing::Point(405, 490);
+			this->label226->Name = L"label226";
+			this->label226->Size = System::Drawing::Size(13, 13);
+			this->label226->TabIndex = 259;
+			this->label226->Text = L"0";
+			// 
+			// label227
+			// 
+			this->label227->AutoSize = true;
+			this->label227->Location = System::Drawing::Point(405, 470);
+			this->label227->Name = L"label227";
+			this->label227->Size = System::Drawing::Size(13, 13);
+			this->label227->TabIndex = 258;
+			this->label227->Text = L"0";
+			// 
+			// label228
+			// 
+			this->label228->AutoSize = true;
+			this->label228->Location = System::Drawing::Point(405, 450);
+			this->label228->Name = L"label228";
+			this->label228->Size = System::Drawing::Size(13, 13);
+			this->label228->TabIndex = 257;
+			this->label228->Text = L"0";
+			// 
+			// label229
+			// 
+			this->label229->AutoSize = true;
+			this->label229->Location = System::Drawing::Point(405, 430);
+			this->label229->Name = L"label229";
+			this->label229->Size = System::Drawing::Size(13, 13);
+			this->label229->TabIndex = 256;
+			this->label229->Text = L"0";
+			// 
+			// label230
+			// 
+			this->label230->AutoSize = true;
+			this->label230->Location = System::Drawing::Point(405, 410);
+			this->label230->Name = L"label230";
+			this->label230->Size = System::Drawing::Size(13, 13);
+			this->label230->TabIndex = 255;
+			this->label230->Text = L"0";
+			// 
+			// label231
+			// 
+			this->label231->AutoSize = true;
+			this->label231->Location = System::Drawing::Point(405, 390);
+			this->label231->Name = L"label231";
+			this->label231->Size = System::Drawing::Size(13, 13);
+			this->label231->TabIndex = 254;
+			this->label231->Text = L"0";
+			// 
+			// label232
+			// 
+			this->label232->AutoSize = true;
+			this->label232->Location = System::Drawing::Point(405, 370);
+			this->label232->Name = L"label232";
+			this->label232->Size = System::Drawing::Size(13, 13);
+			this->label232->TabIndex = 253;
+			this->label232->Text = L"0";
+			// 
+			// label233
+			// 
+			this->label233->AutoSize = true;
+			this->label233->Location = System::Drawing::Point(405, 350);
+			this->label233->Name = L"label233";
+			this->label233->Size = System::Drawing::Size(13, 13);
+			this->label233->TabIndex = 252;
+			this->label233->Text = L"0";
+			// 
+			// label234
+			// 
+			this->label234->AutoSize = true;
+			this->label234->Location = System::Drawing::Point(405, 330);
+			this->label234->Name = L"label234";
+			this->label234->Size = System::Drawing::Size(13, 13);
+			this->label234->TabIndex = 251;
+			this->label234->Text = L"0";
+			// 
+			// label235
+			// 
+			this->label235->AutoSize = true;
+			this->label235->Location = System::Drawing::Point(405, 310);
+			this->label235->Name = L"label235";
+			this->label235->Size = System::Drawing::Size(13, 13);
+			this->label235->TabIndex = 250;
+			this->label235->Text = L"0";
+			// 
+			// label212
+			// 
+			this->label212->AutoSize = true;
+			this->label212->Location = System::Drawing::Point(405, 290);
+			this->label212->Name = L"label212";
+			this->label212->Size = System::Drawing::Size(13, 13);
+			this->label212->TabIndex = 249;
+			this->label212->Text = L"0";
+			// 
+			// label213
+			// 
+			this->label213->AutoSize = true;
+			this->label213->Location = System::Drawing::Point(405, 270);
+			this->label213->Name = L"label213";
+			this->label213->Size = System::Drawing::Size(13, 13);
+			this->label213->TabIndex = 248;
+			this->label213->Text = L"0";
+			// 
+			// label214
+			// 
+			this->label214->AutoSize = true;
+			this->label214->Location = System::Drawing::Point(405, 250);
+			this->label214->Name = L"label214";
+			this->label214->Size = System::Drawing::Size(13, 13);
+			this->label214->TabIndex = 247;
+			this->label214->Text = L"0";
+			// 
+			// label215
+			// 
+			this->label215->AutoSize = true;
+			this->label215->Location = System::Drawing::Point(405, 230);
+			this->label215->Name = L"label215";
+			this->label215->Size = System::Drawing::Size(13, 13);
+			this->label215->TabIndex = 246;
+			this->label215->Text = L"0";
+			// 
+			// label216
+			// 
+			this->label216->AutoSize = true;
+			this->label216->Location = System::Drawing::Point(405, 210);
+			this->label216->Name = L"label216";
+			this->label216->Size = System::Drawing::Size(13, 13);
+			this->label216->TabIndex = 245;
+			this->label216->Text = L"0";
+			// 
+			// label217
+			// 
+			this->label217->AutoSize = true;
+			this->label217->Location = System::Drawing::Point(405, 190);
+			this->label217->Name = L"label217";
+			this->label217->Size = System::Drawing::Size(13, 13);
+			this->label217->TabIndex = 244;
+			this->label217->Text = L"0";
+			// 
+			// label218
+			// 
+			this->label218->AutoSize = true;
+			this->label218->Location = System::Drawing::Point(405, 170);
+			this->label218->Name = L"label218";
+			this->label218->Size = System::Drawing::Size(13, 13);
+			this->label218->TabIndex = 243;
+			this->label218->Text = L"0";
+			// 
+			// label219
+			// 
+			this->label219->AutoSize = true;
+			this->label219->Location = System::Drawing::Point(405, 150);
+			this->label219->Name = L"label219";
+			this->label219->Size = System::Drawing::Size(13, 13);
+			this->label219->TabIndex = 242;
+			this->label219->Text = L"0";
+			// 
+			// label220
+			// 
+			this->label220->AutoSize = true;
+			this->label220->Location = System::Drawing::Point(405, 130);
+			this->label220->Name = L"label220";
+			this->label220->Size = System::Drawing::Size(13, 13);
+			this->label220->TabIndex = 241;
+			this->label220->Text = L"0";
+			// 
+			// label221
+			// 
+			this->label221->AutoSize = true;
+			this->label221->Location = System::Drawing::Point(405, 110);
+			this->label221->Name = L"label221";
+			this->label221->Size = System::Drawing::Size(13, 13);
+			this->label221->TabIndex = 240;
+			this->label221->Text = L"0";
+			// 
+			// label222
+			// 
+			this->label222->AutoSize = true;
+			this->label222->Location = System::Drawing::Point(405, 90);
+			this->label222->Name = L"label222";
+			this->label222->Size = System::Drawing::Size(13, 13);
+			this->label222->TabIndex = 239;
+			this->label222->Text = L"0";
+			// 
+			// label223
+			// 
+			this->label223->AutoSize = true;
+			this->label223->Location = System::Drawing::Point(405, 70);
+			this->label223->Name = L"label223";
+			this->label223->Size = System::Drawing::Size(13, 13);
+			this->label223->TabIndex = 238;
+			this->label223->Text = L"0";
+			// 
+			// label196
+			// 
+			this->label196->AutoSize = true;
+			this->label196->Location = System::Drawing::Point(300, 690);
+			this->label196->Name = L"label196";
+			this->label196->Size = System::Drawing::Size(10, 13);
+			this->label196->TabIndex = 237;
+			this->label196->Text = L"-";
+			// 
+			// label197
+			// 
+			this->label197->AutoSize = true;
+			this->label197->Location = System::Drawing::Point(300, 670);
+			this->label197->Name = L"label197";
+			this->label197->Size = System::Drawing::Size(10, 13);
+			this->label197->TabIndex = 236;
+			this->label197->Text = L"-";
+			// 
+			// label198
+			// 
+			this->label198->AutoSize = true;
+			this->label198->Location = System::Drawing::Point(300, 650);
+			this->label198->Name = L"label198";
+			this->label198->Size = System::Drawing::Size(10, 13);
+			this->label198->TabIndex = 235;
+			this->label198->Text = L"-";
+			// 
+			// label199
+			// 
+			this->label199->AutoSize = true;
+			this->label199->Location = System::Drawing::Point(300, 630);
+			this->label199->Name = L"label199";
+			this->label199->Size = System::Drawing::Size(10, 13);
+			this->label199->TabIndex = 234;
+			this->label199->Text = L"-";
+			// 
+			// label200
+			// 
+			this->label200->AutoSize = true;
+			this->label200->Location = System::Drawing::Point(300, 610);
+			this->label200->Name = L"label200";
+			this->label200->Size = System::Drawing::Size(10, 13);
+			this->label200->TabIndex = 233;
+			this->label200->Text = L"-";
+			// 
+			// label201
+			// 
+			this->label201->AutoSize = true;
+			this->label201->Location = System::Drawing::Point(300, 590);
+			this->label201->Name = L"label201";
+			this->label201->Size = System::Drawing::Size(10, 13);
+			this->label201->TabIndex = 232;
+			this->label201->Text = L"-";
+			// 
+			// label202
+			// 
+			this->label202->AutoSize = true;
+			this->label202->Location = System::Drawing::Point(300, 570);
+			this->label202->Name = L"label202";
+			this->label202->Size = System::Drawing::Size(10, 13);
+			this->label202->TabIndex = 231;
+			this->label202->Text = L"-";
+			// 
+			// label203
+			// 
+			this->label203->AutoSize = true;
+			this->label203->Location = System::Drawing::Point(300, 550);
+			this->label203->Name = L"label203";
+			this->label203->Size = System::Drawing::Size(10, 13);
+			this->label203->TabIndex = 230;
+			this->label203->Text = L"-";
+			// 
+			// label204
+			// 
+			this->label204->AutoSize = true;
+			this->label204->Location = System::Drawing::Point(300, 530);
+			this->label204->Name = L"label204";
+			this->label204->Size = System::Drawing::Size(10, 13);
+			this->label204->TabIndex = 229;
+			this->label204->Text = L"-";
+			// 
+			// label205
+			// 
+			this->label205->AutoSize = true;
+			this->label205->Location = System::Drawing::Point(300, 510);
+			this->label205->Name = L"label205";
+			this->label205->Size = System::Drawing::Size(10, 13);
+			this->label205->TabIndex = 228;
+			this->label205->Text = L"-";
+			// 
+			// label206
+			// 
+			this->label206->AutoSize = true;
+			this->label206->Location = System::Drawing::Point(300, 490);
+			this->label206->Name = L"label206";
+			this->label206->Size = System::Drawing::Size(10, 13);
+			this->label206->TabIndex = 227;
+			this->label206->Text = L"-";
+			// 
+			// label207
+			// 
+			this->label207->AutoSize = true;
+			this->label207->Location = System::Drawing::Point(300, 470);
+			this->label207->Name = L"label207";
+			this->label207->Size = System::Drawing::Size(10, 13);
+			this->label207->TabIndex = 226;
+			this->label207->Text = L"-";
+			// 
+			// label208
+			// 
+			this->label208->AutoSize = true;
+			this->label208->Location = System::Drawing::Point(300, 450);
+			this->label208->Name = L"label208";
+			this->label208->Size = System::Drawing::Size(10, 13);
+			this->label208->TabIndex = 225;
+			this->label208->Text = L"-";
+			// 
+			// label209
+			// 
+			this->label209->AutoSize = true;
+			this->label209->Location = System::Drawing::Point(300, 430);
+			this->label209->Name = L"label209";
+			this->label209->Size = System::Drawing::Size(10, 13);
+			this->label209->TabIndex = 224;
+			this->label209->Text = L"-";
+			// 
+			// label210
+			// 
+			this->label210->AutoSize = true;
+			this->label210->Location = System::Drawing::Point(300, 410);
+			this->label210->Name = L"label210";
+			this->label210->Size = System::Drawing::Size(10, 13);
+			this->label210->TabIndex = 223;
+			this->label210->Text = L"-";
+			// 
+			// label211
+			// 
+			this->label211->AutoSize = true;
+			this->label211->Location = System::Drawing::Point(300, 390);
+			this->label211->Name = L"label211";
+			this->label211->Size = System::Drawing::Size(10, 13);
+			this->label211->TabIndex = 222;
+			this->label211->Text = L"-";
+			// 
+			// label188
+			// 
+			this->label188->AutoSize = true;
+			this->label188->Location = System::Drawing::Point(300, 370);
+			this->label188->Name = L"label188";
+			this->label188->Size = System::Drawing::Size(10, 13);
+			this->label188->TabIndex = 221;
+			this->label188->Text = L"-";
+			// 
+			// label189
+			// 
+			this->label189->AutoSize = true;
+			this->label189->Location = System::Drawing::Point(300, 350);
+			this->label189->Name = L"label189";
+			this->label189->Size = System::Drawing::Size(10, 13);
+			this->label189->TabIndex = 220;
+			this->label189->Text = L"-";
+			// 
+			// label190
+			// 
+			this->label190->AutoSize = true;
+			this->label190->Location = System::Drawing::Point(300, 330);
+			this->label190->Name = L"label190";
+			this->label190->Size = System::Drawing::Size(10, 13);
+			this->label190->TabIndex = 219;
+			this->label190->Text = L"-";
+			// 
+			// label191
+			// 
+			this->label191->AutoSize = true;
+			this->label191->Location = System::Drawing::Point(300, 310);
+			this->label191->Name = L"label191";
+			this->label191->Size = System::Drawing::Size(10, 13);
+			this->label191->TabIndex = 218;
+			this->label191->Text = L"-";
+			// 
+			// label192
+			// 
+			this->label192->AutoSize = true;
+			this->label192->Location = System::Drawing::Point(300, 290);
+			this->label192->Name = L"label192";
+			this->label192->Size = System::Drawing::Size(10, 13);
+			this->label192->TabIndex = 217;
+			this->label192->Text = L"-";
+			// 
+			// label193
+			// 
+			this->label193->AutoSize = true;
+			this->label193->Location = System::Drawing::Point(300, 270);
+			this->label193->Name = L"label193";
+			this->label193->Size = System::Drawing::Size(10, 13);
+			this->label193->TabIndex = 216;
+			this->label193->Text = L"-";
+			// 
+			// label194
+			// 
+			this->label194->AutoSize = true;
+			this->label194->Location = System::Drawing::Point(300, 250);
+			this->label194->Name = L"label194";
+			this->label194->Size = System::Drawing::Size(10, 13);
+			this->label194->TabIndex = 215;
+			this->label194->Text = L"-";
+			// 
+			// label195
+			// 
+			this->label195->AutoSize = true;
+			this->label195->Location = System::Drawing::Point(300, 230);
+			this->label195->Name = L"label195";
+			this->label195->Size = System::Drawing::Size(10, 13);
+			this->label195->TabIndex = 214;
+			this->label195->Text = L"-";
+			// 
+			// label184
+			// 
+			this->label184->AutoSize = true;
+			this->label184->Location = System::Drawing::Point(300, 210);
+			this->label184->Name = L"label184";
+			this->label184->Size = System::Drawing::Size(10, 13);
+			this->label184->TabIndex = 213;
+			this->label184->Text = L"-";
+			// 
+			// label185
+			// 
+			this->label185->AutoSize = true;
+			this->label185->Location = System::Drawing::Point(300, 190);
+			this->label185->Name = L"label185";
+			this->label185->Size = System::Drawing::Size(10, 13);
+			this->label185->TabIndex = 212;
+			this->label185->Text = L"-";
+			// 
+			// label186
+			// 
+			this->label186->AutoSize = true;
+			this->label186->Location = System::Drawing::Point(300, 170);
+			this->label186->Name = L"label186";
+			this->label186->Size = System::Drawing::Size(10, 13);
+			this->label186->TabIndex = 211;
+			this->label186->Text = L"-";
+			// 
+			// label187
+			// 
+			this->label187->AutoSize = true;
+			this->label187->Location = System::Drawing::Point(300, 150);
+			this->label187->Name = L"label187";
+			this->label187->Size = System::Drawing::Size(10, 13);
+			this->label187->TabIndex = 210;
+			this->label187->Text = L"-";
+			// 
+			// label182
+			// 
+			this->label182->AutoSize = true;
+			this->label182->Location = System::Drawing::Point(300, 130);
+			this->label182->Name = L"label182";
+			this->label182->Size = System::Drawing::Size(10, 13);
+			this->label182->TabIndex = 209;
+			this->label182->Text = L"-";
+			// 
+			// label183
+			// 
+			this->label183->AutoSize = true;
+			this->label183->Location = System::Drawing::Point(300, 110);
+			this->label183->Name = L"label183";
+			this->label183->Size = System::Drawing::Size(10, 13);
+			this->label183->TabIndex = 208;
+			this->label183->Text = L"-";
+			// 
+			// label181
+			// 
+			this->label181->AutoSize = true;
+			this->label181->Location = System::Drawing::Point(300, 90);
+			this->label181->Name = L"label181";
+			this->label181->Size = System::Drawing::Size(10, 13);
+			this->label181->TabIndex = 207;
+			this->label181->Text = L"-";
+			// 
+			// label180
+			// 
+			this->label180->AutoSize = true;
+			this->label180->Location = System::Drawing::Point(300, 70);
+			this->label180->Name = L"label180";
+			this->label180->Size = System::Drawing::Size(10, 13);
+			this->label180->TabIndex = 206;
+			this->label180->Text = L"-";
+			// 
+			// label164
+			// 
+			this->label164->AutoSize = true;
+			this->label164->Location = System::Drawing::Point(255, 690);
+			this->label164->Name = L"label164";
+			this->label164->Size = System::Drawing::Size(13, 13);
+			this->label164->TabIndex = 205;
+			this->label164->Text = L"+";
+			// 
+			// label165
+			// 
+			this->label165->AutoSize = true;
+			this->label165->Location = System::Drawing::Point(255, 670);
+			this->label165->Name = L"label165";
+			this->label165->Size = System::Drawing::Size(13, 13);
+			this->label165->TabIndex = 204;
+			this->label165->Text = L"+";
+			// 
+			// label166
+			// 
+			this->label166->AutoSize = true;
+			this->label166->Location = System::Drawing::Point(255, 650);
+			this->label166->Name = L"label166";
+			this->label166->Size = System::Drawing::Size(13, 13);
+			this->label166->TabIndex = 203;
+			this->label166->Text = L"+";
+			// 
+			// label167
+			// 
+			this->label167->AutoSize = true;
+			this->label167->Location = System::Drawing::Point(255, 630);
+			this->label167->Name = L"label167";
+			this->label167->Size = System::Drawing::Size(13, 13);
+			this->label167->TabIndex = 202;
+			this->label167->Text = L"+";
+			// 
+			// label168
+			// 
+			this->label168->AutoSize = true;
+			this->label168->Location = System::Drawing::Point(255, 610);
+			this->label168->Name = L"label168";
+			this->label168->Size = System::Drawing::Size(13, 13);
+			this->label168->TabIndex = 201;
+			this->label168->Text = L"+";
+			// 
+			// label169
+			// 
+			this->label169->AutoSize = true;
+			this->label169->Location = System::Drawing::Point(255, 590);
+			this->label169->Name = L"label169";
+			this->label169->Size = System::Drawing::Size(13, 13);
+			this->label169->TabIndex = 200;
+			this->label169->Text = L"+";
+			// 
+			// label170
+			// 
+			this->label170->AutoSize = true;
+			this->label170->Location = System::Drawing::Point(255, 570);
+			this->label170->Name = L"label170";
+			this->label170->Size = System::Drawing::Size(13, 13);
+			this->label170->TabIndex = 199;
+			this->label170->Text = L"+";
+			// 
+			// label171
+			// 
+			this->label171->AutoSize = true;
+			this->label171->Location = System::Drawing::Point(255, 550);
+			this->label171->Name = L"label171";
+			this->label171->Size = System::Drawing::Size(13, 13);
+			this->label171->TabIndex = 198;
+			this->label171->Text = L"+";
+			// 
+			// label172
+			// 
+			this->label172->AutoSize = true;
+			this->label172->Location = System::Drawing::Point(255, 530);
+			this->label172->Name = L"label172";
+			this->label172->Size = System::Drawing::Size(13, 13);
+			this->label172->TabIndex = 197;
+			this->label172->Text = L"+";
+			// 
+			// label173
+			// 
+			this->label173->AutoSize = true;
+			this->label173->Location = System::Drawing::Point(255, 510);
+			this->label173->Name = L"label173";
+			this->label173->Size = System::Drawing::Size(13, 13);
+			this->label173->TabIndex = 196;
+			this->label173->Text = L"+";
+			// 
+			// label174
+			// 
+			this->label174->AutoSize = true;
+			this->label174->Location = System::Drawing::Point(255, 490);
+			this->label174->Name = L"label174";
+			this->label174->Size = System::Drawing::Size(13, 13);
+			this->label174->TabIndex = 195;
+			this->label174->Text = L"+";
+			// 
+			// label175
+			// 
+			this->label175->AutoSize = true;
+			this->label175->Location = System::Drawing::Point(255, 470);
+			this->label175->Name = L"label175";
+			this->label175->Size = System::Drawing::Size(13, 13);
+			this->label175->TabIndex = 194;
+			this->label175->Text = L"+";
+			// 
+			// label176
+			// 
+			this->label176->AutoSize = true;
+			this->label176->Location = System::Drawing::Point(255, 450);
+			this->label176->Name = L"label176";
+			this->label176->Size = System::Drawing::Size(13, 13);
+			this->label176->TabIndex = 193;
+			this->label176->Text = L"+";
+			// 
+			// label177
+			// 
+			this->label177->AutoSize = true;
+			this->label177->Location = System::Drawing::Point(255, 430);
+			this->label177->Name = L"label177";
+			this->label177->Size = System::Drawing::Size(13, 13);
+			this->label177->TabIndex = 192;
+			this->label177->Text = L"+";
+			// 
+			// label178
+			// 
+			this->label178->AutoSize = true;
+			this->label178->Location = System::Drawing::Point(255, 410);
+			this->label178->Name = L"label178";
+			this->label178->Size = System::Drawing::Size(13, 13);
+			this->label178->TabIndex = 191;
+			this->label178->Text = L"+";
+			// 
+			// label179
+			// 
+			this->label179->AutoSize = true;
+			this->label179->Location = System::Drawing::Point(255, 390);
+			this->label179->Name = L"label179";
+			this->label179->Size = System::Drawing::Size(13, 13);
+			this->label179->TabIndex = 190;
+			this->label179->Text = L"+";
+			// 
+			// label156
+			// 
+			this->label156->AutoSize = true;
+			this->label156->Location = System::Drawing::Point(255, 370);
+			this->label156->Name = L"label156";
+			this->label156->Size = System::Drawing::Size(13, 13);
+			this->label156->TabIndex = 189;
+			this->label156->Text = L"+";
+			// 
+			// label157
+			// 
+			this->label157->AutoSize = true;
+			this->label157->Location = System::Drawing::Point(255, 350);
+			this->label157->Name = L"label157";
+			this->label157->Size = System::Drawing::Size(13, 13);
+			this->label157->TabIndex = 188;
+			this->label157->Text = L"+";
+			// 
+			// label158
+			// 
+			this->label158->AutoSize = true;
+			this->label158->Location = System::Drawing::Point(255, 330);
+			this->label158->Name = L"label158";
+			this->label158->Size = System::Drawing::Size(13, 13);
+			this->label158->TabIndex = 187;
+			this->label158->Text = L"+";
+			// 
+			// label159
+			// 
+			this->label159->AutoSize = true;
+			this->label159->Location = System::Drawing::Point(255, 310);
+			this->label159->Name = L"label159";
+			this->label159->Size = System::Drawing::Size(13, 13);
+			this->label159->TabIndex = 186;
+			this->label159->Text = L"+";
+			// 
+			// label160
+			// 
+			this->label160->AutoSize = true;
+			this->label160->Location = System::Drawing::Point(255, 290);
+			this->label160->Name = L"label160";
+			this->label160->Size = System::Drawing::Size(13, 13);
+			this->label160->TabIndex = 185;
+			this->label160->Text = L"+";
+			// 
+			// label161
+			// 
+			this->label161->AutoSize = true;
+			this->label161->Location = System::Drawing::Point(255, 270);
+			this->label161->Name = L"label161";
+			this->label161->Size = System::Drawing::Size(13, 13);
+			this->label161->TabIndex = 184;
+			this->label161->Text = L"+";
+			// 
+			// label162
+			// 
+			this->label162->AutoSize = true;
+			this->label162->Location = System::Drawing::Point(255, 250);
+			this->label162->Name = L"label162";
+			this->label162->Size = System::Drawing::Size(13, 13);
+			this->label162->TabIndex = 183;
+			this->label162->Text = L"+";
+			// 
+			// label163
+			// 
+			this->label163->AutoSize = true;
+			this->label163->Location = System::Drawing::Point(255, 230);
+			this->label163->Name = L"label163";
+			this->label163->Size = System::Drawing::Size(13, 13);
+			this->label163->TabIndex = 182;
+			this->label163->Text = L"+";
+			// 
+			// label152
+			// 
+			this->label152->AutoSize = true;
+			this->label152->Location = System::Drawing::Point(255, 210);
+			this->label152->Name = L"label152";
+			this->label152->Size = System::Drawing::Size(13, 13);
+			this->label152->TabIndex = 181;
+			this->label152->Text = L"+";
+			// 
+			// label153
+			// 
+			this->label153->AutoSize = true;
+			this->label153->Location = System::Drawing::Point(255, 190);
+			this->label153->Name = L"label153";
+			this->label153->Size = System::Drawing::Size(13, 13);
+			this->label153->TabIndex = 180;
+			this->label153->Text = L"+";
+			// 
+			// label154
+			// 
+			this->label154->AutoSize = true;
+			this->label154->Location = System::Drawing::Point(255, 170);
+			this->label154->Name = L"label154";
+			this->label154->Size = System::Drawing::Size(13, 13);
+			this->label154->TabIndex = 179;
+			this->label154->Text = L"+";
+			// 
+			// label155
+			// 
+			this->label155->AutoSize = true;
+			this->label155->Location = System::Drawing::Point(255, 150);
+			this->label155->Name = L"label155";
+			this->label155->Size = System::Drawing::Size(13, 13);
+			this->label155->TabIndex = 178;
+			this->label155->Text = L"+";
+			// 
+			// label150
+			// 
+			this->label150->AutoSize = true;
+			this->label150->Location = System::Drawing::Point(255, 130);
+			this->label150->Name = L"label150";
+			this->label150->Size = System::Drawing::Size(13, 13);
+			this->label150->TabIndex = 177;
+			this->label150->Text = L"+";
+			// 
+			// label151
+			// 
+			this->label151->AutoSize = true;
+			this->label151->Location = System::Drawing::Point(255, 110);
+			this->label151->Name = L"label151";
+			this->label151->Size = System::Drawing::Size(13, 13);
+			this->label151->TabIndex = 176;
+			this->label151->Text = L"+";
+			// 
+			// label134
+			// 
+			this->label134->AutoSize = true;
+			this->label134->Location = System::Drawing::Point(255, 90);
+			this->label134->Name = L"label134";
+			this->label134->Size = System::Drawing::Size(13, 13);
+			this->label134->TabIndex = 175;
+			this->label134->Text = L"+";
 			// 
 			// labelAlechemiaPlus
 			// 
@@ -3051,317 +4369,317 @@ private: System::Windows::Forms::Label^  label244;
 			this->label54->TabIndex = 76;
 			this->label54->Text = L"label54";
 			// 
-			// checkBox17
+			// checkBoxWyczucieKierunku
 			// 
-			this->checkBox17->AutoSize = true;
-			this->checkBox17->Location = System::Drawing::Point(30, 690);
-			this->checkBox17->Name = L"checkBox17";
-			this->checkBox17->Size = System::Drawing::Size(86, 17);
-			this->checkBox17->TabIndex = 75;
-			this->checkBox17->Text = L"checkBox17";
-			this->checkBox17->UseVisualStyleBackColor = true;
+			this->checkBoxWyczucieKierunku->AutoSize = true;
+			this->checkBoxWyczucieKierunku->Location = System::Drawing::Point(30, 690);
+			this->checkBoxWyczucieKierunku->Name = L"checkBoxWyczucieKierunku";
+			this->checkBoxWyczucieKierunku->Size = System::Drawing::Size(118, 17);
+			this->checkBoxWyczucieKierunku->TabIndex = 75;
+			this->checkBoxWyczucieKierunku->Text = L"Wyczucie Kierunku";
+			this->checkBoxWyczucieKierunku->UseVisualStyleBackColor = true;
 			// 
-			// checkBox18
+			// checkBoxWyczuciePobudek
 			// 
-			this->checkBox18->AutoSize = true;
-			this->checkBox18->Location = System::Drawing::Point(30, 670);
-			this->checkBox18->Name = L"checkBox18";
-			this->checkBox18->Size = System::Drawing::Size(86, 17);
-			this->checkBox18->TabIndex = 74;
-			this->checkBox18->Text = L"checkBox18";
-			this->checkBox18->UseVisualStyleBackColor = true;
+			this->checkBoxWyczuciePobudek->AutoSize = true;
+			this->checkBoxWyczuciePobudek->Location = System::Drawing::Point(30, 670);
+			this->checkBoxWyczuciePobudek->Name = L"checkBoxWyczuciePobudek";
+			this->checkBoxWyczuciePobudek->Size = System::Drawing::Size(119, 17);
+			this->checkBoxWyczuciePobudek->TabIndex = 74;
+			this->checkBoxWyczuciePobudek->Text = L"Wyczucie Pobudek";
+			this->checkBoxWyczuciePobudek->UseVisualStyleBackColor = true;
 			// 
-			// checkBox19
+			// checkBoxWspinaczka
 			// 
-			this->checkBox19->AutoSize = true;
-			this->checkBox19->Location = System::Drawing::Point(30, 650);
-			this->checkBox19->Name = L"checkBox19";
-			this->checkBox19->Size = System::Drawing::Size(86, 17);
-			this->checkBox19->TabIndex = 73;
-			this->checkBox19->Text = L"checkBox19";
-			this->checkBox19->UseVisualStyleBackColor = true;
+			this->checkBoxWspinaczka->AutoSize = true;
+			this->checkBoxWspinaczka->Location = System::Drawing::Point(30, 650);
+			this->checkBoxWspinaczka->Name = L"checkBoxWspinaczka";
+			this->checkBoxWspinaczka->Size = System::Drawing::Size(85, 17);
+			this->checkBoxWspinaczka->TabIndex = 73;
+			this->checkBoxWspinaczka->Text = L"Wspinaczka";
+			this->checkBoxWspinaczka->UseVisualStyleBackColor = true;
 			// 
-			// checkBox20
+			// checkBoxWrozenie
 			// 
-			this->checkBox20->AutoSize = true;
-			this->checkBox20->Location = System::Drawing::Point(30, 630);
-			this->checkBox20->Name = L"checkBox20";
-			this->checkBox20->Size = System::Drawing::Size(86, 17);
-			this->checkBox20->TabIndex = 72;
-			this->checkBox20->Text = L"checkBox20";
-			this->checkBox20->UseVisualStyleBackColor = true;
+			this->checkBoxWrozenie->AutoSize = true;
+			this->checkBoxWrozenie->Location = System::Drawing::Point(30, 630);
+			this->checkBoxWrozenie->Name = L"checkBoxWrozenie";
+			this->checkBoxWrozenie->Size = System::Drawing::Size(71, 17);
+			this->checkBoxWrozenie->TabIndex = 72;
+			this->checkBoxWrozenie->Text = L"Wró¿enie";
+			this->checkBoxWrozenie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox21
+			// checkBoxUpadki
 			// 
-			this->checkBox21->AutoSize = true;
-			this->checkBox21->Location = System::Drawing::Point(30, 610);
-			this->checkBox21->Name = L"checkBox21";
-			this->checkBox21->Size = System::Drawing::Size(86, 17);
-			this->checkBox21->TabIndex = 71;
-			this->checkBox21->Text = L"checkBox21";
-			this->checkBox21->UseVisualStyleBackColor = true;
+			this->checkBoxUpadki->AutoSize = true;
+			this->checkBoxUpadki->Location = System::Drawing::Point(30, 610);
+			this->checkBoxUpadki->Name = L"checkBoxUpadki";
+			this->checkBoxUpadki->Size = System::Drawing::Size(60, 17);
+			this->checkBoxUpadki->TabIndex = 71;
+			this->checkBoxUpadki->Text = L"Upadki";
+			this->checkBoxUpadki->UseVisualStyleBackColor = true;
 			// 
-			// checkBox22
+			// checkBoxUnieszkodliwianie
 			// 
-			this->checkBox22->AutoSize = true;
-			this->checkBox22->Location = System::Drawing::Point(30, 590);
-			this->checkBox22->Name = L"checkBox22";
-			this->checkBox22->Size = System::Drawing::Size(86, 17);
-			this->checkBox22->TabIndex = 70;
-			this->checkBox22->Text = L"checkBox22";
-			this->checkBox22->UseVisualStyleBackColor = true;
+			this->checkBoxUnieszkodliwianie->AutoSize = true;
+			this->checkBoxUnieszkodliwianie->Location = System::Drawing::Point(30, 590);
+			this->checkBoxUnieszkodliwianie->Name = L"checkBoxUnieszkodliwianie";
+			this->checkBoxUnieszkodliwianie->Size = System::Drawing::Size(113, 17);
+			this->checkBoxUnieszkodliwianie->TabIndex = 70;
+			this->checkBoxUnieszkodliwianie->Text = L"Unieszkodliwianie ";
+			this->checkBoxUnieszkodliwianie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox23
+			// checkBoxUkrywanie
 			// 
-			this->checkBox23->AutoSize = true;
-			this->checkBox23->Location = System::Drawing::Point(30, 570);
-			this->checkBox23->Name = L"checkBox23";
-			this->checkBox23->Size = System::Drawing::Size(86, 17);
-			this->checkBox23->TabIndex = 69;
-			this->checkBox23->Text = L"checkBox23";
-			this->checkBox23->UseVisualStyleBackColor = true;
+			this->checkBoxUkrywanie->AutoSize = true;
+			this->checkBoxUkrywanie->Location = System::Drawing::Point(30, 570);
+			this->checkBoxUkrywanie->Name = L"checkBoxUkrywanie";
+			this->checkBoxUkrywanie->Size = System::Drawing::Size(76, 17);
+			this->checkBoxUkrywanie->TabIndex = 69;
+			this->checkBoxUkrywanie->Text = L"Ukrywanie";
+			this->checkBoxUkrywanie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox24
+			// checkBoxTajnikiDziczy
 			// 
-			this->checkBox24->AutoSize = true;
-			this->checkBox24->Location = System::Drawing::Point(30, 550);
-			this->checkBox24->Name = L"checkBox24";
-			this->checkBox24->Size = System::Drawing::Size(86, 17);
-			this->checkBox24->TabIndex = 68;
-			this->checkBox24->Text = L"checkBox24";
-			this->checkBox24->UseVisualStyleBackColor = true;
+			this->checkBoxTajnikiDziczy->AutoSize = true;
+			this->checkBoxTajnikiDziczy->Location = System::Drawing::Point(30, 550);
+			this->checkBoxTajnikiDziczy->Name = L"checkBoxTajnikiDziczy";
+			this->checkBoxTajnikiDziczy->Size = System::Drawing::Size(91, 17);
+			this->checkBoxTajnikiDziczy->TabIndex = 68;
+			this->checkBoxTajnikiDziczy->Text = L"Tajniki Dziczy";
+			this->checkBoxTajnikiDziczy->UseVisualStyleBackColor = true;
 			// 
-			// checkBox25
+			// checkBoxSzacowanie
 			// 
-			this->checkBox25->AutoSize = true;
-			this->checkBox25->Location = System::Drawing::Point(30, 530);
-			this->checkBox25->Name = L"checkBox25";
-			this->checkBox25->Size = System::Drawing::Size(86, 17);
-			this->checkBox25->TabIndex = 67;
-			this->checkBox25->Text = L"checkBox25";
-			this->checkBox25->UseVisualStyleBackColor = true;
+			this->checkBoxSzacowanie->AutoSize = true;
+			this->checkBoxSzacowanie->Location = System::Drawing::Point(30, 530);
+			this->checkBoxSzacowanie->Name = L"checkBoxSzacowanie";
+			this->checkBoxSzacowanie->Size = System::Drawing::Size(84, 17);
+			this->checkBoxSzacowanie->TabIndex = 67;
+			this->checkBoxSzacowanie->Text = L"Szacowanie";
+			this->checkBoxSzacowanie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox26
+			// checkBoxStosowanieMagRzeczy
 			// 
-			this->checkBox26->AutoSize = true;
-			this->checkBox26->Location = System::Drawing::Point(30, 510);
-			this->checkBox26->Name = L"checkBox26";
-			this->checkBox26->Size = System::Drawing::Size(86, 17);
-			this->checkBox26->TabIndex = 66;
-			this->checkBox26->Text = L"checkBox26";
-			this->checkBox26->UseVisualStyleBackColor = true;
+			this->checkBoxStosowanieMagRzeczy->AutoSize = true;
+			this->checkBoxStosowanieMagRzeczy->Location = System::Drawing::Point(30, 510);
+			this->checkBoxStosowanieMagRzeczy->Name = L"checkBoxStosowanieMagRzeczy";
+			this->checkBoxStosowanieMagRzeczy->Size = System::Drawing::Size(137, 17);
+			this->checkBoxStosowanieMagRzeczy->TabIndex = 66;
+			this->checkBoxStosowanieMagRzeczy->Text = L"StosowanieMagRzeczy";
+			this->checkBoxStosowanieMagRzeczy->UseVisualStyleBackColor = true;
 			// 
-			// checkBox27
+			// checkBoxStosowanieLiny
 			// 
-			this->checkBox27->AutoSize = true;
-			this->checkBox27->Location = System::Drawing::Point(30, 490);
-			this->checkBox27->Name = L"checkBox27";
-			this->checkBox27->Size = System::Drawing::Size(86, 17);
-			this->checkBox27->TabIndex = 65;
-			this->checkBox27->Text = L"checkBox27";
-			this->checkBox27->UseVisualStyleBackColor = true;
+			this->checkBoxStosowanieLiny->AutoSize = true;
+			this->checkBoxStosowanieLiny->Location = System::Drawing::Point(30, 490);
+			this->checkBoxStosowanieLiny->Name = L"checkBoxStosowanieLiny";
+			this->checkBoxStosowanieLiny->Size = System::Drawing::Size(103, 17);
+			this->checkBoxStosowanieLiny->TabIndex = 65;
+			this->checkBoxStosowanieLiny->Text = L"Stosowanie Liny";
+			this->checkBoxStosowanieLiny->UseVisualStyleBackColor = true;
 			// 
-			// checkBox28
+			// checkBoxPostepowanieZeZwier
 			// 
-			this->checkBox28->AutoSize = true;
-			this->checkBox28->Location = System::Drawing::Point(30, 470);
-			this->checkBox28->Name = L"checkBox28";
-			this->checkBox28->Size = System::Drawing::Size(86, 17);
-			this->checkBox28->TabIndex = 64;
-			this->checkBox28->Text = L"checkBox28";
-			this->checkBox28->UseVisualStyleBackColor = true;
+			this->checkBoxPostepowanieZeZwier->AutoSize = true;
+			this->checkBoxPostepowanieZeZwier->Location = System::Drawing::Point(30, 470);
+			this->checkBoxPostepowanieZeZwier->Name = L"checkBoxPostepowanieZeZwier";
+			this->checkBoxPostepowanieZeZwier->Size = System::Drawing::Size(141, 17);
+			this->checkBoxPostepowanieZeZwier->TabIndex = 64;
+			this->checkBoxPostepowanieZeZwier->Text = L"Postêpowanie Ze Zwier.";
+			this->checkBoxPostepowanieZeZwier->UseVisualStyleBackColor = true;
 			// 
-			// checkBox29
+			// checkBoxKoncetracja
 			// 
-			this->checkBox29->AutoSize = true;
-			this->checkBox29->Location = System::Drawing::Point(30, 450);
-			this->checkBox29->Name = L"checkBox29";
-			this->checkBox29->Size = System::Drawing::Size(86, 17);
-			this->checkBox29->TabIndex = 63;
-			this->checkBox29->Text = L"checkBox29";
-			this->checkBox29->UseVisualStyleBackColor = true;
+			this->checkBoxKoncetracja->AutoSize = true;
+			this->checkBoxKoncetracja->Location = System::Drawing::Point(30, 450);
+			this->checkBoxKoncetracja->Name = L"checkBoxKoncetracja";
+			this->checkBoxKoncetracja->Size = System::Drawing::Size(83, 17);
+			this->checkBoxKoncetracja->TabIndex = 63;
+			this->checkBoxKoncetracja->Text = L"Koncetracja";
+			this->checkBoxKoncetracja->UseVisualStyleBackColor = true;
 			// 
-			// checkBox30
+			// checkBoxZastraszanie
 			// 
-			this->checkBox30->AutoSize = true;
-			this->checkBox30->Location = System::Drawing::Point(30, 430);
-			this->checkBox30->Name = L"checkBox30";
-			this->checkBox30->Size = System::Drawing::Size(86, 17);
-			this->checkBox30->TabIndex = 62;
-			this->checkBox30->Text = L"checkBox30";
-			this->checkBox30->UseVisualStyleBackColor = true;
+			this->checkBoxZastraszanie->AutoSize = true;
+			this->checkBoxZastraszanie->Location = System::Drawing::Point(30, 430);
+			this->checkBoxZastraszanie->Name = L"checkBoxZastraszanie";
+			this->checkBoxZastraszanie->Size = System::Drawing::Size(86, 17);
+			this->checkBoxZastraszanie->TabIndex = 62;
+			this->checkBoxZastraszanie->Text = L"Zastraszanie";
+			this->checkBoxZastraszanie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox31
+			// checkBoxJezdziectwo
 			// 
-			this->checkBox31->AutoSize = true;
-			this->checkBox31->Location = System::Drawing::Point(30, 410);
-			this->checkBox31->Name = L"checkBox31";
-			this->checkBox31->Size = System::Drawing::Size(86, 17);
-			this->checkBox31->TabIndex = 61;
-			this->checkBox31->Text = L"checkBox31";
-			this->checkBox31->UseVisualStyleBackColor = true;
+			this->checkBoxJezdziectwo->AutoSize = true;
+			this->checkBoxJezdziectwo->Location = System::Drawing::Point(30, 410);
+			this->checkBoxJezdziectwo->Name = L"checkBoxJezdziectwo";
+			this->checkBoxJezdziectwo->Size = System::Drawing::Size(84, 17);
+			this->checkBoxJezdziectwo->TabIndex = 61;
+			this->checkBoxJezdziectwo->Text = L"JeŸdziectwo";
+			this->checkBoxJezdziectwo->UseVisualStyleBackColor = true;
 			// 
-			// checkBox32
+			// checkBoxSkakanie
 			// 
-			this->checkBox32->AutoSize = true;
-			this->checkBox32->Location = System::Drawing::Point(30, 390);
-			this->checkBox32->Name = L"checkBox32";
-			this->checkBox32->Size = System::Drawing::Size(86, 17);
-			this->checkBox32->TabIndex = 60;
-			this->checkBox32->Text = L"checkBox32";
-			this->checkBox32->UseVisualStyleBackColor = true;
+			this->checkBoxSkakanie->AutoSize = true;
+			this->checkBoxSkakanie->Location = System::Drawing::Point(30, 390);
+			this->checkBoxSkakanie->Name = L"checkBoxSkakanie";
+			this->checkBoxSkakanie->Size = System::Drawing::Size(71, 17);
+			this->checkBoxSkakanie->TabIndex = 60;
+			this->checkBoxSkakanie->Text = L"Skakanie";
+			this->checkBoxSkakanie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox9
+			// checkBoxRównowaga
 			// 
-			this->checkBox9->AutoSize = true;
-			this->checkBox9->Location = System::Drawing::Point(30, 370);
-			this->checkBox9->Name = L"checkBox9";
-			this->checkBox9->Size = System::Drawing::Size(80, 17);
-			this->checkBox9->TabIndex = 59;
-			this->checkBox9->Text = L"checkBox9";
-			this->checkBox9->UseVisualStyleBackColor = true;
+			this->checkBoxRównowaga->AutoSize = true;
+			this->checkBoxRównowaga->Location = System::Drawing::Point(30, 370);
+			this->checkBoxRównowaga->Name = L"checkBoxRównowaga";
+			this->checkBoxRównowaga->Size = System::Drawing::Size(86, 17);
+			this->checkBoxRównowaga->TabIndex = 59;
+			this->checkBoxRównowaga->Text = L"Równowaga";
+			this->checkBoxRównowaga->UseVisualStyleBackColor = true;
 			// 
-			// checkBox10
+			// checkBoxPrzeszukiwanie
 			// 
-			this->checkBox10->AutoSize = true;
-			this->checkBox10->Location = System::Drawing::Point(30, 350);
-			this->checkBox10->Name = L"checkBox10";
-			this->checkBox10->Size = System::Drawing::Size(86, 17);
-			this->checkBox10->TabIndex = 58;
-			this->checkBox10->Text = L"checkBox10";
-			this->checkBox10->UseVisualStyleBackColor = true;
+			this->checkBoxPrzeszukiwanie->AutoSize = true;
+			this->checkBoxPrzeszukiwanie->Location = System::Drawing::Point(30, 350);
+			this->checkBoxPrzeszukiwanie->Name = L"checkBoxPrzeszukiwanie";
+			this->checkBoxPrzeszukiwanie->Size = System::Drawing::Size(99, 17);
+			this->checkBoxPrzeszukiwanie->TabIndex = 58;
+			this->checkBoxPrzeszukiwanie->Text = L"Przeszukiwanie";
+			this->checkBoxPrzeszukiwanie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox11
+			// checkBoxPrzebieranie
 			// 
-			this->checkBox11->AutoSize = true;
-			this->checkBox11->Location = System::Drawing::Point(30, 330);
-			this->checkBox11->Name = L"checkBox11";
-			this->checkBox11->Size = System::Drawing::Size(86, 17);
-			this->checkBox11->TabIndex = 57;
-			this->checkBox11->Text = L"checkBox11";
-			this->checkBox11->UseVisualStyleBackColor = true;
+			this->checkBoxPrzebieranie->AutoSize = true;
+			this->checkBoxPrzebieranie->Location = System::Drawing::Point(30, 330);
+			this->checkBoxPrzebieranie->Name = L"checkBoxPrzebieranie";
+			this->checkBoxPrzebieranie->Size = System::Drawing::Size(84, 17);
+			this->checkBoxPrzebieranie->TabIndex = 57;
+			this->checkBoxPrzebieranie->Text = L"Przebieranie";
+			this->checkBoxPrzebieranie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox12
+			// checkBoxPo³slowka
 			// 
-			this->checkBox12->AutoSize = true;
-			this->checkBox12->Location = System::Drawing::Point(30, 310);
-			this->checkBox12->Name = L"checkBox12";
-			this->checkBox12->Size = System::Drawing::Size(86, 17);
-			this->checkBox12->TabIndex = 56;
-			this->checkBox12->Text = L"checkBox12";
-			this->checkBox12->UseVisualStyleBackColor = true;
+			this->checkBoxPo³slowka->AutoSize = true;
+			this->checkBoxPo³slowka->Location = System::Drawing::Point(30, 310);
+			this->checkBoxPo³slowka->Name = L"checkBoxPo³slowka";
+			this->checkBoxPo³slowka->Size = System::Drawing::Size(78, 17);
+			this->checkBoxPo³slowka->TabIndex = 56;
+			this->checkBoxPo³slowka->Text = L"Pó³s³ówka";
+			this->checkBoxPo³slowka->UseVisualStyleBackColor = true;
 			// 
-			// checkBox13
+			// checkBoxOtwieranieZamkow
 			// 
-			this->checkBox13->AutoSize = true;
-			this->checkBox13->Location = System::Drawing::Point(30, 290);
-			this->checkBox13->Name = L"checkBox13";
-			this->checkBox13->Size = System::Drawing::Size(86, 17);
-			this->checkBox13->TabIndex = 55;
-			this->checkBox13->Text = L"checkBox13";
-			this->checkBox13->UseVisualStyleBackColor = true;
+			this->checkBoxOtwieranieZamkow->AutoSize = true;
+			this->checkBoxOtwieranieZamkow->Location = System::Drawing::Point(30, 290);
+			this->checkBoxOtwieranieZamkow->Name = L"checkBoxOtwieranieZamkow";
+			this->checkBoxOtwieranieZamkow->Size = System::Drawing::Size(120, 17);
+			this->checkBoxOtwieranieZamkow->TabIndex = 55;
+			this->checkBoxOtwieranieZamkow->Text = L"Otwieranie Zamków";
+			this->checkBoxOtwieranieZamkow->UseVisualStyleBackColor = true;
 			// 
-			// checkBox14
+			// checkBoxOdcyforwywanieZapisow
 			// 
-			this->checkBox14->AutoSize = true;
-			this->checkBox14->Location = System::Drawing::Point(30, 270);
-			this->checkBox14->Name = L"checkBox14";
-			this->checkBox14->Size = System::Drawing::Size(86, 17);
-			this->checkBox14->TabIndex = 54;
-			this->checkBox14->Text = L"checkBox14";
-			this->checkBox14->UseVisualStyleBackColor = true;
+			this->checkBoxOdcyforwywanieZapisow->AutoSize = true;
+			this->checkBoxOdcyforwywanieZapisow->Location = System::Drawing::Point(30, 270);
+			this->checkBoxOdcyforwywanieZapisow->Name = L"checkBoxOdcyforwywanieZapisow";
+			this->checkBoxOdcyforwywanieZapisow->Size = System::Drawing::Size(147, 17);
+			this->checkBoxOdcyforwywanieZapisow->TabIndex = 54;
+			this->checkBoxOdcyforwywanieZapisow->Text = L"Odcyforwywanie Zapisów";
+			this->checkBoxOdcyforwywanieZapisow->UseVisualStyleBackColor = true;
 			// 
-			// checkBox15
+			// checkBoxNasluchiwanie
 			// 
-			this->checkBox15->AutoSize = true;
-			this->checkBox15->Location = System::Drawing::Point(30, 250);
-			this->checkBox15->Name = L"checkBox15";
-			this->checkBox15->Size = System::Drawing::Size(86, 17);
-			this->checkBox15->TabIndex = 53;
-			this->checkBox15->Text = L"checkBox15";
-			this->checkBox15->UseVisualStyleBackColor = true;
+			this->checkBoxNasluchiwanie->AutoSize = true;
+			this->checkBoxNasluchiwanie->Location = System::Drawing::Point(30, 250);
+			this->checkBoxNasluchiwanie->Name = L"checkBoxNasluchiwanie";
+			this->checkBoxNasluchiwanie->Size = System::Drawing::Size(97, 17);
+			this->checkBoxNasluchiwanie->TabIndex = 53;
+			this->checkBoxNasluchiwanie->Text = L"Nas³uchiwanie";
+			this->checkBoxNasluchiwanie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox16
+			// checkBoxLeczenie
 			// 
-			this->checkBox16->AutoSize = true;
-			this->checkBox16->Location = System::Drawing::Point(30, 230);
-			this->checkBox16->Name = L"checkBox16";
-			this->checkBox16->Size = System::Drawing::Size(86, 17);
-			this->checkBox16->TabIndex = 52;
-			this->checkBox16->Text = L"checkBox16";
-			this->checkBox16->UseVisualStyleBackColor = true;
+			this->checkBoxLeczenie->AutoSize = true;
+			this->checkBoxLeczenie->Location = System::Drawing::Point(30, 230);
+			this->checkBoxLeczenie->Name = L"checkBoxLeczenie";
+			this->checkBoxLeczenie->Size = System::Drawing::Size(69, 17);
+			this->checkBoxLeczenie->TabIndex = 52;
+			this->checkBoxLeczenie->Text = L"Leczenie";
+			this->checkBoxLeczenie->UseVisualStyleBackColor = true;
 			// 
-			// checkBox5
+			// checkBoxKradzieszKieszonkowa
 			// 
-			this->checkBox5->AutoSize = true;
-			this->checkBox5->Location = System::Drawing::Point(30, 210);
-			this->checkBox5->Name = L"checkBox5";
-			this->checkBox5->Size = System::Drawing::Size(80, 17);
-			this->checkBox5->TabIndex = 51;
-			this->checkBox5->Text = L"checkBox5";
-			this->checkBox5->UseVisualStyleBackColor = true;
+			this->checkBoxKradzieszKieszonkowa->AutoSize = true;
+			this->checkBoxKradzieszKieszonkowa->Location = System::Drawing::Point(30, 210);
+			this->checkBoxKradzieszKieszonkowa->Name = L"checkBoxKradzieszKieszonkowa";
+			this->checkBoxKradzieszKieszonkowa->Size = System::Drawing::Size(137, 17);
+			this->checkBoxKradzieszKieszonkowa->TabIndex = 51;
+			this->checkBoxKradzieszKieszonkowa->Text = L"Kradziesz Kieszonkowa";
+			this->checkBoxKradzieszKieszonkowa->UseVisualStyleBackColor = true;
 			// 
-			// checkBox6
+			// checkBoxFalszerstwo
 			// 
-			this->checkBox6->AutoSize = true;
-			this->checkBox6->Location = System::Drawing::Point(30, 190);
-			this->checkBox6->Name = L"checkBox6";
-			this->checkBox6->Size = System::Drawing::Size(80, 17);
-			this->checkBox6->TabIndex = 50;
-			this->checkBox6->Text = L"checkBox6";
-			this->checkBox6->UseVisualStyleBackColor = true;
+			this->checkBoxFalszerstwo->AutoSize = true;
+			this->checkBoxFalszerstwo->Location = System::Drawing::Point(30, 190);
+			this->checkBoxFalszerstwo->Name = L"checkBoxFalszerstwo";
+			this->checkBoxFalszerstwo->Size = System::Drawing::Size(83, 17);
+			this->checkBoxFalszerstwo->TabIndex = 50;
+			this->checkBoxFalszerstwo->Text = L"Fa³szerstwo";
+			this->checkBoxFalszerstwo->UseVisualStyleBackColor = true;
 			// 
-			// checkBox7
+			// checkBoxDyplomacja
 			// 
-			this->checkBox7->AutoSize = true;
-			this->checkBox7->Location = System::Drawing::Point(30, 170);
-			this->checkBox7->Name = L"checkBox7";
-			this->checkBox7->Size = System::Drawing::Size(80, 17);
-			this->checkBox7->TabIndex = 49;
-			this->checkBox7->Text = L"checkBox7";
-			this->checkBox7->UseVisualStyleBackColor = true;
+			this->checkBoxDyplomacja->AutoSize = true;
+			this->checkBoxDyplomacja->Location = System::Drawing::Point(30, 170);
+			this->checkBoxDyplomacja->Name = L"checkBoxDyplomacja";
+			this->checkBoxDyplomacja->Size = System::Drawing::Size(81, 17);
+			this->checkBoxDyplomacja->TabIndex = 49;
+			this->checkBoxDyplomacja->Text = L"Dyplomacja";
+			this->checkBoxDyplomacja->UseVisualStyleBackColor = true;
 			// 
-			// checkBox8
+			// checkBoxCzytanieZWarg
 			// 
-			this->checkBox8->AutoSize = true;
-			this->checkBox8->Location = System::Drawing::Point(30, 150);
-			this->checkBox8->Name = L"checkBox8";
-			this->checkBox8->Size = System::Drawing::Size(80, 17);
-			this->checkBox8->TabIndex = 48;
-			this->checkBox8->Text = L"checkBox8";
-			this->checkBox8->UseVisualStyleBackColor = true;
+			this->checkBoxCzytanieZWarg->AutoSize = true;
+			this->checkBoxCzytanieZWarg->Location = System::Drawing::Point(30, 150);
+			this->checkBoxCzytanieZWarg->Name = L"checkBoxCzytanieZWarg";
+			this->checkBoxCzytanieZWarg->Size = System::Drawing::Size(105, 17);
+			this->checkBoxCzytanieZWarg->TabIndex = 48;
+			this->checkBoxCzytanieZWarg->Text = L"Czytanie Z Warg";
+			this->checkBoxCzytanieZWarg->UseVisualStyleBackColor = true;
 			// 
-			// checkBox3
+			// checkBoxCzarostwo
 			// 
-			this->checkBox3->AutoSize = true;
-			this->checkBox3->Location = System::Drawing::Point(30, 130);
-			this->checkBox3->Name = L"checkBox3";
-			this->checkBox3->Size = System::Drawing::Size(80, 17);
-			this->checkBox3->TabIndex = 47;
-			this->checkBox3->Text = L"checkBox3";
-			this->checkBox3->UseVisualStyleBackColor = true;
-			this->checkBox3->CheckedChanged += gcnew System::EventHandler(this, &dodajKarteFroms::checkBox3_CheckedChanged);
+			this->checkBoxCzarostwo->AutoSize = true;
+			this->checkBoxCzarostwo->Location = System::Drawing::Point(30, 130);
+			this->checkBoxCzarostwo->Name = L"checkBoxCzarostwo";
+			this->checkBoxCzarostwo->Size = System::Drawing::Size(75, 17);
+			this->checkBoxCzarostwo->TabIndex = 47;
+			this->checkBoxCzarostwo->Text = L"Czarostwo";
+			this->checkBoxCzarostwo->UseVisualStyleBackColor = true;
+			this->checkBoxCzarostwo->CheckedChanged += gcnew System::EventHandler(this, &dodajKarteFroms::checkBox3_CheckedChanged);
 			// 
-			// checkBox4
+			// checkBoxCichePoruszanie
 			// 
-			this->checkBox4->AutoSize = true;
-			this->checkBox4->Location = System::Drawing::Point(30, 110);
-			this->checkBox4->Name = L"checkBox4";
-			this->checkBox4->Size = System::Drawing::Size(80, 17);
-			this->checkBox4->TabIndex = 46;
-			this->checkBox4->Text = L"checkBox4";
-			this->checkBox4->UseVisualStyleBackColor = true;
-			this->checkBox4->CheckedChanged += gcnew System::EventHandler(this, &dodajKarteFroms::checkBox4_CheckedChanged);
+			this->checkBoxCichePoruszanie->AutoSize = true;
+			this->checkBoxCichePoruszanie->Location = System::Drawing::Point(30, 110);
+			this->checkBoxCichePoruszanie->Name = L"checkBoxCichePoruszanie";
+			this->checkBoxCichePoruszanie->Size = System::Drawing::Size(108, 17);
+			this->checkBoxCichePoruszanie->TabIndex = 46;
+			this->checkBoxCichePoruszanie->Text = L"Ciche Poruszanie";
+			this->checkBoxCichePoruszanie->UseVisualStyleBackColor = true;
+			this->checkBoxCichePoruszanie->CheckedChanged += gcnew System::EventHandler(this, &dodajKarteFroms::checkBox4_CheckedChanged);
 			// 
-			// checkBox2
+			// checkBoxBlefowanie
 			// 
-			this->checkBox2->AutoSize = true;
-			this->checkBox2->Location = System::Drawing::Point(30, 90);
-			this->checkBox2->Name = L"checkBox2";
-			this->checkBox2->Size = System::Drawing::Size(80, 17);
-			this->checkBox2->TabIndex = 45;
-			this->checkBox2->Text = L"checkBox2";
-			this->checkBox2->UseVisualStyleBackColor = true;
+			this->checkBoxBlefowanie->AutoSize = true;
+			this->checkBoxBlefowanie->Location = System::Drawing::Point(30, 90);
+			this->checkBoxBlefowanie->Name = L"checkBoxBlefowanie";
+			this->checkBoxBlefowanie->Size = System::Drawing::Size(78, 17);
+			this->checkBoxBlefowanie->TabIndex = 45;
+			this->checkBoxBlefowanie->Text = L"Blefowanie";
+			this->checkBoxBlefowanie->UseVisualStyleBackColor = true;
 			// 
 			// checkBoxAlchemia
 			// 
@@ -3810,1354 +5128,14 @@ private: System::Windows::Forms::Label^  label244;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"Rzuty Obronne";
 			// 
-			// label134
-			// 
-			this->label134->AutoSize = true;
-			this->label134->Location = System::Drawing::Point(255, 90);
-			this->label134->Name = L"label134";
-			this->label134->Size = System::Drawing::Size(13, 13);
-			this->label134->TabIndex = 175;
-			this->label134->Text = L"+";
-			// 
-			// label150
-			// 
-			this->label150->AutoSize = true;
-			this->label150->Location = System::Drawing::Point(255, 130);
-			this->label150->Name = L"label150";
-			this->label150->Size = System::Drawing::Size(13, 13);
-			this->label150->TabIndex = 177;
-			this->label150->Text = L"+";
-			// 
-			// label151
-			// 
-			this->label151->AutoSize = true;
-			this->label151->Location = System::Drawing::Point(255, 110);
-			this->label151->Name = L"label151";
-			this->label151->Size = System::Drawing::Size(13, 13);
-			this->label151->TabIndex = 176;
-			this->label151->Text = L"+";
-			// 
-			// label152
-			// 
-			this->label152->AutoSize = true;
-			this->label152->Location = System::Drawing::Point(255, 210);
-			this->label152->Name = L"label152";
-			this->label152->Size = System::Drawing::Size(13, 13);
-			this->label152->TabIndex = 181;
-			this->label152->Text = L"+";
-			// 
-			// label153
-			// 
-			this->label153->AutoSize = true;
-			this->label153->Location = System::Drawing::Point(255, 190);
-			this->label153->Name = L"label153";
-			this->label153->Size = System::Drawing::Size(13, 13);
-			this->label153->TabIndex = 180;
-			this->label153->Text = L"+";
-			// 
-			// label154
-			// 
-			this->label154->AutoSize = true;
-			this->label154->Location = System::Drawing::Point(255, 170);
-			this->label154->Name = L"label154";
-			this->label154->Size = System::Drawing::Size(13, 13);
-			this->label154->TabIndex = 179;
-			this->label154->Text = L"+";
-			// 
-			// label155
-			// 
-			this->label155->AutoSize = true;
-			this->label155->Location = System::Drawing::Point(255, 150);
-			this->label155->Name = L"label155";
-			this->label155->Size = System::Drawing::Size(13, 13);
-			this->label155->TabIndex = 178;
-			this->label155->Text = L"+";
-			// 
-			// label156
-			// 
-			this->label156->AutoSize = true;
-			this->label156->Location = System::Drawing::Point(255, 370);
-			this->label156->Name = L"label156";
-			this->label156->Size = System::Drawing::Size(13, 13);
-			this->label156->TabIndex = 189;
-			this->label156->Text = L"+";
-			// 
-			// label157
-			// 
-			this->label157->AutoSize = true;
-			this->label157->Location = System::Drawing::Point(255, 350);
-			this->label157->Name = L"label157";
-			this->label157->Size = System::Drawing::Size(13, 13);
-			this->label157->TabIndex = 188;
-			this->label157->Text = L"+";
-			// 
-			// label158
-			// 
-			this->label158->AutoSize = true;
-			this->label158->Location = System::Drawing::Point(255, 330);
-			this->label158->Name = L"label158";
-			this->label158->Size = System::Drawing::Size(13, 13);
-			this->label158->TabIndex = 187;
-			this->label158->Text = L"+";
-			// 
-			// label159
-			// 
-			this->label159->AutoSize = true;
-			this->label159->Location = System::Drawing::Point(255, 310);
-			this->label159->Name = L"label159";
-			this->label159->Size = System::Drawing::Size(13, 13);
-			this->label159->TabIndex = 186;
-			this->label159->Text = L"+";
-			// 
-			// label160
-			// 
-			this->label160->AutoSize = true;
-			this->label160->Location = System::Drawing::Point(255, 290);
-			this->label160->Name = L"label160";
-			this->label160->Size = System::Drawing::Size(13, 13);
-			this->label160->TabIndex = 185;
-			this->label160->Text = L"+";
-			// 
-			// label161
-			// 
-			this->label161->AutoSize = true;
-			this->label161->Location = System::Drawing::Point(255, 270);
-			this->label161->Name = L"label161";
-			this->label161->Size = System::Drawing::Size(13, 13);
-			this->label161->TabIndex = 184;
-			this->label161->Text = L"+";
-			// 
-			// label162
-			// 
-			this->label162->AutoSize = true;
-			this->label162->Location = System::Drawing::Point(255, 250);
-			this->label162->Name = L"label162";
-			this->label162->Size = System::Drawing::Size(13, 13);
-			this->label162->TabIndex = 183;
-			this->label162->Text = L"+";
-			// 
-			// label163
-			// 
-			this->label163->AutoSize = true;
-			this->label163->Location = System::Drawing::Point(255, 230);
-			this->label163->Name = L"label163";
-			this->label163->Size = System::Drawing::Size(13, 13);
-			this->label163->TabIndex = 182;
-			this->label163->Text = L"+";
-			// 
-			// label164
-			// 
-			this->label164->AutoSize = true;
-			this->label164->Location = System::Drawing::Point(255, 690);
-			this->label164->Name = L"label164";
-			this->label164->Size = System::Drawing::Size(13, 13);
-			this->label164->TabIndex = 205;
-			this->label164->Text = L"+";
-			// 
-			// label165
-			// 
-			this->label165->AutoSize = true;
-			this->label165->Location = System::Drawing::Point(255, 670);
-			this->label165->Name = L"label165";
-			this->label165->Size = System::Drawing::Size(13, 13);
-			this->label165->TabIndex = 204;
-			this->label165->Text = L"+";
-			// 
-			// label166
-			// 
-			this->label166->AutoSize = true;
-			this->label166->Location = System::Drawing::Point(255, 650);
-			this->label166->Name = L"label166";
-			this->label166->Size = System::Drawing::Size(13, 13);
-			this->label166->TabIndex = 203;
-			this->label166->Text = L"+";
-			// 
-			// label167
-			// 
-			this->label167->AutoSize = true;
-			this->label167->Location = System::Drawing::Point(255, 630);
-			this->label167->Name = L"label167";
-			this->label167->Size = System::Drawing::Size(13, 13);
-			this->label167->TabIndex = 202;
-			this->label167->Text = L"+";
-			// 
-			// label168
-			// 
-			this->label168->AutoSize = true;
-			this->label168->Location = System::Drawing::Point(255, 610);
-			this->label168->Name = L"label168";
-			this->label168->Size = System::Drawing::Size(13, 13);
-			this->label168->TabIndex = 201;
-			this->label168->Text = L"+";
-			// 
-			// label169
-			// 
-			this->label169->AutoSize = true;
-			this->label169->Location = System::Drawing::Point(255, 590);
-			this->label169->Name = L"label169";
-			this->label169->Size = System::Drawing::Size(13, 13);
-			this->label169->TabIndex = 200;
-			this->label169->Text = L"+";
-			// 
-			// label170
-			// 
-			this->label170->AutoSize = true;
-			this->label170->Location = System::Drawing::Point(255, 570);
-			this->label170->Name = L"label170";
-			this->label170->Size = System::Drawing::Size(13, 13);
-			this->label170->TabIndex = 199;
-			this->label170->Text = L"+";
-			// 
-			// label171
-			// 
-			this->label171->AutoSize = true;
-			this->label171->Location = System::Drawing::Point(255, 550);
-			this->label171->Name = L"label171";
-			this->label171->Size = System::Drawing::Size(13, 13);
-			this->label171->TabIndex = 198;
-			this->label171->Text = L"+";
-			// 
-			// label172
-			// 
-			this->label172->AutoSize = true;
-			this->label172->Location = System::Drawing::Point(255, 530);
-			this->label172->Name = L"label172";
-			this->label172->Size = System::Drawing::Size(13, 13);
-			this->label172->TabIndex = 197;
-			this->label172->Text = L"+";
-			// 
-			// label173
-			// 
-			this->label173->AutoSize = true;
-			this->label173->Location = System::Drawing::Point(255, 510);
-			this->label173->Name = L"label173";
-			this->label173->Size = System::Drawing::Size(13, 13);
-			this->label173->TabIndex = 196;
-			this->label173->Text = L"+";
-			// 
-			// label174
-			// 
-			this->label174->AutoSize = true;
-			this->label174->Location = System::Drawing::Point(255, 490);
-			this->label174->Name = L"label174";
-			this->label174->Size = System::Drawing::Size(13, 13);
-			this->label174->TabIndex = 195;
-			this->label174->Text = L"+";
-			// 
-			// label175
-			// 
-			this->label175->AutoSize = true;
-			this->label175->Location = System::Drawing::Point(255, 470);
-			this->label175->Name = L"label175";
-			this->label175->Size = System::Drawing::Size(13, 13);
-			this->label175->TabIndex = 194;
-			this->label175->Text = L"+";
-			// 
-			// label176
-			// 
-			this->label176->AutoSize = true;
-			this->label176->Location = System::Drawing::Point(255, 450);
-			this->label176->Name = L"label176";
-			this->label176->Size = System::Drawing::Size(13, 13);
-			this->label176->TabIndex = 193;
-			this->label176->Text = L"+";
-			// 
-			// label177
-			// 
-			this->label177->AutoSize = true;
-			this->label177->Location = System::Drawing::Point(255, 430);
-			this->label177->Name = L"label177";
-			this->label177->Size = System::Drawing::Size(13, 13);
-			this->label177->TabIndex = 192;
-			this->label177->Text = L"+";
-			// 
-			// label178
-			// 
-			this->label178->AutoSize = true;
-			this->label178->Location = System::Drawing::Point(255, 410);
-			this->label178->Name = L"label178";
-			this->label178->Size = System::Drawing::Size(13, 13);
-			this->label178->TabIndex = 191;
-			this->label178->Text = L"+";
-			// 
-			// label179
-			// 
-			this->label179->AutoSize = true;
-			this->label179->Location = System::Drawing::Point(255, 390);
-			this->label179->Name = L"label179";
-			this->label179->Size = System::Drawing::Size(13, 13);
-			this->label179->TabIndex = 190;
-			this->label179->Text = L"+";
-			// 
-			// label180
-			// 
-			this->label180->AutoSize = true;
-			this->label180->Location = System::Drawing::Point(300, 70);
-			this->label180->Name = L"label180";
-			this->label180->Size = System::Drawing::Size(10, 13);
-			this->label180->TabIndex = 206;
-			this->label180->Text = L"-";
-			// 
-			// label181
-			// 
-			this->label181->AutoSize = true;
-			this->label181->Location = System::Drawing::Point(300, 90);
-			this->label181->Name = L"label181";
-			this->label181->Size = System::Drawing::Size(10, 13);
-			this->label181->TabIndex = 207;
-			this->label181->Text = L"-";
-			// 
-			// label182
-			// 
-			this->label182->AutoSize = true;
-			this->label182->Location = System::Drawing::Point(300, 130);
-			this->label182->Name = L"label182";
-			this->label182->Size = System::Drawing::Size(10, 13);
-			this->label182->TabIndex = 209;
-			this->label182->Text = L"-";
-			// 
-			// label183
-			// 
-			this->label183->AutoSize = true;
-			this->label183->Location = System::Drawing::Point(300, 110);
-			this->label183->Name = L"label183";
-			this->label183->Size = System::Drawing::Size(10, 13);
-			this->label183->TabIndex = 208;
-			this->label183->Text = L"-";
-			// 
-			// label184
-			// 
-			this->label184->AutoSize = true;
-			this->label184->Location = System::Drawing::Point(300, 210);
-			this->label184->Name = L"label184";
-			this->label184->Size = System::Drawing::Size(10, 13);
-			this->label184->TabIndex = 213;
-			this->label184->Text = L"-";
-			// 
-			// label185
-			// 
-			this->label185->AutoSize = true;
-			this->label185->Location = System::Drawing::Point(300, 190);
-			this->label185->Name = L"label185";
-			this->label185->Size = System::Drawing::Size(10, 13);
-			this->label185->TabIndex = 212;
-			this->label185->Text = L"-";
-			// 
-			// label186
-			// 
-			this->label186->AutoSize = true;
-			this->label186->Location = System::Drawing::Point(300, 170);
-			this->label186->Name = L"label186";
-			this->label186->Size = System::Drawing::Size(10, 13);
-			this->label186->TabIndex = 211;
-			this->label186->Text = L"-";
-			// 
-			// label187
-			// 
-			this->label187->AutoSize = true;
-			this->label187->Location = System::Drawing::Point(300, 150);
-			this->label187->Name = L"label187";
-			this->label187->Size = System::Drawing::Size(10, 13);
-			this->label187->TabIndex = 210;
-			this->label187->Text = L"-";
-			// 
-			// label188
-			// 
-			this->label188->AutoSize = true;
-			this->label188->Location = System::Drawing::Point(300, 370);
-			this->label188->Name = L"label188";
-			this->label188->Size = System::Drawing::Size(10, 13);
-			this->label188->TabIndex = 221;
-			this->label188->Text = L"-";
-			// 
-			// label189
-			// 
-			this->label189->AutoSize = true;
-			this->label189->Location = System::Drawing::Point(300, 350);
-			this->label189->Name = L"label189";
-			this->label189->Size = System::Drawing::Size(10, 13);
-			this->label189->TabIndex = 220;
-			this->label189->Text = L"-";
-			// 
-			// label190
-			// 
-			this->label190->AutoSize = true;
-			this->label190->Location = System::Drawing::Point(300, 330);
-			this->label190->Name = L"label190";
-			this->label190->Size = System::Drawing::Size(10, 13);
-			this->label190->TabIndex = 219;
-			this->label190->Text = L"-";
-			// 
-			// label191
-			// 
-			this->label191->AutoSize = true;
-			this->label191->Location = System::Drawing::Point(300, 310);
-			this->label191->Name = L"label191";
-			this->label191->Size = System::Drawing::Size(10, 13);
-			this->label191->TabIndex = 218;
-			this->label191->Text = L"-";
-			// 
-			// label192
-			// 
-			this->label192->AutoSize = true;
-			this->label192->Location = System::Drawing::Point(300, 290);
-			this->label192->Name = L"label192";
-			this->label192->Size = System::Drawing::Size(10, 13);
-			this->label192->TabIndex = 217;
-			this->label192->Text = L"-";
-			// 
-			// label193
-			// 
-			this->label193->AutoSize = true;
-			this->label193->Location = System::Drawing::Point(300, 270);
-			this->label193->Name = L"label193";
-			this->label193->Size = System::Drawing::Size(10, 13);
-			this->label193->TabIndex = 216;
-			this->label193->Text = L"-";
-			// 
-			// label194
-			// 
-			this->label194->AutoSize = true;
-			this->label194->Location = System::Drawing::Point(300, 250);
-			this->label194->Name = L"label194";
-			this->label194->Size = System::Drawing::Size(10, 13);
-			this->label194->TabIndex = 215;
-			this->label194->Text = L"-";
-			// 
-			// label195
-			// 
-			this->label195->AutoSize = true;
-			this->label195->Location = System::Drawing::Point(300, 230);
-			this->label195->Name = L"label195";
-			this->label195->Size = System::Drawing::Size(10, 13);
-			this->label195->TabIndex = 214;
-			this->label195->Text = L"-";
-			// 
-			// label196
-			// 
-			this->label196->AutoSize = true;
-			this->label196->Location = System::Drawing::Point(300, 690);
-			this->label196->Name = L"label196";
-			this->label196->Size = System::Drawing::Size(10, 13);
-			this->label196->TabIndex = 237;
-			this->label196->Text = L"-";
-			// 
-			// label197
-			// 
-			this->label197->AutoSize = true;
-			this->label197->Location = System::Drawing::Point(300, 670);
-			this->label197->Name = L"label197";
-			this->label197->Size = System::Drawing::Size(10, 13);
-			this->label197->TabIndex = 236;
-			this->label197->Text = L"-";
-			// 
-			// label198
-			// 
-			this->label198->AutoSize = true;
-			this->label198->Location = System::Drawing::Point(300, 650);
-			this->label198->Name = L"label198";
-			this->label198->Size = System::Drawing::Size(10, 13);
-			this->label198->TabIndex = 235;
-			this->label198->Text = L"-";
-			// 
-			// label199
-			// 
-			this->label199->AutoSize = true;
-			this->label199->Location = System::Drawing::Point(300, 630);
-			this->label199->Name = L"label199";
-			this->label199->Size = System::Drawing::Size(10, 13);
-			this->label199->TabIndex = 234;
-			this->label199->Text = L"-";
-			// 
-			// label200
-			// 
-			this->label200->AutoSize = true;
-			this->label200->Location = System::Drawing::Point(300, 610);
-			this->label200->Name = L"label200";
-			this->label200->Size = System::Drawing::Size(10, 13);
-			this->label200->TabIndex = 233;
-			this->label200->Text = L"-";
-			// 
-			// label201
-			// 
-			this->label201->AutoSize = true;
-			this->label201->Location = System::Drawing::Point(300, 590);
-			this->label201->Name = L"label201";
-			this->label201->Size = System::Drawing::Size(10, 13);
-			this->label201->TabIndex = 232;
-			this->label201->Text = L"-";
-			// 
-			// label202
-			// 
-			this->label202->AutoSize = true;
-			this->label202->Location = System::Drawing::Point(300, 570);
-			this->label202->Name = L"label202";
-			this->label202->Size = System::Drawing::Size(10, 13);
-			this->label202->TabIndex = 231;
-			this->label202->Text = L"-";
-			// 
-			// label203
-			// 
-			this->label203->AutoSize = true;
-			this->label203->Location = System::Drawing::Point(300, 550);
-			this->label203->Name = L"label203";
-			this->label203->Size = System::Drawing::Size(10, 13);
-			this->label203->TabIndex = 230;
-			this->label203->Text = L"-";
-			// 
-			// label204
-			// 
-			this->label204->AutoSize = true;
-			this->label204->Location = System::Drawing::Point(300, 530);
-			this->label204->Name = L"label204";
-			this->label204->Size = System::Drawing::Size(10, 13);
-			this->label204->TabIndex = 229;
-			this->label204->Text = L"-";
-			// 
-			// label205
-			// 
-			this->label205->AutoSize = true;
-			this->label205->Location = System::Drawing::Point(300, 510);
-			this->label205->Name = L"label205";
-			this->label205->Size = System::Drawing::Size(10, 13);
-			this->label205->TabIndex = 228;
-			this->label205->Text = L"-";
-			// 
-			// label206
-			// 
-			this->label206->AutoSize = true;
-			this->label206->Location = System::Drawing::Point(300, 490);
-			this->label206->Name = L"label206";
-			this->label206->Size = System::Drawing::Size(10, 13);
-			this->label206->TabIndex = 227;
-			this->label206->Text = L"-";
-			// 
-			// label207
-			// 
-			this->label207->AutoSize = true;
-			this->label207->Location = System::Drawing::Point(300, 470);
-			this->label207->Name = L"label207";
-			this->label207->Size = System::Drawing::Size(10, 13);
-			this->label207->TabIndex = 226;
-			this->label207->Text = L"-";
-			// 
-			// label208
-			// 
-			this->label208->AutoSize = true;
-			this->label208->Location = System::Drawing::Point(300, 450);
-			this->label208->Name = L"label208";
-			this->label208->Size = System::Drawing::Size(10, 13);
-			this->label208->TabIndex = 225;
-			this->label208->Text = L"-";
-			// 
-			// label209
-			// 
-			this->label209->AutoSize = true;
-			this->label209->Location = System::Drawing::Point(300, 430);
-			this->label209->Name = L"label209";
-			this->label209->Size = System::Drawing::Size(10, 13);
-			this->label209->TabIndex = 224;
-			this->label209->Text = L"-";
-			// 
-			// label210
-			// 
-			this->label210->AutoSize = true;
-			this->label210->Location = System::Drawing::Point(300, 410);
-			this->label210->Name = L"label210";
-			this->label210->Size = System::Drawing::Size(10, 13);
-			this->label210->TabIndex = 223;
-			this->label210->Text = L"-";
-			// 
-			// label211
-			// 
-			this->label211->AutoSize = true;
-			this->label211->Location = System::Drawing::Point(300, 390);
-			this->label211->Name = L"label211";
-			this->label211->Size = System::Drawing::Size(10, 13);
-			this->label211->TabIndex = 222;
-			this->label211->Text = L"-";
-			// 
-			// label212
-			// 
-			this->label212->AutoSize = true;
-			this->label212->Location = System::Drawing::Point(405, 290);
-			this->label212->Name = L"label212";
-			this->label212->Size = System::Drawing::Size(13, 13);
-			this->label212->TabIndex = 249;
-			this->label212->Text = L"0";
-			// 
-			// label213
-			// 
-			this->label213->AutoSize = true;
-			this->label213->Location = System::Drawing::Point(405, 270);
-			this->label213->Name = L"label213";
-			this->label213->Size = System::Drawing::Size(13, 13);
-			this->label213->TabIndex = 248;
-			this->label213->Text = L"0";
-			// 
-			// label214
-			// 
-			this->label214->AutoSize = true;
-			this->label214->Location = System::Drawing::Point(405, 250);
-			this->label214->Name = L"label214";
-			this->label214->Size = System::Drawing::Size(13, 13);
-			this->label214->TabIndex = 247;
-			this->label214->Text = L"0";
-			// 
-			// label215
-			// 
-			this->label215->AutoSize = true;
-			this->label215->Location = System::Drawing::Point(405, 230);
-			this->label215->Name = L"label215";
-			this->label215->Size = System::Drawing::Size(13, 13);
-			this->label215->TabIndex = 246;
-			this->label215->Text = L"0";
-			// 
-			// label216
-			// 
-			this->label216->AutoSize = true;
-			this->label216->Location = System::Drawing::Point(405, 210);
-			this->label216->Name = L"label216";
-			this->label216->Size = System::Drawing::Size(13, 13);
-			this->label216->TabIndex = 245;
-			this->label216->Text = L"0";
-			// 
-			// label217
-			// 
-			this->label217->AutoSize = true;
-			this->label217->Location = System::Drawing::Point(405, 190);
-			this->label217->Name = L"label217";
-			this->label217->Size = System::Drawing::Size(13, 13);
-			this->label217->TabIndex = 244;
-			this->label217->Text = L"0";
-			// 
-			// label218
-			// 
-			this->label218->AutoSize = true;
-			this->label218->Location = System::Drawing::Point(405, 170);
-			this->label218->Name = L"label218";
-			this->label218->Size = System::Drawing::Size(13, 13);
-			this->label218->TabIndex = 243;
-			this->label218->Text = L"0";
-			// 
-			// label219
-			// 
-			this->label219->AutoSize = true;
-			this->label219->Location = System::Drawing::Point(405, 150);
-			this->label219->Name = L"label219";
-			this->label219->Size = System::Drawing::Size(13, 13);
-			this->label219->TabIndex = 242;
-			this->label219->Text = L"0";
-			// 
-			// label220
-			// 
-			this->label220->AutoSize = true;
-			this->label220->Location = System::Drawing::Point(405, 130);
-			this->label220->Name = L"label220";
-			this->label220->Size = System::Drawing::Size(13, 13);
-			this->label220->TabIndex = 241;
-			this->label220->Text = L"0";
-			// 
-			// label221
-			// 
-			this->label221->AutoSize = true;
-			this->label221->Location = System::Drawing::Point(405, 110);
-			this->label221->Name = L"label221";
-			this->label221->Size = System::Drawing::Size(13, 13);
-			this->label221->TabIndex = 240;
-			this->label221->Text = L"0";
-			// 
-			// label222
-			// 
-			this->label222->AutoSize = true;
-			this->label222->Location = System::Drawing::Point(405, 90);
-			this->label222->Name = L"label222";
-			this->label222->Size = System::Drawing::Size(13, 13);
-			this->label222->TabIndex = 239;
-			this->label222->Text = L"0";
-			// 
-			// label223
-			// 
-			this->label223->AutoSize = true;
-			this->label223->Location = System::Drawing::Point(405, 70);
-			this->label223->Name = L"label223";
-			this->label223->Size = System::Drawing::Size(13, 13);
-			this->label223->TabIndex = 238;
-			this->label223->Text = L"0";
-			// 
-			// label224
-			// 
-			this->label224->AutoSize = true;
-			this->label224->Location = System::Drawing::Point(405, 530);
-			this->label224->Name = L"label224";
-			this->label224->Size = System::Drawing::Size(13, 13);
-			this->label224->TabIndex = 261;
-			this->label224->Text = L"0";
-			// 
-			// label225
-			// 
-			this->label225->AutoSize = true;
-			this->label225->Location = System::Drawing::Point(405, 510);
-			this->label225->Name = L"label225";
-			this->label225->Size = System::Drawing::Size(13, 13);
-			this->label225->TabIndex = 260;
-			this->label225->Text = L"0";
-			// 
-			// label226
-			// 
-			this->label226->AutoSize = true;
-			this->label226->Location = System::Drawing::Point(405, 490);
-			this->label226->Name = L"label226";
-			this->label226->Size = System::Drawing::Size(13, 13);
-			this->label226->TabIndex = 259;
-			this->label226->Text = L"0";
-			// 
-			// label227
-			// 
-			this->label227->AutoSize = true;
-			this->label227->Location = System::Drawing::Point(405, 470);
-			this->label227->Name = L"label227";
-			this->label227->Size = System::Drawing::Size(13, 13);
-			this->label227->TabIndex = 258;
-			this->label227->Text = L"0";
-			// 
-			// label228
-			// 
-			this->label228->AutoSize = true;
-			this->label228->Location = System::Drawing::Point(405, 450);
-			this->label228->Name = L"label228";
-			this->label228->Size = System::Drawing::Size(13, 13);
-			this->label228->TabIndex = 257;
-			this->label228->Text = L"0";
-			// 
-			// label229
-			// 
-			this->label229->AutoSize = true;
-			this->label229->Location = System::Drawing::Point(405, 430);
-			this->label229->Name = L"label229";
-			this->label229->Size = System::Drawing::Size(13, 13);
-			this->label229->TabIndex = 256;
-			this->label229->Text = L"0";
-			// 
-			// label230
-			// 
-			this->label230->AutoSize = true;
-			this->label230->Location = System::Drawing::Point(405, 410);
-			this->label230->Name = L"label230";
-			this->label230->Size = System::Drawing::Size(13, 13);
-			this->label230->TabIndex = 255;
-			this->label230->Text = L"0";
-			// 
-			// label231
-			// 
-			this->label231->AutoSize = true;
-			this->label231->Location = System::Drawing::Point(405, 390);
-			this->label231->Name = L"label231";
-			this->label231->Size = System::Drawing::Size(13, 13);
-			this->label231->TabIndex = 254;
-			this->label231->Text = L"0";
-			// 
-			// label232
-			// 
-			this->label232->AutoSize = true;
-			this->label232->Location = System::Drawing::Point(405, 370);
-			this->label232->Name = L"label232";
-			this->label232->Size = System::Drawing::Size(13, 13);
-			this->label232->TabIndex = 253;
-			this->label232->Text = L"0";
-			// 
-			// label233
-			// 
-			this->label233->AutoSize = true;
-			this->label233->Location = System::Drawing::Point(405, 350);
-			this->label233->Name = L"label233";
-			this->label233->Size = System::Drawing::Size(13, 13);
-			this->label233->TabIndex = 252;
-			this->label233->Text = L"0";
-			// 
-			// label234
-			// 
-			this->label234->AutoSize = true;
-			this->label234->Location = System::Drawing::Point(405, 330);
-			this->label234->Name = L"label234";
-			this->label234->Size = System::Drawing::Size(13, 13);
-			this->label234->TabIndex = 251;
-			this->label234->Text = L"0";
-			// 
-			// label235
-			// 
-			this->label235->AutoSize = true;
-			this->label235->Location = System::Drawing::Point(405, 310);
-			this->label235->Name = L"label235";
-			this->label235->Size = System::Drawing::Size(13, 13);
-			this->label235->TabIndex = 250;
-			this->label235->Text = L"0";
-			// 
-			// label236
-			// 
-			this->label236->AutoSize = true;
-			this->label236->Location = System::Drawing::Point(405, 690);
-			this->label236->Name = L"label236";
-			this->label236->Size = System::Drawing::Size(13, 13);
-			this->label236->TabIndex = 269;
-			this->label236->Text = L"0";
-			// 
-			// label237
-			// 
-			this->label237->AutoSize = true;
-			this->label237->Location = System::Drawing::Point(405, 670);
-			this->label237->Name = L"label237";
-			this->label237->Size = System::Drawing::Size(13, 13);
-			this->label237->TabIndex = 268;
-			this->label237->Text = L"0";
-			// 
-			// label238
-			// 
-			this->label238->AutoSize = true;
-			this->label238->Location = System::Drawing::Point(405, 650);
-			this->label238->Name = L"label238";
-			this->label238->Size = System::Drawing::Size(13, 13);
-			this->label238->TabIndex = 267;
-			this->label238->Text = L"0";
-			// 
-			// label239
-			// 
-			this->label239->AutoSize = true;
-			this->label239->Location = System::Drawing::Point(405, 630);
-			this->label239->Name = L"label239";
-			this->label239->Size = System::Drawing::Size(13, 13);
-			this->label239->TabIndex = 266;
-			this->label239->Text = L"0";
-			// 
-			// label240
-			// 
-			this->label240->AutoSize = true;
-			this->label240->Location = System::Drawing::Point(405, 610);
-			this->label240->Name = L"label240";
-			this->label240->Size = System::Drawing::Size(13, 13);
-			this->label240->TabIndex = 265;
-			this->label240->Text = L"0";
-			// 
-			// label241
-			// 
-			this->label241->AutoSize = true;
-			this->label241->Location = System::Drawing::Point(405, 590);
-			this->label241->Name = L"label241";
-			this->label241->Size = System::Drawing::Size(13, 13);
-			this->label241->TabIndex = 264;
-			this->label241->Text = L"0";
-			// 
-			// label242
-			// 
-			this->label242->AutoSize = true;
-			this->label242->Location = System::Drawing::Point(405, 570);
-			this->label242->Name = L"label242";
-			this->label242->Size = System::Drawing::Size(13, 13);
-			this->label242->TabIndex = 263;
-			this->label242->Text = L"0";
-			// 
-			// label243
-			// 
-			this->label243->AutoSize = true;
-			this->label243->Location = System::Drawing::Point(405, 550);
-			this->label243->Name = L"label243";
-			this->label243->Size = System::Drawing::Size(13, 13);
-			this->label243->TabIndex = 262;
-			this->label243->Text = L"0";
-			// 
-			// maskedTextBox1
-			// 
-			this->maskedTextBox1->Location = System::Drawing::Point(340, 70);
-			this->maskedTextBox1->Mask = L"00";
-			this->maskedTextBox1->Name = L"maskedTextBox1";
-			this->maskedTextBox1->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox1->TabIndex = 270;
-			this->maskedTextBox1->Text = L"0";
-			this->maskedTextBox1->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox2
-			// 
-			this->maskedTextBox2->Location = System::Drawing::Point(340, 90);
-			this->maskedTextBox2->Mask = L"00";
-			this->maskedTextBox2->Name = L"maskedTextBox2";
-			this->maskedTextBox2->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox2->TabIndex = 271;
-			this->maskedTextBox2->Text = L"0";
-			this->maskedTextBox2->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox3
-			// 
-			this->maskedTextBox3->Location = System::Drawing::Point(340, 129);
-			this->maskedTextBox3->Mask = L"00";
-			this->maskedTextBox3->Name = L"maskedTextBox3";
-			this->maskedTextBox3->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox3->TabIndex = 273;
-			this->maskedTextBox3->Text = L"0";
-			this->maskedTextBox3->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox4
-			// 
-			this->maskedTextBox4->Location = System::Drawing::Point(340, 110);
-			this->maskedTextBox4->Mask = L"00";
-			this->maskedTextBox4->Name = L"maskedTextBox4";
-			this->maskedTextBox4->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox4->TabIndex = 272;
-			this->maskedTextBox4->Text = L"0";
-			this->maskedTextBox4->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox5
-			// 
-			this->maskedTextBox5->Location = System::Drawing::Point(340, 209);
-			this->maskedTextBox5->Mask = L"00";
-			this->maskedTextBox5->Name = L"maskedTextBox5";
-			this->maskedTextBox5->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox5->TabIndex = 277;
-			this->maskedTextBox5->Text = L"0";
-			this->maskedTextBox5->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox6
-			// 
-			this->maskedTextBox6->Location = System::Drawing::Point(340, 190);
-			this->maskedTextBox6->Mask = L"00";
-			this->maskedTextBox6->Name = L"maskedTextBox6";
-			this->maskedTextBox6->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox6->TabIndex = 276;
-			this->maskedTextBox6->Text = L"0";
-			this->maskedTextBox6->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox7
-			// 
-			this->maskedTextBox7->Location = System::Drawing::Point(340, 170);
-			this->maskedTextBox7->Mask = L"00";
-			this->maskedTextBox7->Name = L"maskedTextBox7";
-			this->maskedTextBox7->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox7->TabIndex = 275;
-			this->maskedTextBox7->Text = L"0";
-			this->maskedTextBox7->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox8
-			// 
-			this->maskedTextBox8->Location = System::Drawing::Point(340, 150);
-			this->maskedTextBox8->Mask = L"00";
-			this->maskedTextBox8->Name = L"maskedTextBox8";
-			this->maskedTextBox8->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox8->TabIndex = 274;
-			this->maskedTextBox8->Text = L"0";
-			this->maskedTextBox8->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox9
-			// 
-			this->maskedTextBox9->Location = System::Drawing::Point(340, 369);
-			this->maskedTextBox9->Mask = L"00";
-			this->maskedTextBox9->Name = L"maskedTextBox9";
-			this->maskedTextBox9->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox9->TabIndex = 285;
-			this->maskedTextBox9->Text = L"0";
-			this->maskedTextBox9->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox10
-			// 
-			this->maskedTextBox10->Location = System::Drawing::Point(340, 350);
-			this->maskedTextBox10->Mask = L"00";
-			this->maskedTextBox10->Name = L"maskedTextBox10";
-			this->maskedTextBox10->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox10->TabIndex = 284;
-			this->maskedTextBox10->Text = L"0";
-			this->maskedTextBox10->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox11
-			// 
-			this->maskedTextBox11->Location = System::Drawing::Point(340, 330);
-			this->maskedTextBox11->Mask = L"00";
-			this->maskedTextBox11->Name = L"maskedTextBox11";
-			this->maskedTextBox11->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox11->TabIndex = 283;
-			this->maskedTextBox11->Text = L"0";
-			this->maskedTextBox11->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox12
-			// 
-			this->maskedTextBox12->Location = System::Drawing::Point(340, 310);
-			this->maskedTextBox12->Mask = L"00";
-			this->maskedTextBox12->Name = L"maskedTextBox12";
-			this->maskedTextBox12->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox12->TabIndex = 282;
-			this->maskedTextBox12->Text = L"0";
-			this->maskedTextBox12->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox13
-			// 
-			this->maskedTextBox13->Location = System::Drawing::Point(340, 289);
-			this->maskedTextBox13->Mask = L"00";
-			this->maskedTextBox13->Name = L"maskedTextBox13";
-			this->maskedTextBox13->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox13->TabIndex = 281;
-			this->maskedTextBox13->Text = L"0";
-			this->maskedTextBox13->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox14
-			// 
-			this->maskedTextBox14->Location = System::Drawing::Point(340, 270);
-			this->maskedTextBox14->Mask = L"00";
-			this->maskedTextBox14->Name = L"maskedTextBox14";
-			this->maskedTextBox14->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox14->TabIndex = 280;
-			this->maskedTextBox14->Text = L"0";
-			this->maskedTextBox14->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox15
-			// 
-			this->maskedTextBox15->Location = System::Drawing::Point(340, 250);
-			this->maskedTextBox15->Mask = L"00";
-			this->maskedTextBox15->Name = L"maskedTextBox15";
-			this->maskedTextBox15->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox15->TabIndex = 279;
-			this->maskedTextBox15->Text = L"0";
-			this->maskedTextBox15->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox16
-			// 
-			this->maskedTextBox16->Location = System::Drawing::Point(340, 230);
-			this->maskedTextBox16->Mask = L"00";
-			this->maskedTextBox16->Name = L"maskedTextBox16";
-			this->maskedTextBox16->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox16->TabIndex = 278;
-			this->maskedTextBox16->Text = L"0";
-			this->maskedTextBox16->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox17
-			// 
-			this->maskedTextBox17->Location = System::Drawing::Point(340, 689);
-			this->maskedTextBox17->Mask = L"00";
-			this->maskedTextBox17->Name = L"maskedTextBox17";
-			this->maskedTextBox17->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox17->TabIndex = 301;
-			this->maskedTextBox17->Text = L"0";
-			this->maskedTextBox17->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox18
-			// 
-			this->maskedTextBox18->Location = System::Drawing::Point(340, 670);
-			this->maskedTextBox18->Mask = L"00";
-			this->maskedTextBox18->Name = L"maskedTextBox18";
-			this->maskedTextBox18->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox18->TabIndex = 300;
-			this->maskedTextBox18->Text = L"0";
-			this->maskedTextBox18->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox19
-			// 
-			this->maskedTextBox19->Location = System::Drawing::Point(340, 650);
-			this->maskedTextBox19->Mask = L"00";
-			this->maskedTextBox19->Name = L"maskedTextBox19";
-			this->maskedTextBox19->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox19->TabIndex = 299;
-			this->maskedTextBox19->Text = L"0";
-			this->maskedTextBox19->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox20
-			// 
-			this->maskedTextBox20->Location = System::Drawing::Point(340, 630);
-			this->maskedTextBox20->Mask = L"00";
-			this->maskedTextBox20->Name = L"maskedTextBox20";
-			this->maskedTextBox20->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox20->TabIndex = 298;
-			this->maskedTextBox20->Text = L"0";
-			this->maskedTextBox20->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox21
-			// 
-			this->maskedTextBox21->Location = System::Drawing::Point(340, 609);
-			this->maskedTextBox21->Mask = L"00";
-			this->maskedTextBox21->Name = L"maskedTextBox21";
-			this->maskedTextBox21->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox21->TabIndex = 297;
-			this->maskedTextBox21->Text = L"0";
-			this->maskedTextBox21->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox22
-			// 
-			this->maskedTextBox22->Location = System::Drawing::Point(340, 590);
-			this->maskedTextBox22->Mask = L"00";
-			this->maskedTextBox22->Name = L"maskedTextBox22";
-			this->maskedTextBox22->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox22->TabIndex = 296;
-			this->maskedTextBox22->Text = L"0";
-			this->maskedTextBox22->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox23
-			// 
-			this->maskedTextBox23->Location = System::Drawing::Point(340, 570);
-			this->maskedTextBox23->Mask = L"00";
-			this->maskedTextBox23->Name = L"maskedTextBox23";
-			this->maskedTextBox23->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox23->TabIndex = 295;
-			this->maskedTextBox23->Text = L"0";
-			this->maskedTextBox23->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox24
-			// 
-			this->maskedTextBox24->Location = System::Drawing::Point(340, 550);
-			this->maskedTextBox24->Mask = L"00";
-			this->maskedTextBox24->Name = L"maskedTextBox24";
-			this->maskedTextBox24->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox24->TabIndex = 294;
-			this->maskedTextBox24->Text = L"0";
-			this->maskedTextBox24->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox25
-			// 
-			this->maskedTextBox25->Location = System::Drawing::Point(340, 529);
-			this->maskedTextBox25->Mask = L"00";
-			this->maskedTextBox25->Name = L"maskedTextBox25";
-			this->maskedTextBox25->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox25->TabIndex = 293;
-			this->maskedTextBox25->Text = L"0";
-			this->maskedTextBox25->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox26
-			// 
-			this->maskedTextBox26->Location = System::Drawing::Point(340, 510);
-			this->maskedTextBox26->Mask = L"00";
-			this->maskedTextBox26->Name = L"maskedTextBox26";
-			this->maskedTextBox26->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox26->TabIndex = 292;
-			this->maskedTextBox26->Text = L"0";
-			this->maskedTextBox26->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox27
-			// 
-			this->maskedTextBox27->Location = System::Drawing::Point(340, 490);
-			this->maskedTextBox27->Mask = L"00";
-			this->maskedTextBox27->Name = L"maskedTextBox27";
-			this->maskedTextBox27->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox27->TabIndex = 291;
-			this->maskedTextBox27->Text = L"0";
-			this->maskedTextBox27->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox28
-			// 
-			this->maskedTextBox28->Location = System::Drawing::Point(340, 470);
-			this->maskedTextBox28->Mask = L"00";
-			this->maskedTextBox28->Name = L"maskedTextBox28";
-			this->maskedTextBox28->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox28->TabIndex = 290;
-			this->maskedTextBox28->Text = L"0";
-			this->maskedTextBox28->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox29
-			// 
-			this->maskedTextBox29->Location = System::Drawing::Point(340, 449);
-			this->maskedTextBox29->Mask = L"00";
-			this->maskedTextBox29->Name = L"maskedTextBox29";
-			this->maskedTextBox29->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox29->TabIndex = 289;
-			this->maskedTextBox29->Text = L"0";
-			this->maskedTextBox29->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox30
-			// 
-			this->maskedTextBox30->Location = System::Drawing::Point(340, 430);
-			this->maskedTextBox30->Mask = L"00";
-			this->maskedTextBox30->Name = L"maskedTextBox30";
-			this->maskedTextBox30->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox30->TabIndex = 288;
-			this->maskedTextBox30->Text = L"0";
-			this->maskedTextBox30->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox31
-			// 
-			this->maskedTextBox31->Location = System::Drawing::Point(340, 410);
-			this->maskedTextBox31->Mask = L"00";
-			this->maskedTextBox31->Name = L"maskedTextBox31";
-			this->maskedTextBox31->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox31->TabIndex = 287;
-			this->maskedTextBox31->Text = L"0";
-			this->maskedTextBox31->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox32
-			// 
-			this->maskedTextBox32->Location = System::Drawing::Point(340, 390);
-			this->maskedTextBox32->Mask = L"00";
-			this->maskedTextBox32->Name = L"maskedTextBox32";
-			this->maskedTextBox32->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox32->TabIndex = 286;
-			this->maskedTextBox32->Text = L"0";
-			this->maskedTextBox32->ValidatingType = System::Int32::typeid;
-			// 
-			// label244
-			// 
-			this->label244->AutoSize = true;
-			this->label244->Location = System::Drawing::Point(10, 30);
-			this->label244->Name = L"label244";
-			this->label244->Size = System::Drawing::Size(64, 13);
-			this->label244->TabIndex = 0;
-			this->label244->Text = L"Wytrwa³oœæ";
-			// 
-			// label245
-			// 
-			this->label245->AutoSize = true;
-			this->label245->Location = System::Drawing::Point(10, 60);
-			this->label245->Name = L"label245";
-			this->label245->Size = System::Drawing::Size(43, 13);
-			this->label245->TabIndex = 1;
-			this->label245->Text = L"Refleks";
-			// 
-			// label246
-			// 
-			this->label246->AutoSize = true;
-			this->label246->Location = System::Drawing::Point(10, 90);
-			this->label246->Name = L"label246";
-			this->label246->Size = System::Drawing::Size(32, 13);
-			this->label246->TabIndex = 2;
-			this->label246->Text = L"Wola";
-			// 
-			// label247
-			// 
-			this->label247->AutoSize = true;
-			this->label247->Location = System::Drawing::Point(90, 9);
-			this->label247->Name = L"label247";
-			this->label247->Size = System::Drawing::Size(34, 13);
-			this->label247->TabIndex = 3;
-			this->label247->Text = L"Suma";
-			// 
-			// label248
-			// 
-			this->label248->AutoSize = true;
-			this->label248->Location = System::Drawing::Point(94, 30);
-			this->label248->Name = L"label248";
-			this->label248->Size = System::Drawing::Size(13, 13);
-			this->label248->TabIndex = 4;
-			this->label248->Text = L"0";
-			// 
-			// label249
-			// 
-			this->label249->AutoSize = true;
-			this->label249->Location = System::Drawing::Point(94, 60);
-			this->label249->Name = L"label249";
-			this->label249->Size = System::Drawing::Size(13, 13);
-			this->label249->TabIndex = 5;
-			this->label249->Text = L"0";
-			// 
-			// label250
-			// 
-			this->label250->AutoSize = true;
-			this->label250->Location = System::Drawing::Point(94, 90);
-			this->label250->Name = L"label250";
-			this->label250->Size = System::Drawing::Size(13, 13);
-			this->label250->TabIndex = 6;
-			this->label250->Text = L"0";
-			// 
-			// label251
-			// 
-			this->label251->AutoSize = true;
-			this->label251->Location = System::Drawing::Point(130, 9);
-			this->label251->Name = L"label251";
-			this->label251->Size = System::Drawing::Size(45, 13);
-			this->label251->TabIndex = 7;
-			this->label251->Text = L"Bazowa";
-			// 
-			// label252
-			// 
-			this->label252->AutoSize = true;
-			this->label252->Location = System::Drawing::Point(136, 90);
-			this->label252->Name = L"label252";
-			this->label252->Size = System::Drawing::Size(13, 13);
-			this->label252->TabIndex = 10;
-			this->label252->Text = L"0";
-			// 
-			// label253
-			// 
-			this->label253->AutoSize = true;
-			this->label253->Location = System::Drawing::Point(136, 60);
-			this->label253->Name = L"label253";
-			this->label253->Size = System::Drawing::Size(13, 13);
-			this->label253->TabIndex = 9;
-			this->label253->Text = L"0";
-			// 
-			// label254
-			// 
-			this->label254->AutoSize = true;
-			this->label254->Location = System::Drawing::Point(136, 30);
-			this->label254->Name = L"label254";
-			this->label254->Size = System::Drawing::Size(13, 13);
-			this->label254->TabIndex = 8;
-			this->label254->Text = L"0";
-			// 
-			// label255
-			// 
-			this->label255->AutoSize = true;
-			this->label255->Location = System::Drawing::Point(185, 9);
-			this->label255->Name = L"label255";
-			this->label255->Size = System::Drawing::Size(28, 13);
-			this->label255->TabIndex = 11;
-			this->label255->Text = L"Mod";
-			// 
-			// label256
-			// 
-			this->label256->AutoSize = true;
-			this->label256->Location = System::Drawing::Point(184, 90);
-			this->label256->Name = L"label256";
-			this->label256->Size = System::Drawing::Size(13, 13);
-			this->label256->TabIndex = 14;
-			this->label256->Text = L"0";
-			// 
-			// label257
-			// 
-			this->label257->AutoSize = true;
-			this->label257->Location = System::Drawing::Point(184, 60);
-			this->label257->Name = L"label257";
-			this->label257->Size = System::Drawing::Size(13, 13);
-			this->label257->TabIndex = 13;
-			this->label257->Text = L"0";
-			// 
-			// label258
-			// 
-			this->label258->AutoSize = true;
-			this->label258->Location = System::Drawing::Point(184, 30);
-			this->label258->Name = L"label258";
-			this->label258->Size = System::Drawing::Size(13, 13);
-			this->label258->TabIndex = 12;
-			this->label258->Text = L"0";
-			// 
-			// label259
-			// 
-			this->label259->AutoSize = true;
-			this->label259->Location = System::Drawing::Point(219, 10);
-			this->label259->Name = L"label259";
-			this->label259->Size = System::Drawing::Size(55, 13);
-			this->label259->TabIndex = 15;
-			this->label259->Text = L"Mod Mag.";
-			// 
-			// maskedTextBox33
-			// 
-			this->maskedTextBox33->Location = System::Drawing::Point(232, 90);
-			this->maskedTextBox33->Mask = L"00";
-			this->maskedTextBox33->Name = L"maskedTextBox33";
-			this->maskedTextBox33->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox33->TabIndex = 304;
-			this->maskedTextBox33->Text = L"0";
-			this->maskedTextBox33->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox34
-			// 
-			this->maskedTextBox34->Location = System::Drawing::Point(232, 60);
-			this->maskedTextBox34->Mask = L"00";
-			this->maskedTextBox34->Name = L"maskedTextBox34";
-			this->maskedTextBox34->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox34->TabIndex = 303;
-			this->maskedTextBox34->Text = L"0";
-			this->maskedTextBox34->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox35
-			// 
-			this->maskedTextBox35->Location = System::Drawing::Point(232, 30);
-			this->maskedTextBox35->Mask = L"00";
-			this->maskedTextBox35->Name = L"maskedTextBox35";
-			this->maskedTextBox35->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox35->TabIndex = 302;
-			this->maskedTextBox35->Text = L"0";
-			this->maskedTextBox35->ValidatingType = System::Int32::typeid;
+			// label260
+			// 
+			this->label260->AutoSize = true;
+			this->label260->Location = System::Drawing::Point(280, 10);
+			this->label260->Name = L"label260";
+			this->label260->Size = System::Drawing::Size(28, 13);
+			this->label260->TabIndex = 308;
+			this->label260->Text = L"Inne";
 			// 
 			// maskedTextBox36
 			// 
@@ -5189,20 +5167,526 @@ private: System::Windows::Forms::Label^  label244;
 			this->maskedTextBox38->Text = L"0";
 			this->maskedTextBox38->ValidatingType = System::Int32::typeid;
 			// 
-			// label260
+			// maskedTextBox33
 			// 
-			this->label260->AutoSize = true;
-			this->label260->Location = System::Drawing::Point(280, 10);
-			this->label260->Name = L"label260";
-			this->label260->Size = System::Drawing::Size(28, 13);
-			this->label260->TabIndex = 308;
-			this->label260->Text = L"Inne";
+			this->maskedTextBox33->Location = System::Drawing::Point(232, 90);
+			this->maskedTextBox33->Mask = L"00";
+			this->maskedTextBox33->Name = L"maskedTextBox33";
+			this->maskedTextBox33->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox33->TabIndex = 304;
+			this->maskedTextBox33->Text = L"0";
+			this->maskedTextBox33->ValidatingType = System::Int32::typeid;
+			// 
+			// label259
+			// 
+			this->label259->AutoSize = true;
+			this->label259->Location = System::Drawing::Point(219, 10);
+			this->label259->Name = L"label259";
+			this->label259->Size = System::Drawing::Size(55, 13);
+			this->label259->TabIndex = 15;
+			this->label259->Text = L"Mod Mag.";
+			// 
+			// maskedTextBox34
+			// 
+			this->maskedTextBox34->Location = System::Drawing::Point(232, 60);
+			this->maskedTextBox34->Mask = L"00";
+			this->maskedTextBox34->Name = L"maskedTextBox34";
+			this->maskedTextBox34->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox34->TabIndex = 303;
+			this->maskedTextBox34->Text = L"0";
+			this->maskedTextBox34->ValidatingType = System::Int32::typeid;
+			// 
+			// label256
+			// 
+			this->label256->AutoSize = true;
+			this->label256->Location = System::Drawing::Point(184, 90);
+			this->label256->Name = L"label256";
+			this->label256->Size = System::Drawing::Size(13, 13);
+			this->label256->TabIndex = 14;
+			this->label256->Text = L"0";
+			// 
+			// maskedTextBox35
+			// 
+			this->maskedTextBox35->Location = System::Drawing::Point(232, 30);
+			this->maskedTextBox35->Mask = L"00";
+			this->maskedTextBox35->Name = L"maskedTextBox35";
+			this->maskedTextBox35->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox35->TabIndex = 302;
+			this->maskedTextBox35->Text = L"0";
+			this->maskedTextBox35->ValidatingType = System::Int32::typeid;
+			// 
+			// label257
+			// 
+			this->label257->AutoSize = true;
+			this->label257->Location = System::Drawing::Point(184, 60);
+			this->label257->Name = L"label257";
+			this->label257->Size = System::Drawing::Size(13, 13);
+			this->label257->TabIndex = 13;
+			this->label257->Text = L"0";
+			// 
+			// label258
+			// 
+			this->label258->AutoSize = true;
+			this->label258->Location = System::Drawing::Point(184, 30);
+			this->label258->Name = L"label258";
+			this->label258->Size = System::Drawing::Size(13, 13);
+			this->label258->TabIndex = 12;
+			this->label258->Text = L"0";
+			// 
+			// label255
+			// 
+			this->label255->AutoSize = true;
+			this->label255->Location = System::Drawing::Point(185, 9);
+			this->label255->Name = L"label255";
+			this->label255->Size = System::Drawing::Size(28, 13);
+			this->label255->TabIndex = 11;
+			this->label255->Text = L"Mod";
+			// 
+			// label252
+			// 
+			this->label252->AutoSize = true;
+			this->label252->Location = System::Drawing::Point(136, 90);
+			this->label252->Name = L"label252";
+			this->label252->Size = System::Drawing::Size(13, 13);
+			this->label252->TabIndex = 10;
+			this->label252->Text = L"0";
+			// 
+			// label253
+			// 
+			this->label253->AutoSize = true;
+			this->label253->Location = System::Drawing::Point(136, 60);
+			this->label253->Name = L"label253";
+			this->label253->Size = System::Drawing::Size(13, 13);
+			this->label253->TabIndex = 9;
+			this->label253->Text = L"0";
+			// 
+			// label254
+			// 
+			this->label254->AutoSize = true;
+			this->label254->Location = System::Drawing::Point(136, 30);
+			this->label254->Name = L"label254";
+			this->label254->Size = System::Drawing::Size(13, 13);
+			this->label254->TabIndex = 8;
+			this->label254->Text = L"0";
+			// 
+			// label251
+			// 
+			this->label251->AutoSize = true;
+			this->label251->Location = System::Drawing::Point(130, 9);
+			this->label251->Name = L"label251";
+			this->label251->Size = System::Drawing::Size(45, 13);
+			this->label251->TabIndex = 7;
+			this->label251->Text = L"Bazowa";
+			// 
+			// label250
+			// 
+			this->label250->AutoSize = true;
+			this->label250->Location = System::Drawing::Point(94, 90);
+			this->label250->Name = L"label250";
+			this->label250->Size = System::Drawing::Size(13, 13);
+			this->label250->TabIndex = 6;
+			this->label250->Text = L"0";
+			// 
+			// label249
+			// 
+			this->label249->AutoSize = true;
+			this->label249->Location = System::Drawing::Point(94, 60);
+			this->label249->Name = L"label249";
+			this->label249->Size = System::Drawing::Size(13, 13);
+			this->label249->TabIndex = 5;
+			this->label249->Text = L"0";
+			// 
+			// label248
+			// 
+			this->label248->AutoSize = true;
+			this->label248->Location = System::Drawing::Point(94, 30);
+			this->label248->Name = L"label248";
+			this->label248->Size = System::Drawing::Size(13, 13);
+			this->label248->TabIndex = 4;
+			this->label248->Text = L"0";
+			// 
+			// label247
+			// 
+			this->label247->AutoSize = true;
+			this->label247->Location = System::Drawing::Point(90, 9);
+			this->label247->Name = L"label247";
+			this->label247->Size = System::Drawing::Size(34, 13);
+			this->label247->TabIndex = 3;
+			this->label247->Text = L"Suma";
+			// 
+			// label246
+			// 
+			this->label246->AutoSize = true;
+			this->label246->Location = System::Drawing::Point(10, 90);
+			this->label246->Name = L"label246";
+			this->label246->Size = System::Drawing::Size(32, 13);
+			this->label246->TabIndex = 2;
+			this->label246->Text = L"Wola";
+			// 
+			// label245
+			// 
+			this->label245->AutoSize = true;
+			this->label245->Location = System::Drawing::Point(10, 60);
+			this->label245->Name = L"label245";
+			this->label245->Size = System::Drawing::Size(43, 13);
+			this->label245->TabIndex = 1;
+			this->label245->Text = L"Refleks";
+			// 
+			// label244
+			// 
+			this->label244->AutoSize = true;
+			this->label244->Location = System::Drawing::Point(10, 30);
+			this->label244->Name = L"label244";
+			this->label244->Size = System::Drawing::Size(64, 13);
+			this->label244->TabIndex = 0;
+			this->label244->Text = L"Wytrwa³oœæ";
+			// 
+			// maskedTextBox39
+			// 
+			this->maskedTextBox39->Location = System::Drawing::Point(340, 749);
+			this->maskedTextBox39->Mask = L"00";
+			this->maskedTextBox39->Name = L"maskedTextBox39";
+			this->maskedTextBox39->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox39->TabIndex = 328;
+			this->maskedTextBox39->Text = L"0";
+			this->maskedTextBox39->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox40
+			// 
+			this->maskedTextBox40->Location = System::Drawing::Point(340, 730);
+			this->maskedTextBox40->Mask = L"00";
+			this->maskedTextBox40->Name = L"maskedTextBox40";
+			this->maskedTextBox40->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox40->TabIndex = 327;
+			this->maskedTextBox40->Text = L"0";
+			this->maskedTextBox40->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBox41
+			// 
+			this->maskedTextBox41->Location = System::Drawing::Point(340, 710);
+			this->maskedTextBox41->Mask = L"00";
+			this->maskedTextBox41->Name = L"maskedTextBox41";
+			this->maskedTextBox41->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox41->TabIndex = 326;
+			this->maskedTextBox41->Text = L"0";
+			this->maskedTextBox41->ValidatingType = System::Int32::typeid;
+			// 
+			// label261
+			// 
+			this->label261->AutoSize = true;
+			this->label261->Location = System::Drawing::Point(405, 750);
+			this->label261->Name = L"label261";
+			this->label261->Size = System::Drawing::Size(13, 13);
+			this->label261->TabIndex = 325;
+			this->label261->Text = L"0";
+			// 
+			// label262
+			// 
+			this->label262->AutoSize = true;
+			this->label262->Location = System::Drawing::Point(405, 730);
+			this->label262->Name = L"label262";
+			this->label262->Size = System::Drawing::Size(13, 13);
+			this->label262->TabIndex = 324;
+			this->label262->Text = L"0";
+			// 
+			// label263
+			// 
+			this->label263->AutoSize = true;
+			this->label263->Location = System::Drawing::Point(405, 710);
+			this->label263->Name = L"label263";
+			this->label263->Size = System::Drawing::Size(13, 13);
+			this->label263->TabIndex = 323;
+			this->label263->Text = L"0";
+			// 
+			// label264
+			// 
+			this->label264->AutoSize = true;
+			this->label264->Location = System::Drawing::Point(300, 750);
+			this->label264->Name = L"label264";
+			this->label264->Size = System::Drawing::Size(10, 13);
+			this->label264->TabIndex = 322;
+			this->label264->Text = L"-";
+			// 
+			// label265
+			// 
+			this->label265->AutoSize = true;
+			this->label265->Location = System::Drawing::Point(300, 730);
+			this->label265->Name = L"label265";
+			this->label265->Size = System::Drawing::Size(10, 13);
+			this->label265->TabIndex = 321;
+			this->label265->Text = L"-";
+			// 
+			// label266
+			// 
+			this->label266->AutoSize = true;
+			this->label266->Location = System::Drawing::Point(300, 710);
+			this->label266->Name = L"label266";
+			this->label266->Size = System::Drawing::Size(10, 13);
+			this->label266->TabIndex = 320;
+			this->label266->Text = L"-";
+			// 
+			// label267
+			// 
+			this->label267->AutoSize = true;
+			this->label267->Location = System::Drawing::Point(255, 750);
+			this->label267->Name = L"label267";
+			this->label267->Size = System::Drawing::Size(13, 13);
+			this->label267->TabIndex = 319;
+			this->label267->Text = L"+";
+			// 
+			// label268
+			// 
+			this->label268->AutoSize = true;
+			this->label268->Location = System::Drawing::Point(255, 730);
+			this->label268->Name = L"label268";
+			this->label268->Size = System::Drawing::Size(13, 13);
+			this->label268->TabIndex = 318;
+			this->label268->Text = L"+";
+			// 
+			// label269
+			// 
+			this->label269->AutoSize = true;
+			this->label269->Location = System::Drawing::Point(255, 710);
+			this->label269->Name = L"label269";
+			this->label269->Size = System::Drawing::Size(13, 13);
+			this->label269->TabIndex = 317;
+			this->label269->Text = L"+";
+			// 
+			// label270
+			// 
+			this->label270->AutoSize = true;
+			this->label270->Location = System::Drawing::Point(277, 750);
+			this->label270->Name = L"label270";
+			this->label270->Size = System::Drawing::Size(13, 13);
+			this->label270->TabIndex = 316;
+			this->label270->Text = L"0";
+			// 
+			// label271
+			// 
+			this->label271->AutoSize = true;
+			this->label271->Location = System::Drawing::Point(277, 730);
+			this->label271->Name = L"label271";
+			this->label271->Size = System::Drawing::Size(13, 13);
+			this->label271->TabIndex = 315;
+			this->label271->Text = L"0";
+			// 
+			// label272
+			// 
+			this->label272->AutoSize = true;
+			this->label272->Location = System::Drawing::Point(277, 710);
+			this->label272->Name = L"label272";
+			this->label272->Size = System::Drawing::Size(13, 13);
+			this->label272->TabIndex = 314;
+			this->label272->Text = L"0";
+			// 
+			// label273
+			// 
+			this->label273->AutoSize = true;
+			this->label273->Location = System::Drawing::Point(217, 750);
+			this->label273->Name = L"label273";
+			this->label273->Size = System::Drawing::Size(13, 13);
+			this->label273->TabIndex = 313;
+			this->label273->Text = L"0";
+			// 
+			// label274
+			// 
+			this->label274->AutoSize = true;
+			this->label274->Location = System::Drawing::Point(217, 730);
+			this->label274->Name = L"label274";
+			this->label274->Size = System::Drawing::Size(13, 13);
+			this->label274->TabIndex = 312;
+			this->label274->Text = L"0";
+			// 
+			// label275
+			// 
+			this->label275->AutoSize = true;
+			this->label275->Location = System::Drawing::Point(217, 710);
+			this->label275->Name = L"label275";
+			this->label275->Size = System::Drawing::Size(13, 13);
+			this->label275->TabIndex = 311;
+			this->label275->Text = L"0";
+			// 
+			// label276
+			// 
+			this->label276->AutoSize = true;
+			this->label276->Location = System::Drawing::Point(170, 750);
+			this->label276->Name = L"label276";
+			this->label276->Size = System::Drawing::Size(47, 13);
+			this->label276->TabIndex = 310;
+			this->label276->Text = L"label276";
+			// 
+			// label277
+			// 
+			this->label277->AutoSize = true;
+			this->label277->Location = System::Drawing::Point(170, 730);
+			this->label277->Name = L"label277";
+			this->label277->Size = System::Drawing::Size(47, 13);
+			this->label277->TabIndex = 309;
+			this->label277->Text = L"label277";
+			// 
+			// label278
+			// 
+			this->label278->AutoSize = true;
+			this->label278->Location = System::Drawing::Point(170, 710);
+			this->label278->Name = L"label278";
+			this->label278->Size = System::Drawing::Size(47, 13);
+			this->label278->TabIndex = 308;
+			this->label278->Text = L"label278";
+			// 
+			// checkBoxZbieranieInformacji
+			// 
+			this->checkBoxZbieranieInformacji->AutoSize = true;
+			this->checkBoxZbieranieInformacji->Location = System::Drawing::Point(30, 750);
+			this->checkBoxZbieranieInformacji->Name = L"checkBoxZbieranieInformacji";
+			this->checkBoxZbieranieInformacji->Size = System::Drawing::Size(118, 17);
+			this->checkBoxZbieranieInformacji->TabIndex = 307;
+			this->checkBoxZbieranieInformacji->Text = L"Zbieranie Informacji";
+			this->checkBoxZbieranieInformacji->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxZauwazanie
+			// 
+			this->checkBoxZauwazanie->AutoSize = true;
+			this->checkBoxZauwazanie->Location = System::Drawing::Point(30, 730);
+			this->checkBoxZauwazanie->Name = L"checkBoxZauwazanie";
+			this->checkBoxZauwazanie->Size = System::Drawing::Size(84, 17);
+			this->checkBoxZauwazanie->TabIndex = 306;
+			this->checkBoxZauwazanie->Text = L"Zauwa¿anie";
+			this->checkBoxZauwazanie->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxWyzwalanie
+			// 
+			this->checkBoxWyzwalanie->AutoSize = true;
+			this->checkBoxWyzwalanie->Location = System::Drawing::Point(30, 710);
+			this->checkBoxWyzwalanie->Name = L"checkBoxWyzwalanie";
+			this->checkBoxWyzwalanie->Size = System::Drawing::Size(83, 17);
+			this->checkBoxWyzwalanie->TabIndex = 305;
+			this->checkBoxWyzwalanie->Text = L"Wyzwalanie";
+			this->checkBoxWyzwalanie->UseVisualStyleBackColor = true;
+			// 
+			// label279
+			// 
+			this->label279->AutoSize = true;
+			this->label279->Location = System::Drawing::Point(9, 750);
+			this->label279->Name = L"label279";
+			this->label279->Size = System::Drawing::Size(12, 13);
+			this->label279->TabIndex = 304;
+			this->label279->Text = L"x";
+			// 
+			// label280
+			// 
+			this->label280->AutoSize = true;
+			this->label280->Location = System::Drawing::Point(9, 730);
+			this->label280->Name = L"label280";
+			this->label280->Size = System::Drawing::Size(12, 13);
+			this->label280->TabIndex = 303;
+			this->label280->Text = L"x";
+			// 
+			// label281
+			// 
+			this->label281->AutoSize = true;
+			this->label281->Location = System::Drawing::Point(9, 710);
+			this->label281->Name = L"label281";
+			this->label281->Size = System::Drawing::Size(12, 13);
+			this->label281->TabIndex = 302;
+			this->label281->Text = L"x";
+			// 
+			// maskedTextBox42
+			// 
+			this->maskedTextBox42->Location = System::Drawing::Point(340, 769);
+			this->maskedTextBox42->Mask = L"00";
+			this->maskedTextBox42->Name = L"maskedTextBox42";
+			this->maskedTextBox42->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBox42->TabIndex = 337;
+			this->maskedTextBox42->Text = L"0";
+			this->maskedTextBox42->ValidatingType = System::Int32::typeid;
+			this->maskedTextBox42->MaskInputRejected += gcnew System::Windows::Forms::MaskInputRejectedEventHandler(this, &dodajKarteFroms::maskedTextBox42_MaskInputRejected);
+			// 
+			// label282
+			// 
+			this->label282->AutoSize = true;
+			this->label282->Location = System::Drawing::Point(405, 770);
+			this->label282->Name = L"label282";
+			this->label282->Size = System::Drawing::Size(13, 13);
+			this->label282->TabIndex = 336;
+			this->label282->Text = L"0";
+			this->label282->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label282_Click);
+			// 
+			// label283
+			// 
+			this->label283->AutoSize = true;
+			this->label283->Location = System::Drawing::Point(300, 770);
+			this->label283->Name = L"label283";
+			this->label283->Size = System::Drawing::Size(10, 13);
+			this->label283->TabIndex = 335;
+			this->label283->Text = L"-";
+			this->label283->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label283_Click);
+			// 
+			// label284
+			// 
+			this->label284->AutoSize = true;
+			this->label284->Location = System::Drawing::Point(255, 770);
+			this->label284->Name = L"label284";
+			this->label284->Size = System::Drawing::Size(13, 13);
+			this->label284->TabIndex = 334;
+			this->label284->Text = L"+";
+			this->label284->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label284_Click);
+			// 
+			// label285
+			// 
+			this->label285->AutoSize = true;
+			this->label285->Location = System::Drawing::Point(277, 770);
+			this->label285->Name = L"label285";
+			this->label285->Size = System::Drawing::Size(13, 13);
+			this->label285->TabIndex = 333;
+			this->label285->Text = L"0";
+			this->label285->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label285_Click);
+			// 
+			// label286
+			// 
+			this->label286->AutoSize = true;
+			this->label286->Location = System::Drawing::Point(217, 770);
+			this->label286->Name = L"label286";
+			this->label286->Size = System::Drawing::Size(13, 13);
+			this->label286->TabIndex = 332;
+			this->label286->Text = L"0";
+			this->label286->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label286_Click);
+			// 
+			// label287
+			// 
+			this->label287->AutoSize = true;
+			this->label287->Location = System::Drawing::Point(170, 770);
+			this->label287->Name = L"label287";
+			this->label287->Size = System::Drawing::Size(47, 13);
+			this->label287->TabIndex = 331;
+			this->label287->Text = L"label287";
+			this->label287->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label287_Click);
+			// 
+			// checkBoxZwierzecaEmpatia
+			// 
+			this->checkBoxZwierzecaEmpatia->AutoSize = true;
+			this->checkBoxZwierzecaEmpatia->Location = System::Drawing::Point(30, 770);
+			this->checkBoxZwierzecaEmpatia->Name = L"checkBoxZwierzecaEmpatia";
+			this->checkBoxZwierzecaEmpatia->Size = System::Drawing::Size(116, 17);
+			this->checkBoxZwierzecaEmpatia->TabIndex = 330;
+			this->checkBoxZwierzecaEmpatia->Text = L"Zwierzêca Empatia";
+			this->checkBoxZwierzecaEmpatia->UseVisualStyleBackColor = true;
+			this->checkBoxZwierzecaEmpatia->CheckedChanged += gcnew System::EventHandler(this, &dodajKarteFroms::checkBox2_CheckedChanged);
+			// 
+			// label288
+			// 
+			this->label288->AutoSize = true;
+			this->label288->Location = System::Drawing::Point(9, 770);
+			this->label288->Name = L"label288";
+			this->label288->Size = System::Drawing::Size(12, 13);
+			this->label288->TabIndex = 329;
+			this->label288->Text = L"x";
+			this->label288->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label288_Click);
 			// 
 			// dodajKarteFroms
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1096, 773);
+			this->ClientSize = System::Drawing::Size(1096, 812);
 			this->Controls->Add(this->groupBox3);
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBoxUmiejetnosc);
@@ -5210,8 +5694,8 @@ private: System::Windows::Forms::Label^  label244;
 			this->Controls->Add(this->Atrybuty);
 			this->Controls->Add(this->Nazewnictwo);
 			this->Name = L"dodajKarteFroms";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterParent;
 			this->Text = L"Dodaj Now¹ Kartê";
-			this->Load += gcnew System::EventHandler(this, &dodajKarteFroms::dodajKarteFroms_Load);
 			this->Nazewnictwo->ResumeLayout(false);
 			this->Nazewnictwo->PerformLayout();
 			this->Atrybuty->ResumeLayout(false);
@@ -5483,5 +5967,23 @@ private: System::Void labelAlechemiaPlus_Click(System::Object^  sender, System::
 	labelWartoscAlchemia->Text = (int::Parse(labelWartoscAlchemia->Text) + 1).ToString();
 }
 
+private: System::Void label288_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void label282_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void label283_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void label284_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void label285_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void label286_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void label287_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void checkBox2_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void maskedTextBox42_MaskInputRejected(System::Object^  sender, System::Windows::Forms::MaskInputRejectedEventArgs^  e) {
+}
 };
 }

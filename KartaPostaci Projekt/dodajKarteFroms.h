@@ -2,7 +2,8 @@
 #include <stdio.h>      
 #include <stdlib.h>     
 #include <time.h> 
-namespace KartaPostaci_Projekt  {
+
+namespace KartaPostaci_Projekt {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -10,7 +11,8 @@ namespace KartaPostaci_Projekt  {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
-
+	
+	
 	/// <summary>
 	/// Summary for dodajKarteFroms
 	/// </summary>
@@ -570,7 +572,7 @@ private: System::Windows::Forms::CheckBox^  checkBoxZauwazanie;
 private: System::Windows::Forms::CheckBox^  checkBoxWyzwalanie;
 private: System::Windows::Forms::Label^  labelZbieranieInf;
 
-
+//private: System::Windows::Forms::SaveFileDialog^ KartaPostaci_Projekt::dodajKarteFroms::saveFileDialog1;
 
 
 private: System::Windows::Forms::Label^  labelZauwazanie;
@@ -602,6 +604,9 @@ private: System::Windows::Forms::Label^  labelInicjatywa;
 private: System::Windows::Forms::Label^  label22;
 private: System::Windows::Forms::Label^  label23;
 private: System::Windows::Forms::Label^  labelPoziom;
+private: System::Windows::Forms::Button^  buttonSave;
+private: System::Windows::Forms::SaveFileDialog^  saveFileDialog1;
+
 
 
 
@@ -1088,6 +1093,9 @@ private: System::Windows::Forms::Label^  labelPoziom;
 			this->groupBoxBronPoboczna = (gcnew System::Windows::Forms::GroupBox());
 			this->groupBoxZbroja = (gcnew System::Windows::Forms::GroupBox());
 			this->groupBoxTarcza = (gcnew System::Windows::Forms::GroupBox());
+			this->buttonSave = (gcnew System::Windows::Forms::Button());
+
+			this->saveFileDialog1 = (gcnew System::Windows::Forms::SaveFileDialog());
 			this->Nazewnictwo->SuspendLayout();
 			this->Atrybuty->SuspendLayout();
 			this->hpNPancerz->SuspendLayout();
@@ -5840,7 +5848,7 @@ private: System::Windows::Forms::Label^  labelPoziom;
 			// 
 			// groupBoxBronPoboczna
 			// 
-			this->groupBoxBronPoboczna->Location = System::Drawing::Point(317, 484);
+			this->groupBoxBronPoboczna->Location = System::Drawing::Point(318, 484);
 			this->groupBoxBronPoboczna->Name = L"groupBoxBronPoboczna";
 			this->groupBoxBronPoboczna->Size = System::Drawing::Size(303, 159);
 			this->groupBoxBronPoboczna->TabIndex = 8;
@@ -5851,25 +5859,40 @@ private: System::Windows::Forms::Label^  labelPoziom;
 			// 
 			this->groupBoxZbroja->Location = System::Drawing::Point(13, 649);
 			this->groupBoxZbroja->Name = L"groupBoxZbroja";
-			this->groupBoxZbroja->Size = System::Drawing::Size(298, 148);
+			this->groupBoxZbroja->Size = System::Drawing::Size(298, 134);
 			this->groupBoxZbroja->TabIndex = 9;
 			this->groupBoxZbroja->TabStop = false;
 			this->groupBoxZbroja->Text = L"Zbroja";
 			// 
 			// groupBoxTarcza
 			// 
-			this->groupBoxTarcza->Location = System::Drawing::Point(324, 649);
+			this->groupBoxTarcza->Location = System::Drawing::Point(318, 649);
 			this->groupBoxTarcza->Name = L"groupBoxTarcza";
-			this->groupBoxTarcza->Size = System::Drawing::Size(296, 148);
+			this->groupBoxTarcza->Size = System::Drawing::Size(296, 134);
 			this->groupBoxTarcza->TabIndex = 10;
 			this->groupBoxTarcza->TabStop = false;
 			this->groupBoxTarcza->Text = L"Tarcza";
+			// 
+			// buttonSave
+			// 
+			this->buttonSave->Location = System::Drawing::Point(551, 789);
+			this->buttonSave->Name = L"buttonSave";
+			this->buttonSave->Size = System::Drawing::Size(75, 23);
+			this->buttonSave->TabIndex = 11;
+			this->buttonSave->Text = L"Save";
+			this->buttonSave->UseVisualStyleBackColor = true;
+			this->buttonSave->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonSave_Click);
+			// 
+			// saveFileDialog1
+			// 
+			this->saveFileDialog1->FileOk += gcnew System::ComponentModel::CancelEventHandler(this, &dodajKarteFroms::saveFileDialog1_FileOk_1);
 			// 
 			// dodajKarteFroms
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1096, 812);
+			this->Controls->Add(this->buttonSave);
 			this->Controls->Add(this->groupBoxTarcza);
 			this->Controls->Add(this->groupBoxZbroja);
 			this->Controls->Add(this->groupBoxBronPoboczna);
@@ -6491,6 +6514,28 @@ private: System::Void label23_Click(System::Object^  sender, System::EventArgs^ 
 }
 private: System::Void label22_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelPoziom->Text = (Double::Parse(labelPoziom->Text) - 1).ToString();
+}
+private: System::Void saveFileDialog1_FileOk(System::Object^  sender, System::ComponentModel::CancelEventArgs^  e) {
+}
+private: System::Void buttonSave_Click(System::Object^  sender, System::EventArgs^  e) {
+	
+	SaveFileDialog ^ saveFileDialog1 = gcnew SaveFileDialog();
+	saveFileDialog1->Filter =
+		"Wikingowy format|*.wikingtxt";
+	saveFileDialog1->Title = "Save an WikingText File";
+	saveFileDialog1->RestoreDirectory = true;
+	saveFileDialog1->ShowDialog();
+	if (saveFileDialog1->FileName != ""){
+		IO::File::WriteAllText(saveFileDialog1->FileName, textBoxImie->Text+Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxGracza->Text + Environment::NewLine);
+		///TO DO 
+	}
+}
+
+
+
+
+private: System::Void saveFileDialog1_FileOk_1(System::Object^  sender, System::ComponentModel::CancelEventArgs^  e) {
 }
 };
 }

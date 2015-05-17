@@ -6528,6 +6528,7 @@ private: System::Void buttonSave_Click(System::Object^  sender, System::EventArg
 	if (saveFileDialog1->FileName != ""){
 		IO::File::WriteAllText(saveFileDialog1->FileName, textBoxImie->Text+Environment::NewLine);
 		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxGracza->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, labelPoziom->Text + Environment::NewLine);
 		///TO DO 
 	}
 }

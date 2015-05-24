@@ -1,6 +1,11 @@
 #pragma once
 #include "stdAfx.h"
 #include "dodajKarteFroms.h"
+#include "WczytanaKarta.h"
+#include<cstdio>
+
+
+#include <msclr/marshal_cppstd.h>
 namespace WindowsFormApplication1 {
 
 	using namespace System;
@@ -9,6 +14,7 @@ namespace WindowsFormApplication1 {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using namespace System::IO;
 
 	/// <summary>
 	/// Summary for Form1
@@ -47,6 +53,7 @@ namespace WindowsFormApplication1 {
 	private: System::Windows::Forms::Button^  wczytaj;
 	private: System::Windows::Forms::Button^  nowaKarta;
 	private: System::Windows::Forms::Label^  label1;
+	private: System::Windows::Forms::OpenFileDialog^  openFileDialog1;
 
 	private:
 		/// <summary>
@@ -70,6 +77,7 @@ namespace WindowsFormApplication1 {
 			this->wczytaj = (gcnew System::Windows::Forms::Button());
 			this->nowaKarta = (gcnew System::Windows::Forms::Button());
 			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->loadingscreen->SuspendLayout();
 			this->SuspendLayout();
 			// 
@@ -146,6 +154,7 @@ namespace WindowsFormApplication1 {
 			this->wczytaj->TabIndex = 1;
 			this->wczytaj->Text = L"Wczytaj";
 			this->wczytaj->UseVisualStyleBackColor = true;
+			this->wczytaj->Click += gcnew System::EventHandler(this, &Form1::wczytaj_Click);
 			// 
 			// nowaKarta
 			// 
@@ -165,6 +174,10 @@ namespace WindowsFormApplication1 {
 			this->label1->Size = System::Drawing::Size(122, 13);
 			this->label1->TabIndex = 1;
 			this->label1->Text = L"Karta Postaci do D&D 3.5";
+			// 
+			// openFileDialog1
+			// 
+			this->openFileDialog1->FileName = L"openFileDialog1";
 			// 
 			// Form1
 			// 
@@ -188,6 +201,35 @@ private: System::Void nowaKarta_Click(System::Object^  sender, System::EventArgs
 	
 	KartaPostaci_Projekt::dodajKarteFroms^  dodaj = gcnew KartaPostaci_Projekt::dodajKarteFroms;
 	dodaj->ShowDialog();
+}
+private: System::Void wczytaj_Click(System::Object^  sender, System::EventArgs^  e) {
+	
+	OpenFileDialog^ openFileDialog1 = gcnew OpenFileDialog();
+
+	
+	openFileDialog1->Filter = "WikingTxt |*.wikingtxt";
+	openFileDialog1->RestoreDirectory = true;
+	//String cos = openFileDialog1->FileName();
+
+	if (openFileDialog1->ShowDialog() == System::Windows::Forms::DialogResult::OK)
+	{
+		KartaPostaci_Projekt::WczytanaKarta^ otwarte = gcnew KartaPostaci_Projekt::WczytanaKarta;
+		
+		String^ str = openFileDialog1->FileName;
+		StreamReader ^myStream = gcnew StreamReader(str);
+		
+			
+			String^ buffor = "test";
+			buffor = myStream->ReadLine();
+
+			
+			otwarte->labelTestowyqqq = buffor;
+			MessageBox::Show(buffor);
+		//otwarte
+		//MessageBox::Show(str, "Path:");
+		otwarte->Show();
+		
+	}
 }
 };
 }

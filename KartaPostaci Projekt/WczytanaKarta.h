@@ -16,7 +16,8 @@ namespace KartaPostaci_Projekt {
 	public ref class WczytanaKarta : public System::Windows::Forms::Form
 	{
 	public:
-		String^ labelTestowyqqq;
+		//// zmienne pomocnicze
+		String^ label1testowy;
 		
 		WczytanaKarta(void)
 		{
@@ -44,351 +45,8 @@ namespace KartaPostaci_Projekt {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Label^  label1testowy;
 	private: System::Windows::Forms::Button^  buttonZa³aduj;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	protected:
-
-	protected:
 
 	private:
 		/// <summary>
@@ -403,18 +61,11 @@ namespace KartaPostaci_Projekt {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->label1testowy = (gcnew System::Windows::Forms::Label());
+			
 			this->buttonZa³aduj = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
-			// 
-			// label1testowy
-			// 
-			this->label1testowy->AutoSize = true;
-			this->label1testowy->Location = System::Drawing::Point(12, 20);
-			this->label1testowy->Name = L"label1testowy";
-			this->label1testowy->Size = System::Drawing::Size(71, 13);
-			this->label1testowy->TabIndex = 0;
-			this->label1testowy->Text = L"label1testowy";
+		
+		
 			// 
 			// buttonZa³aduj
 			// 
@@ -432,7 +83,6 @@ namespace KartaPostaci_Projekt {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1092, 805);
 			this->Controls->Add(this->buttonZa³aduj);
-			this->Controls->Add(this->label1testowy);
 			this->Name = L"WczytanaKarta";
 			this->Text = L"WczytanaKarta";
 			this->ResumeLayout(false);
@@ -443,17 +93,10 @@ namespace KartaPostaci_Projekt {
 
 		}
 #pragma endregion
-	public:
-		
-		void funkcja(){
-			label1testowy->Text = labelTestowyqqq;
-			
-			
-			label1testowy->Refresh();
-		}
+
 
 private: System::Void buttonZa³aduj_Click(System::Object^  sender, System::EventArgs^  e) {
-	funkcja();
+
 	buttonZa³aduj->Hide();
 }
 };

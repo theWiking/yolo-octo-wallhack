@@ -223,7 +223,7 @@ private: System::Void wczytaj_Click(System::Object^  sender, System::EventArgs^ 
 			buffor = myStream->ReadLine();
 
 			
-			otwarte->labelTestowyqqq = buffor;
+			otwarte->label1testowy = buffor;
 			MessageBox::Show(buffor);
 		//otwarte
 		//MessageBox::Show(str, "Path:");

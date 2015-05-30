@@ -227,7 +227,8 @@ private: System::Windows::Forms::Button^  buttonUmiejetnoscUaktualnij;
 private: System::Windows::Forms::Label^  label21;
 private: System::Windows::Forms::Label^  label20;
 private: System::Windows::Forms::Label^  label19;
-private: System::Windows::Forms::Label^  label18;
+private: System::Windows::Forms::Label^  labelPunktyKlasoweDoWydania;
+
 private: System::Windows::Forms::Label^  label17;
 private: System::Windows::Forms::Label^  label16;
 private: System::Windows::Forms::Label^  label14;
@@ -641,6 +642,35 @@ private: System::Windows::Forms::Button^  buttonSave;
 private: System::Windows::Forms::SaveFileDialog^  saveFileDialog1;
 private: System::Windows::Forms::Label^  labelwartoscAtakow;
 private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
+private: System::Windows::Forms::Label^  label25;
+private: System::Windows::Forms::TextBox^  textBox1;
+private: System::Windows::Forms::ComboBox^  comboBox2;
+private: System::Windows::Forms::ComboBox^  comboBox3;
+private: System::Windows::Forms::TextBox^  textBox3;
+private: System::Windows::Forms::TextBox^  textBox4;
+private: System::Windows::Forms::TextBox^  textBox10;
+private: System::Windows::Forms::TextBox^  textBox11;
+private: System::Windows::Forms::TextBox^  textBox12;
+private: System::Windows::Forms::Label^  label24;
+private: System::Windows::Forms::TextBox^  textBox9;
+private: System::Windows::Forms::ComboBox^  comboBoxRodzajBroni2;
+private: System::Windows::Forms::ComboBox^  comboBoxRozbiarBroni2;
+private: System::Windows::Forms::TextBox^  textBox8;
+private: System::Windows::Forms::TextBox^  textBox7;
+private: System::Windows::Forms::TextBox^  textBox6;
+private: System::Windows::Forms::TextBox^  textBox5;
+private: System::Windows::Forms::TextBox^  textBox2;
+private: System::Windows::Forms::Label^  label18;
+private: System::Windows::Forms::Label^  labelRealnaWartoscCha;
+
+private: System::Windows::Forms::Label^  labelRealnaWartoscMd;
+
+private: System::Windows::Forms::Label^  labelRealnaWartoscInt;
+
+private: System::Windows::Forms::Label^  labelRealnaWartoscBd;
+
+private: System::Windows::Forms::Label^  labelRealnaWartoscZr;
+private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 
 
 
@@ -686,15 +716,22 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->textBoxGracza = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxImie = (gcnew System::Windows::Forms::TextBox());
 			this->Atrybuty = (gcnew System::Windows::Forms::GroupBox());
+			this->labelRealnaWartoscCha = (gcnew System::Windows::Forms::Label());
+			this->label18 = (gcnew System::Windows::Forms::Label());
 			this->buttonSprawdzRealneAtrybuty = (gcnew System::Windows::Forms::Button());
+			this->labelRealnaWartoscMd = (gcnew System::Windows::Forms::Label());
 			this->labelRMod = (gcnew System::Windows::Forms::Label());
 			this->labelRasaCha = (gcnew System::Windows::Forms::Label());
+			this->labelRealnaWartoscInt = (gcnew System::Windows::Forms::Label());
 			this->labelWartoscAtrybutuCha = (gcnew System::Windows::Forms::Label());
 			this->buttonChaMinus = (gcnew System::Windows::Forms::Button());
+			this->labelRealnaWartoscBd = (gcnew System::Windows::Forms::Label());
 			this->labelWartoscCha = (gcnew System::Windows::Forms::Label());
 			this->buttonChaPlus = (gcnew System::Windows::Forms::Button());
+			this->labelRealnaWartoscZr = (gcnew System::Windows::Forms::Label());
 			this->label15 = (gcnew System::Windows::Forms::Label());
 			this->labelRasaMd = (gcnew System::Windows::Forms::Label());
+			this->labelRealnaWartoscSi = (gcnew System::Windows::Forms::Label());
 			this->labelWartoscAtrybutuMd = (gcnew System::Windows::Forms::Label());
 			this->buttonMdMinus = (gcnew System::Windows::Forms::Button());
 			this->labelWartoscMd = (gcnew System::Windows::Forms::Label());
@@ -1088,7 +1125,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->label21 = (gcnew System::Windows::Forms::Label());
 			this->label20 = (gcnew System::Windows::Forms::Label());
 			this->label19 = (gcnew System::Windows::Forms::Label());
-			this->label18 = (gcnew System::Windows::Forms::Label());
+			this->labelPunktyKlasoweDoWydania = (gcnew System::Windows::Forms::Label());
 			this->label17 = (gcnew System::Windows::Forms::Label());
 			this->label16 = (gcnew System::Windows::Forms::Label());
 			this->label14 = (gcnew System::Windows::Forms::Label());
@@ -1097,6 +1134,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->buttonAtakiUaktualnij = (gcnew System::Windows::Forms::Button());
 			this->labelwartoscAtakow = (gcnew System::Windows::Forms::Label());
 			this->labelAtaki = (gcnew System::Windows::Forms::Label());
 			this->maskedTextBoxInneInicjatywa = (gcnew System::Windows::Forms::MaskedTextBox());
@@ -1129,12 +1167,29 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelMozliweAtaki = (gcnew System::Windows::Forms::Label());
 			this->label289 = (gcnew System::Windows::Forms::Label());
 			this->groupBoxBronG = (gcnew System::Windows::Forms::GroupBox());
+			this->label25 = (gcnew System::Windows::Forms::Label());
+			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+			this->comboBox2 = (gcnew System::Windows::Forms::ComboBox());
+			this->comboBox3 = (gcnew System::Windows::Forms::ComboBox());
+			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox10 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox11 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox12 = (gcnew System::Windows::Forms::TextBox());
 			this->groupBoxBronPoboczna = (gcnew System::Windows::Forms::GroupBox());
+			this->label24 = (gcnew System::Windows::Forms::Label());
+			this->textBox9 = (gcnew System::Windows::Forms::TextBox());
+			this->comboBoxRodzajBroni2 = (gcnew System::Windows::Forms::ComboBox());
+			this->comboBoxRozbiarBroni2 = (gcnew System::Windows::Forms::ComboBox());
+			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
 			this->groupBoxZbroja = (gcnew System::Windows::Forms::GroupBox());
 			this->groupBoxTarcza = (gcnew System::Windows::Forms::GroupBox());
 			this->buttonSave = (gcnew System::Windows::Forms::Button());
 			this->saveFileDialog1 = (gcnew System::Windows::Forms::SaveFileDialog());
-			this->buttonAtakiUaktualnij = (gcnew System::Windows::Forms::Button());
 			this->Nazewnictwo->SuspendLayout();
 			this->Atrybuty->SuspendLayout();
 			this->hpNPancerz->SuspendLayout();
@@ -1142,6 +1197,8 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->groupBox2->SuspendLayout();
 			this->groupBox3->SuspendLayout();
 			this->groupBoxAtaki->SuspendLayout();
+			this->groupBoxBronG->SuspendLayout();
+			this->groupBoxBronPoboczna->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// Nazewnictwo
@@ -1337,15 +1394,22 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// 
 			// Atrybuty
 			// 
+			this->Atrybuty->Controls->Add(this->labelRealnaWartoscCha);
+			this->Atrybuty->Controls->Add(this->label18);
 			this->Atrybuty->Controls->Add(this->buttonSprawdzRealneAtrybuty);
+			this->Atrybuty->Controls->Add(this->labelRealnaWartoscMd);
 			this->Atrybuty->Controls->Add(this->labelRMod);
 			this->Atrybuty->Controls->Add(this->labelRasaCha);
+			this->Atrybuty->Controls->Add(this->labelRealnaWartoscInt);
 			this->Atrybuty->Controls->Add(this->labelWartoscAtrybutuCha);
 			this->Atrybuty->Controls->Add(this->buttonChaMinus);
+			this->Atrybuty->Controls->Add(this->labelRealnaWartoscBd);
 			this->Atrybuty->Controls->Add(this->labelWartoscCha);
 			this->Atrybuty->Controls->Add(this->buttonChaPlus);
+			this->Atrybuty->Controls->Add(this->labelRealnaWartoscZr);
 			this->Atrybuty->Controls->Add(this->label15);
 			this->Atrybuty->Controls->Add(this->labelRasaMd);
+			this->Atrybuty->Controls->Add(this->labelRealnaWartoscSi);
 			this->Atrybuty->Controls->Add(this->labelWartoscAtrybutuMd);
 			this->Atrybuty->Controls->Add(this->buttonMdMinus);
 			this->Atrybuty->Controls->Add(this->labelWartoscMd);
@@ -1386,6 +1450,26 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->Atrybuty->TabStop = false;
 			this->Atrybuty->Text = L"Atrybuty";
 			// 
+			// labelRealnaWartoscCha
+			// 
+			this->labelRealnaWartoscCha->AutoSize = true;
+			this->labelRealnaWartoscCha->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
+			this->labelRealnaWartoscCha->Location = System::Drawing::Point(75, 170);
+			this->labelRealnaWartoscCha->Name = L"labelRealnaWartoscCha";
+			this->labelRealnaWartoscCha->Size = System::Drawing::Size(22, 16);
+			this->labelRealnaWartoscCha->TabIndex = 48;
+			this->labelRealnaWartoscCha->Text = L"10";
+			// 
+			// label18
+			// 
+			this->label18->AutoSize = true;
+			this->label18->Location = System::Drawing::Point(27, 199);
+			this->label18->Name = L"label18";
+			this->label18->Size = System::Drawing::Size(85, 13);
+			this->label18->TabIndex = 42;
+			this->label18->Text = L"otrzymany realny";
+			// 
 			// buttonSprawdzRealneAtrybuty
 			// 
 			this->buttonSprawdzRealneAtrybuty->Location = System::Drawing::Point(91, 224);
@@ -1395,6 +1479,17 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->buttonSprawdzRealneAtrybuty->Text = L"Realne Atrybuty";
 			this->buttonSprawdzRealneAtrybuty->UseVisualStyleBackColor = true;
 			this->buttonSprawdzRealneAtrybuty->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonSprawdzRealneAtrybuty_Click);
+			// 
+			// labelRealnaWartoscMd
+			// 
+			this->labelRealnaWartoscMd->AutoSize = true;
+			this->labelRealnaWartoscMd->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
+			this->labelRealnaWartoscMd->Location = System::Drawing::Point(75, 144);
+			this->labelRealnaWartoscMd->Name = L"labelRealnaWartoscMd";
+			this->labelRealnaWartoscMd->Size = System::Drawing::Size(22, 16);
+			this->labelRealnaWartoscMd->TabIndex = 47;
+			this->labelRealnaWartoscMd->Text = L"10";
 			// 
 			// labelRMod
 			// 
@@ -1408,26 +1503,37 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// labelRasaCha
 			// 
 			this->labelRasaCha->AutoSize = true;
-			this->labelRasaCha->Location = System::Drawing::Point(180, 172);
+			this->labelRasaCha->Location = System::Drawing::Point(190, 172);
 			this->labelRasaCha->Name = L"labelRasaCha";
 			this->labelRasaCha->Size = System::Drawing::Size(13, 13);
 			this->labelRasaCha->TabIndex = 39;
 			this->labelRasaCha->Text = L"0";
+			// 
+			// labelRealnaWartoscInt
+			// 
+			this->labelRealnaWartoscInt->AutoSize = true;
+			this->labelRealnaWartoscInt->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
+			this->labelRealnaWartoscInt->Location = System::Drawing::Point(75, 118);
+			this->labelRealnaWartoscInt->Name = L"labelRealnaWartoscInt";
+			this->labelRealnaWartoscInt->Size = System::Drawing::Size(22, 16);
+			this->labelRealnaWartoscInt->TabIndex = 46;
+			this->labelRealnaWartoscInt->Text = L"10";
 			// 
 			// labelWartoscAtrybutuCha
 			// 
 			this->labelWartoscAtrybutuCha->AutoSize = true;
 			this->labelWartoscAtrybutuCha->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->labelWartoscAtrybutuCha->Location = System::Drawing::Point(132, 170);
+			this->labelWartoscAtrybutuCha->Location = System::Drawing::Point(147, 170);
 			this->labelWartoscAtrybutuCha->Name = L"labelWartoscAtrybutuCha";
-			this->labelWartoscAtrybutuCha->Size = System::Drawing::Size(15, 16);
+			this->labelWartoscAtrybutuCha->Size = System::Drawing::Size(33, 16);
 			this->labelWartoscAtrybutuCha->TabIndex = 38;
-			this->labelWartoscAtrybutuCha->Text = L"0";
+			this->labelWartoscAtrybutuCha->Text = L"0 (0)";
 			// 
 			// buttonChaMinus
 			// 
-			this->buttonChaMinus->Location = System::Drawing::Point(103, 167);
+			this->buttonChaMinus->Location = System::Drawing::Point(118, 167);
 			this->buttonChaMinus->Name = L"buttonChaMinus";
 			this->buttonChaMinus->Size = System::Drawing::Size(23, 23);
 			this->buttonChaMinus->TabIndex = 37;
@@ -1435,12 +1541,23 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->buttonChaMinus->UseVisualStyleBackColor = true;
 			this->buttonChaMinus->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonChaMinus_Click);
 			// 
+			// labelRealnaWartoscBd
+			// 
+			this->labelRealnaWartoscBd->AutoSize = true;
+			this->labelRealnaWartoscBd->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
+			this->labelRealnaWartoscBd->Location = System::Drawing::Point(75, 93);
+			this->labelRealnaWartoscBd->Name = L"labelRealnaWartoscBd";
+			this->labelRealnaWartoscBd->Size = System::Drawing::Size(22, 16);
+			this->labelRealnaWartoscBd->TabIndex = 45;
+			this->labelRealnaWartoscBd->Text = L"10";
+			// 
 			// labelWartoscCha
 			// 
 			this->labelWartoscCha->AutoSize = true;
 			this->labelWartoscCha->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->labelWartoscCha->Location = System::Drawing::Point(75, 170);
+			this->labelWartoscCha->Location = System::Drawing::Point(98, 170);
 			this->labelWartoscCha->Name = L"labelWartoscCha";
 			this->labelWartoscCha->Size = System::Drawing::Size(22, 16);
 			this->labelWartoscCha->TabIndex = 36;
@@ -1455,6 +1572,17 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->buttonChaPlus->Text = L"+";
 			this->buttonChaPlus->UseVisualStyleBackColor = true;
 			this->buttonChaPlus->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonChaPlus_Click);
+			// 
+			// labelRealnaWartoscZr
+			// 
+			this->labelRealnaWartoscZr->AutoSize = true;
+			this->labelRealnaWartoscZr->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
+			this->labelRealnaWartoscZr->Location = System::Drawing::Point(75, 70);
+			this->labelRealnaWartoscZr->Name = L"labelRealnaWartoscZr";
+			this->labelRealnaWartoscZr->Size = System::Drawing::Size(22, 16);
+			this->labelRealnaWartoscZr->TabIndex = 44;
+			this->labelRealnaWartoscZr->Text = L"10";
 			// 
 			// label15
 			// 
@@ -1471,26 +1599,37 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// labelRasaMd
 			// 
 			this->labelRasaMd->AutoSize = true;
-			this->labelRasaMd->Location = System::Drawing::Point(180, 146);
+			this->labelRasaMd->Location = System::Drawing::Point(190, 146);
 			this->labelRasaMd->Name = L"labelRasaMd";
 			this->labelRasaMd->Size = System::Drawing::Size(13, 13);
 			this->labelRasaMd->TabIndex = 33;
 			this->labelRasaMd->Text = L"0";
+			// 
+			// labelRealnaWartoscSi
+			// 
+			this->labelRealnaWartoscSi->AutoSize = true;
+			this->labelRealnaWartoscSi->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
+			this->labelRealnaWartoscSi->Location = System::Drawing::Point(75, 47);
+			this->labelRealnaWartoscSi->Name = L"labelRealnaWartoscSi";
+			this->labelRealnaWartoscSi->Size = System::Drawing::Size(22, 16);
+			this->labelRealnaWartoscSi->TabIndex = 43;
+			this->labelRealnaWartoscSi->Text = L"10";
 			// 
 			// labelWartoscAtrybutuMd
 			// 
 			this->labelWartoscAtrybutuMd->AutoSize = true;
 			this->labelWartoscAtrybutuMd->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->labelWartoscAtrybutuMd->Location = System::Drawing::Point(132, 144);
+			this->labelWartoscAtrybutuMd->Location = System::Drawing::Point(147, 144);
 			this->labelWartoscAtrybutuMd->Name = L"labelWartoscAtrybutuMd";
-			this->labelWartoscAtrybutuMd->Size = System::Drawing::Size(15, 16);
+			this->labelWartoscAtrybutuMd->Size = System::Drawing::Size(33, 16);
 			this->labelWartoscAtrybutuMd->TabIndex = 32;
-			this->labelWartoscAtrybutuMd->Text = L"0";
+			this->labelWartoscAtrybutuMd->Text = L"0 (0)";
 			// 
 			// buttonMdMinus
 			// 
-			this->buttonMdMinus->Location = System::Drawing::Point(103, 141);
+			this->buttonMdMinus->Location = System::Drawing::Point(118, 141);
 			this->buttonMdMinus->Name = L"buttonMdMinus";
 			this->buttonMdMinus->Size = System::Drawing::Size(23, 23);
 			this->buttonMdMinus->TabIndex = 31;
@@ -1503,7 +1642,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelWartoscMd->AutoSize = true;
 			this->labelWartoscMd->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->labelWartoscMd->Location = System::Drawing::Point(75, 144);
+			this->labelWartoscMd->Location = System::Drawing::Point(98, 144);
 			this->labelWartoscMd->Name = L"labelWartoscMd";
 			this->labelWartoscMd->Size = System::Drawing::Size(22, 16);
 			this->labelWartoscMd->TabIndex = 30;
@@ -1534,7 +1673,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// labelRasaInt
 			// 
 			this->labelRasaInt->AutoSize = true;
-			this->labelRasaInt->Location = System::Drawing::Point(180, 120);
+			this->labelRasaInt->Location = System::Drawing::Point(190, 120);
 			this->labelRasaInt->Name = L"labelRasaInt";
 			this->labelRasaInt->Size = System::Drawing::Size(13, 13);
 			this->labelRasaInt->TabIndex = 27;
@@ -1545,15 +1684,15 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelWartoscAtrybutuInt->AutoSize = true;
 			this->labelWartoscAtrybutuInt->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->labelWartoscAtrybutuInt->Location = System::Drawing::Point(132, 118);
+			this->labelWartoscAtrybutuInt->Location = System::Drawing::Point(147, 118);
 			this->labelWartoscAtrybutuInt->Name = L"labelWartoscAtrybutuInt";
-			this->labelWartoscAtrybutuInt->Size = System::Drawing::Size(15, 16);
+			this->labelWartoscAtrybutuInt->Size = System::Drawing::Size(33, 16);
 			this->labelWartoscAtrybutuInt->TabIndex = 26;
-			this->labelWartoscAtrybutuInt->Text = L"0";
+			this->labelWartoscAtrybutuInt->Text = L"0 (0)";
 			// 
 			// buttonIntMinus
 			// 
-			this->buttonIntMinus->Location = System::Drawing::Point(103, 115);
+			this->buttonIntMinus->Location = System::Drawing::Point(118, 115);
 			this->buttonIntMinus->Name = L"buttonIntMinus";
 			this->buttonIntMinus->Size = System::Drawing::Size(23, 23);
 			this->buttonIntMinus->TabIndex = 25;
@@ -1566,7 +1705,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelWartoscInt->AutoSize = true;
 			this->labelWartoscInt->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->labelWartoscInt->Location = System::Drawing::Point(75, 118);
+			this->labelWartoscInt->Location = System::Drawing::Point(98, 118);
 			this->labelWartoscInt->Name = L"labelWartoscInt";
 			this->labelWartoscInt->Size = System::Drawing::Size(22, 16);
 			this->labelWartoscInt->TabIndex = 24;
@@ -1624,7 +1763,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// labelRasaBd
 			// 
 			this->labelRasaBd->AutoSize = true;
-			this->labelRasaBd->Location = System::Drawing::Point(180, 95);
+			this->labelRasaBd->Location = System::Drawing::Point(190, 95);
 			this->labelRasaBd->Name = L"labelRasaBd";
 			this->labelRasaBd->Size = System::Drawing::Size(13, 13);
 			this->labelRasaBd->TabIndex = 18;
@@ -1633,7 +1772,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// labelRasaZr
 			// 
 			this->labelRasaZr->AutoSize = true;
-			this->labelRasaZr->Location = System::Drawing::Point(180, 72);
+			this->labelRasaZr->Location = System::Drawing::Point(190, 72);
 			this->labelRasaZr->Name = L"labelRasaZr";
 			this->labelRasaZr->Size = System::Drawing::Size(13, 13);
 			this->labelRasaZr->TabIndex = 17;
@@ -1642,7 +1781,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// labelRasaSi
 			// 
 			this->labelRasaSi->AutoSize = true;
-			this->labelRasaSi->Location = System::Drawing::Point(180, 49);
+			this->labelRasaSi->Location = System::Drawing::Point(190, 49);
 			this->labelRasaSi->Name = L"labelRasaSi";
 			this->labelRasaSi->Size = System::Drawing::Size(13, 13);
 			this->labelRasaSi->TabIndex = 16;
@@ -1653,15 +1792,15 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelWartoscAtrybutuBd->AutoSize = true;
 			this->labelWartoscAtrybutuBd->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->labelWartoscAtrybutuBd->Location = System::Drawing::Point(132, 93);
+			this->labelWartoscAtrybutuBd->Location = System::Drawing::Point(147, 93);
 			this->labelWartoscAtrybutuBd->Name = L"labelWartoscAtrybutuBd";
-			this->labelWartoscAtrybutuBd->Size = System::Drawing::Size(15, 16);
+			this->labelWartoscAtrybutuBd->Size = System::Drawing::Size(33, 16);
 			this->labelWartoscAtrybutuBd->TabIndex = 15;
-			this->labelWartoscAtrybutuBd->Text = L"0";
+			this->labelWartoscAtrybutuBd->Text = L"0 (0)";
 			// 
 			// buttonBdMinus
 			// 
-			this->buttonBdMinus->Location = System::Drawing::Point(103, 90);
+			this->buttonBdMinus->Location = System::Drawing::Point(118, 90);
 			this->buttonBdMinus->Name = L"buttonBdMinus";
 			this->buttonBdMinus->Size = System::Drawing::Size(23, 23);
 			this->buttonBdMinus->TabIndex = 14;
@@ -1674,7 +1813,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelWartoscBd->AutoSize = true;
 			this->labelWartoscBd->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->labelWartoscBd->Location = System::Drawing::Point(75, 93);
+			this->labelWartoscBd->Location = System::Drawing::Point(98, 93);
 			this->labelWartoscBd->Name = L"labelWartoscBd";
 			this->labelWartoscBd->Size = System::Drawing::Size(22, 16);
 			this->labelWartoscBd->TabIndex = 13;
@@ -1707,15 +1846,15 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelWartoscAtrybutuZr->AutoSize = true;
 			this->labelWartoscAtrybutuZr->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->labelWartoscAtrybutuZr->Location = System::Drawing::Point(132, 70);
+			this->labelWartoscAtrybutuZr->Location = System::Drawing::Point(147, 70);
 			this->labelWartoscAtrybutuZr->Name = L"labelWartoscAtrybutuZr";
-			this->labelWartoscAtrybutuZr->Size = System::Drawing::Size(15, 16);
+			this->labelWartoscAtrybutuZr->Size = System::Drawing::Size(33, 16);
 			this->labelWartoscAtrybutuZr->TabIndex = 10;
-			this->labelWartoscAtrybutuZr->Text = L"0";
+			this->labelWartoscAtrybutuZr->Text = L"0 (0)";
 			// 
 			// buttonZrMinus
 			// 
-			this->buttonZrMinus->Location = System::Drawing::Point(103, 67);
+			this->buttonZrMinus->Location = System::Drawing::Point(118, 67);
 			this->buttonZrMinus->Name = L"buttonZrMinus";
 			this->buttonZrMinus->Size = System::Drawing::Size(23, 23);
 			this->buttonZrMinus->TabIndex = 9;
@@ -1728,7 +1867,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelWartoscZr->AutoSize = true;
 			this->labelWartoscZr->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->labelWartoscZr->Location = System::Drawing::Point(75, 70);
+			this->labelWartoscZr->Location = System::Drawing::Point(98, 70);
 			this->labelWartoscZr->Name = L"labelWartoscZr";
 			this->labelWartoscZr->Size = System::Drawing::Size(22, 16);
 			this->labelWartoscZr->TabIndex = 8;
@@ -1761,15 +1900,15 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelWartoscAtrybutuSi->AutoSize = true;
 			this->labelWartoscAtrybutuSi->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->labelWartoscAtrybutuSi->Location = System::Drawing::Point(132, 47);
+			this->labelWartoscAtrybutuSi->Location = System::Drawing::Point(147, 47);
 			this->labelWartoscAtrybutuSi->Name = L"labelWartoscAtrybutuSi";
-			this->labelWartoscAtrybutuSi->Size = System::Drawing::Size(15, 16);
+			this->labelWartoscAtrybutuSi->Size = System::Drawing::Size(33, 16);
 			this->labelWartoscAtrybutuSi->TabIndex = 5;
-			this->labelWartoscAtrybutuSi->Text = L"0";
+			this->labelWartoscAtrybutuSi->Text = L"0 (0)";
 			// 
 			// buttonSilaMinus
 			// 
-			this->buttonSilaMinus->Location = System::Drawing::Point(103, 44);
+			this->buttonSilaMinus->Location = System::Drawing::Point(118, 44);
 			this->buttonSilaMinus->Name = L"buttonSilaMinus";
 			this->buttonSilaMinus->Size = System::Drawing::Size(23, 23);
 			this->buttonSilaMinus->TabIndex = 4;
@@ -1782,7 +1921,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->labelWartoscSila->AutoSize = true;
 			this->labelWartoscSila->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
-			this->labelWartoscSila->Location = System::Drawing::Point(75, 47);
+			this->labelWartoscSila->Location = System::Drawing::Point(98, 47);
 			this->labelWartoscSila->Name = L"labelWartoscSila";
 			this->labelWartoscSila->Size = System::Drawing::Size(22, 16);
 			this->labelWartoscSila->TabIndex = 3;
@@ -2451,7 +2590,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->groupBoxUmiejetnosc->Controls->Add(this->label21);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label20);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label19);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label18);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelPunktyKlasoweDoWydania);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label17);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label16);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label14);
@@ -4535,7 +4674,7 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// labelZr1
 			// 
 			this->labelZr1->AutoSize = true;
-			this->labelZr1->Location = System::Drawing::Point(217, 110);
+			this->labelZr1->Location = System::Drawing::Point(217, 112);
 			this->labelZr1->Name = L"labelZr1";
 			this->labelZr1->Size = System::Drawing::Size(13, 13);
 			this->labelZr1->TabIndex = 110;
@@ -5491,14 +5630,14 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->label19->TabIndex = 8;
 			this->label19->Text = L"/miedzy klasowych =";
 			// 
-			// label18
+			// labelPunktyKlasoweDoWydania
 			// 
-			this->label18->AutoSize = true;
-			this->label18->Location = System::Drawing::Point(168, 20);
-			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(13, 13);
-			this->label18->TabIndex = 7;
-			this->label18->Text = L"0";
+			this->labelPunktyKlasoweDoWydania->AutoSize = true;
+			this->labelPunktyKlasoweDoWydania->Location = System::Drawing::Point(168, 20);
+			this->labelPunktyKlasoweDoWydania->Name = L"labelPunktyKlasoweDoWydania";
+			this->labelPunktyKlasoweDoWydania->Size = System::Drawing::Size(13, 13);
+			this->labelPunktyKlasoweDoWydania->TabIndex = 7;
+			this->labelPunktyKlasoweDoWydania->Text = L"0";
 			// 
 			// label17
 			// 
@@ -5576,6 +5715,16 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->groupBox2->TabIndex = 4;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Inicjatywa i Atak Bazowy";
+			// 
+			// buttonAtakiUaktualnij
+			// 
+			this->buttonAtakiUaktualnij->Location = System::Drawing::Point(68, 20);
+			this->buttonAtakiUaktualnij->Name = L"buttonAtakiUaktualnij";
+			this->buttonAtakiUaktualnij->Size = System::Drawing::Size(75, 23);
+			this->buttonAtakiUaktualnij->TabIndex = 4;
+			this->buttonAtakiUaktualnij->Text = L"Uaktualnij";
+			this->buttonAtakiUaktualnij->UseVisualStyleBackColor = true;
+			this->buttonAtakiUaktualnij->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonAtakiUaktualnij_Click);
 			// 
 			// labelwartoscAtakow
 			// 
@@ -5889,6 +6038,15 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// 
 			// groupBoxBronG
 			// 
+			this->groupBoxBronG->Controls->Add(this->label25);
+			this->groupBoxBronG->Controls->Add(this->textBox1);
+			this->groupBoxBronG->Controls->Add(this->comboBox2);
+			this->groupBoxBronG->Controls->Add(this->comboBox3);
+			this->groupBoxBronG->Controls->Add(this->textBox3);
+			this->groupBoxBronG->Controls->Add(this->textBox4);
+			this->groupBoxBronG->Controls->Add(this->textBox10);
+			this->groupBoxBronG->Controls->Add(this->textBox11);
+			this->groupBoxBronG->Controls->Add(this->textBox12);
 			this->groupBoxBronG->Location = System::Drawing::Point(13, 484);
 			this->groupBoxBronG->Name = L"groupBoxBronG";
 			this->groupBoxBronG->Size = System::Drawing::Size(298, 159);
@@ -5896,14 +6054,169 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->groupBoxBronG->TabStop = false;
 			this->groupBoxBronG->Text = L"Broñ G³ówna";
 			// 
+			// label25
+			// 
+			this->label25->AutoSize = true;
+			this->label25->Location = System::Drawing::Point(121, 17);
+			this->label25->Name = L"label25";
+			this->label25->Size = System::Drawing::Size(41, 13);
+			this->label25->TabIndex = 17;
+			this->label25->Text = L"label25";
+			// 
+			// textBox1
+			// 
+			this->textBox1->Location = System::Drawing::Point(9, 73);
+			this->textBox1->Multiline = true;
+			this->textBox1->Name = L"textBox1";
+			this->textBox1->Size = System::Drawing::Size(282, 74);
+			this->textBox1->TabIndex = 15;
+			// 
+			// comboBox2
+			// 
+			this->comboBox2->FormattingEnabled = true;
+			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"K³ute", L"Mia¿d¿one", L"Ciête" });
+			this->comboBox2->Location = System::Drawing::Point(228, 46);
+			this->comboBox2->Name = L"comboBox2";
+			this->comboBox2->Size = System::Drawing::Size(63, 21);
+			this->comboBox2->TabIndex = 14;
+			// 
+			// comboBox3
+			// 
+			this->comboBox3->FormattingEnabled = true;
+			this->comboBox3->Items->AddRange(gcnew cli::array< System::Object^  >(8) {
+				L"Filigramowy", L"Malutki", L"Ma³y ", L"Œredni",
+					L"Du¿y", L"Wielki", L"Olbrzymi", L"Kolosalny"
+			});
+			this->comboBox3->Location = System::Drawing::Point(148, 46);
+			this->comboBox3->Name = L"comboBox3";
+			this->comboBox3->Size = System::Drawing::Size(74, 21);
+			this->comboBox3->TabIndex = 13;
+			// 
+			// textBox3
+			// 
+			this->textBox3->Location = System::Drawing::Point(82, 47);
+			this->textBox3->Name = L"textBox3";
+			this->textBox3->Size = System::Drawing::Size(52, 20);
+			this->textBox3->TabIndex = 12;
+			// 
+			// textBox4
+			// 
+			this->textBox4->Location = System::Drawing::Point(8, 47);
+			this->textBox4->Name = L"textBox4";
+			this->textBox4->Size = System::Drawing::Size(52, 20);
+			this->textBox4->TabIndex = 11;
+			// 
+			// textBox10
+			// 
+			this->textBox10->Location = System::Drawing::Point(260, 12);
+			this->textBox10->Name = L"textBox10";
+			this->textBox10->Size = System::Drawing::Size(31, 20);
+			this->textBox10->TabIndex = 10;
+			// 
+			// textBox11
+			// 
+			this->textBox11->Location = System::Drawing::Point(185, 13);
+			this->textBox11->Name = L"textBox11";
+			this->textBox11->Size = System::Drawing::Size(60, 20);
+			this->textBox11->TabIndex = 9;
+			// 
+			// textBox12
+			// 
+			this->textBox12->Location = System::Drawing::Point(9, 14);
+			this->textBox12->Name = L"textBox12";
+			this->textBox12->Size = System::Drawing::Size(100, 20);
+			this->textBox12->TabIndex = 8;
+			// 
 			// groupBoxBronPoboczna
 			// 
+			this->groupBoxBronPoboczna->Controls->Add(this->label24);
+			this->groupBoxBronPoboczna->Controls->Add(this->textBox9);
+			this->groupBoxBronPoboczna->Controls->Add(this->comboBoxRodzajBroni2);
+			this->groupBoxBronPoboczna->Controls->Add(this->comboBoxRozbiarBroni2);
+			this->groupBoxBronPoboczna->Controls->Add(this->textBox8);
+			this->groupBoxBronPoboczna->Controls->Add(this->textBox7);
+			this->groupBoxBronPoboczna->Controls->Add(this->textBox6);
+			this->groupBoxBronPoboczna->Controls->Add(this->textBox5);
+			this->groupBoxBronPoboczna->Controls->Add(this->textBox2);
 			this->groupBoxBronPoboczna->Location = System::Drawing::Point(318, 484);
 			this->groupBoxBronPoboczna->Name = L"groupBoxBronPoboczna";
 			this->groupBoxBronPoboczna->Size = System::Drawing::Size(303, 159);
 			this->groupBoxBronPoboczna->TabIndex = 8;
 			this->groupBoxBronPoboczna->TabStop = false;
 			this->groupBoxBronPoboczna->Text = L"Broñ Poboczna";
+			// 
+			// label24
+			// 
+			this->label24->AutoSize = true;
+			this->label24->Location = System::Drawing::Point(124, 19);
+			this->label24->Name = L"label24";
+			this->label24->Size = System::Drawing::Size(41, 13);
+			this->label24->TabIndex = 16;
+			this->label24->Text = L"label24";
+			// 
+			// textBox9
+			// 
+			this->textBox9->Location = System::Drawing::Point(11, 73);
+			this->textBox9->Multiline = true;
+			this->textBox9->Name = L"textBox9";
+			this->textBox9->Size = System::Drawing::Size(282, 74);
+			this->textBox9->TabIndex = 15;
+			// 
+			// comboBoxRodzajBroni2
+			// 
+			this->comboBoxRodzajBroni2->FormattingEnabled = true;
+			this->comboBoxRodzajBroni2->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"K³ute", L"Mia¿d¿one", L"Ciête" });
+			this->comboBoxRodzajBroni2->Location = System::Drawing::Point(230, 46);
+			this->comboBoxRodzajBroni2->Name = L"comboBoxRodzajBroni2";
+			this->comboBoxRodzajBroni2->Size = System::Drawing::Size(63, 21);
+			this->comboBoxRodzajBroni2->TabIndex = 14;
+			// 
+			// comboBoxRozbiarBroni2
+			// 
+			this->comboBoxRozbiarBroni2->FormattingEnabled = true;
+			this->comboBoxRozbiarBroni2->Items->AddRange(gcnew cli::array< System::Object^  >(8) {
+				L"Filigramowy", L"Malutki", L"Ma³y ",
+					L"Œredni", L"Du¿y", L"Wielki", L"Olbrzymi", L"Kolosalny"
+			});
+			this->comboBoxRozbiarBroni2->Location = System::Drawing::Point(150, 46);
+			this->comboBoxRozbiarBroni2->Name = L"comboBoxRozbiarBroni2";
+			this->comboBoxRozbiarBroni2->Size = System::Drawing::Size(74, 21);
+			this->comboBoxRozbiarBroni2->TabIndex = 13;
+			// 
+			// textBox8
+			// 
+			this->textBox8->Location = System::Drawing::Point(84, 47);
+			this->textBox8->Name = L"textBox8";
+			this->textBox8->Size = System::Drawing::Size(52, 20);
+			this->textBox8->TabIndex = 12;
+			// 
+			// textBox7
+			// 
+			this->textBox7->Location = System::Drawing::Point(10, 47);
+			this->textBox7->Name = L"textBox7";
+			this->textBox7->Size = System::Drawing::Size(52, 20);
+			this->textBox7->TabIndex = 11;
+			// 
+			// textBox6
+			// 
+			this->textBox6->Location = System::Drawing::Point(262, 12);
+			this->textBox6->Name = L"textBox6";
+			this->textBox6->Size = System::Drawing::Size(31, 20);
+			this->textBox6->TabIndex = 10;
+			// 
+			// textBox5
+			// 
+			this->textBox5->Location = System::Drawing::Point(187, 13);
+			this->textBox5->Name = L"textBox5";
+			this->textBox5->Size = System::Drawing::Size(60, 20);
+			this->textBox5->TabIndex = 9;
+			// 
+			// textBox2
+			// 
+			this->textBox2->Location = System::Drawing::Point(11, 14);
+			this->textBox2->Name = L"textBox2";
+			this->textBox2->Size = System::Drawing::Size(100, 20);
+			this->textBox2->TabIndex = 8;
 			// 
 			// groupBoxZbroja
 			// 
@@ -5936,16 +6249,6 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			// saveFileDialog1
 			// 
 			this->saveFileDialog1->FileOk += gcnew System::ComponentModel::CancelEventHandler(this, &dodajKarteFroms::saveFileDialog1_FileOk_1);
-			// 
-			// buttonAtakiUaktualnij
-			// 
-			this->buttonAtakiUaktualnij->Location = System::Drawing::Point(68, 20);
-			this->buttonAtakiUaktualnij->Name = L"buttonAtakiUaktualnij";
-			this->buttonAtakiUaktualnij->Size = System::Drawing::Size(75, 23);
-			this->buttonAtakiUaktualnij->TabIndex = 4;
-			this->buttonAtakiUaktualnij->Text = L"Uaktualnij";
-			this->buttonAtakiUaktualnij->UseVisualStyleBackColor = true;
-			this->buttonAtakiUaktualnij->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonAtakiUaktualnij_Click);
 			// 
 			// dodajKarteFroms
 			// 
@@ -5981,60 +6284,78 @@ private: System::Windows::Forms::Button^  buttonAtakiUaktualnij;
 			this->groupBox3->PerformLayout();
 			this->groupBoxAtaki->ResumeLayout(false);
 			this->groupBoxAtaki->PerformLayout();
+			this->groupBoxBronG->ResumeLayout(false);
+			this->groupBoxBronG->PerformLayout();
+			this->groupBoxBronPoboczna->ResumeLayout(false);
+			this->groupBoxBronPoboczna->PerformLayout();
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
 
 	private: System::Void buttonSilaPlus_Click(System::Object^  sender, System::EventArgs^  e) {
-		labelWartoscSila->Text = (Double::Parse(labelWartoscSila->Text) + 1).ToString();
-		labelWartoscAtrybutuSi->Text = ((int::Parse(labelWartoscSila->Text) - 10) / 2).ToString();
+		labelWartoscSila->Text = (int::Parse(labelWartoscSila->Text)+1).ToString(); 
+		labelWartoscAtrybutuSi->Text = ((int::Parse(labelWartoscSila->Text) + int::Parse(labelRasaSi->Text) - 10) / 2).ToString()+ " (" + ((int::Parse(labelWartoscSila->Text) - 10) / 2).ToString() + ")";
+		labelRealnaWartoscSi->Text = (int::Parse(labelWartoscSila->Text)+int::Parse(labelRasaSi->Text)).ToString();
 	}
 	
 
 private: System::Void buttonSilaMinus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscSila->Text = (Double::Parse(labelWartoscSila->Text) - 1).ToString();
-	labelWartoscAtrybutuSi->Text = ((int::Parse(labelWartoscSila->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuSi->Text = ((int::Parse(labelWartoscSila->Text) + int::Parse(labelRasaSi->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscSila->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscSi->Text = (int::Parse(labelWartoscSila->Text) + int::Parse(labelRasaSi->Text)).ToString();
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscZr->Text = (Double::Parse(labelWartoscZr->Text) + 1).ToString();
-	labelWartoscAtrybutuZr->Text = ((int::Parse(labelWartoscZr->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuZr->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscZr->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscZr->Text = (int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text)).ToString();
+	labelInicjatywa->Text = "Inicjatywa: " + (((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2) + int::Parse(maskedTextBoxInneInicjatywa->Text)).ToString() + " = " + ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " + ";
 }
 private: System::Void buttonZrMinus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscZr->Text = (Double::Parse(labelWartoscZr->Text) - 1).ToString();
-	labelWartoscAtrybutuZr->Text = ((int::Parse(labelWartoscZr->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuZr->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscZr->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscZr->Text = (int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text)).ToString();
+	labelInicjatywa->Text = "Inicjatywa: " + (((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2) + int::Parse(maskedTextBoxInneInicjatywa->Text)).ToString() + " = " + ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " + ";
 }
 private: System::Void buttonBdPlus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscBd->Text = (Double::Parse(labelWartoscBd->Text) + 1).ToString();
-	labelWartoscAtrybutuBd->Text = ((int::Parse(labelWartoscBd->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuBd->Text = ((int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscBd->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscBd->Text = (int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text)).ToString();
 }
 private: System::Void buttonBdMinus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscBd->Text = (Double::Parse(labelWartoscBd->Text) - 1).ToString();
-	labelWartoscAtrybutuBd->Text = ((int::Parse(labelWartoscBd->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuBd->Text = ((int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscBd->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscBd->Text = (int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text)).ToString();
 }
 private: System::Void buttonIntPlus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscInt->Text = (Double::Parse(labelWartoscInt->Text) + 1).ToString();
-	labelWartoscAtrybutuInt->Text = ((int::Parse(labelWartoscInt->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuInt->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscInt->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscInt->Text = (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text)).ToString();
 }
 private: System::Void buttonIntMinus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscInt->Text = (Double::Parse(labelWartoscInt->Text) - 1).ToString();
-	labelWartoscAtrybutuInt->Text = ((int::Parse(labelWartoscInt->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuInt->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscInt->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscInt->Text = (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text)).ToString();
 }
 private: System::Void buttonMdPlus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscMd->Text = (Double::Parse(labelWartoscMd->Text) + 1).ToString();
-	labelWartoscAtrybutuMd->Text = ((int::Parse(labelWartoscMd->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuMd->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscMd->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscMd->Text = (int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text)).ToString();
 }
 private: System::Void buttonMdMinus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscMd->Text = (Double::Parse(labelWartoscMd->Text) - 1).ToString();
-	labelWartoscAtrybutuMd->Text = ((int::Parse(labelWartoscMd->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuMd->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscMd->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscMd->Text = (int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text)).ToString();
 }
 private: System::Void buttonChaPlus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscCha->Text = (Double::Parse(labelWartoscCha->Text) + 1).ToString();
-	labelWartoscAtrybutuCha->Text = ((int::Parse(labelWartoscCha->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuCha->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscCha->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscCha->Text = (int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text)).ToString();
 }
 private: System::Void buttonChaMinus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscCha->Text = (Double::Parse(labelWartoscCha->Text) - 1).ToString();
-	labelWartoscAtrybutuCha->Text = ((int::Parse(labelWartoscCha->Text) - 10) / 2).ToString();
+	labelWartoscAtrybutuCha->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscCha->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscCha->Text = (int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text)).ToString();
 }
 private: System::Void comboBoxRasy_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
 	if (comboBoxRasy->Text == "Cz³owiek"||comboBoxRasy->Text == "Pó³elf"){
@@ -6086,6 +6407,25 @@ private: System::Void comboBoxRasy_SelectedIndexChanged(System::Object^  sender,
 		labelRasaMd->Text = "0";
 		labelRasaCha->Text = "0";
 	}
+	//sila
+	labelWartoscAtrybutuSi->Text = ((int::Parse(labelWartoscSila->Text) + int::Parse(labelRasaSi->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscSila->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscSi->Text = (int::Parse(labelWartoscSila->Text) + int::Parse(labelRasaSi->Text)).ToString();
+
+	labelWartoscAtrybutuZr->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscZr->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscZr->Text = (int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text)).ToString();
+	labelInicjatywa->Text = "Inicjatywa: " + (((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2) + int::Parse(maskedTextBoxInneInicjatywa->Text)).ToString() + " = " + ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " + ";
+
+	labelWartoscAtrybutuBd->Text = ((int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscBd->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscBd->Text = (int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text)).ToString();
+
+	labelWartoscAtrybutuInt->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscInt->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscInt->Text = (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text)).ToString();
+
+	labelWartoscAtrybutuMd->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscMd->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscMd->Text = (int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text)).ToString();
+
+	labelWartoscAtrybutuCha->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscCha->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscCha->Text = (int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text)).ToString();
 }
 private: System::Void buttonSprawdzRealneAtrybuty_Click(System::Object^  sender, System::EventArgs^  e) {
 	Form^ RozlosowaneAtrybuty = gcnew Form;
@@ -6204,6 +6544,26 @@ private: System::Void losujAtrybuty_Click(System::Object^  sender, System::Event
 
 	labelWartoscCha->Text = (rand() % 6 + 1 + rand() % 6 + 1 + rand() % 6 + 1).ToString();
 	labelWartoscAtrybutuCha->Text = ((int::Parse(labelWartoscCha->Text) - 10) / 2).ToString();
+	labelInicjatywa->Text = "Inicjatywa: " + (((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2) + int::Parse(maskedTextBoxInneInicjatywa->Text)).ToString() + " = " + ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " + ";
+
+	labelWartoscAtrybutuSi->Text = ((int::Parse(labelWartoscSila->Text) + int::Parse(labelRasaSi->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscSila->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscSi->Text = (int::Parse(labelWartoscSila->Text) + int::Parse(labelRasaSi->Text)).ToString();
+
+	labelWartoscAtrybutuZr->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscZr->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscZr->Text = (int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text)).ToString();
+	labelInicjatywa->Text = "Inicjatywa: " + (((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2) + int::Parse(maskedTextBoxInneInicjatywa->Text)).ToString() + " = " + ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " + ";
+
+	labelWartoscAtrybutuBd->Text = ((int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscBd->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscBd->Text = (int::Parse(labelWartoscBd->Text) + int::Parse(labelRasaBd->Text)).ToString();
+
+	labelWartoscAtrybutuInt->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscInt->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscInt->Text = (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text)).ToString();
+
+	labelWartoscAtrybutuMd->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscMd->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscMd->Text = (int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text)).ToString();
+
+	labelWartoscAtrybutuCha->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscCha->Text) - 10) / 2).ToString() + ")";
+	labelRealnaWartoscCha->Text = (int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text)).ToString();
 }
 private: System::Void buttonLosujPodaj_Click(System::Object^  sender, System::EventArgs^  e) {
 

@@ -120,7 +120,7 @@ namespace KartaPostaci_Projekt {
 	private: System::Windows::Forms::GroupBox^  groupBoxUmiejetnosc;
 
 
-private: System::Windows::Forms::Button^  buttonSprawdzRealneAtrybuty;
+
 private: System::Windows::Forms::Label^  labelRMod;
 private: System::Windows::Forms::TextBox^  textBoxKPNaturalna;
 private: System::Windows::Forms::Label^  label8;
@@ -146,7 +146,7 @@ private: System::Windows::Forms::Button^  buttonHPUaktualnij;
 
 
 private: System::Windows::Forms::Label^  labelSumaHP;
-private: System::Windows::Forms::TextBox^  textBoxTypKW;
+
 private: System::Windows::Forms::Label^  labelK;
 
 private: System::Windows::Forms::Label^  label1;
@@ -225,7 +225,8 @@ private: System::Windows::Forms::Label^  labelAchemia;
 
 private: System::Windows::Forms::Button^  buttonUmiejetnoscUaktualnij;
 private: System::Windows::Forms::Label^  label21;
-private: System::Windows::Forms::Label^  label20;
+private: System::Windows::Forms::Label^  labelWatoscMiedzyKlasowa;
+
 private: System::Windows::Forms::Label^  label19;
 private: System::Windows::Forms::Label^  labelPunktyKlasoweDoWydania;
 
@@ -240,35 +241,62 @@ private: System::Windows::Forms::CheckBox^  checkBoxCichePoruszanie;
 private: System::Windows::Forms::CheckBox^  checkBoxBlefowanie;
 
 private: System::Windows::Forms::CheckBox^  checkBoxAlchemia;
+private: System::Windows::Forms::Label^  labelWartoscWyczucieKierunku;
 
 
 
-private: System::Windows::Forms::Label^  label135;
-private: System::Windows::Forms::Label^  label136;
-private: System::Windows::Forms::Label^  label137;
-private: System::Windows::Forms::Label^  label138;
-private: System::Windows::Forms::Label^  label139;
-private: System::Windows::Forms::Label^  label140;
-private: System::Windows::Forms::Label^  label141;
-private: System::Windows::Forms::Label^  label142;
-private: System::Windows::Forms::Label^  label143;
-private: System::Windows::Forms::Label^  label144;
-private: System::Windows::Forms::Label^  label145;
-private: System::Windows::Forms::Label^  label146;
-private: System::Windows::Forms::Label^  label147;
-private: System::Windows::Forms::Label^  label148;
-private: System::Windows::Forms::Label^  label149;
-private: System::Windows::Forms::Label^  label118;
-private: System::Windows::Forms::Label^  label119;
-private: System::Windows::Forms::Label^  label120;
-private: System::Windows::Forms::Label^  label121;
-private: System::Windows::Forms::Label^  label122;
-private: System::Windows::Forms::Label^  label123;
-private: System::Windows::Forms::Label^  label124;
-private: System::Windows::Forms::Label^  label125;
-private: System::Windows::Forms::Label^  label126;
-private: System::Windows::Forms::Label^  label127;
-private: System::Windows::Forms::Label^  label128;
+
+private: System::Windows::Forms::Label^  labelWartoscWyczuciePobudek;
+
+private: System::Windows::Forms::Label^  labelWartoscWspinaczka;
+
+private: System::Windows::Forms::Label^  labelWartoscWrozenie;
+
+private: System::Windows::Forms::Label^  labelWartoscUpadki;
+
+private: System::Windows::Forms::Label^  labelWartoscUnieszkodliwanie;
+
+private: System::Windows::Forms::Label^  labelWartoscUkrywanie;
+
+private: System::Windows::Forms::Label^  labelWartoscTajnikiDziczy;
+
+private: System::Windows::Forms::Label^  labelWartoscSzacowanie;
+
+private: System::Windows::Forms::Label^  labelWartoscStosowanieMagicznyRzeczy;
+
+private: System::Windows::Forms::Label^  labelWartoscStosowanieLiny;
+
+private: System::Windows::Forms::Label^  labelWartoscPostepowanieZeZwierzetami;
+
+private: System::Windows::Forms::Label^  labelWartoscKoncentracja;
+
+private: System::Windows::Forms::Label^  labelWartoscZastraszanie;
+
+private: System::Windows::Forms::Label^  labelWartoscJezdziectwo;
+
+private: System::Windows::Forms::Label^  labelWartoscSkakenie;
+
+private: System::Windows::Forms::Label^  labelWartoscRownowaga;
+private: System::Windows::Forms::Label^  labelWartoscPrzeszukiwanie;
+
+
+
+private: System::Windows::Forms::Label^  labelWartoscPrzebieranie;
+
+private: System::Windows::Forms::Label^  labelWartoscPolslowa;
+
+private: System::Windows::Forms::Label^  labelWartoscOtwieranieZamkow;
+
+private: System::Windows::Forms::Label^  labelWartoscOdcyforwywanieZapisow;
+
+private: System::Windows::Forms::Label^  labelWartoscNasluchiwanie;
+
+private: System::Windows::Forms::Label^  labelWartoscLeczenie;
+
+private: System::Windows::Forms::Label^  labelWartoscKradzieszKieszonkowa;
+
+private: System::Windows::Forms::Label^  labelWartoscFalszerstwo;
+
 private: System::Windows::Forms::Label^  labelWartoscDyplomacja;
 
 private: System::Windows::Forms::Label^  labelWartoscCzytanieZWarg;
@@ -280,19 +308,23 @@ private: System::Windows::Forms::Label^  labelWartoscCichePoruszanie;
 private: System::Windows::Forms::Label^  labelWartoscBlefowanie;
 
 private: System::Windows::Forms::Label^  labelWartoscAlchemia;
+private: System::Windows::Forms::Label^  labelMd7;
 
-private: System::Windows::Forms::Label^  label86;
-private: System::Windows::Forms::Label^  label87;
-private: System::Windows::Forms::Label^  label88;
+
+private: System::Windows::Forms::Label^  labelMd6;
+private: System::Windows::Forms::Label^  labeSi1;
+
+
 private: System::Windows::Forms::Label^  labelInt9;
 private: System::Windows::Forms::Label^  labelZr7;
 
 
 private: System::Windows::Forms::Label^  labelInt8;
 private: System::Windows::Forms::Label^  labelZr6;
+private: System::Windows::Forms::Label^  labelMd5;
 
 
-private: System::Windows::Forms::Label^  label93;
+
 private: System::Windows::Forms::Label^  labelInt7;
 private: System::Windows::Forms::Label^  labelCha6;
 private: System::Windows::Forms::Label^  labelZr5;
@@ -300,8 +332,9 @@ private: System::Windows::Forms::Label^  labelZr5;
 
 
 private: System::Windows::Forms::Label^  labelCha5;
+private: System::Windows::Forms::Label^  labelMd4;
 
-private: System::Windows::Forms::Label^  label98;
+
 private: System::Windows::Forms::Label^  labelCha4;
 
 
@@ -311,15 +344,19 @@ private: System::Windows::Forms::Label^  labelZr4;
 
 private: System::Windows::Forms::Label^  labelInt6;
 private: System::Windows::Forms::Label^  labelCha3;
+private: System::Windows::Forms::Label^  labelMd3;
 
 
-private: System::Windows::Forms::Label^  label105;
+
 private: System::Windows::Forms::Label^  labelZr3;
 
 private: System::Windows::Forms::Label^  labelInt5;
+private: System::Windows::Forms::Label^  labelMd2;
 
-private: System::Windows::Forms::Label^  label108;
-private: System::Windows::Forms::Label^  label109;
+
+
+private: System::Windows::Forms::Label^  labelMd1;
+
 private: System::Windows::Forms::Label^  labelZr2;
 
 private: System::Windows::Forms::Label^  labelInt4;
@@ -376,7 +413,8 @@ private: System::Windows::Forms::CheckBox^  checkBoxUpadki;
 private: System::Windows::Forms::CheckBox^  checkBoxUnieszkodliwianie;
 private: System::Windows::Forms::CheckBox^  checkBoxUkrywanie;
 private: System::Windows::Forms::CheckBox^  checkBoxTajnikiDziczy;
-private: System::Windows::Forms::CheckBox^  th;
+private: System::Windows::Forms::CheckBox^  checkedBoxSzacowanie;
+
 
 private: System::Windows::Forms::CheckBox^  checkBoxStosowanieMagRzeczy;
 private: System::Windows::Forms::CheckBox^  checkBoxStosowanieLiny;
@@ -426,70 +464,134 @@ private: System::Windows::Forms::CheckBox^  checkBoxDyplomacja;
 private: System::Windows::Forms::CheckBox^  checkBoxCzytanieZWarg;
 
 private: System::Windows::Forms::Label^  labelAlechemiaPlus;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox17;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox18;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox19;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox20;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox21;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox22;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox23;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox24;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox25;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox26;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox27;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox28;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox29;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox30;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox31;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox32;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox9;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox10;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox11;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox12;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox13;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox14;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox15;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox16;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox5;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox6;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox7;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox8;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox3;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox4;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox2;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox1;
-private: System::Windows::Forms::Label^  label236;
-private: System::Windows::Forms::Label^  label237;
-private: System::Windows::Forms::Label^  label238;
-private: System::Windows::Forms::Label^  label239;
-private: System::Windows::Forms::Label^  label240;
-private: System::Windows::Forms::Label^  label241;
-private: System::Windows::Forms::Label^  label242;
-private: System::Windows::Forms::Label^  label243;
-private: System::Windows::Forms::Label^  label224;
-private: System::Windows::Forms::Label^  label225;
-private: System::Windows::Forms::Label^  label226;
-private: System::Windows::Forms::Label^  label227;
-private: System::Windows::Forms::Label^  label228;
-private: System::Windows::Forms::Label^  label229;
-private: System::Windows::Forms::Label^  label230;
-private: System::Windows::Forms::Label^  label231;
-private: System::Windows::Forms::Label^  label232;
-private: System::Windows::Forms::Label^  label233;
-private: System::Windows::Forms::Label^  label234;
-private: System::Windows::Forms::Label^  label235;
-private: System::Windows::Forms::Label^  label212;
-private: System::Windows::Forms::Label^  label213;
-private: System::Windows::Forms::Label^  label214;
-private: System::Windows::Forms::Label^  label215;
-private: System::Windows::Forms::Label^  label216;
-private: System::Windows::Forms::Label^  label217;
-private: System::Windows::Forms::Label^  label218;
-private: System::Windows::Forms::Label^  label219;
-private: System::Windows::Forms::Label^  label220;
-private: System::Windows::Forms::Label^  label221;
-private: System::Windows::Forms::Label^  label222;
-private: System::Windows::Forms::Label^  label223;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxWyczucieKierunku;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxWyczuciePobudek;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxWspinaczka;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxWrozenie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxUpadki;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxUnieszkodliwianie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxUkrywanie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxTajnikiDziczy;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxSzacowanie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxStosowanieMagRzecz;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxStosowanieLiny;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxPostepowanieZeZwierzetami;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxKoncetracja;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxZastraszanie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxJezdziectwo;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxSkakanie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxRownowaga;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxPrzeszukiwanie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxPrzebieranie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxPolslowka;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxOtwieranieZamkow;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxOdcyforwywanieZapisow;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxNasluchiwanie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxLeczenie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxKradzieszKieszonkowa;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxFalszerstwo;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxDyplomacja;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxCzytanieZWarg;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxCarostwo;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxCichePoruszanie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxBlefowanie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxAlchemia;
+private: System::Windows::Forms::Label^  labelSumaWyczucieKierunku;
+private: System::Windows::Forms::Label^  labelSumaWyczuciePobudek;
+private: System::Windows::Forms::Label^  labelSumaWspinaczka;
+private: System::Windows::Forms::Label^  labelSumaWrozenie;
+private: System::Windows::Forms::Label^  labelSumaUpadki;
+private: System::Windows::Forms::Label^  labelSumaUnieszkodliwianie;
+private: System::Windows::Forms::Label^  labelSumaUkrywanie;
+private: System::Windows::Forms::Label^  labelSumaTajnikidziczy;
+private: System::Windows::Forms::Label^  labelSumaSzacowanie;
+private: System::Windows::Forms::Label^  labelSumaStosowanieMagRzeczy;
+private: System::Windows::Forms::Label^  labelSumaStosowanieLiny;
+private: System::Windows::Forms::Label^  labelSumaPostepowanieZeZwier;
+private: System::Windows::Forms::Label^  labelSumaKoncetracja;
+private: System::Windows::Forms::Label^  labelSumaZastraszanie;
+private: System::Windows::Forms::Label^  labelSumaJezdziectwo;
+private: System::Windows::Forms::Label^  labelSumaSkakanie;
+private: System::Windows::Forms::Label^  labelSumaRównowaga;
+private: System::Windows::Forms::Label^  labelSumaPrzeszukiwane;
+private: System::Windows::Forms::Label^  labelSumaPrzebieranie;
+private: System::Windows::Forms::Label^  labelSumaPolslowka;
+private: System::Windows::Forms::Label^  labelSumaOtiweranieZamkow;
+private: System::Windows::Forms::Label^  labelSumaOdcyforwywanieZapisow;
+private: System::Windows::Forms::Label^  labelSumaNasluchwianie;
+private: System::Windows::Forms::Label^  labelSumaLeczenie;
+private: System::Windows::Forms::Label^  labelSumaKradzieszKieszonkowa;
+private: System::Windows::Forms::Label^  labelSumaFalszerstwo;
+private: System::Windows::Forms::Label^  labelSumaDyplomacja;
+private: System::Windows::Forms::Label^  labelSumaCzytanieZWarg;
+private: System::Windows::Forms::Label^  labelSumaCzarostwo;
+private: System::Windows::Forms::Label^  labelSumaCicheporuszanie;
+private: System::Windows::Forms::Label^  labelSumaBlefowanie;
+private: System::Windows::Forms::Label^  labelSumaAlchemia;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 private: System::Windows::Forms::Label^  label196;
 private: System::Windows::Forms::Label^  label197;
 private: System::Windows::Forms::Label^  label198;
@@ -554,47 +656,73 @@ private: System::Windows::Forms::Label^  label150;
 private: System::Windows::Forms::Label^  label151;
 private: System::Windows::Forms::Label^  label134;
 private: System::Windows::Forms::Label^  label260;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox36;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox37;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox38;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox33;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxInneWola;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxInneRefleks;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxInneWytrwalosc;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxModMagWola;
+
 private: System::Windows::Forms::Label^  label259;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox34;
-private: System::Windows::Forms::Label^  label256;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox35;
-private: System::Windows::Forms::Label^  label257;
-private: System::Windows::Forms::Label^  label258;
+private: System::Windows::Forms::MaskedTextBox^  maskedModMagRefleks;
+
+private: System::Windows::Forms::Label^  labelModWola;
+private: System::Windows::Forms::MaskedTextBox^  maskedModMagWytrwalosc;
+
+
+private: System::Windows::Forms::Label^  labelModRefleks;
+
+private: System::Windows::Forms::Label^  labelModWytrwalosc;
+
 private: System::Windows::Forms::Label^  label255;
-private: System::Windows::Forms::Label^  label252;
-private: System::Windows::Forms::Label^  label253;
-private: System::Windows::Forms::Label^  label254;
+private: System::Windows::Forms::Label^  labelBazowaWola;
+
+private: System::Windows::Forms::Label^  labelBazowaRefleks;
+
+private: System::Windows::Forms::Label^  labelBazowaWytrwalosc;
+
 private: System::Windows::Forms::Label^  label251;
-private: System::Windows::Forms::Label^  label250;
-private: System::Windows::Forms::Label^  label249;
-private: System::Windows::Forms::Label^  label248;
+private: System::Windows::Forms::Label^  labelSumaWola;
+
+private: System::Windows::Forms::Label^  labelSumaRefleks;
+
+private: System::Windows::Forms::Label^  labelSumaWytrwalosc;
+
 private: System::Windows::Forms::Label^  label247;
 private: System::Windows::Forms::Label^  label246;
 private: System::Windows::Forms::Label^  label245;
 private: System::Windows::Forms::Label^  label244;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox39;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox40;
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox41;
-private: System::Windows::Forms::Label^  label261;
-private: System::Windows::Forms::Label^  label262;
-private: System::Windows::Forms::Label^  label263;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxZbieranieInformacji;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxZauwazanie;
+
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxWyzwalanie;
+private: System::Windows::Forms::Label^  labelSumaZbieranieInforacji;
+private: System::Windows::Forms::Label^  labelSumaZauwazanie;
+private: System::Windows::Forms::Label^  labelSumaWyzwalanie;
+
+
+
+
 private: System::Windows::Forms::Label^  label264;
 private: System::Windows::Forms::Label^  label265;
 private: System::Windows::Forms::Label^  label266;
 private: System::Windows::Forms::Label^  label267;
 private: System::Windows::Forms::Label^  label268;
 private: System::Windows::Forms::Label^  label269;
-private: System::Windows::Forms::Label^  label270;
-private: System::Windows::Forms::Label^  label271;
-private: System::Windows::Forms::Label^  label272;
+private: System::Windows::Forms::Label^  labelWartoscZbieranieInformacji;
+
+private: System::Windows::Forms::Label^  labelWartoscZauwazanie;
+private: System::Windows::Forms::Label^  labelWartoscWyzwalanie;
+
+
+
 private: System::Windows::Forms::Label^  labelCha7;
+private: System::Windows::Forms::Label^  labelMd8;
 
 
-private: System::Windows::Forms::Label^  label274;
+
 private: System::Windows::Forms::Label^  labelZr8;
 
 private: System::Windows::Forms::Label^  label276;
@@ -611,12 +739,15 @@ private: System::Windows::Forms::Label^  labelZbieranieInf;
 private: System::Windows::Forms::Label^  labelZauwazanie;
 
 private: System::Windows::Forms::Label^  labelWyzwalanie;
+private: System::Windows::Forms::MaskedTextBox^  maskedTextBoxZwierzecaEmpatia;
+private: System::Windows::Forms::Label^  labelSumaZwierzecaEpatia;
 
-private: System::Windows::Forms::MaskedTextBox^  maskedTextBox42;
-private: System::Windows::Forms::Label^  label282;
+
+
 private: System::Windows::Forms::Label^  label283;
 private: System::Windows::Forms::Label^  label284;
-private: System::Windows::Forms::Label^  label285;
+private: System::Windows::Forms::Label^  labelWartoscZwierzecaEmpatia;
+
 private: System::Windows::Forms::Label^  labelCha8;
 
 private: System::Windows::Forms::Label^  label287;
@@ -671,6 +802,8 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscBd;
 
 private: System::Windows::Forms::Label^  labelRealnaWartoscZr;
 private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
+private: System::Windows::Forms::Label^  labelKoscWytrzymalosci;
+private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
 
 
 
@@ -718,7 +851,6 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->Atrybuty = (gcnew System::Windows::Forms::GroupBox());
 			this->labelRealnaWartoscCha = (gcnew System::Windows::Forms::Label());
 			this->label18 = (gcnew System::Windows::Forms::Label());
-			this->buttonSprawdzRealneAtrybuty = (gcnew System::Windows::Forms::Button());
 			this->labelRealnaWartoscMd = (gcnew System::Windows::Forms::Label());
 			this->labelRMod = (gcnew System::Windows::Forms::Label());
 			this->labelRasaCha = (gcnew System::Windows::Forms::Label());
@@ -766,6 +898,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->losujAtrybuty = (gcnew System::Windows::Forms::Button());
 			this->labelSila = (gcnew System::Windows::Forms::Label());
 			this->hpNPancerz = (gcnew System::Windows::Forms::GroupBox());
+			this->labelKoscWytrzymalosci = (gcnew System::Windows::Forms::Label());
 			this->buttonPodajWartosc = (gcnew System::Windows::Forms::Button());
 			this->maskedTextBoxDomyœlnaWartoœæ = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->maskedTextBoxIloscKw = (gcnew System::Windows::Forms::MaskedTextBox());
@@ -792,37 +925,36 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelKP = (gcnew System::Windows::Forms::Label());
 			this->buttonHPUaktualnij = (gcnew System::Windows::Forms::Button());
 			this->labelSumaHP = (gcnew System::Windows::Forms::Label());
-			this->textBoxTypKW = (gcnew System::Windows::Forms::TextBox());
 			this->labelK = (gcnew System::Windows::Forms::Label());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->helpProvider1 = (gcnew System::Windows::Forms::HelpProvider());
 			this->groupBoxUmiejetnosc = (gcnew System::Windows::Forms::GroupBox());
-			this->maskedTextBox42 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->label282 = (gcnew System::Windows::Forms::Label());
+			this->maskedTextBoxZwierzecaEmpatia = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->labelSumaZwierzecaEpatia = (gcnew System::Windows::Forms::Label());
 			this->label283 = (gcnew System::Windows::Forms::Label());
 			this->label284 = (gcnew System::Windows::Forms::Label());
-			this->label285 = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscZwierzecaEmpatia = (gcnew System::Windows::Forms::Label());
 			this->labelCha8 = (gcnew System::Windows::Forms::Label());
 			this->label287 = (gcnew System::Windows::Forms::Label());
 			this->checkBoxZwierzecaEmpatia = (gcnew System::Windows::Forms::CheckBox());
 			this->labelZwierzecaEmpatia = (gcnew System::Windows::Forms::Label());
-			this->maskedTextBox39 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox40 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox41 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->label261 = (gcnew System::Windows::Forms::Label());
-			this->label262 = (gcnew System::Windows::Forms::Label());
-			this->label263 = (gcnew System::Windows::Forms::Label());
+			this->maskedTextBoxZbieranieInformacji = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxZauwazanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxWyzwalanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->labelSumaZbieranieInforacji = (gcnew System::Windows::Forms::Label());
+			this->labelSumaZauwazanie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaWyzwalanie = (gcnew System::Windows::Forms::Label());
 			this->label264 = (gcnew System::Windows::Forms::Label());
 			this->label265 = (gcnew System::Windows::Forms::Label());
 			this->label266 = (gcnew System::Windows::Forms::Label());
 			this->label267 = (gcnew System::Windows::Forms::Label());
 			this->label268 = (gcnew System::Windows::Forms::Label());
 			this->label269 = (gcnew System::Windows::Forms::Label());
-			this->label270 = (gcnew System::Windows::Forms::Label());
-			this->label271 = (gcnew System::Windows::Forms::Label());
-			this->label272 = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscZbieranieInformacji = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscZauwazanie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscWyzwalanie = (gcnew System::Windows::Forms::Label());
 			this->labelCha7 = (gcnew System::Windows::Forms::Label());
-			this->label274 = (gcnew System::Windows::Forms::Label());
+			this->labelMd8 = (gcnew System::Windows::Forms::Label());
 			this->labelZr8 = (gcnew System::Windows::Forms::Label());
 			this->label276 = (gcnew System::Windows::Forms::Label());
 			this->label277 = (gcnew System::Windows::Forms::Label());
@@ -833,70 +965,70 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelZbieranieInf = (gcnew System::Windows::Forms::Label());
 			this->labelZauwazanie = (gcnew System::Windows::Forms::Label());
 			this->labelWyzwalanie = (gcnew System::Windows::Forms::Label());
-			this->maskedTextBox17 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox18 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox19 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox20 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox21 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox22 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox23 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox24 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox25 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox26 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox27 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox28 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox29 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox30 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox31 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox32 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox9 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox10 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox11 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox12 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox13 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox14 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox15 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox16 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox5 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox6 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox7 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox8 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox3 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox4 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox2 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox1 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->label236 = (gcnew System::Windows::Forms::Label());
-			this->label237 = (gcnew System::Windows::Forms::Label());
-			this->label238 = (gcnew System::Windows::Forms::Label());
-			this->label239 = (gcnew System::Windows::Forms::Label());
-			this->label240 = (gcnew System::Windows::Forms::Label());
-			this->label241 = (gcnew System::Windows::Forms::Label());
-			this->label242 = (gcnew System::Windows::Forms::Label());
-			this->label243 = (gcnew System::Windows::Forms::Label());
-			this->label224 = (gcnew System::Windows::Forms::Label());
-			this->label225 = (gcnew System::Windows::Forms::Label());
-			this->label226 = (gcnew System::Windows::Forms::Label());
-			this->label227 = (gcnew System::Windows::Forms::Label());
-			this->label228 = (gcnew System::Windows::Forms::Label());
-			this->label229 = (gcnew System::Windows::Forms::Label());
-			this->label230 = (gcnew System::Windows::Forms::Label());
-			this->label231 = (gcnew System::Windows::Forms::Label());
-			this->label232 = (gcnew System::Windows::Forms::Label());
-			this->label233 = (gcnew System::Windows::Forms::Label());
-			this->label234 = (gcnew System::Windows::Forms::Label());
-			this->label235 = (gcnew System::Windows::Forms::Label());
-			this->label212 = (gcnew System::Windows::Forms::Label());
-			this->label213 = (gcnew System::Windows::Forms::Label());
-			this->label214 = (gcnew System::Windows::Forms::Label());
-			this->label215 = (gcnew System::Windows::Forms::Label());
-			this->label216 = (gcnew System::Windows::Forms::Label());
-			this->label217 = (gcnew System::Windows::Forms::Label());
-			this->label218 = (gcnew System::Windows::Forms::Label());
-			this->label219 = (gcnew System::Windows::Forms::Label());
-			this->label220 = (gcnew System::Windows::Forms::Label());
-			this->label221 = (gcnew System::Windows::Forms::Label());
-			this->label222 = (gcnew System::Windows::Forms::Label());
-			this->label223 = (gcnew System::Windows::Forms::Label());
+			this->maskedTextBoxWyczucieKierunku = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxWyczuciePobudek = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxWspinaczka = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxWrozenie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxUpadki = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxUnieszkodliwianie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxUkrywanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxTajnikiDziczy = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxSzacowanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxStosowanieMagRzecz = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxStosowanieLiny = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxPostepowanieZeZwierzetami = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxKoncetracja = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxZastraszanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxJezdziectwo = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxSkakanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxRownowaga = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxPrzeszukiwanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxPrzebieranie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxPolslowka = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxOtwieranieZamkow = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxOdcyforwywanieZapisow = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxNasluchiwanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxLeczenie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxKradzieszKieszonkowa = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxFalszerstwo = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxDyplomacja = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxCzytanieZWarg = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxCarostwo = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxCichePoruszanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxBlefowanie = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxAlchemia = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->labelSumaWyczucieKierunku = (gcnew System::Windows::Forms::Label());
+			this->labelSumaWyczuciePobudek = (gcnew System::Windows::Forms::Label());
+			this->labelSumaWspinaczka = (gcnew System::Windows::Forms::Label());
+			this->labelSumaWrozenie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaUpadki = (gcnew System::Windows::Forms::Label());
+			this->labelSumaUnieszkodliwianie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaUkrywanie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaTajnikidziczy = (gcnew System::Windows::Forms::Label());
+			this->labelSumaSzacowanie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaStosowanieMagRzeczy = (gcnew System::Windows::Forms::Label());
+			this->labelSumaStosowanieLiny = (gcnew System::Windows::Forms::Label());
+			this->labelSumaPostepowanieZeZwier = (gcnew System::Windows::Forms::Label());
+			this->labelSumaKoncetracja = (gcnew System::Windows::Forms::Label());
+			this->labelSumaZastraszanie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaJezdziectwo = (gcnew System::Windows::Forms::Label());
+			this->labelSumaSkakanie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaRównowaga = (gcnew System::Windows::Forms::Label());
+			this->labelSumaPrzeszukiwane = (gcnew System::Windows::Forms::Label());
+			this->labelSumaPrzebieranie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaPolslowka = (gcnew System::Windows::Forms::Label());
+			this->labelSumaOtiweranieZamkow = (gcnew System::Windows::Forms::Label());
+			this->labelSumaOdcyforwywanieZapisow = (gcnew System::Windows::Forms::Label());
+			this->labelSumaNasluchwianie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaLeczenie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaKradzieszKieszonkowa = (gcnew System::Windows::Forms::Label());
+			this->labelSumaFalszerstwo = (gcnew System::Windows::Forms::Label());
+			this->labelSumaDyplomacja = (gcnew System::Windows::Forms::Label());
+			this->labelSumaCzytanieZWarg = (gcnew System::Windows::Forms::Label());
+			this->labelSumaCzarostwo = (gcnew System::Windows::Forms::Label());
+			this->labelSumaCicheporuszanie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaBlefowanie = (gcnew System::Windows::Forms::Label());
+			this->labelSumaAlchemia = (gcnew System::Windows::Forms::Label());
 			this->label196 = (gcnew System::Windows::Forms::Label());
 			this->label197 = (gcnew System::Windows::Forms::Label());
 			this->label198 = (gcnew System::Windows::Forms::Label());
@@ -961,62 +1093,62 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label151 = (gcnew System::Windows::Forms::Label());
 			this->label134 = (gcnew System::Windows::Forms::Label());
 			this->labelAlechemiaPlus = (gcnew System::Windows::Forms::Label());
-			this->label135 = (gcnew System::Windows::Forms::Label());
-			this->label136 = (gcnew System::Windows::Forms::Label());
-			this->label137 = (gcnew System::Windows::Forms::Label());
-			this->label138 = (gcnew System::Windows::Forms::Label());
-			this->label139 = (gcnew System::Windows::Forms::Label());
-			this->label140 = (gcnew System::Windows::Forms::Label());
-			this->label141 = (gcnew System::Windows::Forms::Label());
-			this->label142 = (gcnew System::Windows::Forms::Label());
-			this->label143 = (gcnew System::Windows::Forms::Label());
-			this->label144 = (gcnew System::Windows::Forms::Label());
-			this->label145 = (gcnew System::Windows::Forms::Label());
-			this->label146 = (gcnew System::Windows::Forms::Label());
-			this->label147 = (gcnew System::Windows::Forms::Label());
-			this->label148 = (gcnew System::Windows::Forms::Label());
-			this->label149 = (gcnew System::Windows::Forms::Label());
-			this->label118 = (gcnew System::Windows::Forms::Label());
-			this->label119 = (gcnew System::Windows::Forms::Label());
-			this->label120 = (gcnew System::Windows::Forms::Label());
-			this->label121 = (gcnew System::Windows::Forms::Label());
-			this->label122 = (gcnew System::Windows::Forms::Label());
-			this->label123 = (gcnew System::Windows::Forms::Label());
-			this->label124 = (gcnew System::Windows::Forms::Label());
-			this->label125 = (gcnew System::Windows::Forms::Label());
-			this->label126 = (gcnew System::Windows::Forms::Label());
-			this->label127 = (gcnew System::Windows::Forms::Label());
-			this->label128 = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscWyczucieKierunku = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscWyczuciePobudek = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscWspinaczka = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscWrozenie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscUpadki = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscUnieszkodliwanie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscUkrywanie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscTajnikiDziczy = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscSzacowanie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscStosowanieMagicznyRzeczy = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscStosowanieLiny = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscPostepowanieZeZwierzetami = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscKoncentracja = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscZastraszanie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscJezdziectwo = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscSkakenie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscRownowaga = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscPrzeszukiwanie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscPrzebieranie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscPolslowa = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscOtwieranieZamkow = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscOdcyforwywanieZapisow = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscNasluchiwanie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscLeczenie = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscKradzieszKieszonkowa = (gcnew System::Windows::Forms::Label());
+			this->labelWartoscFalszerstwo = (gcnew System::Windows::Forms::Label());
 			this->labelWartoscDyplomacja = (gcnew System::Windows::Forms::Label());
 			this->labelWartoscCzytanieZWarg = (gcnew System::Windows::Forms::Label());
 			this->labelWartoscCzarostwo = (gcnew System::Windows::Forms::Label());
 			this->labelWartoscCichePoruszanie = (gcnew System::Windows::Forms::Label());
 			this->labelWartoscBlefowanie = (gcnew System::Windows::Forms::Label());
 			this->labelWartoscAlchemia = (gcnew System::Windows::Forms::Label());
-			this->label86 = (gcnew System::Windows::Forms::Label());
-			this->label87 = (gcnew System::Windows::Forms::Label());
-			this->label88 = (gcnew System::Windows::Forms::Label());
+			this->labelMd7 = (gcnew System::Windows::Forms::Label());
+			this->labelMd6 = (gcnew System::Windows::Forms::Label());
+			this->labeSi1 = (gcnew System::Windows::Forms::Label());
 			this->labelInt9 = (gcnew System::Windows::Forms::Label());
 			this->labelZr7 = (gcnew System::Windows::Forms::Label());
 			this->labelInt8 = (gcnew System::Windows::Forms::Label());
 			this->labelZr6 = (gcnew System::Windows::Forms::Label());
-			this->label93 = (gcnew System::Windows::Forms::Label());
+			this->labelMd5 = (gcnew System::Windows::Forms::Label());
 			this->labelInt7 = (gcnew System::Windows::Forms::Label());
 			this->labelCha6 = (gcnew System::Windows::Forms::Label());
 			this->labelZr5 = (gcnew System::Windows::Forms::Label());
 			this->labelCha5 = (gcnew System::Windows::Forms::Label());
-			this->label98 = (gcnew System::Windows::Forms::Label());
+			this->labelMd4 = (gcnew System::Windows::Forms::Label());
 			this->labelCha4 = (gcnew System::Windows::Forms::Label());
 			this->label100 = (gcnew System::Windows::Forms::Label());
 			this->label101 = (gcnew System::Windows::Forms::Label());
 			this->labelZr4 = (gcnew System::Windows::Forms::Label());
 			this->labelInt6 = (gcnew System::Windows::Forms::Label());
 			this->labelCha3 = (gcnew System::Windows::Forms::Label());
-			this->label105 = (gcnew System::Windows::Forms::Label());
+			this->labelMd3 = (gcnew System::Windows::Forms::Label());
 			this->labelZr3 = (gcnew System::Windows::Forms::Label());
 			this->labelInt5 = (gcnew System::Windows::Forms::Label());
-			this->label108 = (gcnew System::Windows::Forms::Label());
-			this->label109 = (gcnew System::Windows::Forms::Label());
+			this->labelMd2 = (gcnew System::Windows::Forms::Label());
+			this->labelMd1 = (gcnew System::Windows::Forms::Label());
 			this->labelZr2 = (gcnew System::Windows::Forms::Label());
 			this->labelInt4 = (gcnew System::Windows::Forms::Label());
 			this->labelCha2 = (gcnew System::Windows::Forms::Label());
@@ -1065,7 +1197,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->checkBoxUnieszkodliwianie = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBoxUkrywanie = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBoxTajnikiDziczy = (gcnew System::Windows::Forms::CheckBox());
-			this->th = (gcnew System::Windows::Forms::CheckBox());
+			this->checkedBoxSzacowanie = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBoxStosowanieMagRzeczy = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBoxStosowanieLiny = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBoxPostepowanieZeZwier = (gcnew System::Windows::Forms::CheckBox());
@@ -1123,7 +1255,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelAchemia = (gcnew System::Windows::Forms::Label());
 			this->buttonUmiejetnoscUaktualnij = (gcnew System::Windows::Forms::Button());
 			this->label21 = (gcnew System::Windows::Forms::Label());
-			this->label20 = (gcnew System::Windows::Forms::Label());
+			this->labelWatoscMiedzyKlasowa = (gcnew System::Windows::Forms::Label());
 			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->labelPunktyKlasoweDoWydania = (gcnew System::Windows::Forms::Label());
 			this->label17 = (gcnew System::Windows::Forms::Label());
@@ -1140,25 +1272,26 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->maskedTextBoxInneInicjatywa = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->labelInicjatywa = (gcnew System::Windows::Forms::Label());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->buttonUaktualnijRzutyObronne = (gcnew System::Windows::Forms::Button());
 			this->label260 = (gcnew System::Windows::Forms::Label());
-			this->maskedTextBox36 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox37 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox38 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->maskedTextBox33 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxInneWola = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxInneRefleks = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxInneWytrwalosc = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->maskedTextBoxModMagWola = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->label259 = (gcnew System::Windows::Forms::Label());
-			this->maskedTextBox34 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->label256 = (gcnew System::Windows::Forms::Label());
-			this->maskedTextBox35 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->label257 = (gcnew System::Windows::Forms::Label());
-			this->label258 = (gcnew System::Windows::Forms::Label());
+			this->maskedModMagRefleks = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->labelModWola = (gcnew System::Windows::Forms::Label());
+			this->maskedModMagWytrwalosc = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->labelModRefleks = (gcnew System::Windows::Forms::Label());
+			this->labelModWytrwalosc = (gcnew System::Windows::Forms::Label());
 			this->label255 = (gcnew System::Windows::Forms::Label());
-			this->label252 = (gcnew System::Windows::Forms::Label());
-			this->label253 = (gcnew System::Windows::Forms::Label());
-			this->label254 = (gcnew System::Windows::Forms::Label());
+			this->labelBazowaWola = (gcnew System::Windows::Forms::Label());
+			this->labelBazowaRefleks = (gcnew System::Windows::Forms::Label());
+			this->labelBazowaWytrwalosc = (gcnew System::Windows::Forms::Label());
 			this->label251 = (gcnew System::Windows::Forms::Label());
-			this->label250 = (gcnew System::Windows::Forms::Label());
-			this->label249 = (gcnew System::Windows::Forms::Label());
-			this->label248 = (gcnew System::Windows::Forms::Label());
+			this->labelSumaWola = (gcnew System::Windows::Forms::Label());
+			this->labelSumaRefleks = (gcnew System::Windows::Forms::Label());
+			this->labelSumaWytrwalosc = (gcnew System::Windows::Forms::Label());
 			this->label247 = (gcnew System::Windows::Forms::Label());
 			this->label246 = (gcnew System::Windows::Forms::Label());
 			this->label245 = (gcnew System::Windows::Forms::Label());
@@ -1396,7 +1529,6 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			// 
 			this->Atrybuty->Controls->Add(this->labelRealnaWartoscCha);
 			this->Atrybuty->Controls->Add(this->label18);
-			this->Atrybuty->Controls->Add(this->buttonSprawdzRealneAtrybuty);
 			this->Atrybuty->Controls->Add(this->labelRealnaWartoscMd);
 			this->Atrybuty->Controls->Add(this->labelRMod);
 			this->Atrybuty->Controls->Add(this->labelRasaCha);
@@ -1469,16 +1601,6 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label18->Size = System::Drawing::Size(85, 13);
 			this->label18->TabIndex = 42;
 			this->label18->Text = L"otrzymany realny";
-			// 
-			// buttonSprawdzRealneAtrybuty
-			// 
-			this->buttonSprawdzRealneAtrybuty->Location = System::Drawing::Point(91, 224);
-			this->buttonSprawdzRealneAtrybuty->Name = L"buttonSprawdzRealneAtrybuty";
-			this->buttonSprawdzRealneAtrybuty->Size = System::Drawing::Size(115, 23);
-			this->buttonSprawdzRealneAtrybuty->TabIndex = 41;
-			this->buttonSprawdzRealneAtrybuty->Text = L"Realne Atrybuty";
-			this->buttonSprawdzRealneAtrybuty->UseVisualStyleBackColor = true;
-			this->buttonSprawdzRealneAtrybuty->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonSprawdzRealneAtrybuty_Click);
 			// 
 			// labelRealnaWartoscMd
 			// 
@@ -1961,6 +2083,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			// 
 			// hpNPancerz
 			// 
+			this->hpNPancerz->Controls->Add(this->labelKoscWytrzymalosci);
 			this->hpNPancerz->Controls->Add(this->buttonPodajWartosc);
 			this->hpNPancerz->Controls->Add(this->maskedTextBoxDomyœlnaWartoœæ);
 			this->hpNPancerz->Controls->Add(this->maskedTextBoxIloscKw);
@@ -1987,7 +2110,6 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->hpNPancerz->Controls->Add(this->labelKP);
 			this->hpNPancerz->Controls->Add(this->buttonHPUaktualnij);
 			this->hpNPancerz->Controls->Add(this->labelSumaHP);
-			this->hpNPancerz->Controls->Add(this->textBoxTypKW);
 			this->hpNPancerz->Controls->Add(this->labelK);
 			this->hpNPancerz->Controls->Add(this->label1);
 			this->hpNPancerz->Location = System::Drawing::Point(231, 120);
@@ -1996,6 +2118,15 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->hpNPancerz->TabIndex = 2;
 			this->hpNPancerz->TabStop = false;
 			this->hpNPancerz->Text = L"HP i pancerz";
+			// 
+			// labelKoscWytrzymalosci
+			// 
+			this->labelKoscWytrzymalosci->AutoSize = true;
+			this->labelKoscWytrzymalosci->Location = System::Drawing::Point(83, 20);
+			this->labelKoscWytrzymalosci->Name = L"labelKoscWytrzymalosci";
+			this->labelKoscWytrzymalosci->Size = System::Drawing::Size(13, 13);
+			this->labelKoscWytrzymalosci->TabIndex = 33;
+			this->labelKoscWytrzymalosci->Text = L"4";
 			// 
 			// buttonPodajWartosc
 			// 
@@ -2234,14 +2365,6 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelSumaHP->TabIndex = 5;
 			this->labelSumaHP->Text = L"= 0";
 			// 
-			// textBoxTypKW
-			// 
-			this->textBoxTypKW->Location = System::Drawing::Point(77, 17);
-			this->textBoxTypKW->Name = L"textBoxTypKW";
-			this->textBoxTypKW->Size = System::Drawing::Size(28, 20);
-			this->textBoxTypKW->TabIndex = 3;
-			this->textBoxTypKW->Text = L"4";
-			// 
 			// labelK
 			// 
 			this->labelK->AutoSize = true;
@@ -2262,32 +2385,32 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			// 
 			// groupBoxUmiejetnosc
 			// 
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox42);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label282);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxZwierzecaEmpatia);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaZwierzecaEpatia);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label283);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label284);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label285);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscZwierzecaEmpatia);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelCha8);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label287);
 			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxZwierzecaEmpatia);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZwierzecaEmpatia);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox39);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox40);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox41);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label261);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label262);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label263);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxZbieranieInformacji);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxZauwazanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxWyzwalanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaZbieranieInforacji);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaZauwazanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaWyzwalanie);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label264);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label265);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label266);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label267);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label268);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label269);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label270);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label271);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label272);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscZbieranieInformacji);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscZauwazanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscWyzwalanie);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelCha7);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label274);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelMd8);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZr8);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label276);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label277);
@@ -2298,70 +2421,70 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZbieranieInf);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZauwazanie);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelWyzwalanie);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox17);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox18);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox19);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox20);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox21);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox22);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox23);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox24);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox25);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox26);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox27);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox28);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox29);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox30);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox31);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox32);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox9);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox10);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox11);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox12);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox13);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox14);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox15);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox16);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox5);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox6);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox7);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox8);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox3);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox4);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox2);
-			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBox1);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label236);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label237);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label238);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label239);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label240);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label241);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label242);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label243);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label224);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label225);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label226);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label227);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label228);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label229);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label230);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label231);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label232);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label233);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label234);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label235);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label212);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label213);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label214);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label215);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label216);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label217);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label218);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label219);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label220);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label221);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label222);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label223);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxWyczucieKierunku);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxWyczuciePobudek);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxWspinaczka);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxWrozenie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxUpadki);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxUnieszkodliwianie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxUkrywanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxTajnikiDziczy);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxSzacowanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxStosowanieMagRzecz);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxStosowanieLiny);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxPostepowanieZeZwierzetami);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxKoncetracja);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxZastraszanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxJezdziectwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxSkakanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxRownowaga);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxPrzeszukiwanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxPrzebieranie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxPolslowka);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxOtwieranieZamkow);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxOdcyforwywanieZapisow);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxNasluchiwanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxLeczenie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxKradzieszKieszonkowa);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxFalszerstwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxDyplomacja);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxCzytanieZWarg);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxCarostwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxCichePoruszanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxBlefowanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->maskedTextBoxAlchemia);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaWyczucieKierunku);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaWyczuciePobudek);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaWspinaczka);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaWrozenie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaUpadki);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaUnieszkodliwianie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaUkrywanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaTajnikidziczy);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaSzacowanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaStosowanieMagRzeczy);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaStosowanieLiny);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaPostepowanieZeZwier);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaKoncetracja);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaZastraszanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaJezdziectwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaSkakanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaRównowaga);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaPrzeszukiwane);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaPrzebieranie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaPolslowka);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaOtiweranieZamkow);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaOdcyforwywanieZapisow);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaNasluchwianie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaLeczenie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaKradzieszKieszonkowa);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaFalszerstwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaDyplomacja);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaCzytanieZWarg);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaCzarostwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaCicheporuszanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaBlefowanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelSumaAlchemia);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label196);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label197);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label198);
@@ -2426,62 +2549,62 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->groupBoxUmiejetnosc->Controls->Add(this->label151);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label134);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelAlechemiaPlus);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label135);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label136);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label137);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label138);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label139);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label140);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label141);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label142);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label143);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label144);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label145);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label146);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label147);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label148);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label149);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label118);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label119);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label120);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label121);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label122);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label123);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label124);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label125);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label126);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label127);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label128);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscWyczucieKierunku);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscWyczuciePobudek);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscWspinaczka);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscWrozenie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscUpadki);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscUnieszkodliwanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscUkrywanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscTajnikiDziczy);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscSzacowanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscStosowanieMagicznyRzeczy);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscStosowanieLiny);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscPostepowanieZeZwierzetami);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscKoncentracja);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscZastraszanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscJezdziectwo);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscSkakenie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscRownowaga);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscPrzeszukiwanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscPrzebieranie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscPolslowa);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscOtwieranieZamkow);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscOdcyforwywanieZapisow);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscNasluchiwanie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscLeczenie);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscKradzieszKieszonkowa);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscFalszerstwo);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscDyplomacja);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscCzytanieZWarg);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscCzarostwo);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscCichePoruszanie);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscBlefowanie);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelWartoscAlchemia);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label86);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label87);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label88);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelMd7);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelMd6);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labeSi1);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelInt9);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZr7);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelInt8);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZr6);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label93);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelMd5);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelInt7);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelCha6);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZr5);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelCha5);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label98);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelMd4);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelCha4);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label100);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label101);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZr4);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelInt6);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelCha3);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label105);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelMd3);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZr3);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelInt5);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label108);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label109);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelMd2);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelMd1);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelZr2);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelInt4);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelCha2);
@@ -2530,7 +2653,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxUnieszkodliwianie);
 			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxUkrywanie);
 			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxTajnikiDziczy);
-			this->groupBoxUmiejetnosc->Controls->Add(this->th);
+			this->groupBoxUmiejetnosc->Controls->Add(this->checkedBoxSzacowanie);
 			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxStosowanieMagRzeczy);
 			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxStosowanieLiny);
 			this->groupBoxUmiejetnosc->Controls->Add(this->checkBoxPostepowanieZeZwier);
@@ -2588,7 +2711,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelAchemia);
 			this->groupBoxUmiejetnosc->Controls->Add(this->buttonUmiejetnoscUaktualnij);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label21);
-			this->groupBoxUmiejetnosc->Controls->Add(this->label20);
+			this->groupBoxUmiejetnosc->Controls->Add(this->labelWatoscMiedzyKlasowa);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label19);
 			this->groupBoxUmiejetnosc->Controls->Add(this->labelPunktyKlasoweDoWydania);
 			this->groupBoxUmiejetnosc->Controls->Add(this->label17);
@@ -2605,24 +2728,24 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->groupBoxUmiejetnosc->TabStop = false;
 			this->groupBoxUmiejetnosc->Text = L"Umiejêtnoœci";
 			// 
-			// maskedTextBox42
+			// maskedTextBoxZwierzecaEmpatia
 			// 
-			this->maskedTextBox42->Location = System::Drawing::Point(340, 769);
-			this->maskedTextBox42->Mask = L"00";
-			this->maskedTextBox42->Name = L"maskedTextBox42";
-			this->maskedTextBox42->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox42->TabIndex = 337;
-			this->maskedTextBox42->Text = L"0";
-			this->maskedTextBox42->ValidatingType = System::Int32::typeid;
+			this->maskedTextBoxZwierzecaEmpatia->Location = System::Drawing::Point(340, 769);
+			this->maskedTextBoxZwierzecaEmpatia->Mask = L"00";
+			this->maskedTextBoxZwierzecaEmpatia->Name = L"maskedTextBoxZwierzecaEmpatia";
+			this->maskedTextBoxZwierzecaEmpatia->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxZwierzecaEmpatia->TabIndex = 337;
+			this->maskedTextBoxZwierzecaEmpatia->Text = L"0";
+			this->maskedTextBoxZwierzecaEmpatia->ValidatingType = System::Int32::typeid;
 			// 
-			// label282
+			// labelSumaZwierzecaEpatia
 			// 
-			this->label282->AutoSize = true;
-			this->label282->Location = System::Drawing::Point(405, 770);
-			this->label282->Name = L"label282";
-			this->label282->Size = System::Drawing::Size(13, 13);
-			this->label282->TabIndex = 336;
-			this->label282->Text = L"0";
+			this->labelSumaZwierzecaEpatia->AutoSize = true;
+			this->labelSumaZwierzecaEpatia->Location = System::Drawing::Point(405, 770);
+			this->labelSumaZwierzecaEpatia->Name = L"labelSumaZwierzecaEpatia";
+			this->labelSumaZwierzecaEpatia->Size = System::Drawing::Size(13, 13);
+			this->labelSumaZwierzecaEpatia->TabIndex = 336;
+			this->labelSumaZwierzecaEpatia->Text = L"0";
 			// 
 			// label283
 			// 
@@ -2632,6 +2755,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label283->Size = System::Drawing::Size(10, 13);
 			this->label283->TabIndex = 335;
 			this->label283->Text = L"-";
+			this->label283->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label283_Click);
 			// 
 			// label284
 			// 
@@ -2641,15 +2765,16 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label284->Size = System::Drawing::Size(13, 13);
 			this->label284->TabIndex = 334;
 			this->label284->Text = L"+";
+			this->label284->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label284_Click);
 			// 
-			// label285
+			// labelWartoscZwierzecaEmpatia
 			// 
-			this->label285->AutoSize = true;
-			this->label285->Location = System::Drawing::Point(277, 770);
-			this->label285->Name = L"label285";
-			this->label285->Size = System::Drawing::Size(13, 13);
-			this->label285->TabIndex = 333;
-			this->label285->Text = L"0";
+			this->labelWartoscZwierzecaEmpatia->AutoSize = true;
+			this->labelWartoscZwierzecaEmpatia->Location = System::Drawing::Point(277, 770);
+			this->labelWartoscZwierzecaEmpatia->Name = L"labelWartoscZwierzecaEmpatia";
+			this->labelWartoscZwierzecaEmpatia->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscZwierzecaEmpatia->TabIndex = 333;
+			this->labelWartoscZwierzecaEmpatia->Text = L"0";
 			// 
 			// labelCha8
 			// 
@@ -2688,62 +2813,62 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelZwierzecaEmpatia->TabIndex = 329;
 			this->labelZwierzecaEmpatia->Text = L"x";
 			// 
-			// maskedTextBox39
+			// maskedTextBoxZbieranieInformacji
 			// 
-			this->maskedTextBox39->Location = System::Drawing::Point(340, 749);
-			this->maskedTextBox39->Mask = L"00";
-			this->maskedTextBox39->Name = L"maskedTextBox39";
-			this->maskedTextBox39->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox39->TabIndex = 328;
-			this->maskedTextBox39->Text = L"0";
-			this->maskedTextBox39->ValidatingType = System::Int32::typeid;
+			this->maskedTextBoxZbieranieInformacji->Location = System::Drawing::Point(340, 749);
+			this->maskedTextBoxZbieranieInformacji->Mask = L"00";
+			this->maskedTextBoxZbieranieInformacji->Name = L"maskedTextBoxZbieranieInformacji";
+			this->maskedTextBoxZbieranieInformacji->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxZbieranieInformacji->TabIndex = 328;
+			this->maskedTextBoxZbieranieInformacji->Text = L"0";
+			this->maskedTextBoxZbieranieInformacji->ValidatingType = System::Int32::typeid;
 			// 
-			// maskedTextBox40
+			// maskedTextBoxZauwazanie
 			// 
-			this->maskedTextBox40->Location = System::Drawing::Point(340, 730);
-			this->maskedTextBox40->Mask = L"00";
-			this->maskedTextBox40->Name = L"maskedTextBox40";
-			this->maskedTextBox40->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox40->TabIndex = 327;
-			this->maskedTextBox40->Text = L"0";
-			this->maskedTextBox40->ValidatingType = System::Int32::typeid;
+			this->maskedTextBoxZauwazanie->Location = System::Drawing::Point(340, 730);
+			this->maskedTextBoxZauwazanie->Mask = L"00";
+			this->maskedTextBoxZauwazanie->Name = L"maskedTextBoxZauwazanie";
+			this->maskedTextBoxZauwazanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxZauwazanie->TabIndex = 327;
+			this->maskedTextBoxZauwazanie->Text = L"0";
+			this->maskedTextBoxZauwazanie->ValidatingType = System::Int32::typeid;
 			// 
-			// maskedTextBox41
+			// maskedTextBoxWyzwalanie
 			// 
-			this->maskedTextBox41->Location = System::Drawing::Point(340, 710);
-			this->maskedTextBox41->Mask = L"00";
-			this->maskedTextBox41->Name = L"maskedTextBox41";
-			this->maskedTextBox41->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox41->TabIndex = 326;
-			this->maskedTextBox41->Text = L"0";
-			this->maskedTextBox41->ValidatingType = System::Int32::typeid;
+			this->maskedTextBoxWyzwalanie->Location = System::Drawing::Point(340, 710);
+			this->maskedTextBoxWyzwalanie->Mask = L"00";
+			this->maskedTextBoxWyzwalanie->Name = L"maskedTextBoxWyzwalanie";
+			this->maskedTextBoxWyzwalanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxWyzwalanie->TabIndex = 326;
+			this->maskedTextBoxWyzwalanie->Text = L"0";
+			this->maskedTextBoxWyzwalanie->ValidatingType = System::Int32::typeid;
 			// 
-			// label261
+			// labelSumaZbieranieInforacji
 			// 
-			this->label261->AutoSize = true;
-			this->label261->Location = System::Drawing::Point(405, 750);
-			this->label261->Name = L"label261";
-			this->label261->Size = System::Drawing::Size(13, 13);
-			this->label261->TabIndex = 325;
-			this->label261->Text = L"0";
+			this->labelSumaZbieranieInforacji->AutoSize = true;
+			this->labelSumaZbieranieInforacji->Location = System::Drawing::Point(405, 750);
+			this->labelSumaZbieranieInforacji->Name = L"labelSumaZbieranieInforacji";
+			this->labelSumaZbieranieInforacji->Size = System::Drawing::Size(13, 13);
+			this->labelSumaZbieranieInforacji->TabIndex = 325;
+			this->labelSumaZbieranieInforacji->Text = L"0";
 			// 
-			// label262
+			// labelSumaZauwazanie
 			// 
-			this->label262->AutoSize = true;
-			this->label262->Location = System::Drawing::Point(405, 730);
-			this->label262->Name = L"label262";
-			this->label262->Size = System::Drawing::Size(13, 13);
-			this->label262->TabIndex = 324;
-			this->label262->Text = L"0";
+			this->labelSumaZauwazanie->AutoSize = true;
+			this->labelSumaZauwazanie->Location = System::Drawing::Point(405, 730);
+			this->labelSumaZauwazanie->Name = L"labelSumaZauwazanie";
+			this->labelSumaZauwazanie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaZauwazanie->TabIndex = 324;
+			this->labelSumaZauwazanie->Text = L"0";
 			// 
-			// label263
+			// labelSumaWyzwalanie
 			// 
-			this->label263->AutoSize = true;
-			this->label263->Location = System::Drawing::Point(405, 710);
-			this->label263->Name = L"label263";
-			this->label263->Size = System::Drawing::Size(13, 13);
-			this->label263->TabIndex = 323;
-			this->label263->Text = L"0";
+			this->labelSumaWyzwalanie->AutoSize = true;
+			this->labelSumaWyzwalanie->Location = System::Drawing::Point(405, 710);
+			this->labelSumaWyzwalanie->Name = L"labelSumaWyzwalanie";
+			this->labelSumaWyzwalanie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaWyzwalanie->TabIndex = 323;
+			this->labelSumaWyzwalanie->Text = L"0";
 			// 
 			// label264
 			// 
@@ -2753,6 +2878,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label264->Size = System::Drawing::Size(10, 13);
 			this->label264->TabIndex = 322;
 			this->label264->Text = L"-";
+			this->label264->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label264_Click);
 			// 
 			// label265
 			// 
@@ -2762,6 +2888,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label265->Size = System::Drawing::Size(10, 13);
 			this->label265->TabIndex = 321;
 			this->label265->Text = L"-";
+			this->label265->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label265_Click);
 			// 
 			// label266
 			// 
@@ -2771,6 +2898,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label266->Size = System::Drawing::Size(10, 13);
 			this->label266->TabIndex = 320;
 			this->label266->Text = L"-";
+			this->label266->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label266_Click);
 			// 
 			// label267
 			// 
@@ -2780,6 +2908,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label267->Size = System::Drawing::Size(13, 13);
 			this->label267->TabIndex = 319;
 			this->label267->Text = L"+";
+			this->label267->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label267_Click);
 			// 
 			// label268
 			// 
@@ -2789,6 +2918,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label268->Size = System::Drawing::Size(13, 13);
 			this->label268->TabIndex = 318;
 			this->label268->Text = L"+";
+			this->label268->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label268_Click);
 			// 
 			// label269
 			// 
@@ -2798,33 +2928,34 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label269->Size = System::Drawing::Size(13, 13);
 			this->label269->TabIndex = 317;
 			this->label269->Text = L"+";
+			this->label269->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label269_Click);
 			// 
-			// label270
+			// labelWartoscZbieranieInformacji
 			// 
-			this->label270->AutoSize = true;
-			this->label270->Location = System::Drawing::Point(277, 750);
-			this->label270->Name = L"label270";
-			this->label270->Size = System::Drawing::Size(13, 13);
-			this->label270->TabIndex = 316;
-			this->label270->Text = L"0";
+			this->labelWartoscZbieranieInformacji->AutoSize = true;
+			this->labelWartoscZbieranieInformacji->Location = System::Drawing::Point(277, 750);
+			this->labelWartoscZbieranieInformacji->Name = L"labelWartoscZbieranieInformacji";
+			this->labelWartoscZbieranieInformacji->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscZbieranieInformacji->TabIndex = 316;
+			this->labelWartoscZbieranieInformacji->Text = L"0";
 			// 
-			// label271
+			// labelWartoscZauwazanie
 			// 
-			this->label271->AutoSize = true;
-			this->label271->Location = System::Drawing::Point(277, 730);
-			this->label271->Name = L"label271";
-			this->label271->Size = System::Drawing::Size(13, 13);
-			this->label271->TabIndex = 315;
-			this->label271->Text = L"0";
+			this->labelWartoscZauwazanie->AutoSize = true;
+			this->labelWartoscZauwazanie->Location = System::Drawing::Point(277, 730);
+			this->labelWartoscZauwazanie->Name = L"labelWartoscZauwazanie";
+			this->labelWartoscZauwazanie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscZauwazanie->TabIndex = 315;
+			this->labelWartoscZauwazanie->Text = L"0";
 			// 
-			// label272
+			// labelWartoscWyzwalanie
 			// 
-			this->label272->AutoSize = true;
-			this->label272->Location = System::Drawing::Point(277, 710);
-			this->label272->Name = L"label272";
-			this->label272->Size = System::Drawing::Size(13, 13);
-			this->label272->TabIndex = 314;
-			this->label272->Text = L"0";
+			this->labelWartoscWyzwalanie->AutoSize = true;
+			this->labelWartoscWyzwalanie->Location = System::Drawing::Point(277, 710);
+			this->labelWartoscWyzwalanie->Name = L"labelWartoscWyzwalanie";
+			this->labelWartoscWyzwalanie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscWyzwalanie->TabIndex = 314;
+			this->labelWartoscWyzwalanie->Text = L"0";
 			// 
 			// labelCha7
 			// 
@@ -2835,14 +2966,14 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelCha7->TabIndex = 313;
 			this->labelCha7->Text = L"0";
 			// 
-			// label274
+			// labelMd8
 			// 
-			this->label274->AutoSize = true;
-			this->label274->Location = System::Drawing::Point(217, 730);
-			this->label274->Name = L"label274";
-			this->label274->Size = System::Drawing::Size(13, 13);
-			this->label274->TabIndex = 312;
-			this->label274->Text = L"0";
+			this->labelMd8->AutoSize = true;
+			this->labelMd8->Location = System::Drawing::Point(217, 730);
+			this->labelMd8->Name = L"labelMd8";
+			this->labelMd8->Size = System::Drawing::Size(13, 13);
+			this->labelMd8->TabIndex = 312;
+			this->labelMd8->Text = L"0";
 			// 
 			// labelZr8
 			// 
@@ -2937,613 +3068,613 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelWyzwalanie->TabIndex = 302;
 			this->labelWyzwalanie->Text = L"x";
 			// 
-			// maskedTextBox17
-			// 
-			this->maskedTextBox17->Location = System::Drawing::Point(340, 689);
-			this->maskedTextBox17->Mask = L"00";
-			this->maskedTextBox17->Name = L"maskedTextBox17";
-			this->maskedTextBox17->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox17->TabIndex = 301;
-			this->maskedTextBox17->Text = L"0";
-			this->maskedTextBox17->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox18
-			// 
-			this->maskedTextBox18->Location = System::Drawing::Point(340, 670);
-			this->maskedTextBox18->Mask = L"00";
-			this->maskedTextBox18->Name = L"maskedTextBox18";
-			this->maskedTextBox18->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox18->TabIndex = 300;
-			this->maskedTextBox18->Text = L"0";
-			this->maskedTextBox18->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox19
-			// 
-			this->maskedTextBox19->Location = System::Drawing::Point(340, 650);
-			this->maskedTextBox19->Mask = L"00";
-			this->maskedTextBox19->Name = L"maskedTextBox19";
-			this->maskedTextBox19->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox19->TabIndex = 299;
-			this->maskedTextBox19->Text = L"0";
-			this->maskedTextBox19->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox20
-			// 
-			this->maskedTextBox20->Location = System::Drawing::Point(340, 630);
-			this->maskedTextBox20->Mask = L"00";
-			this->maskedTextBox20->Name = L"maskedTextBox20";
-			this->maskedTextBox20->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox20->TabIndex = 298;
-			this->maskedTextBox20->Text = L"0";
-			this->maskedTextBox20->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox21
-			// 
-			this->maskedTextBox21->Location = System::Drawing::Point(340, 609);
-			this->maskedTextBox21->Mask = L"00";
-			this->maskedTextBox21->Name = L"maskedTextBox21";
-			this->maskedTextBox21->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox21->TabIndex = 297;
-			this->maskedTextBox21->Text = L"0";
-			this->maskedTextBox21->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox22
-			// 
-			this->maskedTextBox22->Location = System::Drawing::Point(340, 590);
-			this->maskedTextBox22->Mask = L"00";
-			this->maskedTextBox22->Name = L"maskedTextBox22";
-			this->maskedTextBox22->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox22->TabIndex = 296;
-			this->maskedTextBox22->Text = L"0";
-			this->maskedTextBox22->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox23
-			// 
-			this->maskedTextBox23->Location = System::Drawing::Point(340, 570);
-			this->maskedTextBox23->Mask = L"00";
-			this->maskedTextBox23->Name = L"maskedTextBox23";
-			this->maskedTextBox23->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox23->TabIndex = 295;
-			this->maskedTextBox23->Text = L"0";
-			this->maskedTextBox23->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox24
-			// 
-			this->maskedTextBox24->Location = System::Drawing::Point(340, 550);
-			this->maskedTextBox24->Mask = L"00";
-			this->maskedTextBox24->Name = L"maskedTextBox24";
-			this->maskedTextBox24->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox24->TabIndex = 294;
-			this->maskedTextBox24->Text = L"0";
-			this->maskedTextBox24->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox25
-			// 
-			this->maskedTextBox25->Location = System::Drawing::Point(340, 529);
-			this->maskedTextBox25->Mask = L"00";
-			this->maskedTextBox25->Name = L"maskedTextBox25";
-			this->maskedTextBox25->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox25->TabIndex = 293;
-			this->maskedTextBox25->Text = L"0";
-			this->maskedTextBox25->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox26
-			// 
-			this->maskedTextBox26->Location = System::Drawing::Point(340, 510);
-			this->maskedTextBox26->Mask = L"00";
-			this->maskedTextBox26->Name = L"maskedTextBox26";
-			this->maskedTextBox26->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox26->TabIndex = 292;
-			this->maskedTextBox26->Text = L"0";
-			this->maskedTextBox26->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox27
-			// 
-			this->maskedTextBox27->Location = System::Drawing::Point(340, 490);
-			this->maskedTextBox27->Mask = L"00";
-			this->maskedTextBox27->Name = L"maskedTextBox27";
-			this->maskedTextBox27->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox27->TabIndex = 291;
-			this->maskedTextBox27->Text = L"0";
-			this->maskedTextBox27->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox28
-			// 
-			this->maskedTextBox28->Location = System::Drawing::Point(340, 470);
-			this->maskedTextBox28->Mask = L"00";
-			this->maskedTextBox28->Name = L"maskedTextBox28";
-			this->maskedTextBox28->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox28->TabIndex = 290;
-			this->maskedTextBox28->Text = L"0";
-			this->maskedTextBox28->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox29
-			// 
-			this->maskedTextBox29->Location = System::Drawing::Point(340, 449);
-			this->maskedTextBox29->Mask = L"00";
-			this->maskedTextBox29->Name = L"maskedTextBox29";
-			this->maskedTextBox29->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox29->TabIndex = 289;
-			this->maskedTextBox29->Text = L"0";
-			this->maskedTextBox29->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox30
-			// 
-			this->maskedTextBox30->Location = System::Drawing::Point(340, 430);
-			this->maskedTextBox30->Mask = L"00";
-			this->maskedTextBox30->Name = L"maskedTextBox30";
-			this->maskedTextBox30->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox30->TabIndex = 288;
-			this->maskedTextBox30->Text = L"0";
-			this->maskedTextBox30->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox31
-			// 
-			this->maskedTextBox31->Location = System::Drawing::Point(340, 410);
-			this->maskedTextBox31->Mask = L"00";
-			this->maskedTextBox31->Name = L"maskedTextBox31";
-			this->maskedTextBox31->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox31->TabIndex = 287;
-			this->maskedTextBox31->Text = L"0";
-			this->maskedTextBox31->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox32
-			// 
-			this->maskedTextBox32->Location = System::Drawing::Point(340, 390);
-			this->maskedTextBox32->Mask = L"00";
-			this->maskedTextBox32->Name = L"maskedTextBox32";
-			this->maskedTextBox32->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox32->TabIndex = 286;
-			this->maskedTextBox32->Text = L"0";
-			this->maskedTextBox32->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox9
-			// 
-			this->maskedTextBox9->Location = System::Drawing::Point(340, 369);
-			this->maskedTextBox9->Mask = L"00";
-			this->maskedTextBox9->Name = L"maskedTextBox9";
-			this->maskedTextBox9->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox9->TabIndex = 285;
-			this->maskedTextBox9->Text = L"0";
-			this->maskedTextBox9->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox10
-			// 
-			this->maskedTextBox10->Location = System::Drawing::Point(340, 350);
-			this->maskedTextBox10->Mask = L"00";
-			this->maskedTextBox10->Name = L"maskedTextBox10";
-			this->maskedTextBox10->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox10->TabIndex = 284;
-			this->maskedTextBox10->Text = L"0";
-			this->maskedTextBox10->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox11
-			// 
-			this->maskedTextBox11->Location = System::Drawing::Point(340, 330);
-			this->maskedTextBox11->Mask = L"00";
-			this->maskedTextBox11->Name = L"maskedTextBox11";
-			this->maskedTextBox11->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox11->TabIndex = 283;
-			this->maskedTextBox11->Text = L"0";
-			this->maskedTextBox11->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox12
-			// 
-			this->maskedTextBox12->Location = System::Drawing::Point(340, 310);
-			this->maskedTextBox12->Mask = L"00";
-			this->maskedTextBox12->Name = L"maskedTextBox12";
-			this->maskedTextBox12->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox12->TabIndex = 282;
-			this->maskedTextBox12->Text = L"0";
-			this->maskedTextBox12->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox13
-			// 
-			this->maskedTextBox13->Location = System::Drawing::Point(340, 289);
-			this->maskedTextBox13->Mask = L"00";
-			this->maskedTextBox13->Name = L"maskedTextBox13";
-			this->maskedTextBox13->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox13->TabIndex = 281;
-			this->maskedTextBox13->Text = L"0";
-			this->maskedTextBox13->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox14
-			// 
-			this->maskedTextBox14->Location = System::Drawing::Point(340, 270);
-			this->maskedTextBox14->Mask = L"00";
-			this->maskedTextBox14->Name = L"maskedTextBox14";
-			this->maskedTextBox14->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox14->TabIndex = 280;
-			this->maskedTextBox14->Text = L"0";
-			this->maskedTextBox14->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox15
-			// 
-			this->maskedTextBox15->Location = System::Drawing::Point(340, 250);
-			this->maskedTextBox15->Mask = L"00";
-			this->maskedTextBox15->Name = L"maskedTextBox15";
-			this->maskedTextBox15->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox15->TabIndex = 279;
-			this->maskedTextBox15->Text = L"0";
-			this->maskedTextBox15->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox16
-			// 
-			this->maskedTextBox16->Location = System::Drawing::Point(340, 230);
-			this->maskedTextBox16->Mask = L"00";
-			this->maskedTextBox16->Name = L"maskedTextBox16";
-			this->maskedTextBox16->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox16->TabIndex = 278;
-			this->maskedTextBox16->Text = L"0";
-			this->maskedTextBox16->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox5
-			// 
-			this->maskedTextBox5->Location = System::Drawing::Point(340, 209);
-			this->maskedTextBox5->Mask = L"00";
-			this->maskedTextBox5->Name = L"maskedTextBox5";
-			this->maskedTextBox5->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox5->TabIndex = 277;
-			this->maskedTextBox5->Text = L"0";
-			this->maskedTextBox5->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox6
-			// 
-			this->maskedTextBox6->Location = System::Drawing::Point(340, 190);
-			this->maskedTextBox6->Mask = L"00";
-			this->maskedTextBox6->Name = L"maskedTextBox6";
-			this->maskedTextBox6->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox6->TabIndex = 276;
-			this->maskedTextBox6->Text = L"0";
-			this->maskedTextBox6->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox7
-			// 
-			this->maskedTextBox7->Location = System::Drawing::Point(340, 170);
-			this->maskedTextBox7->Mask = L"00";
-			this->maskedTextBox7->Name = L"maskedTextBox7";
-			this->maskedTextBox7->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox7->TabIndex = 275;
-			this->maskedTextBox7->Text = L"0";
-			this->maskedTextBox7->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox8
-			// 
-			this->maskedTextBox8->Location = System::Drawing::Point(340, 150);
-			this->maskedTextBox8->Mask = L"00";
-			this->maskedTextBox8->Name = L"maskedTextBox8";
-			this->maskedTextBox8->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox8->TabIndex = 274;
-			this->maskedTextBox8->Text = L"0";
-			this->maskedTextBox8->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox3
-			// 
-			this->maskedTextBox3->Location = System::Drawing::Point(340, 129);
-			this->maskedTextBox3->Mask = L"00";
-			this->maskedTextBox3->Name = L"maskedTextBox3";
-			this->maskedTextBox3->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox3->TabIndex = 273;
-			this->maskedTextBox3->Text = L"0";
-			this->maskedTextBox3->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox4
-			// 
-			this->maskedTextBox4->Location = System::Drawing::Point(340, 110);
-			this->maskedTextBox4->Mask = L"00";
-			this->maskedTextBox4->Name = L"maskedTextBox4";
-			this->maskedTextBox4->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox4->TabIndex = 272;
-			this->maskedTextBox4->Text = L"0";
-			this->maskedTextBox4->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox2
-			// 
-			this->maskedTextBox2->Location = System::Drawing::Point(340, 90);
-			this->maskedTextBox2->Mask = L"00";
-			this->maskedTextBox2->Name = L"maskedTextBox2";
-			this->maskedTextBox2->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox2->TabIndex = 271;
-			this->maskedTextBox2->Text = L"0";
-			this->maskedTextBox2->ValidatingType = System::Int32::typeid;
-			// 
-			// maskedTextBox1
-			// 
-			this->maskedTextBox1->Location = System::Drawing::Point(340, 70);
-			this->maskedTextBox1->Mask = L"00";
-			this->maskedTextBox1->Name = L"maskedTextBox1";
-			this->maskedTextBox1->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox1->TabIndex = 270;
-			this->maskedTextBox1->Text = L"0";
-			this->maskedTextBox1->ValidatingType = System::Int32::typeid;
-			// 
-			// label236
-			// 
-			this->label236->AutoSize = true;
-			this->label236->Location = System::Drawing::Point(405, 690);
-			this->label236->Name = L"label236";
-			this->label236->Size = System::Drawing::Size(13, 13);
-			this->label236->TabIndex = 269;
-			this->label236->Text = L"0";
-			// 
-			// label237
-			// 
-			this->label237->AutoSize = true;
-			this->label237->Location = System::Drawing::Point(405, 670);
-			this->label237->Name = L"label237";
-			this->label237->Size = System::Drawing::Size(13, 13);
-			this->label237->TabIndex = 268;
-			this->label237->Text = L"0";
-			// 
-			// label238
-			// 
-			this->label238->AutoSize = true;
-			this->label238->Location = System::Drawing::Point(405, 650);
-			this->label238->Name = L"label238";
-			this->label238->Size = System::Drawing::Size(13, 13);
-			this->label238->TabIndex = 267;
-			this->label238->Text = L"0";
-			// 
-			// label239
-			// 
-			this->label239->AutoSize = true;
-			this->label239->Location = System::Drawing::Point(405, 630);
-			this->label239->Name = L"label239";
-			this->label239->Size = System::Drawing::Size(13, 13);
-			this->label239->TabIndex = 266;
-			this->label239->Text = L"0";
-			// 
-			// label240
-			// 
-			this->label240->AutoSize = true;
-			this->label240->Location = System::Drawing::Point(405, 610);
-			this->label240->Name = L"label240";
-			this->label240->Size = System::Drawing::Size(13, 13);
-			this->label240->TabIndex = 265;
-			this->label240->Text = L"0";
-			// 
-			// label241
-			// 
-			this->label241->AutoSize = true;
-			this->label241->Location = System::Drawing::Point(405, 590);
-			this->label241->Name = L"label241";
-			this->label241->Size = System::Drawing::Size(13, 13);
-			this->label241->TabIndex = 264;
-			this->label241->Text = L"0";
-			// 
-			// label242
-			// 
-			this->label242->AutoSize = true;
-			this->label242->Location = System::Drawing::Point(405, 570);
-			this->label242->Name = L"label242";
-			this->label242->Size = System::Drawing::Size(13, 13);
-			this->label242->TabIndex = 263;
-			this->label242->Text = L"0";
-			// 
-			// label243
-			// 
-			this->label243->AutoSize = true;
-			this->label243->Location = System::Drawing::Point(405, 550);
-			this->label243->Name = L"label243";
-			this->label243->Size = System::Drawing::Size(13, 13);
-			this->label243->TabIndex = 262;
-			this->label243->Text = L"0";
-			// 
-			// label224
-			// 
-			this->label224->AutoSize = true;
-			this->label224->Location = System::Drawing::Point(405, 530);
-			this->label224->Name = L"label224";
-			this->label224->Size = System::Drawing::Size(13, 13);
-			this->label224->TabIndex = 261;
-			this->label224->Text = L"0";
-			// 
-			// label225
-			// 
-			this->label225->AutoSize = true;
-			this->label225->Location = System::Drawing::Point(405, 510);
-			this->label225->Name = L"label225";
-			this->label225->Size = System::Drawing::Size(13, 13);
-			this->label225->TabIndex = 260;
-			this->label225->Text = L"0";
-			// 
-			// label226
-			// 
-			this->label226->AutoSize = true;
-			this->label226->Location = System::Drawing::Point(405, 490);
-			this->label226->Name = L"label226";
-			this->label226->Size = System::Drawing::Size(13, 13);
-			this->label226->TabIndex = 259;
-			this->label226->Text = L"0";
-			// 
-			// label227
-			// 
-			this->label227->AutoSize = true;
-			this->label227->Location = System::Drawing::Point(405, 470);
-			this->label227->Name = L"label227";
-			this->label227->Size = System::Drawing::Size(13, 13);
-			this->label227->TabIndex = 258;
-			this->label227->Text = L"0";
-			// 
-			// label228
-			// 
-			this->label228->AutoSize = true;
-			this->label228->Location = System::Drawing::Point(405, 450);
-			this->label228->Name = L"label228";
-			this->label228->Size = System::Drawing::Size(13, 13);
-			this->label228->TabIndex = 257;
-			this->label228->Text = L"0";
-			// 
-			// label229
-			// 
-			this->label229->AutoSize = true;
-			this->label229->Location = System::Drawing::Point(405, 430);
-			this->label229->Name = L"label229";
-			this->label229->Size = System::Drawing::Size(13, 13);
-			this->label229->TabIndex = 256;
-			this->label229->Text = L"0";
-			// 
-			// label230
-			// 
-			this->label230->AutoSize = true;
-			this->label230->Location = System::Drawing::Point(405, 410);
-			this->label230->Name = L"label230";
-			this->label230->Size = System::Drawing::Size(13, 13);
-			this->label230->TabIndex = 255;
-			this->label230->Text = L"0";
-			// 
-			// label231
-			// 
-			this->label231->AutoSize = true;
-			this->label231->Location = System::Drawing::Point(405, 390);
-			this->label231->Name = L"label231";
-			this->label231->Size = System::Drawing::Size(13, 13);
-			this->label231->TabIndex = 254;
-			this->label231->Text = L"0";
-			// 
-			// label232
-			// 
-			this->label232->AutoSize = true;
-			this->label232->Location = System::Drawing::Point(405, 370);
-			this->label232->Name = L"label232";
-			this->label232->Size = System::Drawing::Size(13, 13);
-			this->label232->TabIndex = 253;
-			this->label232->Text = L"0";
-			// 
-			// label233
-			// 
-			this->label233->AutoSize = true;
-			this->label233->Location = System::Drawing::Point(405, 350);
-			this->label233->Name = L"label233";
-			this->label233->Size = System::Drawing::Size(13, 13);
-			this->label233->TabIndex = 252;
-			this->label233->Text = L"0";
-			// 
-			// label234
-			// 
-			this->label234->AutoSize = true;
-			this->label234->Location = System::Drawing::Point(405, 330);
-			this->label234->Name = L"label234";
-			this->label234->Size = System::Drawing::Size(13, 13);
-			this->label234->TabIndex = 251;
-			this->label234->Text = L"0";
-			// 
-			// label235
-			// 
-			this->label235->AutoSize = true;
-			this->label235->Location = System::Drawing::Point(405, 310);
-			this->label235->Name = L"label235";
-			this->label235->Size = System::Drawing::Size(13, 13);
-			this->label235->TabIndex = 250;
-			this->label235->Text = L"0";
-			// 
-			// label212
-			// 
-			this->label212->AutoSize = true;
-			this->label212->Location = System::Drawing::Point(405, 290);
-			this->label212->Name = L"label212";
-			this->label212->Size = System::Drawing::Size(13, 13);
-			this->label212->TabIndex = 249;
-			this->label212->Text = L"0";
-			// 
-			// label213
-			// 
-			this->label213->AutoSize = true;
-			this->label213->Location = System::Drawing::Point(405, 270);
-			this->label213->Name = L"label213";
-			this->label213->Size = System::Drawing::Size(13, 13);
-			this->label213->TabIndex = 248;
-			this->label213->Text = L"0";
-			// 
-			// label214
-			// 
-			this->label214->AutoSize = true;
-			this->label214->Location = System::Drawing::Point(405, 250);
-			this->label214->Name = L"label214";
-			this->label214->Size = System::Drawing::Size(13, 13);
-			this->label214->TabIndex = 247;
-			this->label214->Text = L"0";
-			// 
-			// label215
-			// 
-			this->label215->AutoSize = true;
-			this->label215->Location = System::Drawing::Point(405, 230);
-			this->label215->Name = L"label215";
-			this->label215->Size = System::Drawing::Size(13, 13);
-			this->label215->TabIndex = 246;
-			this->label215->Text = L"0";
-			// 
-			// label216
-			// 
-			this->label216->AutoSize = true;
-			this->label216->Location = System::Drawing::Point(405, 210);
-			this->label216->Name = L"label216";
-			this->label216->Size = System::Drawing::Size(13, 13);
-			this->label216->TabIndex = 245;
-			this->label216->Text = L"0";
-			// 
-			// label217
-			// 
-			this->label217->AutoSize = true;
-			this->label217->Location = System::Drawing::Point(405, 190);
-			this->label217->Name = L"label217";
-			this->label217->Size = System::Drawing::Size(13, 13);
-			this->label217->TabIndex = 244;
-			this->label217->Text = L"0";
-			// 
-			// label218
-			// 
-			this->label218->AutoSize = true;
-			this->label218->Location = System::Drawing::Point(405, 170);
-			this->label218->Name = L"label218";
-			this->label218->Size = System::Drawing::Size(13, 13);
-			this->label218->TabIndex = 243;
-			this->label218->Text = L"0";
-			// 
-			// label219
-			// 
-			this->label219->AutoSize = true;
-			this->label219->Location = System::Drawing::Point(405, 150);
-			this->label219->Name = L"label219";
-			this->label219->Size = System::Drawing::Size(13, 13);
-			this->label219->TabIndex = 242;
-			this->label219->Text = L"0";
-			// 
-			// label220
-			// 
-			this->label220->AutoSize = true;
-			this->label220->Location = System::Drawing::Point(405, 130);
-			this->label220->Name = L"label220";
-			this->label220->Size = System::Drawing::Size(13, 13);
-			this->label220->TabIndex = 241;
-			this->label220->Text = L"0";
-			// 
-			// label221
-			// 
-			this->label221->AutoSize = true;
-			this->label221->Location = System::Drawing::Point(405, 110);
-			this->label221->Name = L"label221";
-			this->label221->Size = System::Drawing::Size(13, 13);
-			this->label221->TabIndex = 240;
-			this->label221->Text = L"0";
-			// 
-			// label222
-			// 
-			this->label222->AutoSize = true;
-			this->label222->Location = System::Drawing::Point(405, 90);
-			this->label222->Name = L"label222";
-			this->label222->Size = System::Drawing::Size(13, 13);
-			this->label222->TabIndex = 239;
-			this->label222->Text = L"0";
-			// 
-			// label223
-			// 
-			this->label223->AutoSize = true;
-			this->label223->Location = System::Drawing::Point(405, 70);
-			this->label223->Name = L"label223";
-			this->label223->Size = System::Drawing::Size(13, 13);
-			this->label223->TabIndex = 238;
-			this->label223->Text = L"0";
+			// maskedTextBoxWyczucieKierunku
+			// 
+			this->maskedTextBoxWyczucieKierunku->Location = System::Drawing::Point(340, 689);
+			this->maskedTextBoxWyczucieKierunku->Mask = L"00";
+			this->maskedTextBoxWyczucieKierunku->Name = L"maskedTextBoxWyczucieKierunku";
+			this->maskedTextBoxWyczucieKierunku->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxWyczucieKierunku->TabIndex = 301;
+			this->maskedTextBoxWyczucieKierunku->Text = L"0";
+			this->maskedTextBoxWyczucieKierunku->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxWyczuciePobudek
+			// 
+			this->maskedTextBoxWyczuciePobudek->Location = System::Drawing::Point(340, 670);
+			this->maskedTextBoxWyczuciePobudek->Mask = L"00";
+			this->maskedTextBoxWyczuciePobudek->Name = L"maskedTextBoxWyczuciePobudek";
+			this->maskedTextBoxWyczuciePobudek->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxWyczuciePobudek->TabIndex = 300;
+			this->maskedTextBoxWyczuciePobudek->Text = L"0";
+			this->maskedTextBoxWyczuciePobudek->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxWspinaczka
+			// 
+			this->maskedTextBoxWspinaczka->Location = System::Drawing::Point(340, 650);
+			this->maskedTextBoxWspinaczka->Mask = L"00";
+			this->maskedTextBoxWspinaczka->Name = L"maskedTextBoxWspinaczka";
+			this->maskedTextBoxWspinaczka->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxWspinaczka->TabIndex = 299;
+			this->maskedTextBoxWspinaczka->Text = L"0";
+			this->maskedTextBoxWspinaczka->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxWrozenie
+			// 
+			this->maskedTextBoxWrozenie->Location = System::Drawing::Point(340, 630);
+			this->maskedTextBoxWrozenie->Mask = L"00";
+			this->maskedTextBoxWrozenie->Name = L"maskedTextBoxWrozenie";
+			this->maskedTextBoxWrozenie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxWrozenie->TabIndex = 298;
+			this->maskedTextBoxWrozenie->Text = L"0";
+			this->maskedTextBoxWrozenie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxUpadki
+			// 
+			this->maskedTextBoxUpadki->Location = System::Drawing::Point(340, 609);
+			this->maskedTextBoxUpadki->Mask = L"00";
+			this->maskedTextBoxUpadki->Name = L"maskedTextBoxUpadki";
+			this->maskedTextBoxUpadki->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxUpadki->TabIndex = 297;
+			this->maskedTextBoxUpadki->Text = L"0";
+			this->maskedTextBoxUpadki->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxUnieszkodliwianie
+			// 
+			this->maskedTextBoxUnieszkodliwianie->Location = System::Drawing::Point(340, 590);
+			this->maskedTextBoxUnieszkodliwianie->Mask = L"00";
+			this->maskedTextBoxUnieszkodliwianie->Name = L"maskedTextBoxUnieszkodliwianie";
+			this->maskedTextBoxUnieszkodliwianie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxUnieszkodliwianie->TabIndex = 296;
+			this->maskedTextBoxUnieszkodliwianie->Text = L"0";
+			this->maskedTextBoxUnieszkodliwianie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxUkrywanie
+			// 
+			this->maskedTextBoxUkrywanie->Location = System::Drawing::Point(340, 570);
+			this->maskedTextBoxUkrywanie->Mask = L"00";
+			this->maskedTextBoxUkrywanie->Name = L"maskedTextBoxUkrywanie";
+			this->maskedTextBoxUkrywanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxUkrywanie->TabIndex = 295;
+			this->maskedTextBoxUkrywanie->Text = L"0";
+			this->maskedTextBoxUkrywanie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxTajnikiDziczy
+			// 
+			this->maskedTextBoxTajnikiDziczy->Location = System::Drawing::Point(340, 550);
+			this->maskedTextBoxTajnikiDziczy->Mask = L"00";
+			this->maskedTextBoxTajnikiDziczy->Name = L"maskedTextBoxTajnikiDziczy";
+			this->maskedTextBoxTajnikiDziczy->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxTajnikiDziczy->TabIndex = 294;
+			this->maskedTextBoxTajnikiDziczy->Text = L"0";
+			this->maskedTextBoxTajnikiDziczy->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxSzacowanie
+			// 
+			this->maskedTextBoxSzacowanie->Location = System::Drawing::Point(340, 529);
+			this->maskedTextBoxSzacowanie->Mask = L"00";
+			this->maskedTextBoxSzacowanie->Name = L"maskedTextBoxSzacowanie";
+			this->maskedTextBoxSzacowanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxSzacowanie->TabIndex = 293;
+			this->maskedTextBoxSzacowanie->Text = L"0";
+			this->maskedTextBoxSzacowanie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxStosowanieMagRzecz
+			// 
+			this->maskedTextBoxStosowanieMagRzecz->Location = System::Drawing::Point(340, 510);
+			this->maskedTextBoxStosowanieMagRzecz->Mask = L"00";
+			this->maskedTextBoxStosowanieMagRzecz->Name = L"maskedTextBoxStosowanieMagRzecz";
+			this->maskedTextBoxStosowanieMagRzecz->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxStosowanieMagRzecz->TabIndex = 292;
+			this->maskedTextBoxStosowanieMagRzecz->Text = L"0";
+			this->maskedTextBoxStosowanieMagRzecz->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxStosowanieLiny
+			// 
+			this->maskedTextBoxStosowanieLiny->Location = System::Drawing::Point(340, 490);
+			this->maskedTextBoxStosowanieLiny->Mask = L"00";
+			this->maskedTextBoxStosowanieLiny->Name = L"maskedTextBoxStosowanieLiny";
+			this->maskedTextBoxStosowanieLiny->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxStosowanieLiny->TabIndex = 291;
+			this->maskedTextBoxStosowanieLiny->Text = L"0";
+			this->maskedTextBoxStosowanieLiny->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxPostepowanieZeZwierzetami
+			// 
+			this->maskedTextBoxPostepowanieZeZwierzetami->Location = System::Drawing::Point(340, 470);
+			this->maskedTextBoxPostepowanieZeZwierzetami->Mask = L"00";
+			this->maskedTextBoxPostepowanieZeZwierzetami->Name = L"maskedTextBoxPostepowanieZeZwierzetami";
+			this->maskedTextBoxPostepowanieZeZwierzetami->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxPostepowanieZeZwierzetami->TabIndex = 290;
+			this->maskedTextBoxPostepowanieZeZwierzetami->Text = L"0";
+			this->maskedTextBoxPostepowanieZeZwierzetami->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxKoncetracja
+			// 
+			this->maskedTextBoxKoncetracja->Location = System::Drawing::Point(340, 449);
+			this->maskedTextBoxKoncetracja->Mask = L"00";
+			this->maskedTextBoxKoncetracja->Name = L"maskedTextBoxKoncetracja";
+			this->maskedTextBoxKoncetracja->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxKoncetracja->TabIndex = 289;
+			this->maskedTextBoxKoncetracja->Text = L"0";
+			this->maskedTextBoxKoncetracja->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxZastraszanie
+			// 
+			this->maskedTextBoxZastraszanie->Location = System::Drawing::Point(340, 430);
+			this->maskedTextBoxZastraszanie->Mask = L"00";
+			this->maskedTextBoxZastraszanie->Name = L"maskedTextBoxZastraszanie";
+			this->maskedTextBoxZastraszanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxZastraszanie->TabIndex = 288;
+			this->maskedTextBoxZastraszanie->Text = L"0";
+			this->maskedTextBoxZastraszanie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxJezdziectwo
+			// 
+			this->maskedTextBoxJezdziectwo->Location = System::Drawing::Point(340, 410);
+			this->maskedTextBoxJezdziectwo->Mask = L"00";
+			this->maskedTextBoxJezdziectwo->Name = L"maskedTextBoxJezdziectwo";
+			this->maskedTextBoxJezdziectwo->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxJezdziectwo->TabIndex = 287;
+			this->maskedTextBoxJezdziectwo->Text = L"0";
+			this->maskedTextBoxJezdziectwo->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxSkakanie
+			// 
+			this->maskedTextBoxSkakanie->Location = System::Drawing::Point(340, 390);
+			this->maskedTextBoxSkakanie->Mask = L"00";
+			this->maskedTextBoxSkakanie->Name = L"maskedTextBoxSkakanie";
+			this->maskedTextBoxSkakanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxSkakanie->TabIndex = 286;
+			this->maskedTextBoxSkakanie->Text = L"0";
+			this->maskedTextBoxSkakanie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxRownowaga
+			// 
+			this->maskedTextBoxRownowaga->Location = System::Drawing::Point(340, 369);
+			this->maskedTextBoxRownowaga->Mask = L"00";
+			this->maskedTextBoxRownowaga->Name = L"maskedTextBoxRownowaga";
+			this->maskedTextBoxRownowaga->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxRownowaga->TabIndex = 285;
+			this->maskedTextBoxRownowaga->Text = L"0";
+			this->maskedTextBoxRownowaga->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxPrzeszukiwanie
+			// 
+			this->maskedTextBoxPrzeszukiwanie->Location = System::Drawing::Point(340, 350);
+			this->maskedTextBoxPrzeszukiwanie->Mask = L"00";
+			this->maskedTextBoxPrzeszukiwanie->Name = L"maskedTextBoxPrzeszukiwanie";
+			this->maskedTextBoxPrzeszukiwanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxPrzeszukiwanie->TabIndex = 284;
+			this->maskedTextBoxPrzeszukiwanie->Text = L"0";
+			this->maskedTextBoxPrzeszukiwanie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxPrzebieranie
+			// 
+			this->maskedTextBoxPrzebieranie->Location = System::Drawing::Point(340, 330);
+			this->maskedTextBoxPrzebieranie->Mask = L"00";
+			this->maskedTextBoxPrzebieranie->Name = L"maskedTextBoxPrzebieranie";
+			this->maskedTextBoxPrzebieranie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxPrzebieranie->TabIndex = 283;
+			this->maskedTextBoxPrzebieranie->Text = L"0";
+			this->maskedTextBoxPrzebieranie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxPolslowka
+			// 
+			this->maskedTextBoxPolslowka->Location = System::Drawing::Point(340, 310);
+			this->maskedTextBoxPolslowka->Mask = L"00";
+			this->maskedTextBoxPolslowka->Name = L"maskedTextBoxPolslowka";
+			this->maskedTextBoxPolslowka->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxPolslowka->TabIndex = 282;
+			this->maskedTextBoxPolslowka->Text = L"0";
+			this->maskedTextBoxPolslowka->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxOtwieranieZamkow
+			// 
+			this->maskedTextBoxOtwieranieZamkow->Location = System::Drawing::Point(340, 289);
+			this->maskedTextBoxOtwieranieZamkow->Mask = L"00";
+			this->maskedTextBoxOtwieranieZamkow->Name = L"maskedTextBoxOtwieranieZamkow";
+			this->maskedTextBoxOtwieranieZamkow->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxOtwieranieZamkow->TabIndex = 281;
+			this->maskedTextBoxOtwieranieZamkow->Text = L"0";
+			this->maskedTextBoxOtwieranieZamkow->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxOdcyforwywanieZapisow
+			// 
+			this->maskedTextBoxOdcyforwywanieZapisow->Location = System::Drawing::Point(340, 270);
+			this->maskedTextBoxOdcyforwywanieZapisow->Mask = L"00";
+			this->maskedTextBoxOdcyforwywanieZapisow->Name = L"maskedTextBoxOdcyforwywanieZapisow";
+			this->maskedTextBoxOdcyforwywanieZapisow->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxOdcyforwywanieZapisow->TabIndex = 280;
+			this->maskedTextBoxOdcyforwywanieZapisow->Text = L"0";
+			this->maskedTextBoxOdcyforwywanieZapisow->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxNasluchiwanie
+			// 
+			this->maskedTextBoxNasluchiwanie->Location = System::Drawing::Point(340, 250);
+			this->maskedTextBoxNasluchiwanie->Mask = L"00";
+			this->maskedTextBoxNasluchiwanie->Name = L"maskedTextBoxNasluchiwanie";
+			this->maskedTextBoxNasluchiwanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxNasluchiwanie->TabIndex = 279;
+			this->maskedTextBoxNasluchiwanie->Text = L"0";
+			this->maskedTextBoxNasluchiwanie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxLeczenie
+			// 
+			this->maskedTextBoxLeczenie->Location = System::Drawing::Point(340, 230);
+			this->maskedTextBoxLeczenie->Mask = L"00";
+			this->maskedTextBoxLeczenie->Name = L"maskedTextBoxLeczenie";
+			this->maskedTextBoxLeczenie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxLeczenie->TabIndex = 278;
+			this->maskedTextBoxLeczenie->Text = L"0";
+			this->maskedTextBoxLeczenie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxKradzieszKieszonkowa
+			// 
+			this->maskedTextBoxKradzieszKieszonkowa->Location = System::Drawing::Point(340, 209);
+			this->maskedTextBoxKradzieszKieszonkowa->Mask = L"00";
+			this->maskedTextBoxKradzieszKieszonkowa->Name = L"maskedTextBoxKradzieszKieszonkowa";
+			this->maskedTextBoxKradzieszKieszonkowa->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxKradzieszKieszonkowa->TabIndex = 277;
+			this->maskedTextBoxKradzieszKieszonkowa->Text = L"0";
+			this->maskedTextBoxKradzieszKieszonkowa->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxFalszerstwo
+			// 
+			this->maskedTextBoxFalszerstwo->Location = System::Drawing::Point(340, 190);
+			this->maskedTextBoxFalszerstwo->Mask = L"00";
+			this->maskedTextBoxFalszerstwo->Name = L"maskedTextBoxFalszerstwo";
+			this->maskedTextBoxFalszerstwo->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxFalszerstwo->TabIndex = 276;
+			this->maskedTextBoxFalszerstwo->Text = L"0";
+			this->maskedTextBoxFalszerstwo->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxDyplomacja
+			// 
+			this->maskedTextBoxDyplomacja->Location = System::Drawing::Point(340, 170);
+			this->maskedTextBoxDyplomacja->Mask = L"00";
+			this->maskedTextBoxDyplomacja->Name = L"maskedTextBoxDyplomacja";
+			this->maskedTextBoxDyplomacja->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxDyplomacja->TabIndex = 275;
+			this->maskedTextBoxDyplomacja->Text = L"0";
+			this->maskedTextBoxDyplomacja->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxCzytanieZWarg
+			// 
+			this->maskedTextBoxCzytanieZWarg->Location = System::Drawing::Point(340, 150);
+			this->maskedTextBoxCzytanieZWarg->Mask = L"00";
+			this->maskedTextBoxCzytanieZWarg->Name = L"maskedTextBoxCzytanieZWarg";
+			this->maskedTextBoxCzytanieZWarg->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxCzytanieZWarg->TabIndex = 274;
+			this->maskedTextBoxCzytanieZWarg->Text = L"0";
+			this->maskedTextBoxCzytanieZWarg->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxCarostwo
+			// 
+			this->maskedTextBoxCarostwo->Location = System::Drawing::Point(340, 129);
+			this->maskedTextBoxCarostwo->Mask = L"00";
+			this->maskedTextBoxCarostwo->Name = L"maskedTextBoxCarostwo";
+			this->maskedTextBoxCarostwo->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxCarostwo->TabIndex = 273;
+			this->maskedTextBoxCarostwo->Text = L"0";
+			this->maskedTextBoxCarostwo->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxCichePoruszanie
+			// 
+			this->maskedTextBoxCichePoruszanie->Location = System::Drawing::Point(340, 110);
+			this->maskedTextBoxCichePoruszanie->Mask = L"00";
+			this->maskedTextBoxCichePoruszanie->Name = L"maskedTextBoxCichePoruszanie";
+			this->maskedTextBoxCichePoruszanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxCichePoruszanie->TabIndex = 272;
+			this->maskedTextBoxCichePoruszanie->Text = L"0";
+			this->maskedTextBoxCichePoruszanie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxBlefowanie
+			// 
+			this->maskedTextBoxBlefowanie->Location = System::Drawing::Point(340, 90);
+			this->maskedTextBoxBlefowanie->Mask = L"00";
+			this->maskedTextBoxBlefowanie->Name = L"maskedTextBoxBlefowanie";
+			this->maskedTextBoxBlefowanie->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxBlefowanie->TabIndex = 271;
+			this->maskedTextBoxBlefowanie->Text = L"0";
+			this->maskedTextBoxBlefowanie->ValidatingType = System::Int32::typeid;
+			// 
+			// maskedTextBoxAlchemia
+			// 
+			this->maskedTextBoxAlchemia->Location = System::Drawing::Point(340, 70);
+			this->maskedTextBoxAlchemia->Mask = L"00";
+			this->maskedTextBoxAlchemia->Name = L"maskedTextBoxAlchemia";
+			this->maskedTextBoxAlchemia->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxAlchemia->TabIndex = 270;
+			this->maskedTextBoxAlchemia->Text = L"0";
+			this->maskedTextBoxAlchemia->ValidatingType = System::Int32::typeid;
+			// 
+			// labelSumaWyczucieKierunku
+			// 
+			this->labelSumaWyczucieKierunku->AutoSize = true;
+			this->labelSumaWyczucieKierunku->Location = System::Drawing::Point(405, 690);
+			this->labelSumaWyczucieKierunku->Name = L"labelSumaWyczucieKierunku";
+			this->labelSumaWyczucieKierunku->Size = System::Drawing::Size(13, 13);
+			this->labelSumaWyczucieKierunku->TabIndex = 269;
+			this->labelSumaWyczucieKierunku->Text = L"0";
+			// 
+			// labelSumaWyczuciePobudek
+			// 
+			this->labelSumaWyczuciePobudek->AutoSize = true;
+			this->labelSumaWyczuciePobudek->Location = System::Drawing::Point(405, 670);
+			this->labelSumaWyczuciePobudek->Name = L"labelSumaWyczuciePobudek";
+			this->labelSumaWyczuciePobudek->Size = System::Drawing::Size(13, 13);
+			this->labelSumaWyczuciePobudek->TabIndex = 268;
+			this->labelSumaWyczuciePobudek->Text = L"0";
+			// 
+			// labelSumaWspinaczka
+			// 
+			this->labelSumaWspinaczka->AutoSize = true;
+			this->labelSumaWspinaczka->Location = System::Drawing::Point(405, 650);
+			this->labelSumaWspinaczka->Name = L"labelSumaWspinaczka";
+			this->labelSumaWspinaczka->Size = System::Drawing::Size(13, 13);
+			this->labelSumaWspinaczka->TabIndex = 267;
+			this->labelSumaWspinaczka->Text = L"0";
+			// 
+			// labelSumaWrozenie
+			// 
+			this->labelSumaWrozenie->AutoSize = true;
+			this->labelSumaWrozenie->Location = System::Drawing::Point(405, 630);
+			this->labelSumaWrozenie->Name = L"labelSumaWrozenie";
+			this->labelSumaWrozenie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaWrozenie->TabIndex = 266;
+			this->labelSumaWrozenie->Text = L"0";
+			// 
+			// labelSumaUpadki
+			// 
+			this->labelSumaUpadki->AutoSize = true;
+			this->labelSumaUpadki->Location = System::Drawing::Point(405, 610);
+			this->labelSumaUpadki->Name = L"labelSumaUpadki";
+			this->labelSumaUpadki->Size = System::Drawing::Size(13, 13);
+			this->labelSumaUpadki->TabIndex = 265;
+			this->labelSumaUpadki->Text = L"0";
+			// 
+			// labelSumaUnieszkodliwianie
+			// 
+			this->labelSumaUnieszkodliwianie->AutoSize = true;
+			this->labelSumaUnieszkodliwianie->Location = System::Drawing::Point(405, 590);
+			this->labelSumaUnieszkodliwianie->Name = L"labelSumaUnieszkodliwianie";
+			this->labelSumaUnieszkodliwianie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaUnieszkodliwianie->TabIndex = 264;
+			this->labelSumaUnieszkodliwianie->Text = L"0";
+			// 
+			// labelSumaUkrywanie
+			// 
+			this->labelSumaUkrywanie->AutoSize = true;
+			this->labelSumaUkrywanie->Location = System::Drawing::Point(405, 570);
+			this->labelSumaUkrywanie->Name = L"labelSumaUkrywanie";
+			this->labelSumaUkrywanie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaUkrywanie->TabIndex = 263;
+			this->labelSumaUkrywanie->Text = L"0";
+			// 
+			// labelSumaTajnikidziczy
+			// 
+			this->labelSumaTajnikidziczy->AutoSize = true;
+			this->labelSumaTajnikidziczy->Location = System::Drawing::Point(405, 550);
+			this->labelSumaTajnikidziczy->Name = L"labelSumaTajnikidziczy";
+			this->labelSumaTajnikidziczy->Size = System::Drawing::Size(13, 13);
+			this->labelSumaTajnikidziczy->TabIndex = 262;
+			this->labelSumaTajnikidziczy->Text = L"0";
+			// 
+			// labelSumaSzacowanie
+			// 
+			this->labelSumaSzacowanie->AutoSize = true;
+			this->labelSumaSzacowanie->Location = System::Drawing::Point(405, 530);
+			this->labelSumaSzacowanie->Name = L"labelSumaSzacowanie";
+			this->labelSumaSzacowanie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaSzacowanie->TabIndex = 261;
+			this->labelSumaSzacowanie->Text = L"0";
+			// 
+			// labelSumaStosowanieMagRzeczy
+			// 
+			this->labelSumaStosowanieMagRzeczy->AutoSize = true;
+			this->labelSumaStosowanieMagRzeczy->Location = System::Drawing::Point(405, 510);
+			this->labelSumaStosowanieMagRzeczy->Name = L"labelSumaStosowanieMagRzeczy";
+			this->labelSumaStosowanieMagRzeczy->Size = System::Drawing::Size(13, 13);
+			this->labelSumaStosowanieMagRzeczy->TabIndex = 260;
+			this->labelSumaStosowanieMagRzeczy->Text = L"0";
+			// 
+			// labelSumaStosowanieLiny
+			// 
+			this->labelSumaStosowanieLiny->AutoSize = true;
+			this->labelSumaStosowanieLiny->Location = System::Drawing::Point(405, 490);
+			this->labelSumaStosowanieLiny->Name = L"labelSumaStosowanieLiny";
+			this->labelSumaStosowanieLiny->Size = System::Drawing::Size(13, 13);
+			this->labelSumaStosowanieLiny->TabIndex = 259;
+			this->labelSumaStosowanieLiny->Text = L"0";
+			// 
+			// labelSumaPostepowanieZeZwier
+			// 
+			this->labelSumaPostepowanieZeZwier->AutoSize = true;
+			this->labelSumaPostepowanieZeZwier->Location = System::Drawing::Point(405, 470);
+			this->labelSumaPostepowanieZeZwier->Name = L"labelSumaPostepowanieZeZwier";
+			this->labelSumaPostepowanieZeZwier->Size = System::Drawing::Size(13, 13);
+			this->labelSumaPostepowanieZeZwier->TabIndex = 258;
+			this->labelSumaPostepowanieZeZwier->Text = L"0";
+			// 
+			// labelSumaKoncetracja
+			// 
+			this->labelSumaKoncetracja->AutoSize = true;
+			this->labelSumaKoncetracja->Location = System::Drawing::Point(405, 450);
+			this->labelSumaKoncetracja->Name = L"labelSumaKoncetracja";
+			this->labelSumaKoncetracja->Size = System::Drawing::Size(13, 13);
+			this->labelSumaKoncetracja->TabIndex = 257;
+			this->labelSumaKoncetracja->Text = L"0";
+			// 
+			// labelSumaZastraszanie
+			// 
+			this->labelSumaZastraszanie->AutoSize = true;
+			this->labelSumaZastraszanie->Location = System::Drawing::Point(405, 430);
+			this->labelSumaZastraszanie->Name = L"labelSumaZastraszanie";
+			this->labelSumaZastraszanie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaZastraszanie->TabIndex = 256;
+			this->labelSumaZastraszanie->Text = L"0";
+			// 
+			// labelSumaJezdziectwo
+			// 
+			this->labelSumaJezdziectwo->AutoSize = true;
+			this->labelSumaJezdziectwo->Location = System::Drawing::Point(405, 410);
+			this->labelSumaJezdziectwo->Name = L"labelSumaJezdziectwo";
+			this->labelSumaJezdziectwo->Size = System::Drawing::Size(13, 13);
+			this->labelSumaJezdziectwo->TabIndex = 255;
+			this->labelSumaJezdziectwo->Text = L"0";
+			// 
+			// labelSumaSkakanie
+			// 
+			this->labelSumaSkakanie->AutoSize = true;
+			this->labelSumaSkakanie->Location = System::Drawing::Point(405, 390);
+			this->labelSumaSkakanie->Name = L"labelSumaSkakanie";
+			this->labelSumaSkakanie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaSkakanie->TabIndex = 254;
+			this->labelSumaSkakanie->Text = L"0";
+			// 
+			// labelSumaRównowaga
+			// 
+			this->labelSumaRównowaga->AutoSize = true;
+			this->labelSumaRównowaga->Location = System::Drawing::Point(405, 370);
+			this->labelSumaRównowaga->Name = L"labelSumaRównowaga";
+			this->labelSumaRównowaga->Size = System::Drawing::Size(13, 13);
+			this->labelSumaRównowaga->TabIndex = 253;
+			this->labelSumaRównowaga->Text = L"0";
+			// 
+			// labelSumaPrzeszukiwane
+			// 
+			this->labelSumaPrzeszukiwane->AutoSize = true;
+			this->labelSumaPrzeszukiwane->Location = System::Drawing::Point(405, 350);
+			this->labelSumaPrzeszukiwane->Name = L"labelSumaPrzeszukiwane";
+			this->labelSumaPrzeszukiwane->Size = System::Drawing::Size(13, 13);
+			this->labelSumaPrzeszukiwane->TabIndex = 252;
+			this->labelSumaPrzeszukiwane->Text = L"0";
+			// 
+			// labelSumaPrzebieranie
+			// 
+			this->labelSumaPrzebieranie->AutoSize = true;
+			this->labelSumaPrzebieranie->Location = System::Drawing::Point(405, 330);
+			this->labelSumaPrzebieranie->Name = L"labelSumaPrzebieranie";
+			this->labelSumaPrzebieranie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaPrzebieranie->TabIndex = 251;
+			this->labelSumaPrzebieranie->Text = L"0";
+			// 
+			// labelSumaPolslowka
+			// 
+			this->labelSumaPolslowka->AutoSize = true;
+			this->labelSumaPolslowka->Location = System::Drawing::Point(405, 310);
+			this->labelSumaPolslowka->Name = L"labelSumaPolslowka";
+			this->labelSumaPolslowka->Size = System::Drawing::Size(13, 13);
+			this->labelSumaPolslowka->TabIndex = 250;
+			this->labelSumaPolslowka->Text = L"0";
+			// 
+			// labelSumaOtiweranieZamkow
+			// 
+			this->labelSumaOtiweranieZamkow->AutoSize = true;
+			this->labelSumaOtiweranieZamkow->Location = System::Drawing::Point(405, 290);
+			this->labelSumaOtiweranieZamkow->Name = L"labelSumaOtiweranieZamkow";
+			this->labelSumaOtiweranieZamkow->Size = System::Drawing::Size(13, 13);
+			this->labelSumaOtiweranieZamkow->TabIndex = 249;
+			this->labelSumaOtiweranieZamkow->Text = L"0";
+			// 
+			// labelSumaOdcyforwywanieZapisow
+			// 
+			this->labelSumaOdcyforwywanieZapisow->AutoSize = true;
+			this->labelSumaOdcyforwywanieZapisow->Location = System::Drawing::Point(405, 270);
+			this->labelSumaOdcyforwywanieZapisow->Name = L"labelSumaOdcyforwywanieZapisow";
+			this->labelSumaOdcyforwywanieZapisow->Size = System::Drawing::Size(13, 13);
+			this->labelSumaOdcyforwywanieZapisow->TabIndex = 248;
+			this->labelSumaOdcyforwywanieZapisow->Text = L"0";
+			// 
+			// labelSumaNasluchwianie
+			// 
+			this->labelSumaNasluchwianie->AutoSize = true;
+			this->labelSumaNasluchwianie->Location = System::Drawing::Point(405, 250);
+			this->labelSumaNasluchwianie->Name = L"labelSumaNasluchwianie";
+			this->labelSumaNasluchwianie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaNasluchwianie->TabIndex = 247;
+			this->labelSumaNasluchwianie->Text = L"0";
+			// 
+			// labelSumaLeczenie
+			// 
+			this->labelSumaLeczenie->AutoSize = true;
+			this->labelSumaLeczenie->Location = System::Drawing::Point(405, 230);
+			this->labelSumaLeczenie->Name = L"labelSumaLeczenie";
+			this->labelSumaLeczenie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaLeczenie->TabIndex = 246;
+			this->labelSumaLeczenie->Text = L"0";
+			// 
+			// labelSumaKradzieszKieszonkowa
+			// 
+			this->labelSumaKradzieszKieszonkowa->AutoSize = true;
+			this->labelSumaKradzieszKieszonkowa->Location = System::Drawing::Point(405, 210);
+			this->labelSumaKradzieszKieszonkowa->Name = L"labelSumaKradzieszKieszonkowa";
+			this->labelSumaKradzieszKieszonkowa->Size = System::Drawing::Size(13, 13);
+			this->labelSumaKradzieszKieszonkowa->TabIndex = 245;
+			this->labelSumaKradzieszKieszonkowa->Text = L"0";
+			// 
+			// labelSumaFalszerstwo
+			// 
+			this->labelSumaFalszerstwo->AutoSize = true;
+			this->labelSumaFalszerstwo->Location = System::Drawing::Point(405, 190);
+			this->labelSumaFalszerstwo->Name = L"labelSumaFalszerstwo";
+			this->labelSumaFalszerstwo->Size = System::Drawing::Size(13, 13);
+			this->labelSumaFalszerstwo->TabIndex = 244;
+			this->labelSumaFalszerstwo->Text = L"0";
+			// 
+			// labelSumaDyplomacja
+			// 
+			this->labelSumaDyplomacja->AutoSize = true;
+			this->labelSumaDyplomacja->Location = System::Drawing::Point(405, 170);
+			this->labelSumaDyplomacja->Name = L"labelSumaDyplomacja";
+			this->labelSumaDyplomacja->Size = System::Drawing::Size(13, 13);
+			this->labelSumaDyplomacja->TabIndex = 243;
+			this->labelSumaDyplomacja->Text = L"0";
+			// 
+			// labelSumaCzytanieZWarg
+			// 
+			this->labelSumaCzytanieZWarg->AutoSize = true;
+			this->labelSumaCzytanieZWarg->Location = System::Drawing::Point(405, 150);
+			this->labelSumaCzytanieZWarg->Name = L"labelSumaCzytanieZWarg";
+			this->labelSumaCzytanieZWarg->Size = System::Drawing::Size(13, 13);
+			this->labelSumaCzytanieZWarg->TabIndex = 242;
+			this->labelSumaCzytanieZWarg->Text = L"0";
+			// 
+			// labelSumaCzarostwo
+			// 
+			this->labelSumaCzarostwo->AutoSize = true;
+			this->labelSumaCzarostwo->Location = System::Drawing::Point(405, 130);
+			this->labelSumaCzarostwo->Name = L"labelSumaCzarostwo";
+			this->labelSumaCzarostwo->Size = System::Drawing::Size(13, 13);
+			this->labelSumaCzarostwo->TabIndex = 241;
+			this->labelSumaCzarostwo->Text = L"0";
+			// 
+			// labelSumaCicheporuszanie
+			// 
+			this->labelSumaCicheporuszanie->AutoSize = true;
+			this->labelSumaCicheporuszanie->Location = System::Drawing::Point(405, 110);
+			this->labelSumaCicheporuszanie->Name = L"labelSumaCicheporuszanie";
+			this->labelSumaCicheporuszanie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaCicheporuszanie->TabIndex = 240;
+			this->labelSumaCicheporuszanie->Text = L"0";
+			// 
+			// labelSumaBlefowanie
+			// 
+			this->labelSumaBlefowanie->AutoSize = true;
+			this->labelSumaBlefowanie->Location = System::Drawing::Point(405, 90);
+			this->labelSumaBlefowanie->Name = L"labelSumaBlefowanie";
+			this->labelSumaBlefowanie->Size = System::Drawing::Size(13, 13);
+			this->labelSumaBlefowanie->TabIndex = 239;
+			this->labelSumaBlefowanie->Text = L"0";
+			// 
+			// labelSumaAlchemia
+			// 
+			this->labelSumaAlchemia->AutoSize = true;
+			this->labelSumaAlchemia->Location = System::Drawing::Point(405, 70);
+			this->labelSumaAlchemia->Name = L"labelSumaAlchemia";
+			this->labelSumaAlchemia->Size = System::Drawing::Size(13, 13);
+			this->labelSumaAlchemia->TabIndex = 238;
+			this->labelSumaAlchemia->Text = L"0";
 			// 
 			// label196
 			// 
@@ -3553,6 +3684,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label196->Size = System::Drawing::Size(10, 13);
 			this->label196->TabIndex = 237;
 			this->label196->Text = L"-";
+			this->label196->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label196_Click);
 			// 
 			// label197
 			// 
@@ -3562,6 +3694,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label197->Size = System::Drawing::Size(10, 13);
 			this->label197->TabIndex = 236;
 			this->label197->Text = L"-";
+			this->label197->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label197_Click);
 			// 
 			// label198
 			// 
@@ -3571,6 +3704,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label198->Size = System::Drawing::Size(10, 13);
 			this->label198->TabIndex = 235;
 			this->label198->Text = L"-";
+			this->label198->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label198_Click);
 			// 
 			// label199
 			// 
@@ -3580,6 +3714,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label199->Size = System::Drawing::Size(10, 13);
 			this->label199->TabIndex = 234;
 			this->label199->Text = L"-";
+			this->label199->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label199_Click);
 			// 
 			// label200
 			// 
@@ -3589,6 +3724,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label200->Size = System::Drawing::Size(10, 13);
 			this->label200->TabIndex = 233;
 			this->label200->Text = L"-";
+			this->label200->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label200_Click);
 			// 
 			// label201
 			// 
@@ -3598,6 +3734,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label201->Size = System::Drawing::Size(10, 13);
 			this->label201->TabIndex = 232;
 			this->label201->Text = L"-";
+			this->label201->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label201_Click);
 			// 
 			// label202
 			// 
@@ -3607,6 +3744,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label202->Size = System::Drawing::Size(10, 13);
 			this->label202->TabIndex = 231;
 			this->label202->Text = L"-";
+			this->label202->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label202_Click);
 			// 
 			// label203
 			// 
@@ -3616,6 +3754,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label203->Size = System::Drawing::Size(10, 13);
 			this->label203->TabIndex = 230;
 			this->label203->Text = L"-";
+			this->label203->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label203_Click);
 			// 
 			// label204
 			// 
@@ -3625,6 +3764,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label204->Size = System::Drawing::Size(10, 13);
 			this->label204->TabIndex = 229;
 			this->label204->Text = L"-";
+			this->label204->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label204_Click);
 			// 
 			// label205
 			// 
@@ -3634,6 +3774,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label205->Size = System::Drawing::Size(10, 13);
 			this->label205->TabIndex = 228;
 			this->label205->Text = L"-";
+			this->label205->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label205_Click);
 			// 
 			// label206
 			// 
@@ -3643,6 +3784,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label206->Size = System::Drawing::Size(10, 13);
 			this->label206->TabIndex = 227;
 			this->label206->Text = L"-";
+			this->label206->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label206_Click);
 			// 
 			// label207
 			// 
@@ -3652,6 +3794,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label207->Size = System::Drawing::Size(10, 13);
 			this->label207->TabIndex = 226;
 			this->label207->Text = L"-";
+			this->label207->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label207_Click);
 			// 
 			// label208
 			// 
@@ -3661,6 +3804,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label208->Size = System::Drawing::Size(10, 13);
 			this->label208->TabIndex = 225;
 			this->label208->Text = L"-";
+			this->label208->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label208_Click);
 			// 
 			// label209
 			// 
@@ -3670,6 +3814,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label209->Size = System::Drawing::Size(10, 13);
 			this->label209->TabIndex = 224;
 			this->label209->Text = L"-";
+			this->label209->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label209_Click);
 			// 
 			// label210
 			// 
@@ -3679,6 +3824,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label210->Size = System::Drawing::Size(10, 13);
 			this->label210->TabIndex = 223;
 			this->label210->Text = L"-";
+			this->label210->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label210_Click);
 			// 
 			// label211
 			// 
@@ -3688,6 +3834,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label211->Size = System::Drawing::Size(10, 13);
 			this->label211->TabIndex = 222;
 			this->label211->Text = L"-";
+			this->label211->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label211_Click);
 			// 
 			// label188
 			// 
@@ -3697,6 +3844,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label188->Size = System::Drawing::Size(10, 13);
 			this->label188->TabIndex = 221;
 			this->label188->Text = L"-";
+			this->label188->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label188_Click);
 			// 
 			// label189
 			// 
@@ -3706,6 +3854,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label189->Size = System::Drawing::Size(10, 13);
 			this->label189->TabIndex = 220;
 			this->label189->Text = L"-";
+			this->label189->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label189_Click);
 			// 
 			// label190
 			// 
@@ -3715,6 +3864,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label190->Size = System::Drawing::Size(10, 13);
 			this->label190->TabIndex = 219;
 			this->label190->Text = L"-";
+			this->label190->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label190_Click);
 			// 
 			// label191
 			// 
@@ -3724,6 +3874,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label191->Size = System::Drawing::Size(10, 13);
 			this->label191->TabIndex = 218;
 			this->label191->Text = L"-";
+			this->label191->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label191_Click);
 			// 
 			// label192
 			// 
@@ -3733,6 +3884,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label192->Size = System::Drawing::Size(10, 13);
 			this->label192->TabIndex = 217;
 			this->label192->Text = L"-";
+			this->label192->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label192_Click);
 			// 
 			// label193
 			// 
@@ -3742,6 +3894,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label193->Size = System::Drawing::Size(10, 13);
 			this->label193->TabIndex = 216;
 			this->label193->Text = L"-";
+			this->label193->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label193_Click);
 			// 
 			// label194
 			// 
@@ -3751,6 +3904,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label194->Size = System::Drawing::Size(10, 13);
 			this->label194->TabIndex = 215;
 			this->label194->Text = L"-";
+			this->label194->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label194_Click);
 			// 
 			// label195
 			// 
@@ -3760,6 +3914,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label195->Size = System::Drawing::Size(10, 13);
 			this->label195->TabIndex = 214;
 			this->label195->Text = L"-";
+			this->label195->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label195_Click);
 			// 
 			// label184
 			// 
@@ -3769,6 +3924,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label184->Size = System::Drawing::Size(10, 13);
 			this->label184->TabIndex = 213;
 			this->label184->Text = L"-";
+			this->label184->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label184_Click);
 			// 
 			// label185
 			// 
@@ -3778,6 +3934,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label185->Size = System::Drawing::Size(10, 13);
 			this->label185->TabIndex = 212;
 			this->label185->Text = L"-";
+			this->label185->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label185_Click);
 			// 
 			// label186
 			// 
@@ -3787,6 +3944,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label186->Size = System::Drawing::Size(10, 13);
 			this->label186->TabIndex = 211;
 			this->label186->Text = L"-";
+			this->label186->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label186_Click);
 			// 
 			// label187
 			// 
@@ -3796,6 +3954,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label187->Size = System::Drawing::Size(10, 13);
 			this->label187->TabIndex = 210;
 			this->label187->Text = L"-";
+			this->label187->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label187_Click);
 			// 
 			// label182
 			// 
@@ -3805,6 +3964,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label182->Size = System::Drawing::Size(10, 13);
 			this->label182->TabIndex = 209;
 			this->label182->Text = L"-";
+			this->label182->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label182_Click);
 			// 
 			// label183
 			// 
@@ -3814,6 +3974,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label183->Size = System::Drawing::Size(10, 13);
 			this->label183->TabIndex = 208;
 			this->label183->Text = L"-";
+			this->label183->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label183_Click);
 			// 
 			// label181
 			// 
@@ -3823,6 +3984,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label181->Size = System::Drawing::Size(10, 13);
 			this->label181->TabIndex = 207;
 			this->label181->Text = L"-";
+			this->label181->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label181_Click);
 			// 
 			// label180
 			// 
@@ -3832,6 +3994,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label180->Size = System::Drawing::Size(10, 13);
 			this->label180->TabIndex = 206;
 			this->label180->Text = L"-";
+			this->label180->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label180_Click);
 			// 
 			// label164
 			// 
@@ -3841,6 +4004,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label164->Size = System::Drawing::Size(13, 13);
 			this->label164->TabIndex = 205;
 			this->label164->Text = L"+";
+			this->label164->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label164_Click);
 			// 
 			// label165
 			// 
@@ -3850,6 +4014,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label165->Size = System::Drawing::Size(13, 13);
 			this->label165->TabIndex = 204;
 			this->label165->Text = L"+";
+			this->label165->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label165_Click);
 			// 
 			// label166
 			// 
@@ -3859,6 +4024,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label166->Size = System::Drawing::Size(13, 13);
 			this->label166->TabIndex = 203;
 			this->label166->Text = L"+";
+			this->label166->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label166_Click);
 			// 
 			// label167
 			// 
@@ -3868,6 +4034,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label167->Size = System::Drawing::Size(13, 13);
 			this->label167->TabIndex = 202;
 			this->label167->Text = L"+";
+			this->label167->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label167_Click);
 			// 
 			// label168
 			// 
@@ -3877,6 +4044,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label168->Size = System::Drawing::Size(13, 13);
 			this->label168->TabIndex = 201;
 			this->label168->Text = L"+";
+			this->label168->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label168_Click);
 			// 
 			// label169
 			// 
@@ -3886,6 +4054,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label169->Size = System::Drawing::Size(13, 13);
 			this->label169->TabIndex = 200;
 			this->label169->Text = L"+";
+			this->label169->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label169_Click);
 			// 
 			// label170
 			// 
@@ -3895,6 +4064,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label170->Size = System::Drawing::Size(13, 13);
 			this->label170->TabIndex = 199;
 			this->label170->Text = L"+";
+			this->label170->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label170_Click);
 			// 
 			// label171
 			// 
@@ -3904,6 +4074,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label171->Size = System::Drawing::Size(13, 13);
 			this->label171->TabIndex = 198;
 			this->label171->Text = L"+";
+			this->label171->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label171_Click);
 			// 
 			// label172
 			// 
@@ -3913,6 +4084,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label172->Size = System::Drawing::Size(13, 13);
 			this->label172->TabIndex = 197;
 			this->label172->Text = L"+";
+			this->label172->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label172_Click);
 			// 
 			// label173
 			// 
@@ -3922,6 +4094,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label173->Size = System::Drawing::Size(13, 13);
 			this->label173->TabIndex = 196;
 			this->label173->Text = L"+";
+			this->label173->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label173_Click);
 			// 
 			// label174
 			// 
@@ -3931,6 +4104,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label174->Size = System::Drawing::Size(13, 13);
 			this->label174->TabIndex = 195;
 			this->label174->Text = L"+";
+			this->label174->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label174_Click);
 			// 
 			// label175
 			// 
@@ -3940,6 +4114,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label175->Size = System::Drawing::Size(13, 13);
 			this->label175->TabIndex = 194;
 			this->label175->Text = L"+";
+			this->label175->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label175_Click);
 			// 
 			// label176
 			// 
@@ -3949,6 +4124,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label176->Size = System::Drawing::Size(13, 13);
 			this->label176->TabIndex = 193;
 			this->label176->Text = L"+";
+			this->label176->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label176_Click);
 			// 
 			// label177
 			// 
@@ -3958,6 +4134,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label177->Size = System::Drawing::Size(13, 13);
 			this->label177->TabIndex = 192;
 			this->label177->Text = L"+";
+			this->label177->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label177_Click);
 			// 
 			// label178
 			// 
@@ -3967,6 +4144,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label178->Size = System::Drawing::Size(13, 13);
 			this->label178->TabIndex = 191;
 			this->label178->Text = L"+";
+			this->label178->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label178_Click);
 			// 
 			// label179
 			// 
@@ -3976,6 +4154,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label179->Size = System::Drawing::Size(13, 13);
 			this->label179->TabIndex = 190;
 			this->label179->Text = L"+";
+			this->label179->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label179_Click);
 			// 
 			// label156
 			// 
@@ -3985,6 +4164,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label156->Size = System::Drawing::Size(13, 13);
 			this->label156->TabIndex = 189;
 			this->label156->Text = L"+";
+			this->label156->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label156_Click);
 			// 
 			// label157
 			// 
@@ -3994,6 +4174,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label157->Size = System::Drawing::Size(13, 13);
 			this->label157->TabIndex = 188;
 			this->label157->Text = L"+";
+			this->label157->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label157_Click);
 			// 
 			// label158
 			// 
@@ -4003,6 +4184,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label158->Size = System::Drawing::Size(13, 13);
 			this->label158->TabIndex = 187;
 			this->label158->Text = L"+";
+			this->label158->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label158_Click);
 			// 
 			// label159
 			// 
@@ -4012,6 +4194,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label159->Size = System::Drawing::Size(13, 13);
 			this->label159->TabIndex = 186;
 			this->label159->Text = L"+";
+			this->label159->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label159_Click);
 			// 
 			// label160
 			// 
@@ -4021,6 +4204,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label160->Size = System::Drawing::Size(13, 13);
 			this->label160->TabIndex = 185;
 			this->label160->Text = L"+";
+			this->label160->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label160_Click);
 			// 
 			// label161
 			// 
@@ -4030,6 +4214,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label161->Size = System::Drawing::Size(13, 13);
 			this->label161->TabIndex = 184;
 			this->label161->Text = L"+";
+			this->label161->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label161_Click);
 			// 
 			// label162
 			// 
@@ -4039,6 +4224,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label162->Size = System::Drawing::Size(13, 13);
 			this->label162->TabIndex = 183;
 			this->label162->Text = L"+";
+			this->label162->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label162_Click);
 			// 
 			// label163
 			// 
@@ -4048,6 +4234,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label163->Size = System::Drawing::Size(13, 13);
 			this->label163->TabIndex = 182;
 			this->label163->Text = L"+";
+			this->label163->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label163_Click);
 			// 
 			// label152
 			// 
@@ -4057,6 +4244,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label152->Size = System::Drawing::Size(13, 13);
 			this->label152->TabIndex = 181;
 			this->label152->Text = L"+";
+			this->label152->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label152_Click);
 			// 
 			// label153
 			// 
@@ -4066,6 +4254,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label153->Size = System::Drawing::Size(13, 13);
 			this->label153->TabIndex = 180;
 			this->label153->Text = L"+";
+			this->label153->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label153_Click);
 			// 
 			// label154
 			// 
@@ -4075,6 +4264,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label154->Size = System::Drawing::Size(13, 13);
 			this->label154->TabIndex = 179;
 			this->label154->Text = L"+";
+			this->label154->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label154_Click);
 			// 
 			// label155
 			// 
@@ -4084,6 +4274,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label155->Size = System::Drawing::Size(13, 13);
 			this->label155->TabIndex = 178;
 			this->label155->Text = L"+";
+			this->label155->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label155_Click);
 			// 
 			// label150
 			// 
@@ -4093,6 +4284,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label150->Size = System::Drawing::Size(13, 13);
 			this->label150->TabIndex = 177;
 			this->label150->Text = L"+";
+			this->label150->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label150_Click);
 			// 
 			// label151
 			// 
@@ -4102,6 +4294,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label151->Size = System::Drawing::Size(13, 13);
 			this->label151->TabIndex = 176;
 			this->label151->Text = L"+";
+			this->label151->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label151_Click);
 			// 
 			// label134
 			// 
@@ -4111,6 +4304,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label134->Size = System::Drawing::Size(13, 13);
 			this->label134->TabIndex = 175;
 			this->label134->Text = L"+";
+			this->label134->Click += gcnew System::EventHandler(this, &dodajKarteFroms::label134_Click);
 			// 
 			// labelAlechemiaPlus
 			// 
@@ -4122,239 +4316,239 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelAlechemiaPlus->Text = L"+";
 			this->labelAlechemiaPlus->Click += gcnew System::EventHandler(this, &dodajKarteFroms::labelAlechemiaPlus_Click);
 			// 
-			// label135
+			// labelWartoscWyczucieKierunku
 			// 
-			this->label135->AutoSize = true;
-			this->label135->Location = System::Drawing::Point(277, 690);
-			this->label135->Name = L"label135";
-			this->label135->Size = System::Drawing::Size(13, 13);
-			this->label135->TabIndex = 173;
-			this->label135->Text = L"0";
+			this->labelWartoscWyczucieKierunku->AutoSize = true;
+			this->labelWartoscWyczucieKierunku->Location = System::Drawing::Point(277, 690);
+			this->labelWartoscWyczucieKierunku->Name = L"labelWartoscWyczucieKierunku";
+			this->labelWartoscWyczucieKierunku->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscWyczucieKierunku->TabIndex = 173;
+			this->labelWartoscWyczucieKierunku->Text = L"0";
 			// 
-			// label136
+			// labelWartoscWyczuciePobudek
 			// 
-			this->label136->AutoSize = true;
-			this->label136->Location = System::Drawing::Point(277, 670);
-			this->label136->Name = L"label136";
-			this->label136->Size = System::Drawing::Size(13, 13);
-			this->label136->TabIndex = 172;
-			this->label136->Text = L"0";
+			this->labelWartoscWyczuciePobudek->AutoSize = true;
+			this->labelWartoscWyczuciePobudek->Location = System::Drawing::Point(277, 670);
+			this->labelWartoscWyczuciePobudek->Name = L"labelWartoscWyczuciePobudek";
+			this->labelWartoscWyczuciePobudek->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscWyczuciePobudek->TabIndex = 172;
+			this->labelWartoscWyczuciePobudek->Text = L"0";
 			// 
-			// label137
+			// labelWartoscWspinaczka
 			// 
-			this->label137->AutoSize = true;
-			this->label137->Location = System::Drawing::Point(277, 650);
-			this->label137->Name = L"label137";
-			this->label137->Size = System::Drawing::Size(13, 13);
-			this->label137->TabIndex = 171;
-			this->label137->Text = L"0";
+			this->labelWartoscWspinaczka->AutoSize = true;
+			this->labelWartoscWspinaczka->Location = System::Drawing::Point(277, 650);
+			this->labelWartoscWspinaczka->Name = L"labelWartoscWspinaczka";
+			this->labelWartoscWspinaczka->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscWspinaczka->TabIndex = 171;
+			this->labelWartoscWspinaczka->Text = L"0";
 			// 
-			// label138
+			// labelWartoscWrozenie
 			// 
-			this->label138->AutoSize = true;
-			this->label138->Location = System::Drawing::Point(277, 630);
-			this->label138->Name = L"label138";
-			this->label138->Size = System::Drawing::Size(13, 13);
-			this->label138->TabIndex = 170;
-			this->label138->Text = L"0";
+			this->labelWartoscWrozenie->AutoSize = true;
+			this->labelWartoscWrozenie->Location = System::Drawing::Point(277, 630);
+			this->labelWartoscWrozenie->Name = L"labelWartoscWrozenie";
+			this->labelWartoscWrozenie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscWrozenie->TabIndex = 170;
+			this->labelWartoscWrozenie->Text = L"0";
 			// 
-			// label139
+			// labelWartoscUpadki
 			// 
-			this->label139->AutoSize = true;
-			this->label139->Location = System::Drawing::Point(277, 610);
-			this->label139->Name = L"label139";
-			this->label139->Size = System::Drawing::Size(13, 13);
-			this->label139->TabIndex = 169;
-			this->label139->Text = L"0";
+			this->labelWartoscUpadki->AutoSize = true;
+			this->labelWartoscUpadki->Location = System::Drawing::Point(277, 610);
+			this->labelWartoscUpadki->Name = L"labelWartoscUpadki";
+			this->labelWartoscUpadki->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscUpadki->TabIndex = 169;
+			this->labelWartoscUpadki->Text = L"0";
 			// 
-			// label140
+			// labelWartoscUnieszkodliwanie
 			// 
-			this->label140->AutoSize = true;
-			this->label140->Location = System::Drawing::Point(277, 590);
-			this->label140->Name = L"label140";
-			this->label140->Size = System::Drawing::Size(13, 13);
-			this->label140->TabIndex = 168;
-			this->label140->Text = L"0";
+			this->labelWartoscUnieszkodliwanie->AutoSize = true;
+			this->labelWartoscUnieszkodliwanie->Location = System::Drawing::Point(277, 590);
+			this->labelWartoscUnieszkodliwanie->Name = L"labelWartoscUnieszkodliwanie";
+			this->labelWartoscUnieszkodliwanie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscUnieszkodliwanie->TabIndex = 168;
+			this->labelWartoscUnieszkodliwanie->Text = L"0";
 			// 
-			// label141
+			// labelWartoscUkrywanie
 			// 
-			this->label141->AutoSize = true;
-			this->label141->Location = System::Drawing::Point(277, 570);
-			this->label141->Name = L"label141";
-			this->label141->Size = System::Drawing::Size(13, 13);
-			this->label141->TabIndex = 167;
-			this->label141->Text = L"0";
+			this->labelWartoscUkrywanie->AutoSize = true;
+			this->labelWartoscUkrywanie->Location = System::Drawing::Point(277, 570);
+			this->labelWartoscUkrywanie->Name = L"labelWartoscUkrywanie";
+			this->labelWartoscUkrywanie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscUkrywanie->TabIndex = 167;
+			this->labelWartoscUkrywanie->Text = L"0";
 			// 
-			// label142
+			// labelWartoscTajnikiDziczy
 			// 
-			this->label142->AutoSize = true;
-			this->label142->Location = System::Drawing::Point(277, 550);
-			this->label142->Name = L"label142";
-			this->label142->Size = System::Drawing::Size(13, 13);
-			this->label142->TabIndex = 166;
-			this->label142->Text = L"0";
+			this->labelWartoscTajnikiDziczy->AutoSize = true;
+			this->labelWartoscTajnikiDziczy->Location = System::Drawing::Point(277, 550);
+			this->labelWartoscTajnikiDziczy->Name = L"labelWartoscTajnikiDziczy";
+			this->labelWartoscTajnikiDziczy->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscTajnikiDziczy->TabIndex = 166;
+			this->labelWartoscTajnikiDziczy->Text = L"0";
 			// 
-			// label143
+			// labelWartoscSzacowanie
 			// 
-			this->label143->AutoSize = true;
-			this->label143->Location = System::Drawing::Point(277, 530);
-			this->label143->Name = L"label143";
-			this->label143->Size = System::Drawing::Size(13, 13);
-			this->label143->TabIndex = 165;
-			this->label143->Text = L"0";
+			this->labelWartoscSzacowanie->AutoSize = true;
+			this->labelWartoscSzacowanie->Location = System::Drawing::Point(277, 530);
+			this->labelWartoscSzacowanie->Name = L"labelWartoscSzacowanie";
+			this->labelWartoscSzacowanie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscSzacowanie->TabIndex = 165;
+			this->labelWartoscSzacowanie->Text = L"0";
 			// 
-			// label144
+			// labelWartoscStosowanieMagicznyRzeczy
 			// 
-			this->label144->AutoSize = true;
-			this->label144->Location = System::Drawing::Point(277, 510);
-			this->label144->Name = L"label144";
-			this->label144->Size = System::Drawing::Size(13, 13);
-			this->label144->TabIndex = 164;
-			this->label144->Text = L"0";
+			this->labelWartoscStosowanieMagicznyRzeczy->AutoSize = true;
+			this->labelWartoscStosowanieMagicznyRzeczy->Location = System::Drawing::Point(277, 510);
+			this->labelWartoscStosowanieMagicznyRzeczy->Name = L"labelWartoscStosowanieMagicznyRzeczy";
+			this->labelWartoscStosowanieMagicznyRzeczy->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscStosowanieMagicznyRzeczy->TabIndex = 164;
+			this->labelWartoscStosowanieMagicznyRzeczy->Text = L"0";
 			// 
-			// label145
+			// labelWartoscStosowanieLiny
 			// 
-			this->label145->AutoSize = true;
-			this->label145->Location = System::Drawing::Point(277, 490);
-			this->label145->Name = L"label145";
-			this->label145->Size = System::Drawing::Size(13, 13);
-			this->label145->TabIndex = 163;
-			this->label145->Text = L"0";
+			this->labelWartoscStosowanieLiny->AutoSize = true;
+			this->labelWartoscStosowanieLiny->Location = System::Drawing::Point(277, 490);
+			this->labelWartoscStosowanieLiny->Name = L"labelWartoscStosowanieLiny";
+			this->labelWartoscStosowanieLiny->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscStosowanieLiny->TabIndex = 163;
+			this->labelWartoscStosowanieLiny->Text = L"0";
 			// 
-			// label146
+			// labelWartoscPostepowanieZeZwierzetami
 			// 
-			this->label146->AutoSize = true;
-			this->label146->Location = System::Drawing::Point(277, 470);
-			this->label146->Name = L"label146";
-			this->label146->Size = System::Drawing::Size(13, 13);
-			this->label146->TabIndex = 162;
-			this->label146->Text = L"0";
+			this->labelWartoscPostepowanieZeZwierzetami->AutoSize = true;
+			this->labelWartoscPostepowanieZeZwierzetami->Location = System::Drawing::Point(277, 470);
+			this->labelWartoscPostepowanieZeZwierzetami->Name = L"labelWartoscPostepowanieZeZwierzetami";
+			this->labelWartoscPostepowanieZeZwierzetami->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscPostepowanieZeZwierzetami->TabIndex = 162;
+			this->labelWartoscPostepowanieZeZwierzetami->Text = L"0";
 			// 
-			// label147
+			// labelWartoscKoncentracja
 			// 
-			this->label147->AutoSize = true;
-			this->label147->Location = System::Drawing::Point(277, 450);
-			this->label147->Name = L"label147";
-			this->label147->Size = System::Drawing::Size(13, 13);
-			this->label147->TabIndex = 161;
-			this->label147->Text = L"0";
+			this->labelWartoscKoncentracja->AutoSize = true;
+			this->labelWartoscKoncentracja->Location = System::Drawing::Point(277, 450);
+			this->labelWartoscKoncentracja->Name = L"labelWartoscKoncentracja";
+			this->labelWartoscKoncentracja->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscKoncentracja->TabIndex = 161;
+			this->labelWartoscKoncentracja->Text = L"0";
 			// 
-			// label148
+			// labelWartoscZastraszanie
 			// 
-			this->label148->AutoSize = true;
-			this->label148->Location = System::Drawing::Point(277, 430);
-			this->label148->Name = L"label148";
-			this->label148->Size = System::Drawing::Size(13, 13);
-			this->label148->TabIndex = 160;
-			this->label148->Text = L"0";
+			this->labelWartoscZastraszanie->AutoSize = true;
+			this->labelWartoscZastraszanie->Location = System::Drawing::Point(277, 430);
+			this->labelWartoscZastraszanie->Name = L"labelWartoscZastraszanie";
+			this->labelWartoscZastraszanie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscZastraszanie->TabIndex = 160;
+			this->labelWartoscZastraszanie->Text = L"0";
 			// 
-			// label149
+			// labelWartoscJezdziectwo
 			// 
-			this->label149->AutoSize = true;
-			this->label149->Location = System::Drawing::Point(277, 410);
-			this->label149->Name = L"label149";
-			this->label149->Size = System::Drawing::Size(13, 13);
-			this->label149->TabIndex = 159;
-			this->label149->Text = L"0";
+			this->labelWartoscJezdziectwo->AutoSize = true;
+			this->labelWartoscJezdziectwo->Location = System::Drawing::Point(277, 410);
+			this->labelWartoscJezdziectwo->Name = L"labelWartoscJezdziectwo";
+			this->labelWartoscJezdziectwo->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscJezdziectwo->TabIndex = 159;
+			this->labelWartoscJezdziectwo->Text = L"0";
 			// 
-			// label118
+			// labelWartoscSkakenie
 			// 
-			this->label118->AutoSize = true;
-			this->label118->Location = System::Drawing::Point(277, 390);
-			this->label118->Name = L"label118";
-			this->label118->Size = System::Drawing::Size(13, 13);
-			this->label118->TabIndex = 156;
-			this->label118->Text = L"0";
+			this->labelWartoscSkakenie->AutoSize = true;
+			this->labelWartoscSkakenie->Location = System::Drawing::Point(277, 390);
+			this->labelWartoscSkakenie->Name = L"labelWartoscSkakenie";
+			this->labelWartoscSkakenie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscSkakenie->TabIndex = 156;
+			this->labelWartoscSkakenie->Text = L"0";
 			// 
-			// label119
+			// labelWartoscRownowaga
 			// 
-			this->label119->AutoSize = true;
-			this->label119->Location = System::Drawing::Point(277, 370);
-			this->label119->Name = L"label119";
-			this->label119->Size = System::Drawing::Size(13, 13);
-			this->label119->TabIndex = 155;
-			this->label119->Text = L"0";
+			this->labelWartoscRownowaga->AutoSize = true;
+			this->labelWartoscRownowaga->Location = System::Drawing::Point(277, 370);
+			this->labelWartoscRownowaga->Name = L"labelWartoscRownowaga";
+			this->labelWartoscRownowaga->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscRownowaga->TabIndex = 155;
+			this->labelWartoscRownowaga->Text = L"0";
 			// 
-			// label120
+			// labelWartoscPrzeszukiwanie
 			// 
-			this->label120->AutoSize = true;
-			this->label120->Location = System::Drawing::Point(277, 350);
-			this->label120->Name = L"label120";
-			this->label120->Size = System::Drawing::Size(13, 13);
-			this->label120->TabIndex = 154;
-			this->label120->Text = L"0";
+			this->labelWartoscPrzeszukiwanie->AutoSize = true;
+			this->labelWartoscPrzeszukiwanie->Location = System::Drawing::Point(277, 350);
+			this->labelWartoscPrzeszukiwanie->Name = L"labelWartoscPrzeszukiwanie";
+			this->labelWartoscPrzeszukiwanie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscPrzeszukiwanie->TabIndex = 154;
+			this->labelWartoscPrzeszukiwanie->Text = L"0";
 			// 
-			// label121
+			// labelWartoscPrzebieranie
 			// 
-			this->label121->AutoSize = true;
-			this->label121->Location = System::Drawing::Point(277, 330);
-			this->label121->Name = L"label121";
-			this->label121->Size = System::Drawing::Size(13, 13);
-			this->label121->TabIndex = 153;
-			this->label121->Text = L"0";
+			this->labelWartoscPrzebieranie->AutoSize = true;
+			this->labelWartoscPrzebieranie->Location = System::Drawing::Point(277, 330);
+			this->labelWartoscPrzebieranie->Name = L"labelWartoscPrzebieranie";
+			this->labelWartoscPrzebieranie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscPrzebieranie->TabIndex = 153;
+			this->labelWartoscPrzebieranie->Text = L"0";
 			// 
-			// label122
+			// labelWartoscPolslowa
 			// 
-			this->label122->AutoSize = true;
-			this->label122->Location = System::Drawing::Point(277, 310);
-			this->label122->Name = L"label122";
-			this->label122->Size = System::Drawing::Size(13, 13);
-			this->label122->TabIndex = 152;
-			this->label122->Text = L"0";
+			this->labelWartoscPolslowa->AutoSize = true;
+			this->labelWartoscPolslowa->Location = System::Drawing::Point(277, 310);
+			this->labelWartoscPolslowa->Name = L"labelWartoscPolslowa";
+			this->labelWartoscPolslowa->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscPolslowa->TabIndex = 152;
+			this->labelWartoscPolslowa->Text = L"0";
 			// 
-			// label123
+			// labelWartoscOtwieranieZamkow
 			// 
-			this->label123->AutoSize = true;
-			this->label123->Location = System::Drawing::Point(277, 290);
-			this->label123->Name = L"label123";
-			this->label123->Size = System::Drawing::Size(13, 13);
-			this->label123->TabIndex = 151;
-			this->label123->Text = L"0";
+			this->labelWartoscOtwieranieZamkow->AutoSize = true;
+			this->labelWartoscOtwieranieZamkow->Location = System::Drawing::Point(277, 290);
+			this->labelWartoscOtwieranieZamkow->Name = L"labelWartoscOtwieranieZamkow";
+			this->labelWartoscOtwieranieZamkow->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscOtwieranieZamkow->TabIndex = 151;
+			this->labelWartoscOtwieranieZamkow->Text = L"0";
 			// 
-			// label124
+			// labelWartoscOdcyforwywanieZapisow
 			// 
-			this->label124->AutoSize = true;
-			this->label124->Location = System::Drawing::Point(277, 270);
-			this->label124->Name = L"label124";
-			this->label124->Size = System::Drawing::Size(13, 13);
-			this->label124->TabIndex = 150;
-			this->label124->Text = L"0";
+			this->labelWartoscOdcyforwywanieZapisow->AutoSize = true;
+			this->labelWartoscOdcyforwywanieZapisow->Location = System::Drawing::Point(277, 270);
+			this->labelWartoscOdcyforwywanieZapisow->Name = L"labelWartoscOdcyforwywanieZapisow";
+			this->labelWartoscOdcyforwywanieZapisow->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscOdcyforwywanieZapisow->TabIndex = 150;
+			this->labelWartoscOdcyforwywanieZapisow->Text = L"0";
 			// 
-			// label125
+			// labelWartoscNasluchiwanie
 			// 
-			this->label125->AutoSize = true;
-			this->label125->Location = System::Drawing::Point(277, 250);
-			this->label125->Name = L"label125";
-			this->label125->Size = System::Drawing::Size(13, 13);
-			this->label125->TabIndex = 149;
-			this->label125->Text = L"0";
+			this->labelWartoscNasluchiwanie->AutoSize = true;
+			this->labelWartoscNasluchiwanie->Location = System::Drawing::Point(277, 250);
+			this->labelWartoscNasluchiwanie->Name = L"labelWartoscNasluchiwanie";
+			this->labelWartoscNasluchiwanie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscNasluchiwanie->TabIndex = 149;
+			this->labelWartoscNasluchiwanie->Text = L"0";
 			// 
-			// label126
+			// labelWartoscLeczenie
 			// 
-			this->label126->AutoSize = true;
-			this->label126->Location = System::Drawing::Point(277, 230);
-			this->label126->Name = L"label126";
-			this->label126->Size = System::Drawing::Size(13, 13);
-			this->label126->TabIndex = 148;
-			this->label126->Text = L"0";
+			this->labelWartoscLeczenie->AutoSize = true;
+			this->labelWartoscLeczenie->Location = System::Drawing::Point(277, 230);
+			this->labelWartoscLeczenie->Name = L"labelWartoscLeczenie";
+			this->labelWartoscLeczenie->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscLeczenie->TabIndex = 148;
+			this->labelWartoscLeczenie->Text = L"0";
 			// 
-			// label127
+			// labelWartoscKradzieszKieszonkowa
 			// 
-			this->label127->AutoSize = true;
-			this->label127->Location = System::Drawing::Point(277, 210);
-			this->label127->Name = L"label127";
-			this->label127->Size = System::Drawing::Size(13, 13);
-			this->label127->TabIndex = 147;
-			this->label127->Text = L"0";
+			this->labelWartoscKradzieszKieszonkowa->AutoSize = true;
+			this->labelWartoscKradzieszKieszonkowa->Location = System::Drawing::Point(277, 210);
+			this->labelWartoscKradzieszKieszonkowa->Name = L"labelWartoscKradzieszKieszonkowa";
+			this->labelWartoscKradzieszKieszonkowa->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscKradzieszKieszonkowa->TabIndex = 147;
+			this->labelWartoscKradzieszKieszonkowa->Text = L"0";
 			// 
-			// label128
+			// labelWartoscFalszerstwo
 			// 
-			this->label128->AutoSize = true;
-			this->label128->Location = System::Drawing::Point(277, 190);
-			this->label128->Name = L"label128";
-			this->label128->Size = System::Drawing::Size(13, 13);
-			this->label128->TabIndex = 146;
-			this->label128->Text = L"0";
+			this->labelWartoscFalszerstwo->AutoSize = true;
+			this->labelWartoscFalszerstwo->Location = System::Drawing::Point(277, 190);
+			this->labelWartoscFalszerstwo->Name = L"labelWartoscFalszerstwo";
+			this->labelWartoscFalszerstwo->Size = System::Drawing::Size(13, 13);
+			this->labelWartoscFalszerstwo->TabIndex = 146;
+			this->labelWartoscFalszerstwo->Text = L"0";
 			// 
 			// labelWartoscDyplomacja
 			// 
@@ -4410,32 +4604,32 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelWartoscAlchemia->TabIndex = 140;
 			this->labelWartoscAlchemia->Text = L"0";
 			// 
-			// label86
+			// labelMd7
 			// 
-			this->label86->AutoSize = true;
-			this->label86->Location = System::Drawing::Point(217, 690);
-			this->label86->Name = L"label86";
-			this->label86->Size = System::Drawing::Size(13, 13);
-			this->label86->TabIndex = 139;
-			this->label86->Text = L"0";
+			this->labelMd7->AutoSize = true;
+			this->labelMd7->Location = System::Drawing::Point(217, 690);
+			this->labelMd7->Name = L"labelMd7";
+			this->labelMd7->Size = System::Drawing::Size(13, 13);
+			this->labelMd7->TabIndex = 139;
+			this->labelMd7->Text = L"0";
 			// 
-			// label87
+			// labelMd6
 			// 
-			this->label87->AutoSize = true;
-			this->label87->Location = System::Drawing::Point(217, 670);
-			this->label87->Name = L"label87";
-			this->label87->Size = System::Drawing::Size(13, 13);
-			this->label87->TabIndex = 138;
-			this->label87->Text = L"0";
+			this->labelMd6->AutoSize = true;
+			this->labelMd6->Location = System::Drawing::Point(217, 670);
+			this->labelMd6->Name = L"labelMd6";
+			this->labelMd6->Size = System::Drawing::Size(13, 13);
+			this->labelMd6->TabIndex = 138;
+			this->labelMd6->Text = L"0";
 			// 
-			// label88
+			// labeSi1
 			// 
-			this->label88->AutoSize = true;
-			this->label88->Location = System::Drawing::Point(217, 650);
-			this->label88->Name = L"label88";
-			this->label88->Size = System::Drawing::Size(13, 13);
-			this->label88->TabIndex = 137;
-			this->label88->Text = L"0";
+			this->labeSi1->AutoSize = true;
+			this->labeSi1->Location = System::Drawing::Point(217, 650);
+			this->labeSi1->Name = L"labeSi1";
+			this->labeSi1->Size = System::Drawing::Size(13, 13);
+			this->labeSi1->TabIndex = 137;
+			this->labeSi1->Text = L"0";
 			// 
 			// labelInt9
 			// 
@@ -4473,14 +4667,14 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelZr6->TabIndex = 133;
 			this->labelZr6->Text = L"0";
 			// 
-			// label93
+			// labelMd5
 			// 
-			this->label93->AutoSize = true;
-			this->label93->Location = System::Drawing::Point(217, 550);
-			this->label93->Name = L"label93";
-			this->label93->Size = System::Drawing::Size(13, 13);
-			this->label93->TabIndex = 132;
-			this->label93->Text = L"0";
+			this->labelMd5->AutoSize = true;
+			this->labelMd5->Location = System::Drawing::Point(217, 550);
+			this->labelMd5->Name = L"labelMd5";
+			this->labelMd5->Size = System::Drawing::Size(13, 13);
+			this->labelMd5->TabIndex = 132;
+			this->labelMd5->Text = L"0";
 			// 
 			// labelInt7
 			// 
@@ -4518,14 +4712,14 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelCha5->TabIndex = 128;
 			this->labelCha5->Text = L"0";
 			// 
-			// label98
+			// labelMd4
 			// 
-			this->label98->AutoSize = true;
-			this->label98->Location = System::Drawing::Point(217, 450);
-			this->label98->Name = L"label98";
-			this->label98->Size = System::Drawing::Size(13, 13);
-			this->label98->TabIndex = 127;
-			this->label98->Text = L"0";
+			this->labelMd4->AutoSize = true;
+			this->labelMd4->Location = System::Drawing::Point(217, 450);
+			this->labelMd4->Name = L"labelMd4";
+			this->labelMd4->Size = System::Drawing::Size(13, 13);
+			this->labelMd4->TabIndex = 127;
+			this->labelMd4->Text = L"0";
 			// 
 			// labelCha4
 			// 
@@ -4581,14 +4775,14 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelCha3->TabIndex = 121;
 			this->labelCha3->Text = L"0";
 			// 
-			// label105
+			// labelMd3
 			// 
-			this->label105->AutoSize = true;
-			this->label105->Location = System::Drawing::Point(217, 310);
-			this->label105->Name = L"label105";
-			this->label105->Size = System::Drawing::Size(13, 13);
-			this->label105->TabIndex = 120;
-			this->label105->Text = L"0";
+			this->labelMd3->AutoSize = true;
+			this->labelMd3->Location = System::Drawing::Point(217, 310);
+			this->labelMd3->Name = L"labelMd3";
+			this->labelMd3->Size = System::Drawing::Size(13, 13);
+			this->labelMd3->TabIndex = 120;
+			this->labelMd3->Text = L"0";
 			// 
 			// labelZr3
 			// 
@@ -4608,23 +4802,23 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->labelInt5->TabIndex = 118;
 			this->labelInt5->Text = L"0";
 			// 
-			// label108
+			// labelMd2
 			// 
-			this->label108->AutoSize = true;
-			this->label108->Location = System::Drawing::Point(217, 250);
-			this->label108->Name = L"label108";
-			this->label108->Size = System::Drawing::Size(13, 13);
-			this->label108->TabIndex = 117;
-			this->label108->Text = L"0";
+			this->labelMd2->AutoSize = true;
+			this->labelMd2->Location = System::Drawing::Point(217, 250);
+			this->labelMd2->Name = L"labelMd2";
+			this->labelMd2->Size = System::Drawing::Size(13, 13);
+			this->labelMd2->TabIndex = 117;
+			this->labelMd2->Text = L"0";
 			// 
-			// label109
+			// labelMd1
 			// 
-			this->label109->AutoSize = true;
-			this->label109->Location = System::Drawing::Point(217, 230);
-			this->label109->Name = L"label109";
-			this->label109->Size = System::Drawing::Size(13, 13);
-			this->label109->TabIndex = 116;
-			this->label109->Text = L"0";
+			this->labelMd1->AutoSize = true;
+			this->labelMd1->Location = System::Drawing::Point(217, 230);
+			this->labelMd1->Name = L"labelMd1";
+			this->labelMd1->Size = System::Drawing::Size(13, 13);
+			this->labelMd1->TabIndex = 116;
+			this->labelMd1->Text = L"0";
 			// 
 			// labelZr2
 			// 
@@ -5066,15 +5260,15 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->checkBoxTajnikiDziczy->Text = L"Tajniki Dziczy";
 			this->checkBoxTajnikiDziczy->UseVisualStyleBackColor = true;
 			// 
-			// th
+			// checkedBoxSzacowanie
 			// 
-			this->th->AutoSize = true;
-			this->th->Location = System::Drawing::Point(30, 530);
-			this->th->Name = L"th";
-			this->th->Size = System::Drawing::Size(84, 17);
-			this->th->TabIndex = 67;
-			this->th->Text = L"Szacowanie";
-			this->th->UseVisualStyleBackColor = true;
+			this->checkedBoxSzacowanie->AutoSize = true;
+			this->checkedBoxSzacowanie->Location = System::Drawing::Point(30, 530);
+			this->checkedBoxSzacowanie->Name = L"checkedBoxSzacowanie";
+			this->checkedBoxSzacowanie->Size = System::Drawing::Size(84, 17);
+			this->checkedBoxSzacowanie->TabIndex = 67;
+			this->checkedBoxSzacowanie->Text = L"Szacowanie";
+			this->checkedBoxSzacowanie->UseVisualStyleBackColor = true;
 			// 
 			// checkBoxStosowanieMagRzeczy
 			// 
@@ -5602,6 +5796,7 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->buttonUmiejetnoscUaktualnij->TabIndex = 11;
 			this->buttonUmiejetnoscUaktualnij->Text = L"Uaktualnij";
 			this->buttonUmiejetnoscUaktualnij->UseVisualStyleBackColor = true;
+			this->buttonUmiejetnoscUaktualnij->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonUmiejetnoscUaktualnij_Click);
 			// 
 			// label21
 			// 
@@ -5612,14 +5807,14 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label21->TabIndex = 10;
 			this->label21->Text = L"Max Ranga = 0";
 			// 
-			// label20
+			// labelWatoscMiedzyKlasowa
 			// 
-			this->label20->AutoSize = true;
-			this->label20->Location = System::Drawing::Point(313, 20);
-			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(13, 13);
-			this->label20->TabIndex = 9;
-			this->label20->Text = L"0";
+			this->labelWatoscMiedzyKlasowa->AutoSize = true;
+			this->labelWatoscMiedzyKlasowa->Location = System::Drawing::Point(313, 20);
+			this->labelWatoscMiedzyKlasowa->Name = L"labelWatoscMiedzyKlasowa";
+			this->labelWatoscMiedzyKlasowa->Size = System::Drawing::Size(13, 13);
+			this->labelWatoscMiedzyKlasowa->TabIndex = 9;
+			this->labelWatoscMiedzyKlasowa->Text = L"0";
 			// 
 			// label19
 			// 
@@ -5764,25 +5959,26 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			// 
 			// groupBox3
 			// 
+			this->groupBox3->Controls->Add(this->buttonUaktualnijRzutyObronne);
 			this->groupBox3->Controls->Add(this->label260);
-			this->groupBox3->Controls->Add(this->maskedTextBox36);
-			this->groupBox3->Controls->Add(this->maskedTextBox37);
-			this->groupBox3->Controls->Add(this->maskedTextBox38);
-			this->groupBox3->Controls->Add(this->maskedTextBox33);
+			this->groupBox3->Controls->Add(this->maskedTextBoxInneWola);
+			this->groupBox3->Controls->Add(this->maskedTextBoxInneRefleks);
+			this->groupBox3->Controls->Add(this->maskedTextBoxInneWytrwalosc);
+			this->groupBox3->Controls->Add(this->maskedTextBoxModMagWola);
 			this->groupBox3->Controls->Add(this->label259);
-			this->groupBox3->Controls->Add(this->maskedTextBox34);
-			this->groupBox3->Controls->Add(this->label256);
-			this->groupBox3->Controls->Add(this->maskedTextBox35);
-			this->groupBox3->Controls->Add(this->label257);
-			this->groupBox3->Controls->Add(this->label258);
+			this->groupBox3->Controls->Add(this->maskedModMagRefleks);
+			this->groupBox3->Controls->Add(this->labelModWola);
+			this->groupBox3->Controls->Add(this->maskedModMagWytrwalosc);
+			this->groupBox3->Controls->Add(this->labelModRefleks);
+			this->groupBox3->Controls->Add(this->labelModWytrwalosc);
 			this->groupBox3->Controls->Add(this->label255);
-			this->groupBox3->Controls->Add(this->label252);
-			this->groupBox3->Controls->Add(this->label253);
-			this->groupBox3->Controls->Add(this->label254);
+			this->groupBox3->Controls->Add(this->labelBazowaWola);
+			this->groupBox3->Controls->Add(this->labelBazowaRefleks);
+			this->groupBox3->Controls->Add(this->labelBazowaWytrwalosc);
 			this->groupBox3->Controls->Add(this->label251);
-			this->groupBox3->Controls->Add(this->label250);
-			this->groupBox3->Controls->Add(this->label249);
-			this->groupBox3->Controls->Add(this->label248);
+			this->groupBox3->Controls->Add(this->labelSumaWola);
+			this->groupBox3->Controls->Add(this->labelSumaRefleks);
+			this->groupBox3->Controls->Add(this->labelSumaWytrwalosc);
 			this->groupBox3->Controls->Add(this->label247);
 			this->groupBox3->Controls->Add(this->label246);
 			this->groupBox3->Controls->Add(this->label245);
@@ -5794,6 +5990,16 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"Rzuty Obronne";
 			// 
+			// buttonUaktualnijRzutyObronne
+			// 
+			this->buttonUaktualnijRzutyObronne->Location = System::Drawing::Point(291, 115);
+			this->buttonUaktualnijRzutyObronne->Name = L"buttonUaktualnijRzutyObronne";
+			this->buttonUaktualnijRzutyObronne->Size = System::Drawing::Size(75, 23);
+			this->buttonUaktualnijRzutyObronne->TabIndex = 309;
+			this->buttonUaktualnijRzutyObronne->Text = L"Uaktualnij";
+			this->buttonUaktualnijRzutyObronne->UseVisualStyleBackColor = true;
+			this->buttonUaktualnijRzutyObronne->Click += gcnew System::EventHandler(this, &dodajKarteFroms::buttonUaktualnijRzutyObronne_Click);
+			// 
 			// label260
 			// 
 			this->label260->AutoSize = true;
@@ -5803,45 +6009,45 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label260->TabIndex = 308;
 			this->label260->Text = L"Inne";
 			// 
-			// maskedTextBox36
+			// maskedTextBoxInneWola
 			// 
-			this->maskedTextBox36->Location = System::Drawing::Point(291, 90);
-			this->maskedTextBox36->Mask = L"00";
-			this->maskedTextBox36->Name = L"maskedTextBox36";
-			this->maskedTextBox36->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox36->TabIndex = 307;
-			this->maskedTextBox36->Text = L"0";
-			this->maskedTextBox36->ValidatingType = System::Int32::typeid;
+			this->maskedTextBoxInneWola->Location = System::Drawing::Point(291, 90);
+			this->maskedTextBoxInneWola->Mask = L"00";
+			this->maskedTextBoxInneWola->Name = L"maskedTextBoxInneWola";
+			this->maskedTextBoxInneWola->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxInneWola->TabIndex = 307;
+			this->maskedTextBoxInneWola->Text = L"0";
+			this->maskedTextBoxInneWola->ValidatingType = System::Int32::typeid;
 			// 
-			// maskedTextBox37
+			// maskedTextBoxInneRefleks
 			// 
-			this->maskedTextBox37->Location = System::Drawing::Point(291, 60);
-			this->maskedTextBox37->Mask = L"00";
-			this->maskedTextBox37->Name = L"maskedTextBox37";
-			this->maskedTextBox37->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox37->TabIndex = 306;
-			this->maskedTextBox37->Text = L"0";
-			this->maskedTextBox37->ValidatingType = System::Int32::typeid;
+			this->maskedTextBoxInneRefleks->Location = System::Drawing::Point(291, 60);
+			this->maskedTextBoxInneRefleks->Mask = L"00";
+			this->maskedTextBoxInneRefleks->Name = L"maskedTextBoxInneRefleks";
+			this->maskedTextBoxInneRefleks->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxInneRefleks->TabIndex = 306;
+			this->maskedTextBoxInneRefleks->Text = L"0";
+			this->maskedTextBoxInneRefleks->ValidatingType = System::Int32::typeid;
 			// 
-			// maskedTextBox38
+			// maskedTextBoxInneWytrwalosc
 			// 
-			this->maskedTextBox38->Location = System::Drawing::Point(291, 30);
-			this->maskedTextBox38->Mask = L"00";
-			this->maskedTextBox38->Name = L"maskedTextBox38";
-			this->maskedTextBox38->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox38->TabIndex = 305;
-			this->maskedTextBox38->Text = L"0";
-			this->maskedTextBox38->ValidatingType = System::Int32::typeid;
+			this->maskedTextBoxInneWytrwalosc->Location = System::Drawing::Point(291, 30);
+			this->maskedTextBoxInneWytrwalosc->Mask = L"00";
+			this->maskedTextBoxInneWytrwalosc->Name = L"maskedTextBoxInneWytrwalosc";
+			this->maskedTextBoxInneWytrwalosc->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxInneWytrwalosc->TabIndex = 305;
+			this->maskedTextBoxInneWytrwalosc->Text = L"0";
+			this->maskedTextBoxInneWytrwalosc->ValidatingType = System::Int32::typeid;
 			// 
-			// maskedTextBox33
+			// maskedTextBoxModMagWola
 			// 
-			this->maskedTextBox33->Location = System::Drawing::Point(232, 90);
-			this->maskedTextBox33->Mask = L"00";
-			this->maskedTextBox33->Name = L"maskedTextBox33";
-			this->maskedTextBox33->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox33->TabIndex = 304;
-			this->maskedTextBox33->Text = L"0";
-			this->maskedTextBox33->ValidatingType = System::Int32::typeid;
+			this->maskedTextBoxModMagWola->Location = System::Drawing::Point(232, 90);
+			this->maskedTextBoxModMagWola->Mask = L"00";
+			this->maskedTextBoxModMagWola->Name = L"maskedTextBoxModMagWola";
+			this->maskedTextBoxModMagWola->Size = System::Drawing::Size(20, 20);
+			this->maskedTextBoxModMagWola->TabIndex = 304;
+			this->maskedTextBoxModMagWola->Text = L"0";
+			this->maskedTextBoxModMagWola->ValidatingType = System::Int32::typeid;
 			// 
 			// label259
 			// 
@@ -5852,52 +6058,52 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label259->TabIndex = 15;
 			this->label259->Text = L"Mod Mag.";
 			// 
-			// maskedTextBox34
+			// maskedModMagRefleks
 			// 
-			this->maskedTextBox34->Location = System::Drawing::Point(232, 60);
-			this->maskedTextBox34->Mask = L"00";
-			this->maskedTextBox34->Name = L"maskedTextBox34";
-			this->maskedTextBox34->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox34->TabIndex = 303;
-			this->maskedTextBox34->Text = L"0";
-			this->maskedTextBox34->ValidatingType = System::Int32::typeid;
+			this->maskedModMagRefleks->Location = System::Drawing::Point(232, 60);
+			this->maskedModMagRefleks->Mask = L"00";
+			this->maskedModMagRefleks->Name = L"maskedModMagRefleks";
+			this->maskedModMagRefleks->Size = System::Drawing::Size(20, 20);
+			this->maskedModMagRefleks->TabIndex = 303;
+			this->maskedModMagRefleks->Text = L"0";
+			this->maskedModMagRefleks->ValidatingType = System::Int32::typeid;
 			// 
-			// label256
+			// labelModWola
 			// 
-			this->label256->AutoSize = true;
-			this->label256->Location = System::Drawing::Point(184, 90);
-			this->label256->Name = L"label256";
-			this->label256->Size = System::Drawing::Size(13, 13);
-			this->label256->TabIndex = 14;
-			this->label256->Text = L"0";
+			this->labelModWola->AutoSize = true;
+			this->labelModWola->Location = System::Drawing::Point(184, 90);
+			this->labelModWola->Name = L"labelModWola";
+			this->labelModWola->Size = System::Drawing::Size(13, 13);
+			this->labelModWola->TabIndex = 14;
+			this->labelModWola->Text = L"0";
 			// 
-			// maskedTextBox35
+			// maskedModMagWytrwalosc
 			// 
-			this->maskedTextBox35->Location = System::Drawing::Point(232, 30);
-			this->maskedTextBox35->Mask = L"00";
-			this->maskedTextBox35->Name = L"maskedTextBox35";
-			this->maskedTextBox35->Size = System::Drawing::Size(20, 20);
-			this->maskedTextBox35->TabIndex = 302;
-			this->maskedTextBox35->Text = L"0";
-			this->maskedTextBox35->ValidatingType = System::Int32::typeid;
+			this->maskedModMagWytrwalosc->Location = System::Drawing::Point(232, 30);
+			this->maskedModMagWytrwalosc->Mask = L"00";
+			this->maskedModMagWytrwalosc->Name = L"maskedModMagWytrwalosc";
+			this->maskedModMagWytrwalosc->Size = System::Drawing::Size(20, 20);
+			this->maskedModMagWytrwalosc->TabIndex = 302;
+			this->maskedModMagWytrwalosc->Text = L"0";
+			this->maskedModMagWytrwalosc->ValidatingType = System::Int32::typeid;
 			// 
-			// label257
+			// labelModRefleks
 			// 
-			this->label257->AutoSize = true;
-			this->label257->Location = System::Drawing::Point(184, 60);
-			this->label257->Name = L"label257";
-			this->label257->Size = System::Drawing::Size(13, 13);
-			this->label257->TabIndex = 13;
-			this->label257->Text = L"0";
+			this->labelModRefleks->AutoSize = true;
+			this->labelModRefleks->Location = System::Drawing::Point(184, 60);
+			this->labelModRefleks->Name = L"labelModRefleks";
+			this->labelModRefleks->Size = System::Drawing::Size(13, 13);
+			this->labelModRefleks->TabIndex = 13;
+			this->labelModRefleks->Text = L"0";
 			// 
-			// label258
+			// labelModWytrwalosc
 			// 
-			this->label258->AutoSize = true;
-			this->label258->Location = System::Drawing::Point(184, 30);
-			this->label258->Name = L"label258";
-			this->label258->Size = System::Drawing::Size(13, 13);
-			this->label258->TabIndex = 12;
-			this->label258->Text = L"0";
+			this->labelModWytrwalosc->AutoSize = true;
+			this->labelModWytrwalosc->Location = System::Drawing::Point(184, 30);
+			this->labelModWytrwalosc->Name = L"labelModWytrwalosc";
+			this->labelModWytrwalosc->Size = System::Drawing::Size(13, 13);
+			this->labelModWytrwalosc->TabIndex = 12;
+			this->labelModWytrwalosc->Text = L"0";
 			// 
 			// label255
 			// 
@@ -5908,32 +6114,32 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label255->TabIndex = 11;
 			this->label255->Text = L"Mod";
 			// 
-			// label252
+			// labelBazowaWola
 			// 
-			this->label252->AutoSize = true;
-			this->label252->Location = System::Drawing::Point(136, 90);
-			this->label252->Name = L"label252";
-			this->label252->Size = System::Drawing::Size(13, 13);
-			this->label252->TabIndex = 10;
-			this->label252->Text = L"0";
+			this->labelBazowaWola->AutoSize = true;
+			this->labelBazowaWola->Location = System::Drawing::Point(136, 90);
+			this->labelBazowaWola->Name = L"labelBazowaWola";
+			this->labelBazowaWola->Size = System::Drawing::Size(13, 13);
+			this->labelBazowaWola->TabIndex = 10;
+			this->labelBazowaWola->Text = L"0";
 			// 
-			// label253
+			// labelBazowaRefleks
 			// 
-			this->label253->AutoSize = true;
-			this->label253->Location = System::Drawing::Point(136, 60);
-			this->label253->Name = L"label253";
-			this->label253->Size = System::Drawing::Size(13, 13);
-			this->label253->TabIndex = 9;
-			this->label253->Text = L"0";
+			this->labelBazowaRefleks->AutoSize = true;
+			this->labelBazowaRefleks->Location = System::Drawing::Point(136, 60);
+			this->labelBazowaRefleks->Name = L"labelBazowaRefleks";
+			this->labelBazowaRefleks->Size = System::Drawing::Size(13, 13);
+			this->labelBazowaRefleks->TabIndex = 9;
+			this->labelBazowaRefleks->Text = L"0";
 			// 
-			// label254
+			// labelBazowaWytrwalosc
 			// 
-			this->label254->AutoSize = true;
-			this->label254->Location = System::Drawing::Point(136, 30);
-			this->label254->Name = L"label254";
-			this->label254->Size = System::Drawing::Size(13, 13);
-			this->label254->TabIndex = 8;
-			this->label254->Text = L"0";
+			this->labelBazowaWytrwalosc->AutoSize = true;
+			this->labelBazowaWytrwalosc->Location = System::Drawing::Point(136, 30);
+			this->labelBazowaWytrwalosc->Name = L"labelBazowaWytrwalosc";
+			this->labelBazowaWytrwalosc->Size = System::Drawing::Size(13, 13);
+			this->labelBazowaWytrwalosc->TabIndex = 8;
+			this->labelBazowaWytrwalosc->Text = L"0";
 			// 
 			// label251
 			// 
@@ -5944,32 +6150,32 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 			this->label251->TabIndex = 7;
 			this->label251->Text = L"Bazowa";
 			// 
-			// label250
+			// labelSumaWola
 			// 
-			this->label250->AutoSize = true;
-			this->label250->Location = System::Drawing::Point(94, 90);
-			this->label250->Name = L"label250";
-			this->label250->Size = System::Drawing::Size(13, 13);
-			this->label250->TabIndex = 6;
-			this->label250->Text = L"0";
+			this->labelSumaWola->AutoSize = true;
+			this->labelSumaWola->Location = System::Drawing::Point(94, 90);
+			this->labelSumaWola->Name = L"labelSumaWola";
+			this->labelSumaWola->Size = System::Drawing::Size(13, 13);
+			this->labelSumaWola->TabIndex = 6;
+			this->labelSumaWola->Text = L"0";
 			// 
-			// label249
+			// labelSumaRefleks
 			// 
-			this->label249->AutoSize = true;
-			this->label249->Location = System::Drawing::Point(94, 60);
-			this->label249->Name = L"label249";
-			this->label249->Size = System::Drawing::Size(13, 13);
-			this->label249->TabIndex = 5;
-			this->label249->Text = L"0";
+			this->labelSumaRefleks->AutoSize = true;
+			this->labelSumaRefleks->Location = System::Drawing::Point(94, 60);
+			this->labelSumaRefleks->Name = L"labelSumaRefleks";
+			this->labelSumaRefleks->Size = System::Drawing::Size(13, 13);
+			this->labelSumaRefleks->TabIndex = 5;
+			this->labelSumaRefleks->Text = L"0";
 			// 
-			// label248
+			// labelSumaWytrwalosc
 			// 
-			this->label248->AutoSize = true;
-			this->label248->Location = System::Drawing::Point(94, 30);
-			this->label248->Name = L"label248";
-			this->label248->Size = System::Drawing::Size(13, 13);
-			this->label248->TabIndex = 4;
-			this->label248->Text = L"0";
+			this->labelSumaWytrwalosc->AutoSize = true;
+			this->labelSumaWytrwalosc->Location = System::Drawing::Point(94, 30);
+			this->labelSumaWytrwalosc->Name = L"labelSumaWytrwalosc";
+			this->labelSumaWytrwalosc->Size = System::Drawing::Size(13, 13);
+			this->labelSumaWytrwalosc->TabIndex = 4;
+			this->labelSumaWytrwalosc->Text = L"0";
 			// 
 			// label247
 			// 
@@ -6310,12 +6516,50 @@ private: System::Void button2_Click(System::Object^  sender, System::EventArgs^ 
 	labelWartoscAtrybutuZr->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscZr->Text) - 10) / 2).ToString() + ")";
 	labelRealnaWartoscZr->Text = (int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text)).ToString();
 	labelInicjatywa->Text = "Inicjatywa: " + (((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2) + int::Parse(maskedTextBoxInneInicjatywa->Text)).ToString() + " = " + ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " + ";
+	if (comboBoxKlasy->Text == "Mag" || comboBoxKlasy->Text == "Zaklinacz" || comboBoxKlasy->Text == "Kap³an" || comboBoxKlasy->Text == "Pallandyn" || comboBoxKlasy->Text == "Wojownik")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "Barbarzyñca" || comboBoxKlasy->Text == "Mnich")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "£otrzyk")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+		labelWatoscMiedzyKlasowa->Text = (int::Parse(labelPunktyKlasoweDoWydania->Text) / 2).ToString();
 }
 private: System::Void buttonZrMinus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscZr->Text = (Double::Parse(labelWartoscZr->Text) - 1).ToString();
 	labelWartoscAtrybutuZr->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscZr->Text) - 10) / 2).ToString() + ")";
 	labelRealnaWartoscZr->Text = (int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text)).ToString();
 	labelInicjatywa->Text = "Inicjatywa: " + (((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2) + int::Parse(maskedTextBoxInneInicjatywa->Text)).ToString() + " = " + ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString() + " + ";
+	if (comboBoxKlasy->Text == "Mag" || comboBoxKlasy->Text == "Zaklinacz" || comboBoxKlasy->Text == "Kap³an" || comboBoxKlasy->Text == "Pallandyn" || comboBoxKlasy->Text == "Wojownik")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "Barbarzyñca" || comboBoxKlasy->Text == "Mnich")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "£otrzyk")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+		labelWatoscMiedzyKlasowa->Text = (int::Parse(labelPunktyKlasoweDoWydania->Text) / 2).ToString();
 }
 private: System::Void buttonBdPlus_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelWartoscBd->Text = (Double::Parse(labelWartoscBd->Text) + 1).ToString();
@@ -6564,12 +6808,31 @@ private: System::Void losujAtrybuty_Click(System::Object^  sender, System::Event
 
 	labelWartoscAtrybutuCha->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString() + " (" + ((int::Parse(labelWartoscCha->Text) - 10) / 2).ToString() + ")";
 	labelRealnaWartoscCha->Text = (int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text)).ToString();
+	if (comboBoxKlasy->Text == "Mag" || comboBoxKlasy->Text == "Zaklinacz" || comboBoxKlasy->Text == "Kap³an" || comboBoxKlasy->Text == "Pallandyn" || comboBoxKlasy->Text == "Wojownik")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "Barbarzyñca" || comboBoxKlasy->Text == "Mnich")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "£otrzyk")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+		labelWatoscMiedzyKlasowa->Text = (int::Parse(labelPunktyKlasoweDoWydania->Text) / 2).ToString();
 }
 private: System::Void buttonLosujPodaj_Click(System::Object^  sender, System::EventArgs^  e) {
 
-	if (int::Parse(textBoxTypKW->Text) == 4 || textBoxTypKW->Text == "6" || textBoxTypKW->Text == "8" || textBoxTypKW->Text == "12" || textBoxTypKW->Text == "20" || textBoxTypKW->Text == "10"){
+	if (int::Parse(labelKoscWytrzymalosci->Text) == 4 || labelKoscWytrzymalosci->Text == "6" || labelKoscWytrzymalosci->Text == "8" || labelKoscWytrzymalosci->Text == "12" || labelKoscWytrzymalosci->Text == "20" || labelKoscWytrzymalosci->Text == "10"){
 		
-		labelSumaHP->Text = "= "+(int::Parse(textBoxTypKW->Text)*int::Parse(maskedTextBoxIloscKw->Text)).ToString();
+		labelSumaHP->Text = "= "+(int::Parse(labelKoscWytrzymalosci->Text)*int::Parse(maskedTextBoxIloscKw->Text)).ToString();
 	}
 	else {
 		MessageBox::Show("Popraw koœæ wytrzyma³oœci");
@@ -6578,10 +6841,10 @@ private: System::Void buttonLosujPodaj_Click(System::Object^  sender, System::Ev
 }
 private: System::Void buttonHPLosuj_Click(System::Object^  sender, System::EventArgs^  e) {
 	srand(time(NULL));
-	if (textBoxTypKW->Text == "4" || textBoxTypKW->Text == "6" || textBoxTypKW->Text == "8" || textBoxTypKW->Text == "12" || textBoxTypKW->Text == "20" || textBoxTypKW->Text == "10"){
+	if (labelKoscWytrzymalosci->Text == "4" || labelKoscWytrzymalosci->Text == "6" || labelKoscWytrzymalosci->Text == "8" || labelKoscWytrzymalosci->Text == "12" || labelKoscWytrzymalosci->Text == "20" || labelKoscWytrzymalosci->Text == "10"){
 		int wartosc = 0;
 		for (int i = int::Parse(maskedTextBoxIloscKw->Text); i>0; i--)
-			wartosc += rand() % int::Parse(textBoxTypKW->Text) + 1;
+			wartosc += rand() % int::Parse(labelKoscWytrzymalosci->Text) + 1;
 		labelSumaHP->Text = wartosc.ToString();
 	}
 	else {
@@ -6595,6 +6858,7 @@ private: System::Void buttonPodajWartosc_Click(System::Object^  sender, System::
 }
 
 private: System::Void labelAlechemiaPlus_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxAlchemia->Checked==true)
 	labelWartoscAlchemia->Text = (int::Parse(labelWartoscAlchemia->Text) + 1).ToString();
 }
 
@@ -6637,7 +6901,13 @@ private: System::Void comboBoxKlasy_SelectedIndexChanged(System::Object^  sender
 		labelZauwazanie->Text = ".";
 		labelZbieranieInf->Text = ".";
 		labelZwierzecaEmpatia->Text = "X";
-		///Ataki//
+		///aktywnosc//
+		this->checkBoxCzytanieZWarg->Enabled = false;
+		this->checkBoxOdcyforwywanieZapisow->Enabled = false;
+		this->checkBoxStosowanieMagRzeczy->Enabled = false;
+		this->checkBoxWrozenie->Enabled = true;
+		this->checkBoxZwierzecaEmpatia->Enabled = false;
+		
 
 	}
 	else if (comboBoxKlasy->Text == "Zaklinacz"){
@@ -6679,6 +6949,11 @@ private: System::Void comboBoxKlasy_SelectedIndexChanged(System::Object^  sender
 		labelZbieranieInf->Text = ".";
 		labelZwierzecaEmpatia->Text = "X";
 		///Ataki//
+		this->checkBoxCzytanieZWarg->Enabled = false;
+		this->checkBoxOdcyforwywanieZapisow->Enabled = false;
+		this->checkBoxStosowanieMagRzeczy->Enabled = false;
+		this->checkBoxWrozenie->Enabled = true;
+		this->checkBoxZwierzecaEmpatia->Enabled = false;
 
 	}
 	else if (comboBoxKlasy->Text == "£otrzyk"){
@@ -6720,6 +6995,11 @@ private: System::Void comboBoxKlasy_SelectedIndexChanged(System::Object^  sender
 		labelZbieranieInf->Text = "*";
 		labelZwierzecaEmpatia->Text = "X";
 		///Ataki//
+		this->checkBoxCzytanieZWarg->Enabled = true;
+		this->checkBoxOdcyforwywanieZapisow->Enabled = true;
+		this->checkBoxStosowanieMagRzeczy->Enabled = true;
+		this->checkBoxWrozenie->Enabled = false;
+		this->checkBoxZwierzecaEmpatia->Enabled = false;
 
 	}
 	else if (comboBoxKlasy->Text == "Mnich"){
@@ -6761,6 +7041,11 @@ private: System::Void comboBoxKlasy_SelectedIndexChanged(System::Object^  sender
 		labelZbieranieInf->Text = ".";
 		labelZwierzecaEmpatia->Text = ".";
 		///Ataki//
+		this->checkBoxCzytanieZWarg->Enabled = true;
+		this->checkBoxOdcyforwywanieZapisow->Enabled = false;
+		this->checkBoxStosowanieMagRzeczy->Enabled = false;
+		this->checkBoxWrozenie->Enabled = false;
+		this->checkBoxZwierzecaEmpatia->Enabled = false;
 
 	}
 	else if (comboBoxKlasy->Text == "Wojownik"){
@@ -6802,6 +7087,11 @@ private: System::Void comboBoxKlasy_SelectedIndexChanged(System::Object^  sender
 		labelZbieranieInf->Text = ".";
 		labelZwierzecaEmpatia->Text = "X";
 		///Ataki//
+		this->checkBoxCzytanieZWarg->Enabled = false;
+		this->checkBoxOdcyforwywanieZapisow->Enabled = false;
+		this->checkBoxStosowanieMagRzeczy->Enabled = false;
+		this->checkBoxWrozenie->Enabled = false;
+		this->checkBoxZwierzecaEmpatia->Enabled = false;
 
 	}
 	else if (comboBoxKlasy->Text == "Barba¿yñca"){
@@ -6843,6 +7133,12 @@ private: System::Void comboBoxKlasy_SelectedIndexChanged(System::Object^  sender
 		labelZbieranieInf->Text = ".";
 		labelZwierzecaEmpatia->Text = "X";
 		///Ataki//
+		this->checkBoxCzytanieZWarg->Enabled = false;
+		this->checkBoxOdcyforwywanieZapisow->Enabled = false;
+		this->checkBoxStosowanieMagRzeczy->Enabled = false;
+		this->checkBoxWrozenie->Enabled = false;
+		this->checkBoxZwierzecaEmpatia->Enabled = false;
+
 
 	}
 	else if (comboBoxKlasy->Text == "Kap³an"){
@@ -6884,6 +7180,12 @@ private: System::Void comboBoxKlasy_SelectedIndexChanged(System::Object^  sender
 		labelZbieranieInf->Text = ".";
 		labelZwierzecaEmpatia->Text = "X";
 		///Ataki//
+		this->checkBoxCzytanieZWarg->Enabled = false;
+		this->checkBoxOdcyforwywanieZapisow->Enabled = false;
+		this->checkBoxStosowanieMagRzeczy->Enabled = false;
+		this->checkBoxWrozenie->Enabled = true;
+		this->checkBoxZwierzecaEmpatia->Enabled = false;
+
 
 	}
 	else if (comboBoxKlasy->Text == "Palladyn"){
@@ -6925,16 +7227,78 @@ private: System::Void comboBoxKlasy_SelectedIndexChanged(System::Object^  sender
 		labelZbieranieInf->Text = ".";
 		labelZwierzecaEmpatia->Text = "X";
 		///Ataki//
-		
+		this->checkBoxCzytanieZWarg->Enabled = false;
+		this->checkBoxOdcyforwywanieZapisow->Enabled = false;
+		this->checkBoxStosowanieMagRzeczy->Enabled = false;
+		this->checkBoxWrozenie->Enabled = false;
+		this->checkBoxZwierzecaEmpatia->Enabled = false;
+
 
 	}
-	//L"Palladyn"
+
+	if (comboBoxKlasy->Text == "Mag" || comboBoxKlasy->Text == "Zaklinacz" || comboBoxKlasy->Text == "Kap³an" || comboBoxKlasy->Text == "Pallandyn" || comboBoxKlasy->Text == "Wojownik")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "Barbarzyñca" || comboBoxKlasy->Text == "Mnich")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "£otrzyk")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+		labelWatoscMiedzyKlasowa->Text = (int::Parse(labelPunktyKlasoweDoWydania->Text) / 2).ToString();
 }
 private: System::Void label23_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelPoziom->Text = (Double::Parse(labelPoziom->Text) + 1).ToString();
+	if (comboBoxKlasy->Text == "Mag" || comboBoxKlasy->Text == "Zaklinacz" || comboBoxKlasy->Text == "Kap³an" || comboBoxKlasy->Text == "Pallandyn" || comboBoxKlasy->Text == "Wojownik")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "Barbarzyñca" || comboBoxKlasy->Text == "Mnich")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "£otrzyk")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+		labelWatoscMiedzyKlasowa->Text = (int::Parse(labelPunktyKlasoweDoWydania->Text) / 2).ToString();
 }
 private: System::Void label22_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelPoziom->Text = (Double::Parse(labelPoziom->Text) - 1).ToString();
+	if (comboBoxKlasy->Text == "Mag" || comboBoxKlasy->Text == "Zaklinacz" || comboBoxKlasy->Text == "Kap³an"||comboBoxKlasy->Text=="Pallandyn"||comboBoxKlasy->Text=="Wojownik")
+	if (int::Parse(labelPoziom->Text) == 1)
+		labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+	else {
+		labelPunktyKlasoweDoWydania->Text = ((2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (2 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+	}
+	else if(comboBoxKlasy->Text == "Barbarzyñca" || comboBoxKlasy->Text == "Mnich")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (4 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+	else if (comboBoxKlasy->Text == "£otrzyk")
+		if (int::Parse(labelPoziom->Text) == 1)
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4).ToString();
+		else {
+			labelPunktyKlasoweDoWydania->Text = ((8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2) * 4 + (8 + (int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2)* int::Parse(labelPoziom->Text)).ToString();
+		}
+		labelWatoscMiedzyKlasowa->Text = (int::Parse(labelPunktyKlasoweDoWydania->Text) / 2).ToString();
 }
 private: System::Void saveFileDialog1_FileOk(System::Object^  sender, System::ComponentModel::CancelEventArgs^  e) {
 }
@@ -7219,6 +7583,375 @@ private: System::Void buttonAtakiUaktualnij_Click(System::Object^  sender, Syste
 
 		}
 	}
+}
+
+private: System::Void buttonUaktualnijRzutyObronne_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (comboBoxKlasy->Text == "Barbarzyñca" || comboBoxKlasy->Text == "Palladyn" || comboBoxKlasy->Text == "Wojownik"){
+
+	}
+	else if (comboBoxKlasy->Text == "£otrzyk" || comboBoxKlasy->Text == "Mnich"){
+
+	}
+	else if (comboBoxKlasy->Text == "Mag" || comboBoxKlasy->Text == "Zaklinacz"){
+
+	}
+}
+private: System::Void buttonUmiejetnoscUaktualnij_Click(System::Object^  sender, System::EventArgs^  e) {
+	label21->Text = "Max Ranga = " + (int::Parse(labelPoziom->Text) + 3).ToString();
+	labelInt1->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
+	labelSumaAlchemia->Text = (int::Parse(labelInt1->Text) + int::Parse(labelWartoscAlchemia->Text) + int::Parse(maskedTextBoxAlchemia->Text)).ToString();
+	labelInt2->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
+	labelSumaCzarostwo->Text = (int::Parse(labelInt2->Text) + int::Parse(labelWartoscCzarostwo->Text) + int::Parse(maskedTextBoxCarostwo->Text)).ToString();
+	labelInt3->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
+	labelSumaCzytanieZWarg->Text = (int::Parse(labelInt3->Text) + int::Parse(labelWartoscCzytanieZWarg->Text) + int::Parse(maskedTextBoxCzytanieZWarg->Text)).ToString();
+	labelInt4->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
+	labelSumaFalszerstwo->Text = (int::Parse(labelInt3->Text) + int::Parse(labelWartoscFalszerstwo->Text) + int::Parse(maskedTextBoxFalszerstwo->Text)).ToString();
+	labelInt5->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
+	labelSumaOdcyforwywanieZapisow->Text = (int::Parse(labelInt4->Text) + int::Parse(labelWartoscOdcyforwywanieZapisow->Text) + int::Parse(maskedTextBoxOdcyforwywanieZapisow->Text)).ToString();
+	labelInt6->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
+	labelSumaPrzeszukiwane->Text = (int::Parse(labelInt6->Text) + int::Parse(labelWartoscPrzeszukiwanie->Text) + int::Parse(maskedTextBoxPrzeszukiwanie->Text)).ToString();
+	labelInt7->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
+	labelSumaSzacowanie->Text = (int::Parse(labelInt7->Text) + int::Parse(labelWartoscSzacowanie->Text) + int::Parse(maskedTextBoxSzacowanie->Text)).ToString();
+	labelInt8->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
+	labelSumaUnieszkodliwianie->Text = (int::Parse(labelInt8->Text) + int::Parse(labelWartoscUnieszkodliwanie->Text) + int::Parse(maskedTextBoxUnieszkodliwianie->Text)).ToString();
+	labelInt9->Text = ((int::Parse(labelWartoscInt->Text) + int::Parse(labelRasaInt->Text) - 10) / 2).ToString();
+	labelSumaWrozenie->Text = (int::Parse(labelInt9->Text) + int::Parse(labelWartoscWrozenie->Text) + int::Parse(maskedTextBoxWrozenie->Text)).ToString();
+	labelZr1->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
+	labelSumaBlefowanie->Text = (int::Parse(labelZr1->Text) + int::Parse(labelWartoscBlefowanie->Text) + int::Parse(maskedTextBoxBlefowanie->Text)).ToString();
+	labelZr2->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
+	labelSumaKradzieszKieszonkowa->Text = (int::Parse(labelZr2->Text) + int::Parse(labelWartoscKradzieszKieszonkowa->Text) + int::Parse(maskedTextBoxKradzieszKieszonkowa->Text)).ToString();
+	labelZr3->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
+	labelSumaOtiweranieZamkow->Text = (int::Parse(labelZr3->Text) + int::Parse(labelWartoscOtwieranieZamkow->Text) + int::Parse(maskedTextBoxOtwieranieZamkow->Text)).ToString();
+	labelZr4->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
+	labelSumaJezdziectwo->Text = (int::Parse(labelZr4->Text) + int::Parse(labelWartoscJezdziectwo->Text) + int::Parse(maskedTextBoxJezdziectwo->Text)).ToString();
+	labelZr5->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
+	labelSumaRównowaga->Text = (int::Parse(labelZr5->Text) + int::Parse(labelWartoscRownowaga->Text) + int::Parse(maskedTextBoxRownowaga->Text)).ToString();
+	labelZr6->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
+	labelSumaStosowanieLiny->Text = (int::Parse(labelZr6->Text) + int::Parse(labelWartoscStosowanieLiny->Text) + int::Parse(maskedTextBoxStosowanieLiny->Text)).ToString();
+	labelZr7->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
+	labelSumaUpadki->Text = (int::Parse(labelZr7->Text) + int::Parse(labelWartoscUpadki->Text) + int::Parse(maskedTextBoxUpadki->Text)).ToString();
+	labelSumaUkrywanie->Text = (int::Parse(labelZr7->Text) + int::Parse(labelWartoscUkrywanie->Text) + int::Parse(maskedTextBoxUkrywanie->Text)).ToString();
+	labelZr8->Text = ((int::Parse(labelWartoscZr->Text) + int::Parse(labelRasaZr->Text) - 10) / 2).ToString();
+	labelSumaWyzwalanie->Text = (int::Parse(labelZr8->Text) + int::Parse(labelWartoscWyzwalanie->Text) + int::Parse(maskedTextBoxWyzwalanie->Text)).ToString();
+	labelCha1->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString();
+	labelSumaBlefowanie->Text = (int::Parse(labelCha1->Text) + int::Parse(labelWartoscBlefowanie->Text) + int::Parse(maskedTextBoxBlefowanie->Text)).ToString();
+	labelCha2->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString();
+	labelSumaDyplomacja->Text = (int::Parse(labelCha2->Text) + int::Parse(labelWartoscDyplomacja->Text) + int::Parse(maskedTextBoxDyplomacja->Text)).ToString();
+	labelCha3->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString();
+	labelSumaPrzebieranie->Text= (int::Parse(labelCha3->Text) + int::Parse(labelWartoscPrzebieranie->Text) + int::Parse(maskedTextBoxPrzebieranie->Text)).ToString();
+	labelCha4->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString();
+	labelSumaZastraszanie->Text = (int::Parse(labelCha4->Text) + int::Parse(labelWartoscZastraszanie->Text) + int::Parse(maskedTextBoxZastraszanie->Text)).ToString();
+	labelCha5->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString();
+	labelSumaPostepowanieZeZwier->Text = (int::Parse(labelCha5->Text) + int::Parse(labelWartoscPostepowanieZeZwierzetami->Text) + int::Parse(maskedTextBoxPostepowanieZeZwierzetami->Text)).ToString();
+	labelCha6->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString();
+	labelSumaStosowanieMagRzeczy->Text = (int::Parse(labelCha6->Text) + int::Parse(labelWartoscStosowanieMagicznyRzeczy->Text) + int::Parse(maskedTextBoxStosowanieMagRzecz->Text)).ToString();
+	labelCha7->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString();
+	labelSumaZbieranieInforacji->Text = (int::Parse(labelCha7->Text) + int::Parse(labelWartoscZbieranieInformacji->Text) + int::Parse(maskedTextBoxZbieranieInformacji->Text)).ToString();
+	labelCha8->Text = ((int::Parse(labelWartoscCha->Text) + int::Parse(labelRasaCha->Text) - 10) / 2).ToString();
+	labelSumaZwierzecaEpatia->Text = (int::Parse(labelCha8->Text) + int::Parse(labelWartoscZwierzecaEmpatia->Text) + int::Parse(maskedTextBoxZwierzecaEmpatia->Text)).ToString();
+	labelMd1->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString();
+	labelSumaLeczenie->Text = (int::Parse(labelMd1->Text) + int::Parse(labelWartoscLeczenie->Text) + int::Parse(maskedTextBoxLeczenie->Text)).ToString();
+	labelMd2->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString();
+	labelSumaNasluchwianie->Text = (int::Parse(labelMd2->Text) + int::Parse(labelWartoscNasluchiwanie->Text) + int::Parse(maskedTextBoxNasluchiwanie->Text)).ToString();
+	labelMd3->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString();
+	labelSumaPolslowka->Text = (int::Parse(labelMd3->Text) + int::Parse(labelWartoscPolslowa->Text) + int::Parse(maskedTextBoxPolslowka->Text)).ToString();
+	labelMd4->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString();
+	labelSumaKoncetracja->Text = (int::Parse(labelMd4->Text) + int::Parse(labelWartoscKoncentracja->Text) + int::Parse(maskedTextBoxKoncetracja->Text)).ToString();
+	labelMd5->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString();
+	labelSumaTajnikidziczy->Text = (int::Parse(labelMd5->Text) + int::Parse(labelWartoscTajnikiDziczy->Text) + int::Parse(maskedTextBoxTajnikiDziczy->Text)).ToString();
+	labelMd6->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString();
+	labelSumaWyczuciePobudek->Text = (int::Parse(labelMd6->Text) + int::Parse(labelWartoscWyczuciePobudek->Text) + int::Parse(maskedTextBoxWyczuciePobudek->Text)).ToString();
+	labelMd7->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString();
+	labelSumaWyczucieKierunku->Text = (int::Parse(labelMd7->Text) + int::Parse(labelWartoscWyczucieKierunku->Text) + int::Parse(maskedTextBoxWyczucieKierunku->Text)).ToString();
+	labelMd8->Text = ((int::Parse(labelWartoscMd->Text) + int::Parse(labelRasaMd->Text) - 10) / 2).ToString();
+	labelSumaZauwazanie->Text = (int::Parse(labelMd8->Text) + int::Parse(labelWartoscZauwazanie->Text) + int::Parse(maskedTextBoxZauwazanie->Text)).ToString();
+	labeSi1->Text = ((int::Parse(labelWartoscSila->Text) + int::Parse(labelRasaSi->Text) - 10) / 2).ToString();
+	labelSumaSkakanie->Text = (int::Parse(labeSi1->Text) + int::Parse(labelWartoscSkakenie->Text) + int::Parse(maskedTextBoxSkakanie->Text)).ToString();
+}
+private: System::Void label180_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxAlchemia->Checked==true)
+		labelWartoscAlchemia->Text = (Double::Parse(labelWartoscAlchemia->Text) - 1).ToString();
+}
+private: System::Void label134_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxBlefowanie->Checked == true)
+		labelWartoscBlefowanie->Text = (Double::Parse(labelWartoscBlefowanie->Text) + 1).ToString();
+}
+private: System::Void label181_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxBlefowanie->Checked == true)
+		labelWartoscBlefowanie->Text = (Double::Parse(labelWartoscBlefowanie->Text) - 1).ToString();
+}
+private: System::Void label151_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxCichePoruszanie->Checked == true)
+		labelWartoscCichePoruszanie->Text = (Double::Parse(labelWartoscCichePoruszanie->Text) + 1).ToString();
+}
+private: System::Void label183_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxCichePoruszanie->Checked == true)
+		labelWartoscCichePoruszanie->Text = (Double::Parse(labelWartoscCichePoruszanie->Text) - 1).ToString();
+}
+
+private: System::Void label150_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxCzarostwo->Checked == true)
+		labelWartoscCzarostwo->Text = (Double::Parse(labelWartoscCzarostwo->Text) + 1).ToString();
+}
+private: System::Void label182_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxCzarostwo->Checked == true)
+		labelWartoscCzarostwo->Text = (Double::Parse(labelWartoscCzarostwo->Text) - 1).ToString();
+}
+private: System::Void label155_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxCzytanieZWarg->Checked == true)
+		labelWartoscCzytanieZWarg->Text = (Double::Parse(labelWartoscCzytanieZWarg->Text) + 1).ToString();
+}
+private: System::Void label187_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxCzytanieZWarg->Checked == true)
+		labelWartoscCzytanieZWarg->Text = (Double::Parse(labelWartoscCzytanieZWarg->Text) - 1).ToString();
+}
+private: System::Void label154_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxDyplomacja->Checked == true)
+		labelWartoscDyplomacja->Text = (Double::Parse(labelWartoscDyplomacja->Text) + 1).ToString();
+}
+private: System::Void label186_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxDyplomacja->Checked == true)
+		labelWartoscDyplomacja->Text = (Double::Parse(labelWartoscDyplomacja->Text) - 1).ToString();
+}
+private: System::Void label153_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxFalszerstwo->Checked == true)
+		labelWartoscFalszerstwo->Text = (Double::Parse(labelWartoscFalszerstwo->Text) + 1).ToString();
+}
+private: System::Void label185_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxFalszerstwo->Checked == true)
+		labelWartoscFalszerstwo->Text = (Double::Parse(labelWartoscFalszerstwo->Text) - 1).ToString();
+}
+private: System::Void label152_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxKradzieszKieszonkowa->Checked == true)
+		labelWartoscKradzieszKieszonkowa->Text = (Double::Parse(labelWartoscKradzieszKieszonkowa->Text) + 1).ToString();
+}
+private: System::Void label184_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxKradzieszKieszonkowa->Checked == true)
+		labelWartoscKradzieszKieszonkowa->Text = (Double::Parse(labelWartoscKradzieszKieszonkowa->Text) - 1).ToString();
+}
+private: System::Void label163_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxLeczenie->Checked == true)
+		labelWartoscLeczenie->Text = (Double::Parse(labelWartoscLeczenie->Text) + 1).ToString();
+}
+private: System::Void label195_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxLeczenie->Checked == true)
+		labelWartoscLeczenie->Text = (Double::Parse(labelWartoscLeczenie->Text) - 1).ToString();
+}
+private: System::Void label162_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxNasluchiwanie->Checked == true)
+		labelWartoscNasluchiwanie->Text = (Double::Parse(labelWartoscNasluchiwanie->Text) + 1).ToString();
+}
+private: System::Void label194_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxNasluchiwanie->Checked == true)
+		labelWartoscNasluchiwanie->Text = (Double::Parse(labelWartoscNasluchiwanie->Text) - 1).ToString();
+}
+private: System::Void label161_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxOdcyforwywanieZapisow->Checked == true)
+		labelWartoscOdcyforwywanieZapisow->Text = (Double::Parse(labelWartoscOdcyforwywanieZapisow->Text) + 1).ToString();
+}
+private: System::Void label193_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxOdcyforwywanieZapisow->Checked == true)
+		labelWartoscOdcyforwywanieZapisow->Text = (Double::Parse(labelWartoscOdcyforwywanieZapisow->Text) - 1).ToString();
+}
+private: System::Void label160_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxOtwieranieZamkow->Checked == true)
+		labelWartoscOtwieranieZamkow->Text = (Double::Parse(labelWartoscOtwieranieZamkow->Text) + 1).ToString();
+}
+private: System::Void label192_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxOtwieranieZamkow->Checked == true)
+		labelWartoscOtwieranieZamkow->Text = (Double::Parse(labelWartoscOtwieranieZamkow->Text) - 1).ToString();
+}
+private: System::Void label159_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxPo³slowka->Checked == true)
+		labelWartoscPolslowa->Text = (Double::Parse(labelWartoscPolslowa->Text) + 1).ToString();
+}
+private: System::Void label191_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxPo³slowka->Checked == true)
+		labelWartoscPolslowa->Text = (Double::Parse(labelWartoscPolslowa->Text) - 1).ToString();
+}
+private: System::Void label158_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxPrzebieranie->Checked == true)
+		labelWartoscPrzebieranie->Text = (Double::Parse(labelWartoscPrzebieranie->Text) + 1).ToString();
+}
+private: System::Void label190_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxPrzebieranie->Checked == true)
+		labelWartoscPrzebieranie->Text = (Double::Parse(labelWartoscPrzebieranie->Text) - 1).ToString();
+}
+private: System::Void label157_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxPrzeszukiwanie->Checked == true)
+		labelWartoscPrzeszukiwanie->Text = (Double::Parse(labelWartoscPrzeszukiwanie->Text) + 1).ToString();
+}
+private: System::Void label189_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxPrzeszukiwanie->Checked == true)
+		labelWartoscPrzeszukiwanie->Text = (Double::Parse(labelWartoscPrzeszukiwanie->Text) - 1).ToString();
+}
+private: System::Void label156_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxRównowaga->Checked == true)
+		labelWartoscRownowaga->Text = (Double::Parse(labelWartoscRownowaga->Text) + 1).ToString();
+}
+private: System::Void label188_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxRównowaga->Checked == true)
+		labelWartoscRownowaga->Text = (Double::Parse(labelWartoscRownowaga->Text) - 1).ToString();
+}
+private: System::Void label179_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxSkakanie->Checked == true)
+		labelWartoscSkakenie->Text = (Double::Parse(labelWartoscSkakenie->Text) + 1).ToString();
+}
+private: System::Void label211_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxSkakanie->Checked == true)
+		labelWartoscSkakenie->Text = (Double::Parse(labelWartoscSkakenie->Text) - 1).ToString();
+}
+private: System::Void label178_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxJezdziectwo->Checked == true)
+		labelWartoscJezdziectwo->Text = (Double::Parse(labelWartoscJezdziectwo->Text) + 1).ToString();
+}
+private: System::Void label210_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxJezdziectwo->Checked == true)
+		labelWartoscJezdziectwo->Text = (Double::Parse(labelWartoscJezdziectwo->Text) - 1).ToString();
+}
+private: System::Void label177_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxZastraszanie->Checked == true)
+		labelWartoscZastraszanie->Text = (Double::Parse(labelWartoscZastraszanie->Text) + 1).ToString();
+}
+private: System::Void label209_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxZastraszanie->Checked == true)
+		labelWartoscZastraszanie->Text = (Double::Parse(labelWartoscZastraszanie->Text) - 1).ToString();
+}
+private: System::Void label176_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxKoncetracja->Checked == true)
+		labelWartoscKoncentracja->Text = (Double::Parse(labelWartoscKoncentracja->Text) + 1).ToString();
+}
+private: System::Void label208_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxKoncetracja->Checked == true)
+		labelWartoscKoncentracja->Text = (Double::Parse(labelWartoscKoncentracja->Text) - 1).ToString();
+}
+private: System::Void label175_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxPostepowanieZeZwier->Checked == true)
+		labelWartoscPostepowanieZeZwierzetami->Text = (Double::Parse(labelWartoscPostepowanieZeZwierzetami->Text) + 1).ToString();
+}
+private: System::Void label207_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxPostepowanieZeZwier->Checked == true)
+		labelWartoscPostepowanieZeZwierzetami->Text = (Double::Parse(labelWartoscPostepowanieZeZwierzetami->Text) - 1).ToString();
+}
+private: System::Void label174_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxStosowanieLiny->Checked == true)
+		labelWartoscStosowanieLiny->Text = (Double::Parse(labelWartoscStosowanieLiny->Text) + 1).ToString();
+}
+private: System::Void label206_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxStosowanieLiny->Checked == true)
+		labelWartoscStosowanieLiny->Text = (Double::Parse(labelWartoscStosowanieLiny->Text) - 1).ToString();
+}
+private: System::Void label173_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxStosowanieMagRzeczy->Checked == true)
+		labelWartoscStosowanieMagicznyRzeczy->Text = (Double::Parse(labelWartoscStosowanieMagicznyRzeczy->Text) + 1).ToString();
+}
+private: System::Void label205_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxStosowanieMagRzeczy->Checked == true)
+		labelWartoscStosowanieMagicznyRzeczy->Text = (Double::Parse(labelWartoscStosowanieMagicznyRzeczy->Text) - 1).ToString();
+}
+private: System::Void label172_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkedBoxSzacowanie->Checked == true)
+		labelWartoscSzacowanie->Text = (Double::Parse(labelSzacowanie->Text) + 1).ToString();
+}
+private: System::Void label204_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkedBoxSzacowanie->Checked == true)
+		labelWartoscSzacowanie->Text = (Double::Parse(labelSzacowanie->Text) - 1).ToString();
+}
+private: System::Void label171_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxTajnikiDziczy->Checked == true)
+		labelWartoscTajnikiDziczy->Text = (Double::Parse(labelWartoscTajnikiDziczy->Text) + 1).ToString();
+}
+private: System::Void label203_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxTajnikiDziczy->Checked == true)
+		labelWartoscTajnikiDziczy->Text = (Double::Parse(labelWartoscTajnikiDziczy->Text) - 1).ToString();
+}
+private: System::Void label170_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxUkrywanie->Checked == true)
+		labelWartoscUkrywanie->Text = (Double::Parse(labelWartoscUkrywanie->Text) + 1).ToString();
+}
+private: System::Void label202_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxUkrywanie->Checked == true)
+		labelWartoscUkrywanie->Text = (Double::Parse(labelWartoscUkrywanie->Text) - 1).ToString();
+}
+private: System::Void label169_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxUnieszkodliwianie->Checked == true)
+		labelWartoscUnieszkodliwanie->Text = (Double::Parse(labelWartoscUnieszkodliwanie->Text) + 1).ToString();
+}
+private: System::Void label201_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxUnieszkodliwianie->Checked == true)
+		labelWartoscUnieszkodliwanie->Text = (Double::Parse(labelWartoscUnieszkodliwanie->Text) - 1).ToString();
+}
+private: System::Void label168_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxUpadki->Checked == true)
+		labelWartoscUpadki->Text = (Double::Parse(labelWartoscUpadki->Text) + 1).ToString();
+}
+private: System::Void label200_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxUpadki->Checked == true)
+		labelWartoscUpadki->Text = (Double::Parse(labelWartoscUpadki->Text) - 1).ToString();
+}
+private: System::Void label167_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWrozenie->Checked == true)
+		labelWartoscWrozenie->Text = (Double::Parse(labelWartoscWrozenie->Text) + 1).ToString();
+}
+private: System::Void label199_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWrozenie->Checked == true)
+		labelWartoscWrozenie->Text = (Double::Parse(labelWartoscWrozenie->Text) - 1).ToString();
+}
+private: System::Void label166_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWspinaczka->Checked == true)
+		labelWartoscWspinaczka->Text = (Double::Parse(labelWartoscWspinaczka->Text) + 1).ToString();
+}
+private: System::Void label198_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWspinaczka->Checked == true)
+		labelWartoscWspinaczka->Text = (Double::Parse(labelWartoscWspinaczka->Text) - 1).ToString();
+}
+private: System::Void label165_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWyczuciePobudek->Checked == true)
+		labelWartoscWyczuciePobudek->Text = (Double::Parse(labelWartoscWyczuciePobudek->Text) + 1).ToString();
+}
+private: System::Void label197_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWyczuciePobudek->Checked == true)
+		labelWartoscWyczuciePobudek->Text = (Double::Parse(labelWartoscWyczuciePobudek->Text) - 1).ToString();
+}
+private: System::Void label164_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWyczucieKierunku->Checked == true)
+		labelWartoscWyczucieKierunku->Text = (Double::Parse(labelWartoscWyczucieKierunku->Text) + 1).ToString();
+}
+private: System::Void label196_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWyczucieKierunku->Checked == true)
+		labelWartoscWyczucieKierunku->Text = (Double::Parse(labelWartoscWyczucieKierunku->Text) - 1).ToString();
+}
+private: System::Void label269_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWyzwalanie->Checked == true)
+		labelWartoscWyzwalanie->Text = (Double::Parse(labelWartoscWyzwalanie->Text) + 1).ToString();
+}
+private: System::Void label266_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxWyzwalanie->Checked == true)
+		labelWartoscWyzwalanie->Text = (Double::Parse(labelWartoscWyzwalanie->Text) - 1).ToString();
+}
+private: System::Void label268_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxZauwazanie->Checked == true)
+		labelWartoscZauwazanie->Text = (Double::Parse(labelWartoscZauwazanie->Text) + 1).ToString();
+}
+private: System::Void label265_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxZauwazanie->Checked == true)
+		labelWartoscZauwazanie->Text = (Double::Parse(labelWartoscZauwazanie->Text) - 1).ToString();
+}
+private: System::Void label267_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxZbieranieInformacji->Checked == true)
+		labelWartoscZbieranieInformacji->Text = (Double::Parse(labelWartoscZbieranieInformacji->Text) + 1).ToString();
+}
+private: System::Void label264_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxZbieranieInformacji->Checked == true)
+		labelWartoscZbieranieInformacji->Text = (Double::Parse(labelWartoscZbieranieInformacji->Text) - 1).ToString();
+}
+private: System::Void label284_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxZwierzecaEmpatia->Checked == true)
+		labelWartoscZwierzecaEmpatia->Text = (Double::Parse(labelWartoscZwierzecaEmpatia->Text) + 1).ToString();
+}
+private: System::Void label283_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (checkBoxZwierzecaEmpatia->Checked == true)
+		labelWartoscZwierzecaEmpatia->Text = (Double::Parse(labelWartoscZwierzecaEmpatia->Text) - 1).ToString();
 }
 };
 }

@@ -804,6 +804,8 @@ private: System::Windows::Forms::Label^  labelRealnaWartoscZr;
 private: System::Windows::Forms::Label^  labelRealnaWartoscSi;
 private: System::Windows::Forms::Label^  labelKoscWytrzymalosci;
 private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
+private: System::Windows::Forms::Label^  label20;
+private: System::Windows::Forms::Label^  label26;
 
 
 
@@ -1323,6 +1325,8 @@ private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
 			this->groupBoxTarcza = (gcnew System::Windows::Forms::GroupBox());
 			this->buttonSave = (gcnew System::Windows::Forms::Button());
 			this->saveFileDialog1 = (gcnew System::Windows::Forms::SaveFileDialog());
+			this->label20 = (gcnew System::Windows::Forms::Label());
+			this->label26 = (gcnew System::Windows::Forms::Label());
 			this->Nazewnictwo->SuspendLayout();
 			this->Atrybuty->SuspendLayout();
 			this->hpNPancerz->SuspendLayout();
@@ -5983,6 +5987,7 @@ private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
 			this->groupBox3->Controls->Add(this->label246);
 			this->groupBox3->Controls->Add(this->label245);
 			this->groupBox3->Controls->Add(this->label244);
+			this->groupBox3->Enabled = false;
 			this->groupBox3->Location = System::Drawing::Point(231, 235);
 			this->groupBox3->Name = L"groupBox3";
 			this->groupBox3->Size = System::Drawing::Size(389, 138);
@@ -6215,8 +6220,11 @@ private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
 			// 
 			// groupBoxAtaki
 			// 
+			this->groupBoxAtaki->Controls->Add(this->label26);
+			this->groupBoxAtaki->Controls->Add(this->label20);
 			this->groupBoxAtaki->Controls->Add(this->labelMozliweAtaki);
 			this->groupBoxAtaki->Controls->Add(this->label289);
+			this->groupBoxAtaki->Enabled = false;
 			this->groupBoxAtaki->Location = System::Drawing::Point(13, 374);
 			this->groupBoxAtaki->Name = L"groupBoxAtaki";
 			this->groupBoxAtaki->Size = System::Drawing::Size(607, 103);
@@ -6253,6 +6261,7 @@ private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
 			this->groupBoxBronG->Controls->Add(this->textBox10);
 			this->groupBoxBronG->Controls->Add(this->textBox11);
 			this->groupBoxBronG->Controls->Add(this->textBox12);
+			this->groupBoxBronG->Enabled = false;
 			this->groupBoxBronG->Location = System::Drawing::Point(13, 484);
 			this->groupBoxBronG->Name = L"groupBoxBronG";
 			this->groupBoxBronG->Size = System::Drawing::Size(298, 159);
@@ -6344,6 +6353,7 @@ private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
 			this->groupBoxBronPoboczna->Controls->Add(this->textBox6);
 			this->groupBoxBronPoboczna->Controls->Add(this->textBox5);
 			this->groupBoxBronPoboczna->Controls->Add(this->textBox2);
+			this->groupBoxBronPoboczna->Enabled = false;
 			this->groupBoxBronPoboczna->Location = System::Drawing::Point(318, 484);
 			this->groupBoxBronPoboczna->Name = L"groupBoxBronPoboczna";
 			this->groupBoxBronPoboczna->Size = System::Drawing::Size(303, 159);
@@ -6426,6 +6436,7 @@ private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
 			// 
 			// groupBoxZbroja
 			// 
+			this->groupBoxZbroja->Enabled = false;
 			this->groupBoxZbroja->Location = System::Drawing::Point(13, 649);
 			this->groupBoxZbroja->Name = L"groupBoxZbroja";
 			this->groupBoxZbroja->Size = System::Drawing::Size(298, 134);
@@ -6435,6 +6446,7 @@ private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
 			// 
 			// groupBoxTarcza
 			// 
+			this->groupBoxTarcza->Enabled = false;
 			this->groupBoxTarcza->Location = System::Drawing::Point(318, 649);
 			this->groupBoxTarcza->Name = L"groupBoxTarcza";
 			this->groupBoxTarcza->Size = System::Drawing::Size(296, 134);
@@ -6455,6 +6467,28 @@ private: System::Windows::Forms::Button^  buttonUaktualnijRzutyObronne;
 			// saveFileDialog1
 			// 
 			this->saveFileDialog1->FileOk += gcnew System::ComponentModel::CancelEventHandler(this, &dodajKarteFroms::saveFileDialog1_FileOk_1);
+			// 
+			// label20
+			// 
+			this->label20->AutoSize = true;
+			this->label20->Font = (gcnew System::Drawing::Font(L"Times New Roman", 12, static_cast<System::Drawing::FontStyle>(((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)
+				| System::Drawing::FontStyle::Underline)), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+			this->label20->Location = System::Drawing::Point(98, 28);
+			this->label20->Name = L"label20";
+			this->label20->Size = System::Drawing::Size(379, 19);
+			this->label20->TabIndex = 12;
+			this->label20->Text = L"Wykup pe³n¹ wersjê by móc korzystaæ z ca³ego programu";
+			// 
+			// label26
+			// 
+			this->label26->AutoSize = true;
+			this->label26->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, static_cast<System::Drawing::FontStyle>(((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)
+				| System::Drawing::FontStyle::Underline)), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(238)));
+			this->label26->Location = System::Drawing::Point(29, 70);
+			this->label26->Name = L"label26";
+			this->label26->Size = System::Drawing::Size(572, 25);
+			this->label26->TabIndex = 0;
+			this->label26->Text = L"Budowa pe³nej wersji przy wiêkszym zainteresowaniu";
 			// 
 			// dodajKarteFroms
 			// 
@@ -7312,6 +7346,18 @@ private: System::Void buttonSave_Click(System::Object^  sender, System::EventArg
 	saveFileDialog1->ShowDialog();
 	if (saveFileDialog1->FileName != ""){
 		IO::File::WriteAllText(saveFileDialog1->FileName, textBoxImie->Text+Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, comboBoxKlasy->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, comboBoxRasy->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, comboBoxCharakter->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxWiara->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, comboBoxRozmiar->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxWiek->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxWzrost->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxWaga->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, comboBox1->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxOczy->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxW³osy->Text + Environment::NewLine);
+		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxKarnacja->Text + Environment::NewLine);
 		IO::File::AppendAllText(saveFileDialog1->FileName, textBoxGracza->Text + Environment::NewLine);
 		IO::File::AppendAllText(saveFileDialog1->FileName, labelPoziom->Text + Environment::NewLine);
 		///TO DO 

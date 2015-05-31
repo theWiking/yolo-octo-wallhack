@@ -204,32 +204,31 @@ private: System::Void nowaKarta_Click(System::Object^  sender, System::EventArgs
 }
 private: System::Void wczytaj_Click(System::Object^  sender, System::EventArgs^  e) {
 	
-	OpenFileDialog^ openFileDialog1 = gcnew OpenFileDialog();
+	//OpenFileDialog^ openFileDialog1 = gcnew OpenFileDialog();
 
-	
-	openFileDialog1->Filter = "WikingTxt |*.wikingtxt";
-	openFileDialog1->RestoreDirectory = true;
-	//String cos = openFileDialog1->FileName();
+	//
+	//openFileDialog1->Filter = "WikingTxt |*.wikingtxt";
+	//openFileDialog1->RestoreDirectory = true;
+	////String cos = openFileDialog1->FileName();
 
-	if (openFileDialog1->ShowDialog() == System::Windows::Forms::DialogResult::OK)
-	{
+	//if (openFileDialog1->ShowDialog() == System::Windows::Forms::DialogResult::OK)
+	//{
 		KartaPostaci_Projekt::WczytanaKarta^ otwarte = gcnew KartaPostaci_Projekt::WczytanaKarta;
 		
-		String^ str = openFileDialog1->FileName;
+	/*	String^ str = openFileDialog1->FileName;
 		StreamReader ^myStream = gcnew StreamReader(str);
 		
 			
 			String^ buffor = "test";
 			buffor = myStream->ReadLine();
-
-			
-			otwarte->label1testowy = buffor;
-			MessageBox::Show(buffor);
+			otwarte->labelPoziom = buffor;
+			buffor = myStream->ReadLine();
+			MessageBox::Show(buffor);*/
 		//otwarte
 		//MessageBox::Show(str, "Path:");
 		otwarte->Show();
 		
-	}
+	
 }
 };
 }
